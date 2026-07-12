@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
-Met à jour data.json avec les vulnérabilités ajoutées au catalogue CISA KEV
-au cours des 7 derniers jours.
+Met à jour data.json avec les 12 à 20 vulnérabilités les plus récentes du
+catalogue CISA KEV (Known Exploited Vulnerabilities), classées par date
+d'ajout décroissante.
 
 Ne touche PAS aux sections "attacks", "actors", "threats" : il n'existe pas
 de flux public unique et structuré équivalent pour ces catégories. Elles
@@ -18,7 +19,8 @@ from datetime import datetime, timedelta, timezone
 
 KEV_URL = "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
 DATA_FILE = "data.json"
-LOOKBACK_DAYS = 7
+MIN_ROWS = 12   # nombre minimum de vulnérabilités à afficher
+MAX_ROWS = 20   # nombre maximum à afficher
 
 
 def fetch_kev():
@@ -28,15 +30,26 @@ def fetch_kev():
 
 
 def build_vulns(kev_json):
-    cutoff = datetime.now(timezone.utc) - timedelta(days=LOOKBACK_DAYS)
-    rows = []
+    """
+    Prend les MAX_ROWS entrées les plus récentes du catalogue KEV (triées par
+    date d'ajout décroissante), sans se limiter à une fenêtre de 7 jours.
+    Cela garantit toujours entre MIN_ROWS et MAX_ROWS lignes affichées, même
+    lors des semaines calmes où peu de nouvelles vulnérabilités sont ajoutées.
+    """
+    all_items = []
     for item in kev_json.get("vulnerabilities", []):
         try:
             added = datetime.strptime(item["dateAdded"], "%Y-%m-%d").replace(tzinfo=timezone.utc)
         except (KeyError, ValueError):
             continue
-        if added < cutoff:
-            continue
+        all_items.append((added, item))
+
+    all_items.sort(key=lambda x: x[0], reverse=True)
+    selected = all_items[:MAX_ROWS]
+
+    cutoff_recent = datetime.now(timezone.utc) - timedelta(days=7)
+    rows = []
+    for added, item in selected:
         rows.append({
             "cve": item.get("cveID", "N/A"),
             "product": f"{item.get('vendorProject','')} {item.get('product','')}".strip(),
@@ -48,7 +61,7 @@ def build_vulns(kev_json):
             "exploit": True,  # présence dans KEV = exploitation active confirmée
             "poc": "unk",
             "deadline": item.get("dueDate", "—"),
-            "past": False,
+            "past": added < cutoff_recent,
             "note": "Utilisée dans des campagnes ransomware" if item.get("knownRansomwareCampaignUse") == "Known" else None,
             "url": f"https://nvd.nist.gov/vuln/detail/{item.get('cveID','')}",
         })
@@ -68,7 +81,7 @@ def main():
     new_vulns = build_vulns(kev)
     if new_vulns:
         data["vulns"] = new_vulns
-    # Si rien n'a été ajouté au KEV dans les 7 derniers jours, on conserve
+    # Si le flux CISA KEV est momentanément inaccessible ou vide, on conserve
     # volontairement les entrées précédentes plutôt que de vider la page.
 
     data["generated_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
