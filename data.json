@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T20:08:41Z",
+  "generated_at": "2026-07-12T20:24:15Z",
   "week_label": "S27 · 29 juin – 5 juillet 2026",
   "attacks": [
     {
@@ -175,6 +175,174 @@
       "past": false,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48282"
+    },
+    {
+      "cve": "CVE-2026-45659",
+      "product": "Microsoft SharePoint Server",
+      "type": "Microsoft SharePoint Server Deserialization of Untrusted Data Vulnerability",
+      "cvss": null,
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-07-04",
+      "past": true,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45659"
+    },
+    {
+      "cve": "CVE-2026-48558",
+      "product": "SimpleHelp  SimpleHelp",
+      "type": "SimpleHelp Authentication Bypass Vulnerability",
+      "cvss": null,
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-07-02",
+      "past": true,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48558"
+    },
+    {
+      "cve": "CVE-2026-12569",
+      "product": "PTC Windchill and FlexPLM",
+      "type": "PTC Windchill and FlexPLM Improper Input Validation Vulnerability",
+      "cvss": null,
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-06-28",
+      "past": true,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12569"
+    },
+    {
+      "cve": "CVE-2026-20230",
+      "product": "Cisco Unified Communications Manager",
+      "type": "Cisco Unified Communications Manager Server-Side Request Forgery (SSRF) Vulnerability",
+      "cvss": null,
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-06-28",
+      "past": true,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20230"
+    },
+    {
+      "cve": "CVE-2025-67038",
+      "product": "Lantronix EDS5000",
+      "type": "Lantronix EDS5000 Code Injection Vulnerability",
+      "cvss": null,
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-06-26",
+      "past": true,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67038"
+    },
+    {
+      "cve": "CVE-2026-34910",
+      "product": "Ubiquiti UniFi OS",
+      "type": "Ubiquiti UniFi OS Improper Input Validation Vulnerability",
+      "cvss": null,
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-06-26",
+      "past": true,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34910"
+    },
+    {
+      "cve": "CVE-2026-34909",
+      "product": "Ubiquiti UniFi OS",
+      "type": "Ubiquiti UniFi OS Path Traversal Vulnerability",
+      "cvss": null,
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-06-26",
+      "past": true,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34909"
+    },
+    {
+      "cve": "CVE-2026-34908",
+      "product": "Ubiquiti UniFi OS",
+      "type": "Ubiquiti UniFi OS Improper Access Control Vulnerability",
+      "cvss": null,
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-06-26",
+      "past": true,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34908"
+    },
+    {
+      "cve": "CVE-2026-20253",
+      "product": "Splunk Enterprise",
+      "type": "Splunk Enterprise Missing Authentication for Critical Function Vulnerability",
+      "cvss": null,
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-06-21",
+      "past": true,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20253"
+    },
+    {
+      "cve": "CVE-2026-48907",
+      "product": "Widget Factory Joomla Content Editor",
+      "type": "Widget Factory Joomla Content Editor Improper Access Control Vulnerability",
+      "cvss": null,
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-06-19",
+      "past": true,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48907"
+    },
+    {
+      "cve": "CVE-2026-54420",
+      "product": "LiteSpeed cPanel Plugin",
+      "type": "LiteSpeed cPanel Plugin UNIX Symbolic Link (Symlink) Following Vulnerability",
+      "cvss": null,
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-06-18",
+      "past": true,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54420"
+    },
+    {
+      "cve": "CVE-2026-20262",
+      "product": "Cisco Catalyst SD-WAN Manager",
+      "type": "Cisco Catalyst SD-WAN Manager Directory or Path Traversal Vulnerability",
+      "cvss": null,
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-06-29",
+      "past": true,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20262"
+    },
+    {
+      "cve": "CVE-2026-35273",
+      "product": "Oracle  PeopleSoft Enterprise PeopleTools",
+      "type": "Oracle PeopleSoft Enterprise PeopleTools Missing Authentication for Critical Function Vuln",
+      "cvss": null,
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-06-15",
+      "past": true,
+      "note": "Utilisée dans des campagnes ransomware",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35273"
+    },
+    {
+      "cve": "CVE-2026-10520",
+      "product": "Ivanti Sentry",
+      "type": "Ivanti Sentry OS Command Injection Vulnerability",
+      "cvss": null,
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-06-14",
+      "past": true,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10520"
     }
   ],
   "actors": [
