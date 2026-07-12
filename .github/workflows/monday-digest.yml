@@ -1,0 +1,29 @@
+name: Résumé hebdomadaire du lundi
+
+on:
+  schedule:
+    - cron: "0 7 * * 1"   # chaque lundi à 07:00 UTC (après la mise à jour de 06:00)
+  workflow_dispatch: {}
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout du dépôt
+        uses: actions/checkout@v4
+
+      - name: Configuration Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Envoi du résumé
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          # Variante email — décommentez les secrets nécessaires si vous
+          # utilisez send_email() dans scripts/send_digest.py :
+          # SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          # SMTP_USER: ${{ secrets.SMTP_USER }}
+          # SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          # DIGEST_RECIPIENT: ${{ secrets.DIGEST_RECIPIENT }}
+        run: python scripts/send_digest.py
