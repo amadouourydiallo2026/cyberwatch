@@ -342,26 +342,26 @@ footer a{font-size:11px;}
   <!-- ================= SECTION 5 : IOC ================= -->
   <section class="section" id="iocs">
     <div class="section-head">
-      <h2>Indicateurs de compromission <span class="count" id="iocCount"></span></h2>
-      <div class="searchbox">🔍 <input type="text" id="iocSearch" placeholder="Filtrer par valeur, type, malware…"></div>
+      <h2>IOC des vulnérabilités exploitées <span class="count" id="iocCount"></span></h2>
+      <div class="searchbox">🔍 <input type="text" id="iocSearch" placeholder="Filtrer par CVE, valeur, malware…"></div>
     </div>
     <div class="table-wrap">
       <table>
         <thead>
           <tr>
+            <th data-sort="related_cve">CVE liée</th>
             <th data-sort="type">Type</th>
             <th data-sort="value">Valeur</th>
             <th data-sort="malware">Malware associé</th>
             <th data-sort="confidence">Confiance</th>
             <th data-sort="first_seen">Première vue</th>
-            <th data-sort="source">Source</th>
           </tr>
         </thead>
         <tbody id="iocBody"></tbody>
       </table>
     </div>
     <div class="section-note" style="text-align:left;margin-top:12px;max-width:100%;">
-      IOC agrégés depuis <strong>ThreatFox</strong> (projet public d'abuse.ch), mis à jour quotidiennement. Ces indicateurs (IP, domaines, URLs, hashs de fichiers) sont fournis à titre défensif — pour alimenter des règles de blocage ou de détection — jamais pour être consultés directement.
+      Ces IOC ne sont pas un flux générique : chaque ligne est liée à une CVE précisément listée dans l'onglet <strong>Vulnérabilités critiques</strong> ci-dessus, via les tags CVE soumis par la communauté <strong>ThreatFox</strong> (abuse.ch). Toutes les CVE de la page n'ont pas nécessairement d'IOC associé sur ThreatFox — c'est normal, préférable à afficher des résultats sans lien réel. Fournis à titre strictement défensif (règles de blocage, détection SIEM) — jamais à être visités ou exécutés.
     </div>
   </section>
 
@@ -557,17 +557,17 @@ function renderIOCs(list){
   const body = document.getElementById('iocBody');
   document.getElementById('iocCount').textContent = `— ${list.length} indicateurs`;
   if(list.length === 0){
-    body.innerHTML = `<tr><td colspan="6" style="text-align:center;color:var(--text-faint);padding:24px;">Aucun IOC pour le moment — en attente du premier passage du job quotidien.</td></tr>`;
+    body.innerHTML = `<tr><td colspan="6" style="text-align:center;color:var(--text-faint);padding:24px;">Aucun IOC lié aux CVE de cette page pour le moment — soit le job quotidien n'est pas encore passé, soit aucune des CVE listées n'a d'IOC tagué sur ThreatFox cette semaine.</td></tr>`;
     return;
   }
   body.innerHTML = list.map(ioc=>`
     <tr class="vuln-row" onclick="window.open('${ioc.source_url}','_blank')">
+      <td><span class="cve-id">${ioc.related_cve || '—'}</span></td>
       <td><span class="badge ${ioc.type==='ip'?'high':ioc.type==='domain'||ioc.type==='url'?'medium':'critical'}">${IOC_TYPE_LABEL[ioc.type] || ioc.type}</span></td>
-      <td><span class="cve-id" title="${ioc.value}">${truncateValue(ioc.value)}</span></td>
+      <td><span class="product" title="${ioc.value}">${truncateValue(ioc.value)}</span></td>
       <td class="product">${ioc.malware || '—'}</td>
       <td><span style="font-family:var(--mono);font-weight:600;color:${confColor(ioc.confidence)};">${ioc.confidence!=null ? ioc.confidence+'%' : '—'}</span></td>
       <td class="deadline">${ioc.first_seen || '—'}</td>
-      <td><a class="src-link" href="${ioc.source_url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${ioc.source || 'ThreatFox'} ↗</a></td>
     </tr>
   `).join('');
 }
@@ -603,7 +603,8 @@ function bindInteractions(){
       const filtered = iocs.filter(i =>
         (i.value||'').toLowerCase().includes(q) ||
         (i.type||'').toLowerCase().includes(q) ||
-        (i.malware||'').toLowerCase().includes(q)
+        (i.malware||'').toLowerCase().includes(q) ||
+        (i.related_cve||'').toLowerCase().includes(q)
       );
       renderIOCs(filtered);
     };
