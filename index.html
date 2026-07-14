@@ -386,10 +386,17 @@ async function loadData(){
     document.getElementById('lastUpdate').textContent =
       'Données au ' + dt.toLocaleDateString('fr-FR',{day:'2-digit',month:'2-digit',year:'numeric'}) +
       ' ' + dt.toLocaleTimeString('fr-FR',{hour:'2-digit',minute:'2-digit'}) + ' UTC';
-    document.getElementById('heroWeek').textContent = '// ' + (data.week_label || '');
+
+    // Fenêtre glissante de 7 jours calculée depuis generated_at, plutôt que le
+    // champ "week_label" figé de data.json (qui n'est mis à jour par aucun job).
+    const weekStart = new Date(dt); weekStart.setUTCDate(dt.getUTCDate() - 6);
+    const fmt = (d)=> d.toLocaleDateString('fr-FR',{day:'2-digit',month:'short'});
+    const rollingWeekLabel = `Semaine du ${fmt(weekStart)} au ${fmt(dt)} ${dt.getUTCFullYear()}`;
+
+    document.getElementById('heroWeek').textContent = '// ' + rollingWeekLabel;
     document.getElementById('attacksTopN').textContent = attacks.length;
     document.getElementById('attacksSubhead').textContent =
-      `— événements les plus commentés (${data.week_label || 'semaine en cours'})`;
+      `— événements les plus commentés (${rollingWeekLabel})`;
     document.getElementById('actorsSubhead').textContent = `— ${actors.length} groupe${actors.length>1?'s':''} suivi${actors.length>1?'s':''}`;
     document.getElementById('threatsTopN').textContent = threats.length;
     document.getElementById('vulnFootnote').textContent =
