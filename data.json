@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T13:40:37Z",
+  "generated_at": "2026-07-14T00:45:28Z",
   "week_label": "S27 · 29 juin – 5 juillet 2026",
   "attacks": [
     {
@@ -105,6 +105,18 @@
   ],
   "vulns": [
     {
+      "cve": "CVE-2008-4128",
+      "product": "Cisco IOS",
+      "type": "Cisco IOS Cross-Site Request Forgery Vulnerability",
+      "cvss": null,
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-07-16",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2008-4128"
+    },
+    {
       "cve": "CVE-2026-56291",
       "product": "Balbooa Forms",
       "type": "Balbooa Forms Unrestricted Upload of File with Dangerous Type Vulnerability",
@@ -136,7 +148,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-07-10",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48908"
     },
@@ -148,7 +160,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-07-10",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55255"
     },
@@ -160,7 +172,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-07-10",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56290"
     },
@@ -172,7 +184,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-07-10",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48282"
     },
@@ -331,18 +343,6 @@
       "past": true,
       "note": "Utilisée dans des campagnes ransomware",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35273"
-    },
-    {
-      "cve": "CVE-2026-10520",
-      "product": "Ivanti Sentry",
-      "type": "Ivanti Sentry OS Command Injection Vulnerability",
-      "cvss": null,
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-06-14",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10520"
     }
   ],
   "actors": [
