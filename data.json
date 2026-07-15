@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T11:13:10Z",
+  "generated_at": "2026-07-15T11:17:39Z",
   "week_label": "S27 · 29 juin – 5 juillet 2026",
   "attacks": [
     {
@@ -104,6 +104,54 @@
     }
   ],
   "vulns": [
+    {
+      "cve": "CVE-2026-56155",
+      "product": "Microsoft Active Directory Federation Services",
+      "type": "Microsoft Active Directory Federation Services Insufficient Granularity of Access Control ",
+      "cvss": null,
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-07-28",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56155"
+    },
+    {
+      "cve": "CVE-2026-56164",
+      "product": "Microsoft SharePoint Server",
+      "type": "Microsoft SharePoint Server Missing Authentication for Critical Function Vulnerability",
+      "cvss": null,
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-07-17",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56164"
+    },
+    {
+      "cve": "CVE-2026-15409",
+      "product": "SonicWall SMA1000 Appliances",
+      "type": "SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability",
+      "cvss": null,
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-07-17",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15409"
+    },
+    {
+      "cve": "CVE-2026-15410",
+      "product": "SonicWall SMA1000 Appliances",
+      "type": "SonicWall SMA1000 Appliances Code Injection Vulnerability",
+      "cvss": null,
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-07-17",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15410"
+    },
     {
       "cve": "CVE-2008-4128",
       "product": "Cisco IOS",
@@ -295,54 +343,6 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20253"
-    },
-    {
-      "cve": "CVE-2026-48907",
-      "product": "Widget Factory Joomla Content Editor",
-      "type": "Widget Factory Joomla Content Editor Improper Access Control Vulnerability",
-      "cvss": null,
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-06-19",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48907"
-    },
-    {
-      "cve": "CVE-2026-54420",
-      "product": "LiteSpeed cPanel Plugin",
-      "type": "LiteSpeed cPanel Plugin UNIX Symbolic Link (Symlink) Following Vulnerability",
-      "cvss": null,
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-06-18",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54420"
-    },
-    {
-      "cve": "CVE-2026-20262",
-      "product": "Cisco Catalyst SD-WAN Manager",
-      "type": "Cisco Catalyst SD-WAN Manager Directory or Path Traversal Vulnerability",
-      "cvss": null,
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-06-29",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20262"
-    },
-    {
-      "cve": "CVE-2026-35273",
-      "product": "Oracle  PeopleSoft Enterprise PeopleTools",
-      "type": "Oracle PeopleSoft Enterprise PeopleTools Missing Authentication for Critical Function Vuln",
-      "cvss": null,
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-06-15",
-      "past": true,
-      "note": "Utilisée dans des campagnes ransomware",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35273"
     }
   ],
   "actors": [
