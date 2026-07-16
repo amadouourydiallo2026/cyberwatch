@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T11:17:39Z",
+  "generated_at": "2026-07-16T11:56:27Z",
   "week_label": "S27 · 29 juin – 5 juillet 2026",
   "attacks": [
     {
@@ -104,6 +104,30 @@
     }
   ],
   "vulns": [
+    {
+      "cve": "CVE-2026-46817",
+      "product": "Oracle E-Business Suite",
+      "type": "Oracle E-Business Suite Improper Privilege Management Vulnerability",
+      "cvss": null,
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-07-18",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46817"
+    },
+    {
+      "cve": "CVE-2023-4346",
+      "product": "KNX Association KNX Protocol Connection Authorization Option 1",
+      "type": "KNX Association KNX Protocol Connection Authorization Option 1 Overly Restrictive Account ",
+      "cvss": null,
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-07-29",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-4346"
+    },
     {
       "cve": "CVE-2026-56155",
       "product": "Microsoft Active Directory Federation Services",
@@ -319,30 +343,6 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34909"
-    },
-    {
-      "cve": "CVE-2026-34908",
-      "product": "Ubiquiti UniFi OS",
-      "type": "Ubiquiti UniFi OS Improper Access Control Vulnerability",
-      "cvss": null,
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-06-26",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34908"
-    },
-    {
-      "cve": "CVE-2026-20253",
-      "product": "Splunk Enterprise",
-      "type": "Splunk Enterprise Missing Authentication for Critical Function Vulnerability",
-      "cvss": null,
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-06-21",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20253"
     }
   ],
   "actors": [
