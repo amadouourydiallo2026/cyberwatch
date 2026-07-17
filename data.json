@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T11:56:27Z",
+  "generated_at": "2026-07-17T11:10:18Z",
   "week_label": "S27 · 29 juin – 5 juillet 2026",
   "attacks": [
     {
@@ -105,6 +105,42 @@
   ],
   "vulns": [
     {
+      "cve": "CVE-2026-58644",
+      "product": "Microsoft SharePoint",
+      "type": "Microsoft SharePoint Deserialization of Untrusted Data Vulnerability",
+      "cvss": null,
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-07-19",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58644"
+    },
+    {
+      "cve": "CVE-2026-25089",
+      "product": "Fortinet FortiSandbox",
+      "type": "Fortinet FortiSandbox OS Command Injection Vulnerability",
+      "cvss": null,
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-07-19",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25089"
+    },
+    {
+      "cve": "CVE-2026-39808",
+      "product": "Fortinet FortiSandbox",
+      "type": "Fortinet FortiSandbox OS Command Injection Vulnerability",
+      "cvss": null,
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-07-19",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39808"
+    },
+    {
       "cve": "CVE-2026-46817",
       "product": "Oracle E-Business Suite",
       "type": "Oracle E-Business Suite Improper Privilege Management Vulnerability",
@@ -196,7 +232,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-07-13",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56291"
     },
@@ -208,7 +244,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-07-13",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48939"
     },
@@ -307,42 +343,6 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20230"
-    },
-    {
-      "cve": "CVE-2025-67038",
-      "product": "Lantronix EDS5000",
-      "type": "Lantronix EDS5000 Code Injection Vulnerability",
-      "cvss": null,
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-06-26",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67038"
-    },
-    {
-      "cve": "CVE-2026-34910",
-      "product": "Ubiquiti UniFi OS",
-      "type": "Ubiquiti UniFi OS Improper Input Validation Vulnerability",
-      "cvss": null,
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-06-26",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34910"
-    },
-    {
-      "cve": "CVE-2026-34909",
-      "product": "Ubiquiti UniFi OS",
-      "type": "Ubiquiti UniFi OS Path Traversal Vulnerability",
-      "cvss": null,
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-06-26",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34909"
     }
   ],
   "actors": [
