@@ -1,0 +1,11 @@
+name = "cyberwatch-tracker"
+main = "worker.js"
+compatibility_date = "2025-01-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "cyberwatch-tracker-db"
+database_id = "39f1f657-0c31-4eec-99de-721bcccb8a12"
+
+[vars]
+ALLOWED_ORIGIN = "https://amadouourydiallo2026.github.io"

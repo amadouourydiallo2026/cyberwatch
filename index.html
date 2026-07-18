@@ -642,5 +642,51 @@ function bindInteractions(){
   });
 }
 </script>
+<!-- ===== CYBERWATCH ANALYTICS — à coller juste avant </body> dans index.html ===== -->
+<script>
+(function(){
+  var ENDPOINT = "https://cyberwatch-tracker.cyberwatch-aod.workers.dev/track";
+
+  // Identifiant anonyme, sans donnée personnelle, stocké 1 an
+  function getVisitorId(){
+    var m = document.cookie.match(/(?:^|; )cw_vid=([^;]+)/);
+    if (m) return m[1];
+    var id = crypto.randomUUID ? crypto.randomUUID() : String(Date.now()) + Math.random();
+    document.cookie = "cw_vid=" + id + ";max-age=31536000;path=/;SameSite=Lax";
+    return id;
+  }
+
+  function send(payload){
+    try {
+      navigator.sendBeacon(ENDPOINT, JSON.stringify(payload));
+    } catch(e) {
+      fetch(ENDPOINT, { method:"POST", body: JSON.stringify(payload), keepalive:true });
+    }
+  }
+
+  var visitorId = getVisitorId();
+
+  // Pageview au chargement
+  send({
+    type: "pageview",
+    page: location.pathname,
+    referrer: document.referrer || null,
+    visitor_id: visitorId
+  });
+
+  // Clics sur tout élément marqué data-track="nom"
+  document.addEventListener("click", function(e){
+    var el = e.target.closest("[data-track]");
+    if (!el) return;
+    send({
+      type: "click",
+      page: location.pathname,
+      target: el.getAttribute("data-track"),
+      visitor_id: visitorId
+    });
+  });
+})();
+</script>
+
 </body>
 </html>
