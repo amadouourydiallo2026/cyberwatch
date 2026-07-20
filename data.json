@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T10:59:18Z",
+  "generated_at": "2026-07-20T13:26:06Z",
   "week_label": "S27 · 29 juin – 5 juillet 2026",
   "attacks": [
     {
@@ -220,7 +220,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-07-16",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2008-4128"
     },
