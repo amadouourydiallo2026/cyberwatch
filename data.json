@@ -1,106 +1,106 @@
 {
-  "generated_at": "2026-07-20T13:26:06Z",
-  "week_label": "S27 · 29 juin – 5 juillet 2026",
+  "generated_at": "2026-07-21T02:39:37Z",
+  "week_label": "S30 · 20 – 26 juillet 2026",
   "attacks": [
     {
-      "title": "Ukrzposhta (poste ukrainienne)",
-      "sector": "Infrastructure postale / Ukraine",
-      "date": "25 juin 2026",
-      "actor": "Non attribué (attribué à des « forces ennemies »)",
+      "title": "Primăria Municipiului Brașov",
+      "sector": "RO",
+      "date": "20 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Attaque revendiquée par Non attribué.",
+      "src": "Ransomware.live",
+      "url": "https://www.ransomware.live/group/Non attribué"
+    },
+    {
+      "title": "CCDR Algarve",
+      "sector": "PR",
+      "date": "19 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Attaque revendiquée par Non attribué.",
+      "src": "Ransomware.live",
+      "url": "https://www.ransomware.live/group/Non attribué"
+    },
+    {
+      "title": "Craneware",
+      "sector": "GB",
+      "date": "19 Jul 2026",
+      "actor": "Non attribué",
       "sev": "high",
-      "desc": "Cyberattaque majeure contre l'opérateur postal national, provoquant des défaillances de l'application mobile et des services en ligne.",
-      "src": "LeMagIT",
-      "url": "https://www.lemagit.fr/actualites/366645453/Cyberhebdo-du-3-juillet-2026-importante-cyberattaque-contre-la-poste-ukrainienne"
+      "desc": "Attaque revendiquée par Non attribué.",
+      "src": "Ransomware.live",
+      "url": "https://www.ransomware.live/group/Non attribué"
     },
     {
-      "title": "Tata Electronics — fuite World Leaks",
-      "sector": "Manufacturing / Inde",
-      "date": "12 juin 2026",
-      "actor": "World Leaks",
-      "sev": "critical",
-      "desc": "Publication revendiquée de 204 341 fichiers (630 Go) incluant plans techniques, dossiers RH et documents liés à des clients tiers.",
-      "src": "BlackFog",
-      "url": "https://www.blackfog.com/the-state-of-ransomware-2026/"
-    },
-    {
-      "title": "Exploitation active — Cisco Unified CM",
-      "sector": "Télécoms / Entreprise",
-      "date": "2 juil. 2026",
+      "title": "Ecopetrol",
+      "sector": "CO",
+      "date": "17 Jul 2026",
       "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Cisco confirme l'exploitation dans la nature de CVE-2026-20230 (SSRF) sur Unified Communications Manager, pouvant mener à une élévation de privilèges root.",
-      "src": "Digital Forensics Magazine",
-      "url": "https://digitalforensicsmagazine.com/news-roundup-3rd-july-2026/"
-    },
-    {
-      "title": "Campagne FortiBleed → ransomwares INC / Lynx",
-      "sector": "Multi-secteurs",
-      "date": "2 juil. 2026",
-      "actor": "INC Ransom, Lynx",
-      "sev": "critical",
-      "desc": "Vol de identifiants via FortiBleed réutilisé pour au moins 12 déploiements de ransomware, selon SOCRadar.",
-      "src": "Digital Forensics Magazine",
-      "url": "https://digitalforensicsmagazine.com/news-roundup-3rd-july-2026/"
-    },
-    {
-      "title": "Double intrusion ransomware via SharePoint",
-      "sector": "Entreprise / Global",
-      "date": "~30 juin 2026",
-      "actor": "Storm-2603 + acteur non identifié",
-      "sev": "critical",
-      "desc": "Microsoft découvre deux clusters d'attaquants distincts opérant simultanément dans le même environnement après exploitation de failles SharePoint.",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html"
-    },
-    {
-      "title": "Extradition d'un membre présumé de Scattered Spider",
-      "sector": "Justice / Multi-secteurs",
-      "date": "1 juil. 2026",
-      "actor": "Scattered Spider",
       "sev": "high",
-      "desc": "Peter Stokes, arrêté en Finlande, extradé vers les États-Unis ; le dossier le relie à plus de 100 intrusions et à des paiements de rançon importants.",
-      "src": "Digital Forensics Magazine (citant U.S. DOJ)",
-      "url": "https://digitalforensicsmagazine.com/news-roundup-3rd-july-2026/"
+      "desc": "Attaque revendiquée par Non attribué.",
+      "src": "Ransomware.live",
+      "url": "https://www.ransomware.live/group/Non attribué"
     },
     {
-      "title": "119 extensions Edge malveillantes retirées (StegoAd)",
-      "sector": "Grand public / Entreprise",
-      "date": "30 juin 2026",
+      "title": "Arcus",
+      "sector": "LU",
+      "date": "17 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Attaque revendiquée par Non attribué.",
+      "src": "Ransomware.live",
+      "url": "https://www.ransomware.live/group/Non attribué"
+    },
+    {
+      "title": "Song Shang Electronics Co., Ltd",
+      "sector": "TW",
+      "date": "17 Jul 2026",
       "actor": "Non attribué",
       "sev": "medium",
-      "desc": "Microsoft supprime des extensions dissimulant du code dans des images/polices, totalisant environ 2,6 millions de téléchargements.",
-      "src": "WIU Cybersecurity Center (citant TechRadar)",
-      "url": "https://www.wiu.edu/cybersecuritycenter/cybernews.php"
+      "desc": "Attaque revendiquée par Non attribué.",
+      "src": "Ransomware.live",
+      "url": "https://www.ransomware.live/group/Non attribué"
     },
     {
-      "title": "NYC Health + Hospitals — mise à jour de la fuite",
-      "sector": "Santé / États-Unis",
-      "date": "Fenêtre nov. 2025 – fév. 2026 (divulgation récente)",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Confirmation que la fuite touche environ 1,8 million de personnes avec vol de données médicales, numéros de sécurité sociale et empreintes biométriques.",
-      "src": "BrightDefense",
-      "url": "https://www.brightdefense.com/resources/recent-data-breaches/"
-    },
-    {
-      "title": "Abans Financial Services (filiales étrangères)",
-      "sector": "Services financiers / Inde",
-      "date": "30 juin 2026",
+      "title": "Ministère des Investissements et des Projets Européens (MIPE)",
+      "sector": "RO",
+      "date": "16 Jul 2026",
       "actor": "Non attribué",
       "sev": "medium",
-      "desc": "Alerte CERT-In relative à une attaque par rançongiciel visant l'infrastructure de filiales à l'étranger ; systèmes indiens non affectés.",
-      "src": "LeMagIT",
-      "url": "https://www.lemagit.fr/actualites/366645453/Cyberhebdo-du-3-juillet-2026-importante-cyberattaque-contre-la-poste-ukrainienne"
+      "desc": "Attaque revendiquée par Non attribué.",
+      "src": "Ransomware.live",
+      "url": "https://www.ransomware.live/group/Non attribué"
     },
     {
-      "title": "La Sauvegarde (Agen) — crise prolongée",
-      "sector": "Secteur associatif / France",
-      "date": "Intrusion du 24 mai 2026, toujours active",
+      "title": "Abbott",
+      "sector": "US",
+      "date": "16 Jul 2026",
       "actor": "Non attribué",
       "sev": "medium",
-      "desc": "Association de protection de l'enfance coupée de ses accès internes et de ses messageries professionnelles depuis plusieurs semaines.",
-      "src": "LeMagIT",
-      "url": "https://www.lemagit.fr/actualites/366645453/Cyberhebdo-du-3-juillet-2026-importante-cyberattaque-contre-la-poste-ukrainienne"
+      "desc": "Attaque revendiquée par Non attribué.",
+      "src": "Ransomware.live",
+      "url": "https://www.ransomware.live/group/Non attribué"
+    },
+    {
+      "title": "Fairlife",
+      "sector": "US",
+      "date": "16 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Attaque revendiquée par Non attribué.",
+      "src": "Ransomware.live",
+      "url": "https://www.ransomware.live/group/Non attribué"
+    },
+    {
+      "title": "Rectron",
+      "sector": "ZA",
+      "date": "16 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Attaque revendiquée par Non attribué.",
+      "src": "Ransomware.live",
+      "url": "https://www.ransomware.live/group/Non attribué"
     }
   ],
   "vulns": [
@@ -172,7 +172,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-07-28",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56155"
     },
@@ -184,7 +184,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-07-17",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56164"
     },
@@ -196,7 +196,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-07-17",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15409"
     },
@@ -208,7 +208,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-07-17",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15410"
     },
@@ -347,103 +347,93 @@
   ],
   "actors": [
     {
-      "name": "Scattered Spider",
-      "type": "Extorsion / Identity-based",
-      "desc": "Groupe anglophone spécialisé dans l'ingénierie sociale et le vishing ; un membre présumé extradé vers les États-Unis début juillet, lié à plus de 100 intrusions.",
-      "victims": "100+",
+      "name": "qilin",
+      "type": "RaaS / Extorsion",
+      "desc": "19 victime(s) revendiquée(s) sur les 7 derniers jours.",
+      "victims": "19",
       "region": "Global",
-      "url": "https://digitalforensicsmagazine.com/news-roundup-3rd-july-2026/"
+      "url": "https://www.ransomware.live/group/qilin"
     },
     {
-      "name": "Storm-2603",
-      "type": "Ransomware (lié à Warlock)",
-      "desc": "Cluster lié à l'exploitation de SharePoint on-premise et au déploiement du ransomware Warlock ; observé opérant en parallèle d'un second acteur non identifié.",
-      "victims": "66",
+      "name": "thegentlemen",
+      "type": "RaaS / Extorsion",
+      "desc": "14 victime(s) revendiquée(s) sur les 7 derniers jours.",
+      "victims": "14",
       "region": "Global",
-      "url": "https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html"
+      "url": "https://www.ransomware.live/group/thegentlemen"
     },
     {
-      "name": "Qilin",
-      "type": "RaaS",
-      "desc": "Exploite CVE-2026-50751 (Check Point VPN) depuis mai 2026 ; forte concentration sur le secteur santé (9 victimes en 24h début juin).",
-      "victims": "1 900+ (cumulé)",
+      "name": "nova",
+      "type": "RaaS / Extorsion",
+      "desc": "11 victime(s) revendiquée(s) sur les 7 derniers jours.",
+      "victims": "11",
       "region": "Global",
-      "url": "https://purple-ops.io/blog/ransomware-tracker-2026"
+      "url": "https://www.ransomware.live/group/nova"
     },
     {
-      "name": "World Leaks",
-      "type": "Extorsion pure (sans chiffrement)",
-      "desc": "Vol et publication de données sans déploiement de ransomware ; revendique la fuite Tata Electronics (630 Go).",
-      "victims": "Plusieurs dizaines",
-      "region": "Asie / Global",
-      "url": "https://www.blackfog.com/the-state-of-ransomware-2026/"
+      "name": "safepay",
+      "type": "RaaS / Extorsion",
+      "desc": "9 victime(s) revendiquée(s) sur les 7 derniers jours.",
+      "victims": "9",
+      "region": "AU, CA, DE",
+      "url": "https://www.ransomware.live/group/safepay"
     },
     {
-      "name": "INC Ransom",
-      "type": "RaaS",
-      "desc": "Threat actor le plus fréquemment cité dans les nouvelles victimes de la semaine ; lié à la campagne de vol d'identifiants FortiBleed.",
-      "victims": "Multiples (quotidien)",
-      "region": "Amériques / Global",
-      "url": "https://www.breachsense.com/breaches/2026/july/"
-    },
-    {
-      "name": "The Gentlemen (Phantom Mantis)",
-      "type": "Ransomware",
-      "desc": "Fonctionnalités avancées : propagation auto-répliquante et ciblage cross-plateforme (Windows, Linux, ESXi).",
-      "victims": "En hausse",
+      "name": "incransom",
+      "type": "RaaS / Extorsion",
+      "desc": "9 victime(s) revendiquée(s) sur les 7 derniers jours.",
+      "victims": "9",
       "region": "Global",
-      "url": "https://purple-ops.io/blog/ransomware-tracker-2026"
+      "url": "https://www.ransomware.live/group/incransom"
     },
     {
-      "name": "Akira",
-      "type": "RaaS",
-      "desc": "Retour à un chiffreur C++ plus stable après une phase expérimentale en Rust ; cible les appliances en périphérie de réseau et la supply chain logicielle.",
-      "victims": "600+ (2025)",
+      "name": "krybit",
+      "type": "RaaS / Extorsion",
+      "desc": "5 victime(s) revendiquée(s) sur les 7 derniers jours.",
+      "victims": "5",
       "region": "Global",
-      "url": "https://netlas.io/blog/top_10_critical_threat_actors/"
+      "url": "https://www.ransomware.live/group/krybit"
     },
     {
-      "name": "ANUBIS",
-      "type": "Ransomware",
-      "desc": "Actif sur plusieurs victimes santé et manufacturing recensées début juillet 2026.",
-      "victims": "Plusieurs par jour",
+      "name": "play",
+      "type": "RaaS / Extorsion",
+      "desc": "5 victime(s) revendiquée(s) sur les 7 derniers jours.",
+      "victims": "5",
       "region": "Global",
-      "url": "https://www.breachsense.com/breaches/2026/july/"
+      "url": "https://www.ransomware.live/group/play"
     },
     {
-      "name": "ShinyHunters",
-      "type": "Extorsion / vol de données",
-      "desc": "Revendique des vols de données chez plusieurs grands comptes ; menace de publication sous délai si aucun paiement n'est effectué.",
-      "victims": "Multiples grands comptes",
-      "region": "Global",
-      "url": "https://www.blackfog.com/the-state-of-ransomware-2026/"
+      "name": "akira",
+      "type": "RaaS / Extorsion",
+      "desc": "4 victime(s) revendiquée(s) sur les 7 derniers jours.",
+      "victims": "4",
+      "region": "US",
+      "url": "https://www.ransomware.live/group/akira"
+    },
+    {
+      "name": "blackout",
+      "type": "RaaS / Extorsion",
+      "desc": "3 victime(s) revendiquée(s) sur les 7 derniers jours.",
+      "victims": "3",
+      "region": "GB, JP, US",
+      "url": "https://www.ransomware.live/group/blackout"
     }
   ],
   "threats": [
     {
-      "title": "Exploitation de SharePoint on-premise (CVE-2026-45659)",
-      "desc": "Ajouté au catalogue CISA KEV ; combiné à une double intrusion ransomware observée par Microsoft.",
-      "url": "https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html"
+      "title": "Activité soutenue de qilin",
+      "desc": "19 victime(s) revendiquée(s) sur les 7 derniers jours.",
+      "url": "https://www.ransomware.live/group/qilin"
     },
     {
-      "title": "FortiBleed → chaîne de compromission ransomware",
-      "desc": "Le vol d'identifiants sur les portails FortiGate exposés se transforme directement en événements de chiffrement (INC, Lynx).",
-      "url": "https://digitalforensicsmagazine.com/news-roundup-3rd-july-2026/"
+      "title": "Activité soutenue de thegentlemen",
+      "desc": "14 victime(s) revendiquée(s) sur les 7 derniers jours.",
+      "url": "https://www.ransomware.live/group/thegentlemen"
     },
     {
-      "title": "Qilin & CVE-2026-50751 (Check Point VPN)",
-      "desc": "Exploitation active depuis mai 2026, ciblage prioritaire du secteur santé.",
-      "url": "https://purple-ops.io/blog/ransomware-tracker-2026"
-    },
-    {
-      "title": "Campagnes d'ingénierie sociale à grande échelle (ClickFix, VEIL#DROP, ScreenConnect usurpé)",
-      "desc": "Multiplication des chaînes d'infection livrant des stealers (PureLogs) et AsyncRAT.",
-      "url": "https://www.wiu.edu/cybersecuritycenter/cybernews.php"
-    },
-    {
-      "title": "Password spraying massif sur Azure CLI",
-      "desc": "Plus de 81 millions de tentatives entre le 12 et le 26 juin 2026, au moins 78 comptes compromis.",
-      "url": "https://www.wiu.edu/cybersecuritycenter/cybernews.php"
+      "title": "Activité soutenue de nova",
+      "desc": "11 victime(s) revendiquée(s) sur les 7 derniers jours.",
+      "url": "https://www.ransomware.live/group/nova"
     }
   ]
 }
