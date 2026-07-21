@@ -1,32 +1,44 @@
 name: Mise à jour quotidienne des données
-
 on:
   schedule:
     - cron: "0 6 * * *"   # tous les jours à 06:00 UTC
   workflow_dispatch: {}     # permet de lancer manuellement depuis l'onglet Actions
-
 permissions:
   contents: write
-
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout du dépôt
         uses: actions/checkout@v4
-
       - name: Configuration Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
+      - name: Recalcul du week_label
+        run: python scripts/update_week_label.py
+
       - name: Récupération du flux CISA KEV et mise à jour de data.json
+        continue-on-error: true
         run: python scripts/fetch_kev.py
 
       - name: Récupération des IOC ThreatFox et mise à jour de data.json
+        continue-on-error: true
         env:
           THREATFOX_AUTH_KEY: ${{ secrets.THREATFOX_AUTH_KEY }}
         run: python scripts/fetch_iocs.py
+
+      - name: Récupération des cyberattaques récentes (Ransomware.live)
+        continue-on-error: true
+        run: python scripts/fetch_attacks.py
+
+      - name: Récupération des threat actors actifs (Ransomware.live)
+        continue-on-error: true
+        run: python scripts/fetch_actors.py
+
+      - name: Recalcul du top 5 des menaces (vulns + actors)
+        run: python scripts/fetch_threats.py
 
       - name: Commit et push si data.json a changé
         run: |
