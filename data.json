@@ -1,7 +1,47 @@
 {
-  "generated_at": "2026-07-21T03:10:02Z",
+  "generated_at": "2026-07-21T12:10:00Z",
   "week_label": "S30 · 20 – 26 juillet 2026",
   "attacks": [
+    {
+      "title": "Critical Palo Alto VPN bug now exploited by Qilin ransomware gang",
+      "sector": "Non précisé",
+      "date": "21 Jul 2026",
+      "actor": "Qilin",
+      "sev": "critical",
+      "desc": "The Qilin ransomware gang is exploiting a critical PAN-OS GlobalProtect authentication bypass flaw to breach victims' networks, according to cybersecurity company Arctic Wolf. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-globalprotect-vpn-bug-now-exploited-in-ransomware-attacks/"
+    },
+    {
+      "title": "WordPress wp2shell Exploitation Grows as Public Exploit Fuels Mass Scanning",
+      "sector": "Non précisé",
+      "date": "21 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Attackers have begun to exploit two critical vulnerabilities in WordPress that, when combined together, enable unauthenticated remote code execution (RCE) and complete compromise of vulnerable websites. The two security …",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/wordpress-wp2shell-exploitation-grows.html"
+    },
+    {
+      "title": "New ENCFORGE Ransomware Targets AI Model Files in Langflow RCE Attack",
+      "sector": "Non précisé",
+      "date": "21 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Researchers at Sysdig have linked a second attack on the same Langflow server to JADEPUFFER, the AI-agent-driven operator it first documented earlier this month. The same operator has now been spotted deploying ENCFORGE,…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html"
+    },
+    {
+      "title": "Critical ServiceNow AI Platform Flaw Exploited for Unauthenticated Code Execution",
+      "sector": "Non précisé",
+      "date": "21 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Threat actors are now exploiting a recently disclosed critical security flaw impacting ServiceNow AI Platform, according to Defused Cyber. In a post shared on X, the threat intelligence firm said it's observing in-the-wi…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html"
+    },
     {
       "title": "Estée Lauder discloses data breach via Oracle E-Business flaw",
       "sector": "Manufacturing",
@@ -61,46 +101,6 @@
       "desc": "A newly discovered espionage implant has been using a hijacked Microsoft 365 calendar as its command channel, planting operator instructions and smuggling out stolen files as attachments on calendar events dated to the y…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/07/hollowgraph-malware-hides-c2-and-stolen.html"
-    },
-    {
-      "title": "Russian Intelligence Hacks IP Cameras to Spy on Military Logistics Across NATO States and Ukraine",
-      "sector": "Transport",
-      "date": "20 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "At least one Russian intelligence service is systematically hijacking internet-connected security cameras across Europe and Ukraine, using the feeds to watch military transport routes, weapons shipments bound for Kyiv, a…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/russian-intelligence-hacks-ip-cameras.html"
-    },
-    {
-      "title": "Hugging Face warns an autonomous AI agent hacked its network",
-      "sector": "Non précisé",
-      "date": "20 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The Hugging Face artificial intelligence repository disclosed that attackers gained access to internal datasets and credentials after breaching its production infrastructure using an autonomous AI agent system. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/"
-    },
-    {
-      "title": "Critical ServiceNow code execution flaw now exploited in attacks",
-      "sector": "Non précisé",
-      "date": "20 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Attackers have begun exploiting a critical vulnerability (CVE-2026-6875) in the ServiceNow AI Platform, according to threat intelligence company Defused. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/critical-servicenow-code-execution-flaw-now-exploited-in-attacks/"
-    },
-    {
-      "title": "Russian-Speaking Hacker Uses Google Gemini CLI to Control Botnet of Eight Dental Clinic PCs",
-      "sector": "Non précisé",
-      "date": "20 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "A solo Russian-speaking threat actor known as \"bandcampro\" outsourced a chunk of their operations to Google's open-source Gemini CLI artificial intelligence (AI) and commandeered a live botnet. The findings come from an …",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/russian-speaking-hacker-uses-google.html"
     }
   ],
   "vulns": [
@@ -349,16 +349,8 @@
     {
       "name": "qilin",
       "type": "RaaS / Extorsion",
-      "desc": "19 victime(s) revendiquée(s) sur les 7 derniers jours.",
-      "victims": "19",
-      "region": "Global",
-      "url": "https://www.ransomware.live/groups"
-    },
-    {
-      "name": "thegentlemen",
-      "type": "RaaS / Extorsion",
-      "desc": "14 victime(s) revendiquée(s) sur les 7 derniers jours.",
-      "victims": "14",
+      "desc": "20 victime(s) revendiquée(s) sur les 7 derniers jours.",
+      "victims": "20",
       "region": "Global",
       "url": "https://www.ransomware.live/groups"
     },
@@ -387,6 +379,22 @@
       "url": "https://www.ransomware.live/groups"
     },
     {
+      "name": "thegentlemen",
+      "type": "RaaS / Extorsion",
+      "desc": "8 victime(s) revendiquée(s) sur les 7 derniers jours.",
+      "victims": "8",
+      "region": "Global",
+      "url": "https://www.ransomware.live/groups"
+    },
+    {
+      "name": "akira",
+      "type": "RaaS / Extorsion",
+      "desc": "5 victime(s) revendiquée(s) sur les 7 derniers jours.",
+      "victims": "5",
+      "region": "US",
+      "url": "https://www.ransomware.live/groups"
+    },
+    {
       "name": "krybit",
       "type": "RaaS / Extorsion",
       "desc": "5 victime(s) revendiquée(s) sur les 7 derniers jours.",
@@ -403,36 +411,28 @@
       "url": "https://www.ransomware.live/groups"
     },
     {
-      "name": "akira",
-      "type": "RaaS / Extorsion",
-      "desc": "4 victime(s) revendiquée(s) sur les 7 derniers jours.",
-      "victims": "4",
-      "region": "US",
-      "url": "https://www.ransomware.live/groups"
-    },
-    {
-      "name": "blackout",
+      "name": "spacebears",
       "type": "RaaS / Extorsion",
       "desc": "3 victime(s) revendiquée(s) sur les 7 derniers jours.",
       "victims": "3",
-      "region": "GB, JP, US",
+      "region": "CO, IT, KR",
       "url": "https://www.ransomware.live/groups"
     }
   ],
   "threats": [
     {
       "title": "Activité soutenue de qilin",
-      "desc": "19 victime(s) revendiquée(s) sur les 7 derniers jours.",
-      "url": "https://www.ransomware.live/groups"
-    },
-    {
-      "title": "Activité soutenue de thegentlemen",
-      "desc": "14 victime(s) revendiquée(s) sur les 7 derniers jours.",
+      "desc": "20 victime(s) revendiquée(s) sur les 7 derniers jours.",
       "url": "https://www.ransomware.live/groups"
     },
     {
       "title": "Activité soutenue de nova",
       "desc": "11 victime(s) revendiquée(s) sur les 7 derniers jours.",
+      "url": "https://www.ransomware.live/groups"
+    },
+    {
+      "title": "Activité soutenue de safepay",
+      "desc": "9 victime(s) revendiquée(s) sur les 7 derniers jours.",
       "url": "https://www.ransomware.live/groups"
     }
   ]
