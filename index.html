@@ -257,7 +257,7 @@ footer a{font-size:11px;}
     <button class="tab active" data-target="attacks"><span class="n">01</span>Cyberattaques</button>
     <button class="tab" data-target="vulns"><span class="n">02</span>Vulnérabilités critiques</button>
     <button class="tab" data-target="actors"><span class="n">03</span>Threat Actors</button>
-    <button class="tab" data-target="threats"><span class="n">04</span>Menaces de la semaine</button>
+    <button class="tab" data-target="threats"><span class="n">04</span>Menaces de la e</button>
     <button class="tab" data-target="iocs"><span class="n">05</span>IOC</button>
   </nav>
 </header>
@@ -391,7 +391,7 @@ async function loadData(){
     // champ "week_label" figé de data.json (qui n'est mis à jour par aucun job).
     const weekStart = new Date(dt); weekStart.setUTCDate(dt.getUTCDate() - 6);
     const fmt = (d)=> d.toLocaleDateString('fr-FR',{day:'2-digit',month:'short'});
-    const rollingWeekLabel = `Semaine du ${fmt(weekStart)} au ${fmt(dt)} ${dt.getUTCFullYear()}`;
+    const rollingWeekLabel = ` du ${fmt(weekStart)} au ${fmt(dt)} ${dt.getUTCFullYear()}`;
 
     document.getElementById('heroWeek').textContent = '// ' + rollingWeekLabel;
     document.getElementById('attacksTopN').textContent = attacks.length;
