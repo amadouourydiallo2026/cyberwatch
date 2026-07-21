@@ -70,7 +70,10 @@ def build_actors():
             "desc": f"{victim_count} victime(s) revendiquée(s) sur les {LOOKBACK_DAYS} derniers jours.",
             "victims": str(victim_count),
             "region": region,
-            "url": f"https://www.ransomware.live/group/{group}",
+            # Pas de page dédiée par groupe garantie sur le site : on pointe
+            # vers la liste générale des groupes plutôt que de deviner une
+            # URL susceptible de renvoyer une 404.
+            "url": "https://www.ransomware.live/groups",
         })
     return rows
 
