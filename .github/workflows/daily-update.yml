@@ -19,8 +19,10 @@ jobs:
       - name: Recalcul du week_label
         run: python scripts/update_week_label.py
 
-      - name: Récupération du flux CISA KEV et mise à jour de data.json
+      - name: Récupération du flux CISA KEV (+ CVSS/date via NVD) et mise à jour de data.json
         continue-on-error: true
+        env:
+          NVD_API_KEY: ${{ secrets.NVD_API_KEY }}
         run: python scripts/fetch_kev.py
 
       - name: Récupération des IOC ThreatFox et mise à jour de data.json
@@ -29,11 +31,11 @@ jobs:
           THREATFOX_AUTH_KEY: ${{ secrets.THREATFOX_AUTH_KEY }}
         run: python scripts/fetch_iocs.py
 
-      - name: Récupération des cyberattaques récentes (Ransomware.live)
+      - name: Récupération des cyberattaques récentes (flux RSS médias)
         continue-on-error: true
         run: python scripts/fetch_attacks.py
 
-      - name: Récupération des threat actors actifs (Ransomware.live)
+      - name: Récupération des threat actors mentionnés récemment (flux RSS médias)
         continue-on-error: true
         run: python scripts/fetch_actors.py
 
