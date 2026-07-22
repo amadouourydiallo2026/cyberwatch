@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T01:50:57Z",
+  "generated_at": "2026-07-22T02:15:01Z",
   "week_label": "S30 · 20 – 26 juillet 2026",
   "attacks": [
     {
@@ -347,93 +347,84 @@
   ],
   "actors": [
     {
-      "name": "qilin",
+      "name": "Qilin",
       "type": "RaaS / Extorsion",
-      "desc": "22 victime(s) revendiquée(s) sur les 7 derniers jours.",
-      "victims": "22",
-      "region": "Global",
-      "url": "https://www.ransomware.live/groups"
+      "desc": "Threat actors have been observed exploiting a now-patched high-severity Palo Alto Networks PAN-OS vulnerability as an entry point to deploy Qilin (aka Agenda) ransomware on victim environments. Arctic Wolf Labs said it i…",
+      "victims": "2 mention(s) récente(s) — dernier article : 21 Jul 2026",
+      "region": "Non précisé",
+      "url": "https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html",
+      "src": "The Hacker News"
     },
     {
-      "name": "nova",
+      "name": "Anubis",
       "type": "RaaS / Extorsion",
-      "desc": "16 victime(s) revendiquée(s) sur les 7 derniers jours.",
-      "victims": "16",
-      "region": "Global",
-      "url": "https://www.ransomware.live/groups"
+      "desc": "The Anubis ransomware gang has claimed responsibility for the cyberattack on Coca-Cola's Fairlife dairy subsidiary, threatening to publish allegedly stolen corporate data unless the company pays a ransom. [...]",
+      "victims": "1 mention(s) récente(s) — dernier article : 21 Jul 2026",
+      "region": "Non précisé",
+      "url": "https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak/",
+      "src": "BleepingComputer"
     },
     {
-      "name": "safepay",
+      "name": "ANUBIS",
       "type": "RaaS / Extorsion",
-      "desc": "9 victime(s) revendiquée(s) sur les 7 derniers jours.",
-      "victims": "9",
-      "region": "AU, CA, DE",
-      "url": "https://www.ransomware.live/groups"
+      "desc": "The Anubis ransomware gang has claimed responsibility for the cyberattack on Coca-Cola's Fairlife dairy subsidiary, threatening to publish allegedly stolen corporate data unless the company pays a ransom. [...]",
+      "victims": "1 mention(s) récente(s) — dernier article : 21 Jul 2026",
+      "region": "Non précisé",
+      "url": "https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak/",
+      "src": "BleepingComputer"
     },
     {
-      "name": "incransom",
-      "type": "RaaS / Extorsion",
-      "desc": "7 victime(s) revendiquée(s) sur les 7 derniers jours.",
-      "victims": "7",
-      "region": "Global",
-      "url": "https://www.ransomware.live/groups"
+      "name": "Sandworm",
+      "type": "APT / Espionnage",
+      "desc": "Russian state-sponsored threat actors have been observed leveraging the infamous ClickFix strategy to trick Ukrainian targets into infecting their own machines with data-stealing malware. According to the Computer Emerge…",
+      "victims": "1 mention(s) récente(s) — dernier article : 19 Jul 2026",
+      "region": "Non précisé",
+      "url": "https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html",
+      "src": "The Hacker News"
     },
     {
-      "name": "akira",
+      "name": "Play",
       "type": "RaaS / Extorsion",
-      "desc": "6 victime(s) revendiquée(s) sur les 7 derniers jours.",
-      "victims": "6",
-      "region": "CZ, US",
-      "url": "https://www.ransomware.live/groups"
+      "desc": "The European Commission on Thursday ordered Google to give rival AI assistants the same reach into Android that Gemini already has: the camera, the microphone, whatever is on screen, a wake word that fires with the displ…",
+      "victims": "1 mention(s) récente(s) — dernier article : 17 Jul 2026",
+      "region": "Non précisé",
+      "url": "https://thehackernews.com/2026/07/eu-orders-google-to-open-android-mic.html",
+      "src": "The Hacker News"
     },
     {
-      "name": "play",
+      "name": "Scattered Spider",
       "type": "RaaS / Extorsion",
-      "desc": "5 victime(s) revendiquée(s) sur les 7 derniers jours.",
-      "victims": "5",
-      "region": "Global",
-      "url": "https://www.ransomware.live/groups"
+      "desc": "Owen Flowers, 18, and Thalha Jubair, 20, were each sentenced to five and a half years at Woolwich Crown Court on Thursday, 16 July 2026, for the 2024 hack of Transport for London. The attack left 148 TfL systems inoperab…",
+      "victims": "1 mention(s) récente(s) — dernier article : 16 Jul 2026",
+      "region": "Non précisé",
+      "url": "https://thehackernews.com/2026/07/two-scattered-spider-hackers-get-55.html",
+      "src": "The Hacker News"
     },
     {
-      "name": "krybit",
+      "name": "ShinyHunters",
       "type": "RaaS / Extorsion",
-      "desc": "5 victime(s) revendiquée(s) sur les 7 derniers jours.",
-      "victims": "5",
-      "region": "Global",
-      "url": "https://www.ransomware.live/groups"
-    },
-    {
-      "name": "thegentlemen",
-      "type": "RaaS / Extorsion",
-      "desc": "4 victime(s) revendiquée(s) sur les 7 derniers jours.",
-      "victims": "4",
-      "region": "CO, TW, US",
-      "url": "https://www.ransomware.live/groups"
-    },
-    {
-      "name": "spacebears",
-      "type": "RaaS / Extorsion",
-      "desc": "3 victime(s) revendiquée(s) sur les 7 derniers jours.",
-      "victims": "3",
-      "region": "CO, IT, KR",
-      "url": "https://www.ransomware.live/groups"
+      "desc": "Microsoft Threat Intelligence identified threat actor activity with overlapping tradecraft commonly associated with ShinyHunters, including voice phishing (vishing), supply-chain compromise, and misconfigured guest acces…",
+      "victims": "1 mention(s) récente(s) — dernier article : 13 Jul 2026",
+      "region": "Non précisé",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/07/13/defending-saas-based-applications-against-shinyhunters-oauth-abuse/",
+      "src": "Microsoft Security Blog"
     }
   ],
   "threats": [
     {
-      "title": "Activité soutenue de qilin",
-      "desc": "22 victime(s) revendiquée(s) sur les 7 derniers jours.",
-      "url": "https://www.ransomware.live/groups"
+      "title": "Activité soutenue de Qilin",
+      "desc": "Threat actors have been observed exploiting a now-patched high-severity Palo Alto Networks PAN-OS vulnerability as an entry point to deploy Qilin (aka Agenda) ransomware on victim environments. Arctic Wolf Labs said it i…",
+      "url": "https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html"
     },
     {
-      "title": "Activité soutenue de nova",
-      "desc": "16 victime(s) revendiquée(s) sur les 7 derniers jours.",
-      "url": "https://www.ransomware.live/groups"
+      "title": "Activité soutenue de Anubis",
+      "desc": "The Anubis ransomware gang has claimed responsibility for the cyberattack on Coca-Cola's Fairlife dairy subsidiary, threatening to publish allegedly stolen corporate data unless the company pays a ransom. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak/"
     },
     {
-      "title": "Activité soutenue de safepay",
-      "desc": "9 victime(s) revendiquée(s) sur les 7 derniers jours.",
-      "url": "https://www.ransomware.live/groups"
+      "title": "Activité soutenue de ANUBIS",
+      "desc": "The Anubis ransomware gang has claimed responsibility for the cyberattack on Coca-Cola's Fairlife dairy subsidiary, threatening to publish allegedly stolen corporate data unless the company pays a ransom. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak/"
     }
   ]
 }
