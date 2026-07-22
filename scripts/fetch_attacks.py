@@ -34,6 +34,8 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 
+from _dedupe import dedupe_articles
+
 DATA_FILE = "data.json"
 LOOKBACK_DAYS = 8
 MAX_ROWS = 10
@@ -165,6 +167,13 @@ def build_attacks():
         if parsed:
             seen_sources.add(feed["name"])
         all_items.extend(parsed)
+
+    # Même événement couvert par plusieurs sources → une seule fiche, pas une
+    # par source.
+    all_items = dedupe_articles(
+        all_items,
+        source_priority=["BleepingComputer", "The Hacker News", "LeMagIT"],
+    )
 
     rows = []
     for it in all_items:
