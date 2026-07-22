@@ -1,7 +1,57 @@
 {
-  "generated_at": "2026-07-21T12:10:00Z",
+  "generated_at": "2026-07-22T01:50:57Z",
   "week_label": "S30 · 20 – 26 juillet 2026",
   "attacks": [
+    {
+      "title": "Critical SharePoint RCE flaw exploited to steal machine keys",
+      "sector": "Non précisé",
+      "date": "21 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Hackers are actively exploiting the critical CVE-2026-50522 vulnerability in Microsoft SharePoint to steal machine keys and maintain access even after affected servers are patched. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-sharepoint-rce-flaw-exploited-to-steal-machine-keys/"
+    },
+    {
+      "title": "Anubis ransomware claims Coca-Cola Fairlife attack, threatens data leak",
+      "sector": "Non précisé",
+      "date": "21 Jul 2026",
+      "actor": "Anubis",
+      "sev": "high",
+      "desc": "The Anubis ransomware gang has claimed responsibility for the cyberattack on Coca-Cola's Fairlife dairy subsidiary, threatening to publish allegedly stolen corporate data unless the company pays a ransom. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak/"
+    },
+    {
+      "title": "Critical wp2shell WordPress flaws exploited to install webshells",
+      "sector": "Non précisé",
+      "date": "21 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Hackers are exploiting the \"wp2shell\" critical vulnerability suite (CVE-2026-63030 and CVE-2026-60137) affecting WordPress Core to deploy persistent webshells and install malicious plugins on affected servers. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-wp2shell-wordpress-flaws-exploited-to-install-webshells/"
+    },
+    {
+      "title": "Qilin Ransomware Attackers Exploit PAN-OS Authentication Bypass for Initial Access",
+      "sector": "Non précisé",
+      "date": "21 Jul 2026",
+      "actor": "Qilin",
+      "sev": "high",
+      "desc": "Threat actors have been observed exploiting a now-patched high-severity Palo Alto Networks PAN-OS vulnerability as an entry point to deploy Qilin (aka Agenda) ransomware on victim environments. Arctic Wolf Labs said it i…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html"
+    },
+    {
+      "title": "Closing the Identity Gaps in Critical Infrastructure Security",
+      "sector": "Non précisé",
+      "date": "21 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Critical infrastructure attacks often begin with stolen credentials, compromised devices, or trusted accounts. Specops Software explains why Zero Trust should verify both user identities and device trust before granting …",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gaps-in-critical-infrastructure-security/"
+    },
     {
       "title": "Critical Palo Alto VPN bug now exploited by Qilin ransomware gang",
       "sector": "Non précisé",
@@ -48,62 +98,60 @@
       "date": "20 Jul 2026",
       "actor": "Non attribué",
       "sev": "high",
-      "desc": "Cosmetics giant Estée Lauder is notifying customers of a data breach after hackers exploited a flaw in Oracle E-Business Suite that the company used for human resources (HR) operations. [...]",
+      "desc": "Cosmetics giant Estée Lauder is notifying employees of a data breach after hackers exploited a flaw in Oracle E-Business Suite that the company used for human resources (HR) operations. [...]",
       "src": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/"
-    },
-    {
-      "title": "SonicWall SMA1000 flaws exploited as zero-days to push custom malware",
-      "sector": "Non précisé",
-      "date": "20 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Two recently disclosed SonicWall SMA1000 vulnerabilities were exploited in zero-day attacks for weeks, allowing threat actors to install custom malware on vulnerable VPN appliances. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/"
-    },
-    {
-      "title": "Hackers steal $23.7 million in crypto from Ostium in off-chain attack",
-      "sector": "Non précisé",
-      "date": "20 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "The Ostium trading platform announced that an attacker stole $23.75 million from its liquidity provider vault last week, after compromising off-chain infrastructure used to feed prices into the protocol. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-steal-237-million-in-crypto-from-ostium-in-off-chain-attack/"
-    },
-    {
-      "title": "JadePuffer agentic attacks now target AI model data with ransomware",
-      "sector": "Non précisé",
-      "date": "20 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The JadePuffer autonomous AI agent has upgraded with custom malware called EncForge that focuses on encrypting AI assets, such as training datasets, vector databases, and model checkpoints. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-attacks-now-target-ai-model-data-with-ransomware/"
-    },
-    {
-      "title": "New HollowGraph malware uses Microsoft Graph for stealthy C2 comms",
-      "sector": "Non précisé",
-      "date": "20 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "A malicious component dubbed HollowGraph uses the calendar feature in compromised Microsoft 365 mailboxes as a command-and-control channel to receive attacker commands and exfiltrate stolen data. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/new-hollowgraph-malware-uses-microsoft-graph-for-stealthy-c2-comms/"
-    },
-    {
-      "title": "HollowGraph Malware Hides C2 and Stolen Files in Microsoft 365 Events Dated 2050",
-      "sector": "Non précisé",
-      "date": "20 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "A newly discovered espionage implant has been using a hijacked Microsoft 365 calendar as its command channel, planting operator instructions and smuggling out stolen files as attachments on calendar events dated to the y…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/hollowgraph-malware-hides-c2-and-stolen.html"
     }
   ],
   "vulns": [
+    {
+      "cve": "CVE-2026-60137",
+      "product": "WordPress Core",
+      "type": "WordPress Core SQL Injection Vulnerability",
+      "cvss": null,
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-08-04",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60137"
+    },
+    {
+      "cve": "CVE-2026-63030",
+      "product": "WordPress Core",
+      "type": "WordPress Core Interpretation Conflict Vulnerability",
+      "cvss": null,
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-07-24",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63030"
+    },
+    {
+      "cve": "CVE-2026-0770",
+      "product": "Langflow Langflow",
+      "type": "Langflow Inclusion of Functionality from Untrusted Control Sphere Vulnerability",
+      "cvss": null,
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-07-24",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0770"
+    },
+    {
+      "cve": "CVE-2021-27137",
+      "product": "DD-WRT DD-WRT",
+      "type": "DD-WRT Stack-Based Buffer Overflow Vulnerability",
+      "cvss": null,
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-07-24",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-27137"
+    },
     {
       "cve": "CVE-2026-58644",
       "product": "Microsoft SharePoint",
@@ -148,7 +196,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-07-18",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46817"
     },
@@ -160,7 +208,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-07-29",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-4346"
     },
@@ -295,70 +343,22 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48282"
-    },
-    {
-      "cve": "CVE-2026-45659",
-      "product": "Microsoft SharePoint Server",
-      "type": "Microsoft SharePoint Server Deserialization of Untrusted Data Vulnerability",
-      "cvss": null,
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-07-04",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45659"
-    },
-    {
-      "cve": "CVE-2026-48558",
-      "product": "SimpleHelp  SimpleHelp",
-      "type": "SimpleHelp Authentication Bypass Vulnerability",
-      "cvss": null,
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-07-02",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48558"
-    },
-    {
-      "cve": "CVE-2026-12569",
-      "product": "PTC Windchill and FlexPLM",
-      "type": "PTC Windchill and FlexPLM Improper Input Validation Vulnerability",
-      "cvss": null,
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-06-28",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12569"
-    },
-    {
-      "cve": "CVE-2026-20230",
-      "product": "Cisco Unified Communications Manager",
-      "type": "Cisco Unified Communications Manager Server-Side Request Forgery (SSRF) Vulnerability",
-      "cvss": null,
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-06-28",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20230"
     }
   ],
   "actors": [
     {
       "name": "qilin",
       "type": "RaaS / Extorsion",
-      "desc": "20 victime(s) revendiquée(s) sur les 7 derniers jours.",
-      "victims": "20",
+      "desc": "22 victime(s) revendiquée(s) sur les 7 derniers jours.",
+      "victims": "22",
       "region": "Global",
       "url": "https://www.ransomware.live/groups"
     },
     {
       "name": "nova",
       "type": "RaaS / Extorsion",
-      "desc": "11 victime(s) revendiquée(s) sur les 7 derniers jours.",
-      "victims": "11",
+      "desc": "16 victime(s) revendiquée(s) sur les 7 derniers jours.",
+      "victims": "16",
       "region": "Global",
       "url": "https://www.ransomware.live/groups"
     },
@@ -373,25 +373,25 @@
     {
       "name": "incransom",
       "type": "RaaS / Extorsion",
-      "desc": "9 victime(s) revendiquée(s) sur les 7 derniers jours.",
-      "victims": "9",
-      "region": "Global",
-      "url": "https://www.ransomware.live/groups"
-    },
-    {
-      "name": "thegentlemen",
-      "type": "RaaS / Extorsion",
-      "desc": "8 victime(s) revendiquée(s) sur les 7 derniers jours.",
-      "victims": "8",
+      "desc": "7 victime(s) revendiquée(s) sur les 7 derniers jours.",
+      "victims": "7",
       "region": "Global",
       "url": "https://www.ransomware.live/groups"
     },
     {
       "name": "akira",
       "type": "RaaS / Extorsion",
+      "desc": "6 victime(s) revendiquée(s) sur les 7 derniers jours.",
+      "victims": "6",
+      "region": "CZ, US",
+      "url": "https://www.ransomware.live/groups"
+    },
+    {
+      "name": "play",
+      "type": "RaaS / Extorsion",
       "desc": "5 victime(s) revendiquée(s) sur les 7 derniers jours.",
       "victims": "5",
-      "region": "US",
+      "region": "Global",
       "url": "https://www.ransomware.live/groups"
     },
     {
@@ -403,11 +403,11 @@
       "url": "https://www.ransomware.live/groups"
     },
     {
-      "name": "play",
+      "name": "thegentlemen",
       "type": "RaaS / Extorsion",
-      "desc": "5 victime(s) revendiquée(s) sur les 7 derniers jours.",
-      "victims": "5",
-      "region": "Global",
+      "desc": "4 victime(s) revendiquée(s) sur les 7 derniers jours.",
+      "victims": "4",
+      "region": "CO, TW, US",
       "url": "https://www.ransomware.live/groups"
     },
     {
@@ -422,12 +422,12 @@
   "threats": [
     {
       "title": "Activité soutenue de qilin",
-      "desc": "20 victime(s) revendiquée(s) sur les 7 derniers jours.",
+      "desc": "22 victime(s) revendiquée(s) sur les 7 derniers jours.",
       "url": "https://www.ransomware.live/groups"
     },
     {
       "title": "Activité soutenue de nova",
-      "desc": "11 victime(s) revendiquée(s) sur les 7 derniers jours.",
+      "desc": "16 victime(s) revendiquée(s) sur les 7 derniers jours.",
       "url": "https://www.ransomware.live/groups"
     },
     {
