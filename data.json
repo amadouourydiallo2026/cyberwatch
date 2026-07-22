@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T02:31:17Z",
+  "generated_at": "2026-07-22T02:42:13Z",
   "week_label": "S30 · 20 – 26 juillet 2026",
   "attacks": [
     {
@@ -101,6 +101,26 @@
       "desc": "Cosmetics giant Estée Lauder is notifying employees of a data breach after hackers exploited a flaw in Oracle E-Business Suite that the company used for human resources (HR) operations. [...]",
       "src": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/"
+    },
+    {
+      "title": "SonicWall SMA1000 flaws exploited as zero-days to push custom malware",
+      "sector": "Non précisé",
+      "date": "20 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Two recently disclosed SonicWall SMA1000 vulnerabilities were exploited in zero-day attacks for weeks, allowing threat actors to install custom malware on vulnerable VPN appliances. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/"
+    },
+    {
+      "title": "Hackers steal $23.7 million in crypto from Ostium in off-chain attack",
+      "sector": "Non précisé",
+      "date": "20 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "The Ostium trading platform announced that an attacker stole $23.75 million from its liquidity provider vault last week, after compromising off-chain infrastructure used to feed prices into the protocol. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-steal-237-million-in-crypto-from-ostium-in-off-chain-attack/"
     }
   ],
   "vulns": [
@@ -365,15 +385,6 @@
       "src": "BleepingComputer"
     },
     {
-      "name": "ANUBIS",
-      "type": "RaaS / Extorsion",
-      "desc": "The Anubis ransomware gang has claimed responsibility for the cyberattack on Coca-Cola's Fairlife dairy subsidiary, threatening to publish allegedly stolen corporate data unless the company pays a ransom. [...]",
-      "victims": "1 mention(s) récente(s) — dernier article : 21 Jul 2026",
-      "region": "Non précisé",
-      "url": "https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak/",
-      "src": "BleepingComputer"
-    },
-    {
       "name": "Sandworm",
       "type": "APT / Espionnage",
       "desc": "Russian state-sponsored threat actors have been observed leveraging the infamous ClickFix strategy to trick Ukrainian targets into infecting their own machines with data-stealing malware. According to the Computer Emerge…",
@@ -422,9 +433,9 @@
       "url": "https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak/"
     },
     {
-      "title": "Activité soutenue de ANUBIS",
-      "desc": "The Anubis ransomware gang has claimed responsibility for the cyberattack on Coca-Cola's Fairlife dairy subsidiary, threatening to publish allegedly stolen corporate data unless the company pays a ransom. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak/"
+      "title": "Activité soutenue de Sandworm",
+      "desc": "Russian state-sponsored threat actors have been observed leveraging the infamous ClickFix strategy to trick Ukrainian targets into infecting their own machines with data-stealing malware. According to the Computer Emerge…",
+      "url": "https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html"
     }
   ]
 }
