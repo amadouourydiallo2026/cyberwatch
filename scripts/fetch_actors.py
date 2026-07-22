@@ -41,6 +41,8 @@ from collections import defaultdict
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 
+from _dedupe import dedupe_articles
+
 DATA_FILE = "data.json"
 LOOKBACK_DAYS = 14
 MAX_ROWS = 9
@@ -137,6 +139,15 @@ def build_actors():
         if parsed:
             seen_sources.add(feed["name"])
         all_items.extend(parsed)
+
+    # Un même événement couvert par plusieurs sources ne doit compter qu'une
+    # seule fois — sinon un groupe cité dans 2 articles sur le même incident
+    # serait injustement mieux classé qu'un groupe cité une seule fois pour
+    # un incident distinct.
+    all_items = dedupe_articles(
+        all_items,
+        source_priority=["Cisco Talos", "Microsoft Security Blog", "BleepingComputer", "The Hacker News", "LeMagIT"],
+    )
 
     mention_count = defaultdict(int)
     best_article = {}  # actor -> (pub_dt, article_info)
