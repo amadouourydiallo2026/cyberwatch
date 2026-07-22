@@ -45,7 +45,7 @@ from _dedupe import dedupe_articles
 
 DATA_FILE = "data.json"
 LOOKBACK_DAYS = 14
-MAX_ROWS = 9
+MAX_ROWS = 12
 
 FEEDS = [
     {"name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/feed/"},
@@ -61,7 +61,7 @@ RANSOMWARE_ACTORS = [
     "Scattered Spider", "LockBit", "Akira", "Qilin", "Cl0p", "Clop", "BlackCat",
     "ALPHV", "Lynx", "INC Ransom", "RansomHub", "Play", "Medusa", "8Base",
     "BianLian", "ShinyHunters", "World Leaks", "Fog", "Interlock",
-    "The Gentlemen", "Phantom Mantis", "Anubis", "ANUBIS", "Warlock",
+    "The Gentlemen", "Phantom Mantis", "Anubis", "Warlock",
     "Rhysida", "Hunters International", "DragonForce", "SafePay",
 ]
 
@@ -73,6 +73,18 @@ APT_ACTORS = [
 ]
 
 KNOWN_ACTORS = RANSOMWARE_ACTORS + APT_ACTORS
+
+# Filet de sécurité : si jamais deux entrées désignent le même groupe à la
+# casse près (ex. "Anubis" et "ANUBIS"), on ne garde que la première pour
+# éviter deux fiches identiques renvoyant vers le même article.
+_seen_lower = set()
+_deduped = []
+for _actor in KNOWN_ACTORS:
+    _key = _actor.lower()
+    if _key not in _seen_lower:
+        _seen_lower.add(_key)
+        _deduped.append(_actor)
+KNOWN_ACTORS = _deduped
 
 
 def fetch_url(url, timeout=20):
