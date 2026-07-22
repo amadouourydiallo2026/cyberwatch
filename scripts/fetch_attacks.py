@@ -38,7 +38,7 @@ from _dedupe import dedupe_articles
 
 DATA_FILE = "data.json"
 LOOKBACK_DAYS = 8
-MAX_ROWS = 10
+MAX_ROWS = 12
 
 FEEDS = [
     {"name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/feed/"},
