@@ -1,7 +1,97 @@
 {
-  "generated_at": "2026-07-22T12:16:21Z",
+  "generated_at": "2026-07-23T12:13:55Z",
   "week_label": "S30 · 20 – 26 juillet 2026",
   "attacks": [
+    {
+      "title": "Attackers Weaponize GitHub Actions Runners to Target cPanel and WHM Servers",
+      "sector": "Non précisé",
+      "date": "23 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Cybersecurity researchers have shed light on a large-scale campaign that has turned compromised GitHub repositories into distributed attack infrastructure designed to target cPanel and WebHost Manager (WHM) instances. Th…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/attackers-weaponize-github-actions.html"
+    },
+    {
+      "title": "New msaRAT malware uses Chrome, Edge browsers to route C2 traffic",
+      "sector": "Non précisé",
+      "date": "23 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The Chaos ransomware gang is using a new backdoor dubbed msaRAT that hides command-and-control (C2) communication by routing it through the Chrome or Edge browsers. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/new-msarat-malware-uses-chrome-edge-browsers-to-route-c2-traffic/"
+    },
+    {
+      "title": "Check Point warns of SmartConsole zero-day exploited in attacks",
+      "sector": "Non précisé",
+      "date": "23 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Israeli cybersecurity firm Check Point Software has addressed an actively exploited zero-day flaw in the company's SmartConsole graphical user interface (GUI) admin panel. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-smartconsole-zero-day-exploited-in-attacks/"
+    },
+    {
+      "title": "Check Point Patches Exploited SmartConsole Flaw Allowing Full Admin Access",
+      "sector": "Non précisé",
+      "date": "23 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Check Point has released security updates to address multiple vulnerabilities impacting Security Management and Multi-Domain Management (MDSM) products, including a critical flaw that has come under active exploitation i…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/check-point-patches-exploited.html"
+    },
+    {
+      "title": "Upbound says hack caused $13 million in fraudulent Acima leases",
+      "sector": "Technologie",
+      "date": "22 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "The Upbound Group fintech company disclosed that threat actors who stole data from its systems leveraged it to create $13 million in Acima leases. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/upbound-says-hack-caused-13-million-in-fraudulent-acima-leases/"
+    },
+    {
+      "title": "South Korea discloses data breach impacting diplomats worldwide",
+      "sector": "Gouvernement",
+      "date": "22 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "South Korea disclosed that hackers breached the National Diplomatic Academy's online education system for ten months and stole personal information belonging to current and former employees of the Ministry of Foreign Aff…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/south-korea-discloses-data-breach-impacting-diplomats-worldwide/"
+    },
+    {
+      "title": "Swiss rail giant Stadler rejects $12.3M ransom demand after cyberattack",
+      "sector": "Non précisé",
+      "date": "22 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Swiss rail vehicle manufacturer Stadler Rail says the Everest ransomware gang demanded about $12.3 million after breaching a data exchange platform shared with one of its suppliers. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/swiss-rail-giant-stadler-rejects-123m-ransom-demand-after-cyberattack/"
+    },
+    {
+      "title": "How enterprise GenAI can amplify ransomware risk — and how to contain it",
+      "sector": "Non précisé",
+      "date": "22 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Enterprise AI can accelerate ransomware attacks when AI assistants and agents inherit excessive permissions or compromised identities. Acronis explains how identity controls, governance, and least-privilege access help r…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/how-enterprise-genai-can-amplify-ransomware-risk-and-how-to-contain-it/"
+    },
+    {
+      "title": "Hackers Exploit Windmill Flaw to Read Arbitrary Server Files Without Authentication",
+      "sector": "Non précisé",
+      "date": "22 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "A high-severity security flaw impacting open-source developer platform Windmill has come under active exploitation in the wild, per VulnCheck. The vulnerability in question is CVE-2026-29059 (CVSS score: 7.5), a case of …",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html"
+    },
     {
       "title": "CISA orders urgent action on actively exploited Langflow RCE flaw",
       "sector": "Gouvernement",
@@ -31,99 +121,35 @@
       "desc": "OpenAI says its AI models, including GPT‑5.6 Sol and a pre-release model, hacked into the Hugging Face artificial intelligence repository while being tested in a sandboxed testing environment. [...]",
       "src": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/security/openai-says-its-ai-models-hacked-hugging-face-during-testing/"
-    },
-    {
-      "title": "Critical SharePoint RCE flaw exploited to steal machine keys",
-      "sector": "Non précisé",
-      "date": "21 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Hackers are actively exploiting the critical CVE-2026-50522 vulnerability in Microsoft SharePoint to steal machine keys and maintain access even after affected servers are patched. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/critical-sharepoint-rce-flaw-exploited-to-steal-machine-keys/"
-    },
-    {
-      "title": "Anubis ransomware claims Coca-Cola Fairlife attack, threatens data leak",
-      "sector": "Non précisé",
-      "date": "21 Jul 2026",
-      "actor": "Anubis",
-      "sev": "high",
-      "desc": "The Anubis ransomware gang has claimed responsibility for the cyberattack on Coca-Cola's Fairlife dairy subsidiary, threatening to publish allegedly stolen corporate data unless the company pays a ransom. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak/"
-    },
-    {
-      "title": "Critical wp2shell WordPress flaws exploited to install webshells",
-      "sector": "Non précisé",
-      "date": "21 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Hackers are exploiting the \"wp2shell\" critical vulnerability suite (CVE-2026-63030 and CVE-2026-60137) affecting WordPress Core to deploy persistent webshells and install malicious plugins on affected servers. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/critical-wp2shell-wordpress-flaws-exploited-to-install-webshells/"
-    },
-    {
-      "title": "Qilin Ransomware Attackers Exploit PAN-OS Authentication Bypass for Initial Access",
-      "sector": "Non précisé",
-      "date": "21 Jul 2026",
-      "actor": "Qilin",
-      "sev": "high",
-      "desc": "Threat actors have been observed exploiting a now-patched high-severity Palo Alto Networks PAN-OS vulnerability as an entry point to deploy Qilin (aka Agenda) ransomware on victim environments. Arctic Wolf Labs said it i…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html"
-    },
-    {
-      "title": "Closing the Identity Gaps in Critical Infrastructure Security",
-      "sector": "Non précisé",
-      "date": "21 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Critical infrastructure attacks often begin with stolen credentials, compromised devices, or trusted accounts. Specops Software explains why Zero Trust should verify both user identities and device trust before granting …",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gaps-in-critical-infrastructure-security/"
-    },
-    {
-      "title": "Critical Palo Alto VPN bug now exploited by Qilin ransomware gang",
-      "sector": "Non précisé",
-      "date": "21 Jul 2026",
-      "actor": "Qilin",
-      "sev": "critical",
-      "desc": "The Qilin ransomware gang is exploiting a critical PAN-OS GlobalProtect authentication bypass flaw to breach victims' networks, according to cybersecurity company Arctic Wolf. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/critical-globalprotect-vpn-bug-now-exploited-in-ransomware-attacks/"
-    },
-    {
-      "title": "WordPress wp2shell Exploitation Grows as Public Exploit Fuels Mass Scanning",
-      "sector": "Non précisé",
-      "date": "21 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Attackers have begun to exploit two critical vulnerabilities in WordPress that, when combined together, enable unauthenticated remote code execution (RCE) and complete compromise of vulnerable websites. The two security …",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/wordpress-wp2shell-exploitation-grows.html"
-    },
-    {
-      "title": "New ENCFORGE Ransomware Targets AI Model Files in Langflow RCE Attack",
-      "sector": "Non précisé",
-      "date": "21 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Researchers at Sysdig have linked a second attack on the same Langflow server to JADEPUFFER, the AI-agent-driven operator it first documented earlier this month. The same operator has now been spotted deploying ENCFORGE,…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html"
-    },
-    {
-      "title": "Critical ServiceNow AI Platform Flaw Exploited for Unauthenticated Code Execution",
-      "sector": "Non précisé",
-      "date": "21 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Threat actors are now exploiting a recently disclosed critical security flaw impacting ServiceNow AI Platform, according to Defused Cyber. In a post shared on X, the threat intelligence firm said it's observing in-the-wi…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html"
     }
   ],
   "vulns": [
+    {
+      "cve": "CVE-2026-16232",
+      "product": "Check Point SmartConsole",
+      "type": "Check Point SmartConsole Improper Authentication Vulnerability",
+      "cvss": 9.1,
+      "published": "2026-07-22",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-07-25",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16232"
+    },
+    {
+      "cve": "CVE-2026-50522",
+      "product": "Microsoft SharePoint",
+      "type": "Microsoft SharePoint Deserialization of Untrusted Data Vulnerability ",
+      "cvss": 9.8,
+      "published": "2026-07-14",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-07-25",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50522"
+    },
     {
       "cve": "CVE-2026-60137",
       "product": "WordPress Core",
@@ -185,7 +211,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-07-19",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58644"
     },
@@ -198,7 +224,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-07-19",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25089"
     },
@@ -211,7 +237,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-07-19",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39808"
     },
@@ -357,32 +383,6 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55255"
-    },
-    {
-      "cve": "CVE-2026-56290",
-      "product": "Joomlack Page Builder",
-      "type": "Joomlack Page Builder Improper Access Control Vulnerability",
-      "cvss": 9.8,
-      "published": "2026-06-29",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-07-10",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56290"
-    },
-    {
-      "cve": "CVE-2026-48282",
-      "product": "Adobe ColdFusion",
-      "type": "Adobe ColdFusion Path Traversal Vulnerability",
-      "cvss": 10.0,
-      "published": "2026-06-30",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-07-10",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48282"
     }
   ],
   "actors": [
@@ -390,19 +390,10 @@
       "name": "Qilin",
       "type": "RaaS / Extorsion",
       "desc": "Threat actors have been observed exploiting a now-patched high-severity Palo Alto Networks PAN-OS vulnerability as an entry point to deploy Qilin (aka Agenda) ransomware on victim environments. Arctic Wolf Labs said it i…",
-      "victims": "2 mention(s) récente(s) — dernier article : 21 Jul 2026",
+      "victims": "1 mention(s) récente(s) — dernier article : 21 Jul 2026",
       "region": "Non précisé",
       "url": "https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html",
       "src": "The Hacker News"
-    },
-    {
-      "name": "Anubis",
-      "type": "RaaS / Extorsion",
-      "desc": "The Anubis ransomware gang has claimed responsibility for the cyberattack on Coca-Cola's Fairlife dairy subsidiary, threatening to publish allegedly stolen corporate data unless the company pays a ransom. [...]",
-      "victims": "1 mention(s) récente(s) — dernier article : 21 Jul 2026",
-      "region": "Non précisé",
-      "url": "https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak/",
-      "src": "BleepingComputer"
     },
     {
       "name": "Sandworm",
@@ -423,15 +414,6 @@
       "src": "The Hacker News"
     },
     {
-      "name": "Scattered Spider",
-      "type": "RaaS / Extorsion",
-      "desc": "Owen Flowers, 18, and Thalha Jubair, 20, were each sentenced to five and a half years at Woolwich Crown Court on Thursday, 16 July 2026, for the 2024 hack of Transport for London. The attack left 148 TfL systems inoperab…",
-      "victims": "1 mention(s) récente(s) — dernier article : 16 Jul 2026",
-      "region": "Non précisé",
-      "url": "https://thehackernews.com/2026/07/two-scattered-spider-hackers-get-55.html",
-      "src": "The Hacker News"
-    },
-    {
       "name": "ShinyHunters",
       "type": "RaaS / Extorsion",
       "desc": "Microsoft Threat Intelligence identified threat actor activity with overlapping tradecraft commonly associated with ShinyHunters, including voice phishing (vishing), supply-chain compromise, and misconfigured guest acces…",
@@ -448,14 +430,14 @@
       "url": "https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html"
     },
     {
-      "title": "Activité soutenue de Anubis",
-      "desc": "The Anubis ransomware gang has claimed responsibility for the cyberattack on Coca-Cola's Fairlife dairy subsidiary, threatening to publish allegedly stolen corporate data unless the company pays a ransom. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak/"
-    },
-    {
       "title": "Activité soutenue de Sandworm",
       "desc": "Russian state-sponsored threat actors have been observed leveraging the infamous ClickFix strategy to trick Ukrainian targets into infecting their own machines with data-stealing malware. According to the Computer Emerge…",
       "url": "https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html"
+    },
+    {
+      "title": "Activité soutenue de Play",
+      "desc": "The European Commission on Thursday ordered Google to give rival AI assistants the same reach into Android that Gemini already has: the camera, the microphone, whatever is on screen, a wake word that fires with the displ…",
+      "url": "https://thehackernews.com/2026/07/eu-orders-google-to-open-android-mic.html"
     }
   ]
 }
