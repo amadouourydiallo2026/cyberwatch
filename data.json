@@ -1,7 +1,97 @@
 {
-  "generated_at": "2026-07-23T12:13:55Z",
+  "generated_at": "2026-07-24T12:00:30Z",
   "week_label": "S30 · 20 – 26 juillet 2026",
   "attacks": [
+    {
+      "title": "Man gets six years for hacking 750 women's Snapchat accounts",
+      "sector": "Non précisé",
+      "date": "24 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "An Illinois man was sentenced on Tuesday to 76 months in prison and three years of supervised release for hacking the Snapchat accounts of over 750 women to steal nude photos. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/man-gets-six-years-for-hacking-750-womens-snapchat-accounts/"
+    },
+    {
+      "title": "Hacker Runs Hermes AI Agent Unattended for Post-Exploitation at Thai Finance Ministry",
+      "sector": "Finance",
+      "date": "24 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Someone installed a popular AI assistant on a rented server, switched off the setting that makes it ask permission before running risky commands, and pointed it at Thailand's Ministry of Finance, which runs the country's…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/hacker-runs-hermes-ai-agent-unattended.html"
+    },
+    {
+      "title": "Clop ransomware targets Windchill, FlexPLM in data theft attacks",
+      "sector": "Non précisé",
+      "date": "24 Jul 2026",
+      "actor": "Cl0p",
+      "sev": "high",
+      "desc": "The Clop ransomware gang (also tracked as Cl0p) is targeting Internet-exposed PTC Windchill and FlexPLM instances in a new data theft extortion campaign. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/"
+    },
+    {
+      "title": "Fake Notepad++ Plugin Delivers MATCHBOIL.V2 in UAC-0099 Attacks",
+      "sector": "Gouvernement",
+      "date": "24 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The Computer Emergency Response Team of Ukraine (CERT-UA) has warned of a new campaign that involves the use of a malicious program that's dressed up as a Notepad++ plugin to compromise Windows systems. The activity has …",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html"
+    },
+    {
+      "title": "Australian energy provider Origin says data breach exposes client data",
+      "sector": "Énergie",
+      "date": "23 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Origin Energy has confirmed that an unauthorized party accessed and subsequently leaked customer data online, exposing sensitive personally identifiable information (PII), among others. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/australian-energy-provider-origin-says-data-breach-exposes-client-data/"
+    },
+    {
+      "title": "Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes",
+      "sector": "Non précisé",
+      "date": "24 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "A Russian state-supported espionage group spent months reading Western mailboxes through a then-unknown flaw in Zimbra's webmail client. The payload goes after the last 90 days of email, the organization's entire email d…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/russian-espionage-group-exploited.html"
+    },
+    {
+      "title": "Russian hackers exploit Zimbra zero-click flaw for email theft",
+      "sector": "Non précisé",
+      "date": "23 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "CISA is warning that the Russian state-sponsored hacking group Laundry Bear, also known as Void Blizzard, is targeting organizations using Zimbra Collaboration email servers by combining phishing attacks with the exploit…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-zimbra-zero-click-flaw-for-email-theft/"
+    },
+    {
+      "title": "Hackers abuse Notepad++ plugins to stealthily install malware",
+      "sector": "Énergie",
+      "date": "23 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Ukraine's CERT has uncovered attacks distributing an archive containing the legitimate Notepad++ application and a malicious utility called LunchPoke disguised as a plugin to establish persistence. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-notepad-plus-plus-plugins-to-stealthily-install-malware/"
+    },
+    {
+      "title": "Claude Cowork Flaw Could Let AI Agent Escape Its VM and Access Mac Files",
+      "sector": "Non précisé",
+      "date": "23 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Cybersecurity researchers have uncovered a sandbox escape vulnerability in Anthropic's Claude Cowork that makes it possible to break out of the confines of a Linux virtual machine (VM) within which the agent runs to read…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html"
+    },
     {
       "title": "Attackers Weaponize GitHub Actions Runners to Target cPanel and WHM Servers",
       "sector": "Non précisé",
@@ -31,96 +121,6 @@
       "desc": "Israeli cybersecurity firm Check Point Software has addressed an actively exploited zero-day flaw in the company's SmartConsole graphical user interface (GUI) admin panel. [...]",
       "src": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-smartconsole-zero-day-exploited-in-attacks/"
-    },
-    {
-      "title": "Check Point Patches Exploited SmartConsole Flaw Allowing Full Admin Access",
-      "sector": "Non précisé",
-      "date": "23 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Check Point has released security updates to address multiple vulnerabilities impacting Security Management and Multi-Domain Management (MDSM) products, including a critical flaw that has come under active exploitation i…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/check-point-patches-exploited.html"
-    },
-    {
-      "title": "Upbound says hack caused $13 million in fraudulent Acima leases",
-      "sector": "Technologie",
-      "date": "22 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "The Upbound Group fintech company disclosed that threat actors who stole data from its systems leveraged it to create $13 million in Acima leases. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/upbound-says-hack-caused-13-million-in-fraudulent-acima-leases/"
-    },
-    {
-      "title": "South Korea discloses data breach impacting diplomats worldwide",
-      "sector": "Gouvernement",
-      "date": "22 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "South Korea disclosed that hackers breached the National Diplomatic Academy's online education system for ten months and stole personal information belonging to current and former employees of the Ministry of Foreign Aff…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/south-korea-discloses-data-breach-impacting-diplomats-worldwide/"
-    },
-    {
-      "title": "Swiss rail giant Stadler rejects $12.3M ransom demand after cyberattack",
-      "sector": "Non précisé",
-      "date": "22 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Swiss rail vehicle manufacturer Stadler Rail says the Everest ransomware gang demanded about $12.3 million after breaching a data exchange platform shared with one of its suppliers. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/swiss-rail-giant-stadler-rejects-123m-ransom-demand-after-cyberattack/"
-    },
-    {
-      "title": "How enterprise GenAI can amplify ransomware risk — and how to contain it",
-      "sector": "Non précisé",
-      "date": "22 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Enterprise AI can accelerate ransomware attacks when AI assistants and agents inherit excessive permissions or compromised identities. Acronis explains how identity controls, governance, and least-privilege access help r…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/how-enterprise-genai-can-amplify-ransomware-risk-and-how-to-contain-it/"
-    },
-    {
-      "title": "Hackers Exploit Windmill Flaw to Read Arbitrary Server Files Without Authentication",
-      "sector": "Non précisé",
-      "date": "22 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "A high-severity security flaw impacting open-source developer platform Windmill has come under active exploitation in the wild, per VulnCheck. The vulnerability in question is CVE-2026-29059 (CVSS score: 7.5), a case of …",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html"
-    },
-    {
-      "title": "CISA orders urgent action on actively exploited Langflow RCE flaw",
-      "sector": "Gouvernement",
-      "date": "22 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday ordered U.S. government agencies to prioritize patching an actively exploited vulnerability in the Langflow visual framework for building AI agents. …",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-langflow-rce-flaw/"
-    },
-    {
-      "title": "Chick-fil-A discloses data breach after credential stuffing attacks",
-      "sector": "Non précisé",
-      "date": "22 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "American fast food restaurant chain Chick-fil-A is notifying customers of a data breach after their accounts were hacked in a wave of recent credential stuffing attacks. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/chick-fil-a-discloses-data-breach-after-credential-stuffing-attacks/"
-    },
-    {
-      "title": "OpenAI says its AI models hacked Hugging Face during testing",
-      "sector": "Non précisé",
-      "date": "22 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "OpenAI says its AI models, including GPT‑5.6 Sol and a pre-release model, hacked into the Hugging Face artificial intelligence repository while being tested in a sandboxed testing environment. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/openai-says-its-ai-models-hacked-hugging-face-during-testing/"
     }
   ],
   "vulns": [
@@ -387,6 +387,24 @@
   ],
   "actors": [
     {
+      "name": "Cl0p",
+      "type": "RaaS / Extorsion",
+      "desc": "The Clop ransomware gang (also tracked as Cl0p) is targeting Internet-exposed PTC Windchill and FlexPLM instances in a new data theft extortion campaign. [...]",
+      "victims": "1 mention(s) récente(s) — dernier article : 24 Jul 2026",
+      "region": "Non précisé",
+      "url": "https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/",
+      "src": "BleepingComputer"
+    },
+    {
+      "name": "Clop",
+      "type": "RaaS / Extorsion",
+      "desc": "The Clop ransomware gang (also tracked as Cl0p) is targeting Internet-exposed PTC Windchill and FlexPLM instances in a new data theft extortion campaign. [...]",
+      "victims": "1 mention(s) récente(s) — dernier article : 24 Jul 2026",
+      "region": "Non précisé",
+      "url": "https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/",
+      "src": "BleepingComputer"
+    },
+    {
       "name": "Qilin",
       "type": "RaaS / Extorsion",
       "desc": "Threat actors have been observed exploiting a now-patched high-severity Palo Alto Networks PAN-OS vulnerability as an entry point to deploy Qilin (aka Agenda) ransomware on victim environments. Arctic Wolf Labs said it i…",
@@ -405,15 +423,6 @@
       "src": "The Hacker News"
     },
     {
-      "name": "Play",
-      "type": "RaaS / Extorsion",
-      "desc": "The European Commission on Thursday ordered Google to give rival AI assistants the same reach into Android that Gemini already has: the camera, the microphone, whatever is on screen, a wake word that fires with the displ…",
-      "victims": "1 mention(s) récente(s) — dernier article : 17 Jul 2026",
-      "region": "Non précisé",
-      "url": "https://thehackernews.com/2026/07/eu-orders-google-to-open-android-mic.html",
-      "src": "The Hacker News"
-    },
-    {
       "name": "ShinyHunters",
       "type": "RaaS / Extorsion",
       "desc": "Microsoft Threat Intelligence identified threat actor activity with overlapping tradecraft commonly associated with ShinyHunters, including voice phishing (vishing), supply-chain compromise, and misconfigured guest acces…",
@@ -425,19 +434,19 @@
   ],
   "threats": [
     {
+      "title": "Activité soutenue de Cl0p",
+      "desc": "The Clop ransomware gang (also tracked as Cl0p) is targeting Internet-exposed PTC Windchill and FlexPLM instances in a new data theft extortion campaign. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/"
+    },
+    {
+      "title": "Activité soutenue de Clop",
+      "desc": "The Clop ransomware gang (also tracked as Cl0p) is targeting Internet-exposed PTC Windchill and FlexPLM instances in a new data theft extortion campaign. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/"
+    },
+    {
       "title": "Activité soutenue de Qilin",
       "desc": "Threat actors have been observed exploiting a now-patched high-severity Palo Alto Networks PAN-OS vulnerability as an entry point to deploy Qilin (aka Agenda) ransomware on victim environments. Arctic Wolf Labs said it i…",
       "url": "https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html"
-    },
-    {
-      "title": "Activité soutenue de Sandworm",
-      "desc": "Russian state-sponsored threat actors have been observed leveraging the infamous ClickFix strategy to trick Ukrainian targets into infecting their own machines with data-stealing malware. According to the Computer Emerge…",
-      "url": "https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html"
-    },
-    {
-      "title": "Activité soutenue de Play",
-      "desc": "The European Commission on Thursday ordered Google to give rival AI assistants the same reach into Android that Gemini already has: the camera, the microphone, whatever is on screen, a wake word that fires with the displ…",
-      "url": "https://thehackernews.com/2026/07/eu-orders-google-to-open-android-mic.html"
     }
   ]
 }
