@@ -6,9 +6,11 @@
  * Déploiement : voir README-DEPLOY.md
  */
 
-function corsHeaders(origin, allowedOrigin) {
+function corsHeaders(origin, allowedOriginsCsv) {
+  const allowedOrigins = (allowedOriginsCsv || "").split(",").map(s => s.trim()).filter(Boolean);
+  const matched = allowedOrigins.includes(origin);
   return {
-    "Access-Control-Allow-Origin": origin === allowedOrigin ? origin : allowedOrigin,
+    "Access-Control-Allow-Origin": matched ? origin : (allowedOrigins[0] || ""),
     "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
     "Access-Control-Allow-Headers": "Content-Type, Authorization",
   };
