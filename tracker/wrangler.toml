@@ -5,7 +5,7 @@ compatibility_date = "2025-01-01"
 [[d1_databases]]
 binding = "DB"
 database_name = "cyberwatch-tracker-db"
-database_id = "39f1f657-0c31-4eec-99de-721bcccb8a12"
+database_id = "REMPLACE_MOI_APRES_CREATION_DB"
 
 [vars]
-ALLOWED_ORIGIN = "https://amadouourydiallo2026.github.io"
+ALLOWED_ORIGIN = "https://cyberthreatwatch.ca,https://amadouourydiallo2026.github.io"
