@@ -16,6 +16,12 @@ function corsHeaders(origin, allowedOriginsCsv) {
   };
 }
 
+async function sha256Hex(text) {
+  const enc = new TextEncoder().encode(text);
+  const buf = await crypto.subtle.digest("SHA-256", enc);
+  return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, "0")).join("");
+}
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
@@ -26,7 +32,6 @@ export default {
       return new Response(null, { headers });
     }
 
-    // ---- POST /track : enregistre un événement (pageview ou clic) ----
     if (url.pathname === "/track" && request.method === "POST") {
       try {
         const body = await request.json();
@@ -65,10 +70,10 @@ export default {
       }
     }
 
-    // ---- GET /stats : renvoie les statistiques (protégé par mot de passe) ----
     if (url.pathname === "/stats" && request.method === "GET") {
       const auth = request.headers.get("Authorization") || "";
-      if (auth !== `Bearer ${env.ADMIN_PASSWORD}`) {
+      const expectedHash = await sha256Hex(env.ADMIN_PASSWORD);
+      if (auth !== `Bearer ${expectedHash}`) {
         return new Response(JSON.stringify({ error: "unauthorized" }), {
           status: 401,
           headers: { ...headers, "Content-Type": "application/json" },

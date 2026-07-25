@@ -107,12 +107,20 @@ var token = sessionStorage.getItem("cw_admin_token");
 
 if (token) showDashboard();
 
-function login(){
+async function sha256Hex(text){
+  var enc = new TextEncoder().encode(text);
+  var buf = await crypto.subtle.digest("SHA-256", enc);
+  return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2,"0")).join("");
+}
+
+async function login(){
   var pwd = document.getElementById("pwd").value;
-  sessionStorage.setItem("cw_admin_token", pwd);
-  token = pwd;
+  var hash = await sha256Hex(pwd);
+  sessionStorage.setItem("cw_admin_token", hash);
+  token = hash;
   showDashboard();
 }
+
 
 function showDashboard(){
   document.getElementById("loginScreen").classList.add("hidden");
