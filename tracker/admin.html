@@ -70,9 +70,17 @@ td.ip{color:var(--cyan);}
   </div>
 
   <div class="kpis">
-    <div class="kpi"><div class="num" id="kpiViews">–</div><div class="lbl">Pages vues</div></div>
-    <div class="kpi"><div class="num" id="kpiClicks">–</div><div class="lbl">Clics</div></div>
-    <div class="kpi"><div class="num" id="kpiUnique">–</div><div class="lbl">Visiteurs uniques</div></div>
+    <div class="kpi"><div class="num" id="kpiViews">–</div><div class="lbl">Pages vues (période filtrée)</div></div>
+    <div class="kpi"><div class="num" id="kpiClicks">–</div><div class="lbl">Clics (période filtrée)</div></div>
+    <div class="kpi"><div class="num" id="kpiUnique">–</div><div class="lbl">Visiteurs uniques (période filtrée)</div></div>
+  </div>
+
+  <div class="sub" style="margin:20px 0 8px;">Totaux de visites (toutes périodes, indépendant du filtre ci-dessus)</div>
+  <div class="kpis">
+    <div class="kpi"><div class="num" id="kpiWeek">–</div><div class="lbl">Cette semaine</div></div>
+    <div class="kpi"><div class="num" id="kpiMonth">–</div><div class="lbl">Ce mois</div></div>
+    <div class="kpi"><div class="num" id="kpiYear">–</div><div class="lbl">Cette année</div></div>
+    <div class="kpi"><div class="num" id="kpiAllTime">–</div><div class="lbl">Total depuis le début</div></div>
   </div>
 
   <div class="grid2">
@@ -107,10 +115,19 @@ var token = sessionStorage.getItem("cw_admin_token");
 
 if (token) showDashboard();
 
-function login(){
+// Calcule un hash SHA-256 (hexadécimal) — le mot de passe réel n'est jamais
+// stocké ni envoyé : seule son empreinte irréversible circule.
+async function sha256Hex(text){
+  var enc = new TextEncoder().encode(text);
+  var buf = await crypto.subtle.digest("SHA-256", enc);
+  return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2,"0")).join("");
+}
+
+async function login(){
   var pwd = document.getElementById("pwd").value;
-  sessionStorage.setItem("cw_admin_token", pwd);
-  token = pwd;
+  var hash = await sha256Hex(pwd);
+  sessionStorage.setItem("cw_admin_token", hash);
+  token = hash;
   showDashboard();
 }
 
@@ -127,18 +144,27 @@ function load(){
   fetch(API + "/stats?days=" + days, {
     headers: { "Authorization": "Bearer " + token }
   }).then(function(r){
-    if (r.status === 401) {
+    if (r.status === 401 || r.status === 429) {
       sessionStorage.removeItem("cw_admin_token");
-      document.getElementById("loginErr").textContent = "Mot de passe incorrect.";
-      document.getElementById("dashboard").classList.add("hidden");
-      document.getElementById("loginScreen").classList.remove("hidden");
-      throw new Error("unauthorized");
+      return r.json().then(function(body){
+        document.getElementById("loginErr").textContent = body.message || "Mot de passe incorrect.";
+        document.getElementById("dashboard").classList.add("hidden");
+        document.getElementById("loginScreen").classList.remove("hidden");
+        throw new Error(r.status === 429 ? "locked" : "unauthorized");
+      });
     }
     return r.json();
   }).then(function(d){
     document.getElementById("kpiViews").textContent = d.totals.pageviews || 0;
     document.getElementById("kpiClicks").textContent = d.totals.clicks || 0;
     document.getElementById("kpiUnique").textContent = d.unique_visitors || 0;
+
+    if (d.period_totals) {
+      document.getElementById("kpiWeek").textContent = d.period_totals.week || 0;
+      document.getElementById("kpiMonth").textContent = d.period_totals.month || 0;
+      document.getElementById("kpiYear").textContent = d.period_totals.year || 0;
+      document.getElementById("kpiAllTime").textContent = d.period_totals.all_time || 0;
+    }
 
     document.getElementById("tblPages").innerHTML = d.by_page.map(function(r){
       return "<tr><td>"+esc(r.page)+"</td><td>"+r.count+"</td></tr>";
