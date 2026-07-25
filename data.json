@@ -1,7 +1,57 @@
 {
-  "generated_at": "2026-07-24T12:00:30Z",
+  "generated_at": "2026-07-25T02:20:09Z",
   "week_label": "S30 · 20 – 26 juillet 2026",
   "attacks": [
+    {
+      "title": "OnTrac notifies customers of data breach after network hack",
+      "sector": "Non précisé",
+      "date": "24 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "OnTrac parcel delivery company is informing that hackers breached its corporate network and may have accessed personal details belonging to its customers. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/ontrac-notifies-customers-of-data-breach-after-network-hack/"
+    },
+    {
+      "title": "Hermes AI agent used to automate attack on Thai Finance Ministry",
+      "sector": "Finance",
+      "date": "24 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "A threat actor used the open-source Hermes AI agent in unattended \"YOLO\" mode to automate post-exploitation activity during an alleged breach of Thailand's Ministry of Finance. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry/"
+    },
+    {
+      "title": "Hackers hijack hotel Wi-Fi DNS to steal Microsoft 365 accounts",
+      "sector": "Non précisé",
+      "date": "24 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Hackers are changing the DNS settings on Wi-Fi devices at hotels and conference centers to redirect users to fake Microsoft 365 login pages. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hotel-wi-fi-dns-to-steal-microsoft-365-accounts/"
+    },
+    {
+      "title": "BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery",
+      "sector": "Non précisé",
+      "date": "24 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the videoconferencing platform…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html"
+    },
+    {
+      "title": "Chick-fil-A data breach affects more than 13,000 customers",
+      "sector": "Non précisé",
+      "date": "24 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Chick-fil-A has confirmed that over 13,000 customers had their accounts breached in a wave of credential stuffing attacks targeting its website and mobile app between June 17 and June 19. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/chick-fil-a-data-breach-affects-more-than-13-000-customers/"
+    },
     {
       "title": "Man gets six years for hacking 750 women's Snapchat accounts",
       "sector": "Non précisé",
@@ -11,16 +61,6 @@
       "desc": "An Illinois man was sentenced on Tuesday to 76 months in prison and three years of supervised release for hacking the Snapchat accounts of over 750 women to steal nude photos. [...]",
       "src": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/security/man-gets-six-years-for-hacking-750-womens-snapchat-accounts/"
-    },
-    {
-      "title": "Hacker Runs Hermes AI Agent Unattended for Post-Exploitation at Thai Finance Ministry",
-      "sector": "Finance",
-      "date": "24 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "Someone installed a popular AI assistant on a rented server, switched off the setting that makes it ask permission before running risky commands, and pointed it at Thailand's Ministry of Finance, which runs the country's…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/hacker-runs-hermes-ai-agent-unattended.html"
     },
     {
       "title": "Clop ransomware targets Windchill, FlexPLM in data theft attacks",
@@ -81,46 +121,6 @@
       "desc": "Ukraine's CERT has uncovered attacks distributing an archive containing the legitimate Notepad++ application and a malicious utility called LunchPoke disguised as a plugin to establish persistence. [...]",
       "src": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-notepad-plus-plus-plugins-to-stealthily-install-malware/"
-    },
-    {
-      "title": "Claude Cowork Flaw Could Let AI Agent Escape Its VM and Access Mac Files",
-      "sector": "Non précisé",
-      "date": "23 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "Cybersecurity researchers have uncovered a sandbox escape vulnerability in Anthropic's Claude Cowork that makes it possible to break out of the confines of a Linux virtual machine (VM) within which the agent runs to read…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html"
-    },
-    {
-      "title": "Attackers Weaponize GitHub Actions Runners to Target cPanel and WHM Servers",
-      "sector": "Non précisé",
-      "date": "23 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Cybersecurity researchers have shed light on a large-scale campaign that has turned compromised GitHub repositories into distributed attack infrastructure designed to target cPanel and WebHost Manager (WHM) instances. Th…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/attackers-weaponize-github-actions.html"
-    },
-    {
-      "title": "New msaRAT malware uses Chrome, Edge browsers to route C2 traffic",
-      "sector": "Non précisé",
-      "date": "23 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The Chaos ransomware gang is using a new backdoor dubbed msaRAT that hides command-and-control (C2) communication by routing it through the Chrome or Edge browsers. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/new-msarat-malware-uses-chrome-edge-browsers-to-route-c2-traffic/"
-    },
-    {
-      "title": "Check Point warns of SmartConsole zero-day exploited in attacks",
-      "sector": "Non précisé",
-      "date": "23 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Israeli cybersecurity firm Check Point Software has addressed an actively exploited zero-day flaw in the company's SmartConsole graphical user interface (GUI) admin panel. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-smartconsole-zero-day-exploited-in-attacks/"
     }
   ],
   "vulns": [
@@ -411,15 +411,6 @@
       "victims": "1 mention(s) récente(s) — dernier article : 21 Jul 2026",
       "region": "Non précisé",
       "url": "https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html",
-      "src": "The Hacker News"
-    },
-    {
-      "name": "Sandworm",
-      "type": "APT / Espionnage",
-      "desc": "Russian state-sponsored threat actors have been observed leveraging the infamous ClickFix strategy to trick Ukrainian targets into infecting their own machines with data-stealing malware. According to the Computer Emerge…",
-      "victims": "1 mention(s) récente(s) — dernier article : 19 Jul 2026",
-      "region": "Non précisé",
-      "url": "https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html",
       "src": "The Hacker News"
     },
     {
