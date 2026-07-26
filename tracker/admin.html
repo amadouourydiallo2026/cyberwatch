@@ -99,6 +99,29 @@ td.ip{color:var(--cyan);}
     <table><thead><tr><th>Pays</th><th>Visiteurs uniques</th></tr></thead><tbody id="tblCountry"></tbody></table>
   </div>
 
+  <div class="sub" style="margin:20px 0 8px;">Sécurité — Bruteforce sur la connexion admin</div>
+
+  <div class="panel" style="margin-bottom:18px;">
+    <h3>Bloquer une IP manuellement</h3>
+    <div style="display:flex; gap:10px; align-items:center; flex-wrap:wrap;">
+      <input type="text" id="blockIpInput" placeholder="ex. 203.0.113.42"
+        style="flex:1; min-width:200px; padding:8px 10px; background:var(--bg-panel-alt); border:1px solid var(--border); border-radius:6px; color:var(--text-primary); font-family:var(--mono);">
+      <button onclick="blockIp()">Bloquer</button>
+    </div>
+    <div class="err" id="blockErr" style="margin-top:8px;"></div>
+  </div>
+
+  <div class="grid2" style="margin-bottom:18px;">
+    <div class="panel">
+      <h3>IP actuellement bloquées</h3>
+      <table><thead><tr><th>IP</th><th>Type</th><th>Bloquée jusqu'à</th><th></th></tr></thead><tbody id="tblLocked"></tbody></table>
+    </div>
+    <div class="panel">
+      <h3>Tentatives échouées récentes</h3>
+      <table><thead><tr><th>IP</th><th>Échecs</th><th>Dernier essai</th></tr></thead><tbody id="tblAttempts"></tbody></table>
+    </div>
+  </div>
+
   <div class="panel">
     <h3>Événements récents (détail par visiteur)</h3>
     <table>
@@ -166,6 +189,19 @@ function load(){
       document.getElementById("kpiAllTime").textContent = d.period_totals.all_time || 0;
     }
 
+    if (d.security) {
+      document.getElementById("tblLocked").innerHTML = d.security.locked_ips.map(function(r){
+        var badge = r.manual ? "Manuel" : "Bruteforce";
+        var until = r.manual ? "Illimité" : esc(r.locked_until);
+        return "<tr><td class='ip'>"+esc(r.ip)+"</td><td>"+badge+"</td><td>"+until+"</td>"+
+               "<td><button onclick=\"unblockIp('"+esc(r.ip)+"')\" style='padding:4px 10px;font-size:11px;'>Débloquer</button></td></tr>";
+      }).join("") || "<tr><td colspan=4>Aucune IP bloquée actuellement</td></tr>";
+
+      document.getElementById("tblAttempts").innerHTML = d.security.recent_attempts.map(function(r){
+        return "<tr><td class='ip'>"+esc(r.ip)+"</td><td>"+esc(r.fail_count)+"</td><td>"+esc(r.last_fail_at)+"</td></tr>";
+      }).join("") || "<tr><td colspan=3>Aucune tentative échouée récente</td></tr>";
+    }
+
     document.getElementById("tblPages").innerHTML = d.by_page.map(function(r){
       return "<tr><td>"+esc(r.page)+"</td><td>"+r.count+"</td></tr>";
     }).join("") || "<tr><td colspan=2>Aucune donnée</td></tr>";
@@ -182,6 +218,37 @@ function load(){
       return "<tr><td>"+esc(r.ts)+"</td><td>"+esc(r.type)+"</td><td>"+esc(r.page)+"</td><td class='ip'>"+esc(r.ip)+"</td><td>"+esc(r.country)+"</td><td>"+esc(r.referrer)+"</td></tr>";
     }).join("") || "<tr><td colspan=6>Aucune donnée</td></tr>";
   }).catch(function(e){ console.error(e); });
+}
+
+function blockIp(){
+  var ip = document.getElementById("blockIpInput").value.trim();
+  var errEl = document.getElementById("blockErr");
+  errEl.textContent = "";
+  if (!ip) { errEl.textContent = "Entre une adresse IP."; return; }
+
+  fetch(API + "/block", {
+    method: "POST",
+    headers: { "Authorization": "Bearer " + token, "Content-Type": "application/json" },
+    body: JSON.stringify({ ip: ip })
+  }).then(function(r){ return r.json().then(function(body){ return {status:r.status, body:body}; }); })
+    .then(function(res){
+      if (res.status !== 200) {
+        errEl.textContent = res.body.message || "Erreur lors du blocage.";
+        return;
+      }
+      document.getElementById("blockIpInput").value = "";
+      load();
+    }).catch(function(e){ errEl.textContent = "Erreur réseau."; });
+}
+
+function unblockIp(ip){
+  fetch(API + "/unblock", {
+    method: "POST",
+    headers: { "Authorization": "Bearer " + token, "Content-Type": "application/json" },
+    body: JSON.stringify({ ip: ip })
+  }).then(function(r){ return r.json(); })
+    .then(function(){ load(); })
+    .catch(function(e){ console.error(e); });
 }
 </script>
 </body>
