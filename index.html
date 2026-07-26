@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -73,6 +73,15 @@ header{
 }
 .live-dot{width:6px;height:6px;border-radius:50%;background:var(--sev-low);animation:pulse-dot 2s infinite;}
 @keyframes pulse-dot{0%,100%{opacity:1;}50%{opacity:0.3;}}
+
+.lang-switch{display:flex;border:1px solid var(--border);border-radius:6px;overflow:hidden;}
+.lang-btn{
+  font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:0.3px;
+  background:none;border:none;color:var(--text-faint);padding:6px 10px;cursor:pointer;
+  transition:background .15s,color .15s;
+}
+.lang-btn:hover{color:var(--text-primary);}
+.lang-btn.active{background:var(--cyan-dim);color:var(--cyan);}
 
 nav{max-width:1400px;margin:0 auto;padding:0 28px;display:flex;gap:2px;overflow-x:auto;}
 .tab{
@@ -253,34 +262,38 @@ footer a{font-size:11px;}
       </div>
     </div>
     <div class="header-right">
-      <div class="live-clock"><span class="live-dot"></span> <span id="lastUpdate">Chargement des données…</span></div>
+      <div class="lang-switch" id="langSwitch">
+        <button class="lang-btn" data-lang="en" id="langBtnEn">EN</button>
+        <button class="lang-btn" data-lang="fr" id="langBtnFr">FR</button>
+      </div>
+      <div class="live-clock"><span class="live-dot"></span> <span id="lastUpdate" data-i18n="loading">Loading data…</span></div>
     </div>
   </div>
   <nav>
-    <button class="tab active" data-target="attacks"><span class="n">01</span>Cyberattaques</button>
-    <button class="tab" data-target="vulns"><span class="n">02</span>Vulnérabilités critiques</button>
-    <button class="tab" data-target="actors"><span class="n">03</span>Threat Actors</button>
-    <button class="tab" data-target="threats"><span class="n">04</span>Menaces de la Semaine</button>
-    <button class="tab" data-target="iocs"><span class="n">05</span>IOC</button>
+    <button class="tab active" data-target="attacks"><span class="n">01</span><span data-i18n="tab_attacks">Cyberattacks</span></button>
+    <button class="tab" data-target="vulns"><span class="n">02</span><span data-i18n="tab_vulns">Critical Vulnerabilities</span></button>
+    <button class="tab" data-target="actors"><span class="n">03</span><span data-i18n="tab_actors">Threat Actors</span></button>
+    <button class="tab" data-target="threats"><span class="n">04</span><span data-i18n="tab_threats">Weekly Threats</span></button>
+    <button class="tab" data-target="iocs"><span class="n">05</span><span data-i18n="tab_iocs">IOCs</span></button>
   </nav>
 </header>
 
 <div class="hero">
   <div class="hero-row">
     <div>
-      <div class="hero-title">Panorama des 7 derniers jours <span class="week" id="heroWeek">…</span></div>
-      <div class="hero-desc">Synthèse des cyberattaques, vulnérabilités exploitées et acteurs de la menace les plus actifs, à destination des analystes SOC / CTI.</div>
+      <div class="hero-title" data-i18n="hero_title">7-Day Overview <span class="week" id="heroWeek">…</span></div>
+      <div class="hero-desc" data-i18n="hero_desc">Summary of cyberattacks, exploited vulnerabilities, and the most active threat actors — for SOC / CTI analysts.</div>
     </div>
     <div class="stat-row">
-      <div class="stat-chip"><div class="val" id="statAttacks">10</div><div class="lbl">Attaques suivies</div></div>
-      <div class="stat-chip c-critical"><div class="val" id="statVulns">14</div><div class="lbl">Vulns exploitées</div></div>
-      <div class="stat-chip c-actor"><div class="val" id="statActors">9</div><div class="lbl">Threat actors actifs</div></div>
-      <div class="stat-chip c-high"><div class="val" id="statThreats">5</div><div class="lbl">Menaces majeures</div></div>
-      <div class="stat-chip"><div class="val" id="statIocs">0</div><div class="lbl">IOC recensés</div></div>
+      <div class="stat-chip"><div class="val" id="statAttacks">10</div><div class="lbl" data-i18n="stat_attacks">Tracked attacks</div></div>
+      <div class="stat-chip c-critical"><div class="val" id="statVulns">14</div><div class="lbl" data-i18n="stat_vulns">Exploited vulns</div></div>
+      <div class="stat-chip c-actor"><div class="val" id="statActors">9</div><div class="lbl" data-i18n="stat_actors">Active threat actors</div></div>
+      <div class="stat-chip c-high"><div class="val" id="statThreats">5</div><div class="lbl" data-i18n="stat_threats">Major threats</div></div>
+      <div class="stat-chip"><div class="val" id="statIocs">0</div><div class="lbl" data-i18n="stat_iocs">IOCs recorded</div></div>
     </div>
   </div>
   <div class="pulse-wrap">
-    <div class="pulse-label"><span>Répartition de sévérité — vulnérabilités KEV suivies</span><span id="pulseTotalCount">— CVE</span></div>
+    <div class="pulse-label"><span data-i18n="pulse_label">Severity breakdown — tracked KEV vulnerabilities</span><span id="pulseTotalCount">— CVE</span></div>
     <div class="pulse-bar" id="pulseBar"></div>
     <div class="pulse-legend" id="pulseLegend"></div>
   </div>
@@ -291,8 +304,8 @@ footer a{font-size:11px;}
   <!-- ================= SECTION 1 : ATTAQUES ================= -->
   <section class="section active" id="attacks">
     <div class="section-head">
-      <h2>Top <span id="attacksTopN">10</span> des cyberattaques <span class="count" id="attacksSubhead">— événements les plus commentés</span></h2>
-      <div class="section-note">Basé sur des sources ouvertes (CISA, Microsoft MSTIC, The Hacker News, Digital Forensics Magazine, LeMagIT, BlackFog). Acteur "Non attribué" = attribution non confirmée publiquement.</div>
+      <h2><span data-i18n="attacks_h2">Top</span> <span id="attacksTopN">10</span> <span data-i18n="attacks_h2b">cyberattacks</span> <span class="count" id="attacksSubhead">— most talked-about events</span></h2>
+      <div class="section-note" data-i18n="attacks_note">Based on open sources (CISA, Microsoft MSTIC, The Hacker News, Digital Forensics Magazine, LeMagIT, BlackFog). "Unattributed" actor = attribution not publicly confirmed.</div>
     </div>
     <div class="grid-attacks" id="attacksGrid"></div>
   </section>
@@ -300,35 +313,34 @@ footer a{font-size:11px;}
   <!-- ================= SECTION 2 : VULNS ================= -->
   <section class="section" id="vulns">
     <div class="section-head">
-      <h2>Vulnérabilités critiques <span class="count" id="vulnCount"></span></h2>
-      <div class="searchbox">🔍 <input type="text" id="vulnSearch" placeholder="Filtrer par CVE, produit, sévérité…"></div>
+      <h2 data-i18n="vulns_h2">Critical Vulnerabilities <span class="count" id="vulnCount"></span></h2>
+      <div class="searchbox">🔍 <input type="text" id="vulnSearch" data-i18n-placeholder="vulns_search_ph" placeholder="Filter by CVE, product, severity…"></div>
     </div>
     <div class="table-wrap">
       <table>
         <thead>
           <tr>
-            <th data-sort="cve">CVE</th>
-            <th data-sort="product">Produit affecté</th>
-            <th data-sort="type">Type</th>
-            <th data-sort="cvss">CVSS</th>
-            <th data-sort="exploit">Exploit actif</th>
-            <th data-sort="poc">PoC public</th>
-            <th data-sort="deadline">Échéance patch</th>
+            <th data-sort="cve" data-i18n="th_cve">CVE</th>
+            <th data-sort="product" data-i18n="th_product">Affected product</th>
+            <th data-sort="type" data-i18n="th_type">Type</th>
+            <th data-sort="cvss" data-i18n="th_cvss">CVSS</th>
+            <th data-sort="exploit" data-i18n="th_exploit">Active exploit</th>
+            <th data-sort="poc" data-i18n="th_poc">Public PoC</th>
+            <th data-sort="deadline" data-i18n="th_deadline">Patch deadline</th>
           </tr>
         </thead>
         <tbody id="vulnBody"></tbody>
       </table>
     </div>
     <div class="section-note" style="text-align:left;margin-top:12px;max-width:100%;" id="vulnFootnote">
-      Échantillon de vulnérabilités réellement documentées cette semaine (catalogue CISA KEV, avis éditeurs). Aucune information de PoC n'est reproduite ici : seul le statut de disponibilité est indiqué, conformément aux bonnes pratiques de divulgation responsable.
     </div>
   </section>
 
   <!-- ================= SECTION 3 : ACTORS ================= -->
   <section class="section" id="actors">
     <div class="section-head">
-      <h2>Threat actors qui ont fait le plus parler d'eux <span class="count" id="actorsSubhead">— groupes suivis</span></h2>
-      <div class="section-note">Ransomware-as-a-Service, groupes d'extorsion et clusters APT mentionnés dans les rapports CTI de la semaine.</div>
+      <h2 data-i18n="actors_h2">Threat actors making the most headlines <span class="count" id="actorsSubhead">— tracked groups</span></h2>
+      <div class="section-note" data-i18n="actors_note">Ransomware-as-a-Service, extortion groups, and APT clusters mentioned in this week's CTI reports.</div>
     </div>
     <div class="grid-actors" id="actorsGrid"></div>
   </section>
@@ -336,8 +348,8 @@ footer a{font-size:11px;}
   <!-- ================= SECTION 4 : THREATS ================= -->
   <section class="section" id="threats">
     <div class="section-head">
-      <h2>Les <span id="threatsTopN">5</span> menaces les plus dangereuses de la semaine</h2>
-      <div class="section-note">Classées par potentiel d'impact (surface exposée × facilité d'exploitation × activité observée).</div>
+      <h2><span data-i18n="threats_h2a">The</span> <span id="threatsTopN">5</span> <span data-i18n="threats_h2b">most dangerous threats this week</span></h2>
+      <div class="section-note" data-i18n="threats_note">Ranked by impact potential (exposed surface × ease of exploitation × observed activity).</div>
     </div>
     <div class="threat-list" id="threatsList"></div>
   </section>
@@ -345,39 +357,195 @@ footer a{font-size:11px;}
   <!-- ================= SECTION 5 : IOC ================= -->
   <section class="section" id="iocs">
     <div class="section-head">
-      <h2>IOC des vulnérabilités exploitées <span class="count" id="iocCount"></span></h2>
-      <div class="searchbox">🔍 <input type="text" id="iocSearch" placeholder="Filtrer par CVE, valeur, malware…"></div>
+      <h2 data-i18n="iocs_h2">IOCs from exploited vulnerabilities <span class="count" id="iocCount"></span></h2>
+      <div class="searchbox">🔍 <input type="text" id="iocSearch" data-i18n-placeholder="iocs_search_ph" placeholder="Filter by CVE, value, malware…"></div>
     </div>
     <div class="table-wrap">
       <table>
         <thead>
           <tr>
-            <th data-sort="related_cve">CVE liée</th>
-            <th data-sort="type">Type</th>
-            <th data-sort="value">Valeur</th>
-            <th data-sort="malware">Malware associé</th>
-            <th data-sort="confidence">Confiance</th>
-            <th data-sort="first_seen">Première vue</th>
+            <th data-sort="related_cve" data-i18n="th_related_cve">Related CVE</th>
+            <th data-sort="type" data-i18n="th_type">Type</th>
+            <th data-sort="value" data-i18n="th_value">Value</th>
+            <th data-sort="malware" data-i18n="th_malware">Associated malware</th>
+            <th data-sort="confidence" data-i18n="th_confidence">Confidence</th>
+            <th data-sort="first_seen" data-i18n="th_first_seen">First seen</th>
           </tr>
         </thead>
         <tbody id="iocBody"></tbody>
       </table>
     </div>
-    <div class="section-note" style="text-align:left;margin-top:12px;max-width:100%;">
-      Ces IOC ne sont pas un flux générique : chaque ligne est liée à une CVE précisément listée dans l'onglet <strong>Vulnérabilités critiques</strong> ci-dessus, via les tags CVE soumis par la communauté <strong>ThreatFox</strong> (abuse.ch). Toutes les CVE de la page n'ont pas nécessairement d'IOC associé sur ThreatFox — c'est normal, préférable à afficher des résultats sans lien réel. Fournis à titre strictement défensif (règles de blocage, détection SIEM) — jamais à être visités ou exécutés.
+    <div class="section-note" style="text-align:left;margin-top:12px;max-width:100%;" data-i18n="iocs_footnote">
+      These IOCs are not a generic feed: each row is linked to a CVE precisely listed in the <strong>Critical Vulnerabilities</strong> tab above, via community-submitted CVE tags from <strong>ThreatFox</strong> (abuse.ch). Not every CVE on this page necessarily has an associated IOC on ThreatFox — that's expected, and preferable to showing results with no real link. Provided strictly for defensive use (blocklists, SIEM detection) — never to be visited or executed.
     </div>
   </section>
 
 </main>
 
 <footer>
-  <p>CYBERTHREATWATCH — Plateforme de référence CTI · Données open-source, à des fins d'analyse uniquement · MAJ 05/07/2026</p>
-  <a href="#" onclick="return false;">Sources : CISA KEV · NVD · Microsoft MSTIC · The Hacker News · BlackFog · Digital Forensics Magazine</a>
+  <p data-i18n="footer_text">CYBERTHREATWATCH — Reference CTI platform · Open-source data, for analysis purposes only · Updated 05/07/2026</p>
+  <a href="#" onclick="return false;" data-i18n="footer_sources">Sources: CISA KEV · NVD · Microsoft MSTIC · The Hacker News · BlackFog · Digital Forensics Magazine</a>
 </footer>
 
 <script>
+/* ========================= I18N ========================= */
+const I18N = {
+  en: {
+    loading: "Loading data…",
+    tab_attacks: "Cyberattacks", tab_vulns: "Critical Vulnerabilities",
+    tab_actors: "Threat Actors", tab_threats: "Weekly Threats", tab_iocs: "IOCs",
+    hero_title: "7-Day Overview",
+    hero_desc: "Summary of cyberattacks, exploited vulnerabilities, and the most active threat actors — for SOC / CTI analysts.",
+    stat_attacks: "Tracked attacks", stat_vulns: "Exploited vulns",
+    stat_actors: "Active threat actors", stat_threats: "Major threats", stat_iocs: "IOCs recorded",
+    pulse_label: "Severity breakdown — tracked KEV vulnerabilities",
+    attacks_h2: "Top", attacks_h2b: "cyberattacks",
+    attacks_subhead: (n, week) => `— most talked-about events (${week})`,
+    attacks_note: 'Based on open sources (CISA, Microsoft MSTIC, The Hacker News, Digital Forensics Magazine, LeMagIT, BlackFog). "Unattributed" actor = attribution not publicly confirmed.',
+    vulns_h2: "Critical Vulnerabilities", vulns_search_ph: "Filter by CVE, product, severity…",
+    vuln_count: (n) => `— ${n} CVE shown`,
+    vuln_footnote: (n) => `Sample of ${n} vulnerabilities actually documented (CISA KEV catalog, vendor advisories). This table is not exhaustive — connect the CISA KEV / NVD feed (API) for a complete list. No PoC information is reproduced here: only availability status is shown, in line with responsible disclosure practices.`,
+    th_cve: "CVE", th_product: "Affected product", th_type: "Type", th_cvss: "CVSS",
+    th_exploit: "Active exploit", th_poc: "Public PoC", th_deadline: "Patch deadline",
+    actors_h2: "Threat actors making the most headlines",
+    actors_subhead: (n) => `— ${n} group${n>1?'s':''} tracked`,
+    actors_note: "Ransomware-as-a-Service, extortion groups, and APT clusters mentioned in this week's CTI reports.",
+    threats_h2a: "The", threats_h2b: "most dangerous threats this week",
+    threats_note: "Ranked by impact potential (exposed surface × ease of exploitation × observed activity).",
+    iocs_h2: "IOCs from exploited vulnerabilities", iocs_search_ph: "Filter by CVE, value, malware…",
+    ioc_count: (n) => `— ${n} indicators`,
+    iocs_footnote: 'These IOCs are not a generic feed: each row is linked to a CVE precisely listed in the <strong>Critical Vulnerabilities</strong> tab above, via community-submitted CVE tags from <strong>ThreatFox</strong> (abuse.ch). Not every CVE on this page necessarily has an associated IOC on ThreatFox — that\'s expected, and preferable to showing results with no real link. Provided strictly for defensive use (blocklists, SIEM detection) — never to be visited or executed.',
+    th_related_cve: "Related CVE", th_value: "Value", th_malware: "Associated malware",
+    th_confidence: "Confidence", th_first_seen: "First seen",
+    footer_text: "CYBERTHREATWATCH — Reference CTI platform · Open-source data, for analysis purposes only",
+    footer_sources: "Sources: CISA KEV · NVD · Microsoft MSTIC · The Hacker News · BlackFog · Digital Forensics Magazine",
+    sev_critical: "Critical", sev_high: "High", sev_medium: "Medium", sev_low: "Low",
+    sev_unrated: "Unrated (KEV without CVSS)",
+    threat_critical: "Critical", threat_high: "High", threat_watch: "Watch",
+    view_incident: "View incident details →", source_label: (s) => `Source: ${s} ↗`,
+    cited_victims: "Cited victims", activity_zone: "Activity zone", view_report: "View source report →",
+    details_arrow: "Details →",
+    exploit_active: "● Active", exploit_unknown: "Unknown", poc_unconfirmed: "Not confirmed",
+    deadline_past: " (past due)",
+    ioc_type_domain: "Domain",
+    ioc_empty: "No IOC linked to the CVEs on this page yet — either the daily job hasn't run yet, or none of the listed CVEs have a tagged IOC on ThreatFox this week.",
+    data_missing: "data.json not found — open this page via a server (GitHub Pages, etc.), not by double-clicking the local file.",
+    data_as_of: (d) => `Data as of ${d}`,
+    week_range: (from, to) => `from ${from} to ${to}`,
+    locale: "en-US",
+  },
+  fr: {
+    loading: "Chargement des données…",
+    tab_attacks: "Cyberattaques", tab_vulns: "Vulnérabilités critiques",
+    tab_actors: "Threat Actors", tab_threats: "Menaces de la Semaine", tab_iocs: "IOC",
+    hero_title: "Panorama des 7 derniers jours",
+    hero_desc: "Synthèse des cyberattaques, vulnérabilités exploitées et acteurs de la menace les plus actifs, à destination des analystes SOC / CTI.",
+    stat_attacks: "Attaques suivies", stat_vulns: "Vulns exploitées",
+    stat_actors: "Threat actors actifs", stat_threats: "Menaces majeures", stat_iocs: "IOC recensés",
+    pulse_label: "Répartition de sévérité — vulnérabilités KEV suivies",
+    attacks_h2: "Top", attacks_h2b: "des cyberattaques",
+    attacks_subhead: (n, week) => `— événements les plus commentés (${week})`,
+    attacks_note: 'Basé sur des sources ouvertes (CISA, Microsoft MSTIC, The Hacker News, Digital Forensics Magazine, LeMagIT, BlackFog). Acteur "Non attribué" = attribution non confirmée publiquement.',
+    vulns_h2: "Vulnérabilités critiques", vulns_search_ph: "Filtrer par CVE, produit, sévérité…",
+    vuln_count: (n) => `— ${n} CVE affichées`,
+    vuln_footnote: (n) => `Échantillon de ${n} CVE réellement documentées (catalogue CISA KEV, avis éditeurs). Cette table n'est pas exhaustive — connectez le flux CISA KEV / NVD (API) pour une liste complète. Aucune information de PoC n'est reproduite ici : seul le statut de disponibilité est indiqué, conformément aux bonnes pratiques de divulgation responsable.`,
+    th_cve: "CVE", th_product: "Produit affecté", th_type: "Type", th_cvss: "CVSS",
+    th_exploit: "Exploit actif", th_poc: "PoC public", th_deadline: "Échéance patch",
+    actors_h2: "Threat actors qui ont fait le plus parler d'eux",
+    actors_subhead: (n) => `— ${n} groupe${n>1?'s':''} suivi${n>1?'s':''}`,
+    actors_note: "Ransomware-as-a-Service, groupes d'extorsion et clusters APT mentionnés dans les rapports CTI de la semaine.",
+    threats_h2a: "Les", threats_h2b: "menaces les plus dangereuses de la semaine",
+    threats_note: "Classées par potentiel d'impact (surface exposée × facilité d'exploitation × activité observée).",
+    iocs_h2: "IOC des vulnérabilités exploitées", iocs_search_ph: "Filtrer par CVE, valeur, malware…",
+    ioc_count: (n) => `— ${n} indicateurs`,
+    iocs_footnote: 'Ces IOC ne sont pas un flux générique : chaque ligne est liée à une CVE précisément listée dans l\'onglet <strong>Vulnérabilités critiques</strong> ci-dessus, via les tags CVE soumis par la communauté <strong>ThreatFox</strong> (abuse.ch). Toutes les CVE de la page n\'ont pas nécessairement d\'IOC associé sur ThreatFox — c\'est normal, préférable à afficher des résultats sans lien réel. Fournis à titre strictement défensif (règles de blocage, détection SIEM) — jamais à être visités ou exécutés.',
+    th_related_cve: "CVE liée", th_value: "Valeur", th_malware: "Malware associé",
+    th_confidence: "Confiance", th_first_seen: "Première vue",
+    footer_text: "CYBERTHREATWATCH — Plateforme de référence CTI · Données open-source, à des fins d'analyse uniquement",
+    footer_sources: "Sources : CISA KEV · NVD · Microsoft MSTIC · The Hacker News · BlackFog · Digital Forensics Magazine",
+    sev_critical: "Critique", sev_high: "Élevée", sev_medium: "Moyenne", sev_low: "Faible",
+    sev_unrated: "Non notée (KEV sans CVSS)",
+    threat_critical: "Critique", threat_high: "Élevée", threat_watch: "Surveillance",
+    view_incident: "Voir les détails de l'incident →", source_label: (s) => `Source : ${s} ↗`,
+    cited_victims: "Victimes citées", activity_zone: "Zone d'activité", view_report: "Voir le rapport source →",
+    details_arrow: "Détails →",
+    exploit_active: "● Actif", exploit_unknown: "Inconnu", poc_unconfirmed: "Non confirmé",
+    deadline_past: " (dépassée)",
+    ioc_type_domain: "Domaine",
+    ioc_empty: "Aucun IOC lié aux CVE de cette page pour le moment — soit le job quotidien n'est pas encore passé, soit aucune des CVE listées n'a d'IOC tagué sur ThreatFox cette semaine.",
+    data_missing: "data.json introuvable — ouvrez la page via un serveur (GitHub Pages, etc.), pas en double-clic local.",
+    data_as_of: (d) => `Données au ${d}`,
+    week_range: (from, to) => `du ${from} au ${to}`,
+    locale: "fr-FR",
+  },
+};
+
+let lang = localStorage.getItem('cw_lang') || 'en';
+
+function t(key){ return I18N[lang][key]; }
+
+function applyStaticTranslations(){
+  document.documentElement.lang = lang;
+  document.querySelectorAll('[data-i18n]').forEach(el=>{
+    const key = el.dataset.i18n;
+    const val = I18N[lang][key];
+    if (val == null) return;
+    // Préserve les enfants <span> imbriqués (compteurs dynamiques) en ne
+    // remplaçant que le premier nœud texte de l'élément.
+    for (const node of el.childNodes){
+      if (node.nodeType === Node.TEXT_NODE && node.textContent.trim() !== ''){
+        node.textContent = val + ' ';
+        break;
+      }
+    }
+    if (![...el.childNodes].some(n=>n.nodeType===Node.TEXT_NODE && n.textContent.trim()!=='')){
+      el.textContent = val;
+    }
+  });
+  document.querySelectorAll('[data-i18n-placeholder]').forEach(el=>{
+    const val = I18N[lang][el.dataset.i18nPlaceholder];
+    if (val != null) el.placeholder = val;
+  });
+  document.getElementById('langBtnEn').classList.toggle('active', lang === 'en');
+  document.getElementById('langBtnFr').classList.toggle('active', lang === 'fr');
+}
+
+function setLang(newLang){
+  lang = newLang;
+  localStorage.setItem('cw_lang', lang);
+  applyStaticTranslations();
+  if (attacks.length || vulns.length || actors.length || threats.length){
+    refreshDynamicText();
+    renderAttacks(); renderVulns(vulns); renderActors(); renderThreats(); renderIOCs(iocs);
+    renderPulseBar(vulns);
+  }
+}
+
+document.getElementById('langBtnEn').onclick = ()=>setLang('en');
+document.getElementById('langBtnFr').onclick = ()=>setLang('fr');
+
 /* ========================= DATA LOADING ========================= */
 let attacks = [], vulns = [], actors = [], threats = [], iocs = [];
+let lastGeneratedAt = null;
+
+function refreshDynamicText(){
+  if (!lastGeneratedAt) return;
+  const dt = lastGeneratedAt;
+  document.getElementById('lastUpdate').textContent =
+    t('data_as_of')(dt.toLocaleDateString(t('locale'),{day:'2-digit',month:'2-digit',year:'numeric'}) +
+    ' ' + dt.toLocaleTimeString(t('locale'),{hour:'2-digit',minute:'2-digit'}) + ' UTC');
+
+  const weekStart = new Date(dt); weekStart.setUTCDate(dt.getUTCDate() - 6);
+  const fmt = (d)=> d.toLocaleDateString(t('locale'),{day:'2-digit',month:'short'});
+  const rollingWeekLabel = `${t('week_range')(fmt(weekStart), fmt(dt))} ${dt.getUTCFullYear()}`;
+
+  document.getElementById('heroWeek').textContent = '// ' + rollingWeekLabel;
+  document.getElementById('attacksTopN').textContent = attacks.length;
+  document.getElementById('attacksSubhead').textContent = t('attacks_subhead')(attacks.length, rollingWeekLabel);
+  document.getElementById('actorsSubhead').textContent = t('actors_subhead')(actors.length);
+  document.getElementById('threatsTopN').textContent = threats.length;
+  document.getElementById('vulnFootnote').textContent = t('vuln_footnote')(vulns.length);
+}
 
 async function loadData(){
   try{
@@ -385,29 +553,12 @@ async function loadData(){
     if(!res.ok) throw new Error('HTTP '+res.status);
     const data = await res.json();
     attacks = data.attacks; vulns = data.vulns; actors = data.actors; threats = data.threats; iocs = data.iocs || [];
-    const dt = new Date(data.generated_at);
-    document.getElementById('lastUpdate').textContent =
-      'Données au ' + dt.toLocaleDateString('fr-FR',{day:'2-digit',month:'2-digit',year:'numeric'}) +
-      ' ' + dt.toLocaleTimeString('fr-FR',{hour:'2-digit',minute:'2-digit'}) + ' UTC';
-
-    // Fenêtre glissante de 7 jours calculée depuis generated_at, plutôt que le
-    // champ "week_label" figé de data.json (qui n'est mis à jour par aucun job).
-    const weekStart = new Date(dt); weekStart.setUTCDate(dt.getUTCDate() - 6);
-    const fmt = (d)=> d.toLocaleDateString('fr-FR',{day:'2-digit',month:'short'});
-    const rollingWeekLabel = ` du ${fmt(weekStart)} au ${fmt(dt)} ${dt.getUTCFullYear()}`;
-
-    document.getElementById('heroWeek').textContent = '// ' + rollingWeekLabel;
-    document.getElementById('attacksTopN').textContent = attacks.length;
-    document.getElementById('attacksSubhead').textContent =
-      `— événements les plus commentés (${rollingWeekLabel})`;
-    document.getElementById('actorsSubhead').textContent = `— ${actors.length} groupe${actors.length>1?'s':''} suivi${actors.length>1?'s':''}`;
-    document.getElementById('threatsTopN').textContent = threats.length;
-    document.getElementById('vulnFootnote').textContent =
-      `Échantillon de ${vulns.length} CVE réellement documentées (catalogue CISA KEV, avis éditeurs). Cette table n'est pas exhaustive — connectez le flux CISA KEV / NVD (API) pour une liste complète. Aucune information de PoC n'est reproduite ici : seul le statut de disponibilité est indiqué, conformément aux bonnes pratiques de divulgation responsable.`;
+    lastGeneratedAt = new Date(data.generated_at);
+    refreshDynamicText();
     renderPulseBar(vulns);
   }catch(err){
-    document.getElementById('lastUpdate').textContent = 'data.json introuvable — ouvrez la page via un serveur (GitHub Pages, etc.), pas en double-clic local.';
-    console.error('Chargement data.json impossible :', err);
+    document.getElementById('lastUpdate').textContent = t('data_missing');
+    console.error('data.json load failed:', err);
     return;
   }
   renderAttacks();
@@ -424,7 +575,7 @@ async function loadData(){
   document.getElementById('statIocs').textContent = iocs.length;
 }
 /* ========================= RENDER ========================= */
-function sevLabel(s){return {critical:"Critique",high:"Élevée",medium:"Moyenne",low:"Faible"}[s];}
+function sevLabel(s){return {critical:t('sev_critical'),high:t('sev_high'),medium:t('sev_medium'),low:t('sev_low')}[s];}
 
 function renderAttacks(){
   const grid = document.getElementById('attacksGrid');
@@ -444,9 +595,9 @@ function renderAttacks(){
       <div class="card-desc">${a.desc}</div>
       <div class="card-foot">
         <span class="actor-tag">${a.actor}</span>
-        <a class="src-link" href="${a.url}" target="_blank" rel="noopener">Source : ${a.src} ↗</a>
+        <a class="src-link" href="${a.url}" target="_blank" rel="noopener">${t('source_label')(a.src)}</a>
       </div>
-      <a class="details-link" href="${a.url}" target="_blank" rel="noopener">Voir les détails de l'incident →</a>
+      <a class="details-link" href="${a.url}" target="_blank" rel="noopener">${t('view_incident')}</a>
     </div>
   `).join('');
 }
@@ -469,10 +620,10 @@ function renderPulseBar(list){
   });
   const total = list.length || 1;
   const segDefs = [
-    {key:'critical', label:'Critique', color:'var(--sev-critical)'},
-    {key:'high', label:'Élevée', color:'var(--sev-high)'},
-    {key:'medium', label:'Moyenne', color:'var(--sev-medium)'},
-    {key:'unrated', label:'Non notée (KEV sans CVSS)', color:'var(--text-faint)'},
+    {key:'critical', label:t('sev_critical'), color:'var(--sev-critical)'},
+    {key:'high', label:t('sev_high'), color:'var(--sev-high)'},
+    {key:'medium', label:t('sev_medium'), color:'var(--sev-medium)'},
+    {key:'unrated', label:t('sev_unrated'), color:'var(--text-faint)'},
   ];
   document.getElementById('pulseTotalCount').textContent = `${list.length} CVE`;
   document.getElementById('pulseBar').innerHTML = segDefs
@@ -487,7 +638,7 @@ function renderPulseBar(list){
 
 function renderVulns(list){
   const body = document.getElementById('vulnBody');
-  document.getElementById('vulnCount').textContent = `— ${list.length} CVE affichées`;
+  document.getElementById('vulnCount').textContent = t('vuln_count')(list.length);
   body.innerHTML = list.map(v=>{
     const pct = v.cvss ? (v.cvss/10*360) : 0;
     const col = gaugeColor(v.cvss);
@@ -503,9 +654,9 @@ function renderVulns(list){
           </div>
         </div>
       </td>
-      <td>${v.exploit?'<span class="status-pill yes">● Actif</span>':'<span class="status-pill unk">Inconnu</span>'}</td>
-      <td><span class="status-pill unk">Non confirmé</span></td>
-      <td class="deadline ${v.past?'past':''}">${v.deadline}${v.past?' (dépassée)':''}</td>
+      <td>${v.exploit?`<span class="status-pill yes">${t('exploit_active')}</span>`:`<span class="status-pill unk">${t('exploit_unknown')}</span>`}</td>
+      <td><span class="status-pill unk">${t('poc_unconfirmed')}</span></td>
+      <td class="deadline ${v.past?'past':''}">${v.deadline}${v.past?t('deadline_past'):''}</td>
     </tr>`;
   }).join('');
 }
@@ -519,31 +670,34 @@ function renderActors(){
       </div>
       <div class="actor-desc">${a.desc}</div>
       <div class="actor-stats">
-        <div><div class="v">${a.victims}</div><div class="l">Victimes citées</div></div>
-        <div><div class="v">${a.region}</div><div class="l">Zone d'activité</div></div>
+        <div><div class="v">${a.victims}</div><div class="l">${t('cited_victims')}</div></div>
+        <div><div class="v">${a.region}</div><div class="l">${t('activity_zone')}</div></div>
       </div>
-      <a class="details-link" href="${a.url}" target="_blank" rel="noopener">Voir le rapport source →</a>
+      <a class="details-link" href="${a.url}" target="_blank" rel="noopener">${t('view_report')}</a>
     </div>
   `).join('');
 }
 
 function renderThreats(){
-  document.getElementById('threatsList').innerHTML = threats.map((t,i)=>`
-    <div class="threat-row ${i===0?'top':''}" onclick="window.open('${t.url}','_blank')">
+  document.getElementById('threatsList').innerHTML = threats.map((th,i)=>`
+    <div class="threat-row ${i===0?'top':''}" onclick="window.open('${th.url}','_blank')">
       <div class="threat-rank">${i+1}</div>
       <div>
-        <div class="threat-title">${t.title}</div>
-        <div class="threat-desc">${t.desc}</div>
+        <div class="threat-title">${th.title}</div>
+        <div class="threat-desc">${th.desc}</div>
       </div>
       <div style="display:flex;flex-direction:column;align-items:flex-end;gap:6px;">
-        <div class="badge ${i<2?'critical':i<4?'high':'medium'}">${i<2?'Critique':i<4?'Élevée':'Surveillance'}</div>
-        <a class="details-link" style="margin:0;" href="${t.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Détails →</a>
+        <div class="badge ${i<2?'critical':i<4?'high':'medium'}">${i<2?t('threat_critical'):i<4?t('threat_high'):t('threat_watch')}</div>
+        <a class="details-link" style="margin:0;" href="${th.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${t('details_arrow')}</a>
       </div>
     </div>
   `).join('');
 }
 
-const IOC_TYPE_LABEL = {ip:"IP", domain:"Domaine", url:"URL", md5:"MD5", sha1:"SHA1", sha256:"SHA256", hash:"Hash"};
+function iocTypeLabel(type){
+  const labels = {ip:"IP", domain:t('ioc_type_domain'), url:"URL", md5:"MD5", sha1:"SHA1", sha256:"SHA256", hash:"Hash"};
+  return labels[type] || type;
+}
 
 function truncateValue(v){
   return v && v.length > 46 ? v.slice(0, 22) + '…' + v.slice(-18) : v;
@@ -558,15 +712,15 @@ function confColor(c){
 
 function renderIOCs(list){
   const body = document.getElementById('iocBody');
-  document.getElementById('iocCount').textContent = `— ${list.length} indicateurs`;
+  document.getElementById('iocCount').textContent = t('ioc_count')(list.length);
   if(list.length === 0){
-    body.innerHTML = `<tr><td colspan="6" style="text-align:center;color:var(--text-faint);padding:24px;">Aucun IOC lié aux CVE de cette page pour le moment — soit le job quotidien n'est pas encore passé, soit aucune des CVE listées n'a d'IOC tagué sur ThreatFox cette semaine.</td></tr>`;
+    body.innerHTML = `<tr><td colspan="6" style="text-align:center;color:var(--text-faint);padding:24px;">${t('ioc_empty')}</td></tr>`;
     return;
   }
   body.innerHTML = list.map(ioc=>`
     <tr class="vuln-row" onclick="window.open('${ioc.source_url}','_blank')">
       <td><span class="cve-id">${ioc.related_cve || '—'}</span></td>
-      <td><span class="badge ${ioc.type==='ip'?'high':ioc.type==='domain'||ioc.type==='url'?'medium':'critical'}">${IOC_TYPE_LABEL[ioc.type] || ioc.type}</span></td>
+      <td><span class="badge ${ioc.type==='ip'?'high':ioc.type==='domain'||ioc.type==='url'?'medium':'critical'}">${iocTypeLabel(ioc.type)}</span></td>
       <td><span class="product" title="${ioc.value}">${truncateValue(ioc.value)}</span></td>
       <td class="product">${ioc.malware || '—'}</td>
       <td><span style="font-family:var(--mono);font-weight:600;color:${confColor(ioc.confidence)};">${ioc.confidence!=null ? ioc.confidence+'%' : '—'}</span></td>
@@ -575,6 +729,7 @@ function renderIOCs(list){
   `).join('');
 }
 
+applyStaticTranslations();
 loadData();
 setInterval(loadData, 6 * 60 * 60 * 1000); // revérifie data.json toutes les 6h si la page reste ouverte
 
