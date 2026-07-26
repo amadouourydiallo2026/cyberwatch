@@ -16,3 +16,14 @@ CREATE TABLE IF NOT EXISTS events (
 CREATE INDEX IF NOT EXISTS idx_events_ts ON events(ts);
 CREATE INDEX IF NOT EXISTS idx_events_type ON events(type);
 CREATE INDEX IF NOT EXISTS idx_events_visitor ON events(visitor_id);
+
+-- Suivi des tentatives de connexion admin par IP, pour le blocage après
+-- échecs répétés (3 essais -> 1h de blocage), et pour le blocage manuel
+-- (illimité dans le temps, déclenché depuis le dashboard).
+CREATE TABLE IF NOT EXISTS login_attempts (
+  ip TEXT PRIMARY KEY,
+  fail_count INTEGER NOT NULL DEFAULT 0,
+  last_fail_at TEXT,
+  locked_until TEXT,
+  manual INTEGER NOT NULL DEFAULT 0   -- 1 = bloqué manuellement (pas par bruteforce)
+);
