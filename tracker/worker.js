@@ -2,9 +2,14 @@
  * CYBERWATCH — Tracker Worker
  * Reçoit les pageviews/clics depuis index.html (/track)
  * et sert les statistiques à admin.html (/stats), protégé par mot de passe.
+ * Gère aussi le blocage manuel d'IP (/block, /unblock) depuis le dashboard.
  *
  * Déploiement : voir README-DEPLOY.md
  */
+
+const MAX_ATTEMPTS = 3;
+const LOCKOUT_MS = 60 * 60 * 1000; // 1h (bruteforce automatique)
+const MANUAL_LOCK_UNTIL = "9999-12-31T23:59:59.000Z"; // "illimité" pour un blocage manuel
 
 function corsHeaders(origin, allowedOriginsCsv) {
   const allowedOrigins = (allowedOriginsCsv || "").split(",").map(s => s.trim()).filter(Boolean);
@@ -20,6 +25,92 @@ async function sha256Hex(text) {
   const enc = new TextEncoder().encode(text);
   const buf = await crypto.subtle.digest("SHA-256", enc);
   return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, "0")).join("");
+}
+
+function isPlausibleIp(ip) {
+  // Vérification légère (pas une validation RFC complète) pour éviter les
+  // entrées manifestement invalides dans le formulaire de blocage manuel.
+  return /^[0-9a-fA-F:.]{3,45}$/.test(ip);
+}
+
+/**
+ * Vérifie l'authentification admin, avec la même protection anti-bruteforce
+ * (3 échecs -> 1h de blocage) sur TOUTES les routes protégées (/stats,
+ * /block, /unblock) — pas seulement /stats — pour qu'on ne puisse pas
+ * contourner le blocage en devinant le mot de passe via une autre route.
+ *
+ * Retourne { ok: true } si authentifié, ou { ok: false, response: Response }
+ * si la requête doit être rejetée immédiatement.
+ */
+async function requireAdmin(request, env, headers) {
+  const ip = request.headers.get("CF-Connecting-IP") || "unknown";
+  const now = new Date();
+
+  const attemptRow = await env.DB.prepare(
+    "SELECT fail_count, locked_until, manual FROM login_attempts WHERE ip = ?"
+  ).bind(ip).first();
+
+  if (attemptRow && attemptRow.locked_until && new Date(attemptRow.locked_until) > now) {
+    const isManual = !!attemptRow.manual;
+    const message = isManual
+      ? "Cette adresse IP a été bloquée manuellement."
+      : `Trop de tentatives échouées. Réessaie dans ${Math.ceil((new Date(attemptRow.locked_until) - now) / 60000)} min.`;
+    return {
+      ok: false,
+      response: new Response(JSON.stringify({ error: "locked", message, locked_until: attemptRow.locked_until }), {
+        status: 429,
+        headers: { ...headers, "Content-Type": "application/json" },
+      }),
+    };
+  }
+
+  const auth = request.headers.get("Authorization") || "";
+  const expectedHash = await sha256Hex(env.ADMIN_PASSWORD);
+  const isValid = auth === `Bearer ${expectedHash}`;
+
+  if (!isValid) {
+    const newCount = (attemptRow?.fail_count || 0) + 1;
+    if (newCount >= MAX_ATTEMPTS) {
+      const lockedUntil = new Date(now.getTime() + LOCKOUT_MS).toISOString();
+      await env.DB.prepare(
+        `INSERT INTO login_attempts (ip, fail_count, last_fail_at, locked_until, manual)
+         VALUES (?, 0, ?, ?, 0)
+         ON CONFLICT(ip) DO UPDATE SET fail_count = 0, last_fail_at = excluded.last_fail_at, locked_until = excluded.locked_until, manual = 0`
+      ).bind(ip, now.toISOString(), lockedUntil).run();
+
+      return {
+        ok: false,
+        response: new Response(JSON.stringify({
+          error: "locked",
+          message: "Trop de tentatives échouées. Compte bloqué 1h.",
+          locked_until: lockedUntil,
+        }), { status: 429, headers: { ...headers, "Content-Type": "application/json" } }),
+      };
+    }
+
+    await env.DB.prepare(
+      `INSERT INTO login_attempts (ip, fail_count, last_fail_at, locked_until, manual)
+       VALUES (?, ?, ?, NULL, 0)
+       ON CONFLICT(ip) DO UPDATE SET fail_count = excluded.fail_count, last_fail_at = excluded.last_fail_at`
+    ).bind(ip, newCount, now.toISOString()).run();
+
+    return {
+      ok: false,
+      response: new Response(JSON.stringify({
+        error: "unauthorized",
+        message: `Mot de passe incorrect. ${MAX_ATTEMPTS - newCount} essai(s) restant(s) avant blocage.`,
+      }), { status: 401, headers: { ...headers, "Content-Type": "application/json" } }),
+    };
+  }
+
+  // Connexion réussie : on efface l'historique d'échecs pour cette IP (sauf
+  // si elle a un blocage manuel actif, mais dans ce cas on ne serait jamais
+  // arrivés ici puisque le blocage est vérifié avant le mot de passe).
+  if (attemptRow) {
+    await env.DB.prepare("DELETE FROM login_attempts WHERE ip = ?").bind(ip).run();
+  }
+
+  return { ok: true };
 }
 
 export default {
@@ -71,83 +162,83 @@ export default {
       }
     }
 
-    // ---- GET /stats : renvoie les statistiques (protégé par mot de passe,
-    //      avec blocage après 3 échecs pendant 1h) ----
-    if (url.pathname === "/stats" && request.method === "GET") {
-      const MAX_ATTEMPTS = 3;
-      const LOCKOUT_MS = 60 * 60 * 1000; // 1h
-      const ip = request.headers.get("CF-Connecting-IP") || "unknown";
-      const now = new Date();
+    // ---- POST /block : bloque manuellement une IP (illimité) ----
+    if (url.pathname === "/block" && request.method === "POST") {
+      const auth = await requireAdmin(request, env, headers);
+      if (!auth.ok) return auth.response;
 
-      const attemptRow = await env.DB.prepare(
-        "SELECT fail_count, locked_until FROM login_attempts WHERE ip = ?"
-      ).bind(ip).first();
-
-      if (attemptRow && attemptRow.locked_until && new Date(attemptRow.locked_until) > now) {
-        const remainingMin = Math.ceil((new Date(attemptRow.locked_until) - now) / 60000);
-        return new Response(JSON.stringify({
-          error: "locked",
-          message: `Trop de tentatives échouées. Réessaie dans ${remainingMin} min.`,
-          locked_until: attemptRow.locked_until,
-        }), {
-          status: 429,
-          headers: { ...headers, "Content-Type": "application/json" },
-        });
-      }
-
-      const auth = request.headers.get("Authorization") || "";
-      const expectedHash = await sha256Hex(env.ADMIN_PASSWORD);
-      const isValid = auth === `Bearer ${expectedHash}`;
-
-      if (!isValid) {
-        const newCount = (attemptRow?.fail_count || 0) + 1;
-        if (newCount >= MAX_ATTEMPTS) {
-          const lockedUntil = new Date(now.getTime() + LOCKOUT_MS).toISOString();
-          await env.DB.prepare(
-            `INSERT INTO login_attempts (ip, fail_count, last_fail_at, locked_until)
-             VALUES (?, 0, ?, ?)
-             ON CONFLICT(ip) DO UPDATE SET fail_count = 0, last_fail_at = excluded.last_fail_at, locked_until = excluded.locked_until`
-          ).bind(ip, now.toISOString(), lockedUntil).run();
-
-          return new Response(JSON.stringify({
-            error: "locked",
-            message: "Trop de tentatives échouées. Compte bloqué 1h.",
-            locked_until: lockedUntil,
-          }), {
-            status: 429,
-            headers: { ...headers, "Content-Type": "application/json" },
-          });
-        } else {
-          await env.DB.prepare(
-            `INSERT INTO login_attempts (ip, fail_count, last_fail_at, locked_until)
-             VALUES (?, ?, ?, NULL)
-             ON CONFLICT(ip) DO UPDATE SET fail_count = excluded.fail_count, last_fail_at = excluded.last_fail_at`
-          ).bind(ip, newCount, now.toISOString()).run();
-
-          return new Response(JSON.stringify({
-            error: "unauthorized",
-            message: `Mot de passe incorrect. ${MAX_ATTEMPTS - newCount} essai(s) restant(s) avant blocage.`,
-          }), {
-            status: 401,
+      try {
+        const body = await request.json();
+        const targetIp = (body.ip || "").trim();
+        if (!isPlausibleIp(targetIp)) {
+          return new Response(JSON.stringify({ error: "invalid_ip" }), {
+            status: 400,
             headers: { ...headers, "Content-Type": "application/json" },
           });
         }
-      }
 
-      // Connexion réussie : on efface l'historique d'échecs pour cette IP.
-      if (attemptRow) {
-        await env.DB.prepare("DELETE FROM login_attempts WHERE ip = ?").bind(ip).run();
+        await env.DB.prepare(
+          `INSERT INTO login_attempts (ip, fail_count, last_fail_at, locked_until, manual)
+           VALUES (?, 0, ?, ?, 1)
+           ON CONFLICT(ip) DO UPDATE SET locked_until = excluded.locked_until, manual = 1`
+        ).bind(targetIp, new Date().toISOString(), MANUAL_LOCK_UNTIL).run();
+
+        return new Response(JSON.stringify({ ok: true, ip: targetIp }), {
+          headers: { ...headers, "Content-Type": "application/json" },
+        });
+      } catch (e) {
+        return new Response(JSON.stringify({ ok: false, error: String(e) }), {
+          status: 500,
+          headers: { ...headers, "Content-Type": "application/json" },
+        });
       }
+    }
+
+    // ---- POST /unblock : débloque une IP (manuelle ou bruteforce) ----
+    if (url.pathname === "/unblock" && request.method === "POST") {
+      const auth = await requireAdmin(request, env, headers);
+      if (!auth.ok) return auth.response;
+
+      try {
+        const body = await request.json();
+        const targetIp = (body.ip || "").trim();
+        if (!isPlausibleIp(targetIp)) {
+          return new Response(JSON.stringify({ error: "invalid_ip" }), {
+            status: 400,
+            headers: { ...headers, "Content-Type": "application/json" },
+          });
+        }
+
+        await env.DB.prepare("DELETE FROM login_attempts WHERE ip = ?").bind(targetIp).run();
+
+        return new Response(JSON.stringify({ ok: true, ip: targetIp }), {
+          headers: { ...headers, "Content-Type": "application/json" },
+        });
+      } catch (e) {
+        return new Response(JSON.stringify({ ok: false, error: String(e) }), {
+          status: 500,
+          headers: { ...headers, "Content-Type": "application/json" },
+        });
+      }
+    }
+
+    // ---- GET /stats : renvoie les statistiques (protégé par mot de passe,
+    //      avec blocage après 3 échecs pendant 1h, ou blocage manuel) ----
+    if (url.pathname === "/stats" && request.method === "GET") {
+      const auth = await requireAdmin(request, env, headers);
+      if (!auth.ok) return auth.response;
 
       const days = Number(url.searchParams.get("days") || 30);
       const since = new Date(Date.now() - days * 86400000).toISOString();
+      const now = new Date();
 
       const sinceWeek = new Date(Date.now() - 7 * 86400000).toISOString();
       const sinceMonth = new Date(Date.now() - 30 * 86400000).toISOString();
       const sinceYear = new Date(Date.now() - 365 * 86400000).toISOString();
 
       const [totals, byPage, topClicks, byCountry, recent, uniqueVisitors,
-             weekTotal, monthTotal, yearTotal, allTimeTotal] = await Promise.all([
+             weekTotal, monthTotal, yearTotal, allTimeTotal,
+             lockedIps, recentAttempts] = await Promise.all([
         env.DB.prepare(
           `SELECT
              SUM(CASE WHEN type='pageview' THEN 1 ELSE 0 END) as pageviews,
@@ -179,8 +270,6 @@ export default {
           `SELECT COUNT(DISTINCT visitor_id) as count FROM events WHERE ts >= ?`
         ).bind(since).first(),
 
-        // Totaux de pageviews par période, indépendants du filtre "days"
-        // sélectionné dans le menu déroulant.
         env.DB.prepare(
           `SELECT COUNT(*) as count FROM events WHERE type='pageview' AND ts >= ?`
         ).bind(sinceWeek).first(),
@@ -196,6 +285,17 @@ export default {
         env.DB.prepare(
           `SELECT COUNT(*) as count FROM events WHERE type='pageview'`
         ).first(),
+
+        env.DB.prepare(
+          `SELECT ip, fail_count, last_fail_at, locked_until, manual FROM login_attempts
+           WHERE locked_until IS NOT NULL AND locked_until > ?
+           ORDER BY manual DESC, locked_until DESC`
+        ).bind(now.toISOString()).all(),
+
+        env.DB.prepare(
+          `SELECT ip, fail_count, last_fail_at, locked_until, manual FROM login_attempts
+           ORDER BY last_fail_at DESC LIMIT 50`
+        ).all(),
       ]);
 
       return new Response(
@@ -211,6 +311,10 @@ export default {
             month: monthTotal?.count || 0,
             year: yearTotal?.count || 0,
             all_time: allTimeTotal?.count || 0,
+          },
+          security: {
+            locked_ips: lockedIps.results,
+            recent_attempts: recentAttempts.results,
           },
         }),
         { headers: { ...headers, "Content-Type": "application/json" } }
