@@ -1,7 +1,37 @@
 {
-  "generated_at": "2026-07-26T15:11:28Z",
-  "week_label": "S30 · 20 – 26 juillet 2026",
+  "generated_at": "2026-07-27T15:58:35Z",
+  "week_label": "S31 · 27 juillet – 2 août 2026",
   "attacks": [
+    {
+      "title": "Coca-Cola confirms data theft in Fairlife ransomware attack",
+      "sector": "Non précisé",
+      "date": "27 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The Coca-Cola Company has confirmed that hackers stole data from its dairy subsidiary, Fairlife, during a ransomware attack earlier this month. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/coca-cola-confirms-data-theft-in-fairlife-ransomware-attack/"
+    },
+    {
+      "title": "Ernst & Young data breach claimed by ShinyHunters extortion gang",
+      "sector": "Non précisé",
+      "date": "27 Jul 2026",
+      "actor": "ShinyHunters",
+      "sev": "high",
+      "desc": "The ShinyHunters extortion gang has claimed responsibility for a recently disclosed Ernst & Young data breach, saying it obtained credentials for some of the company's systems via a supply-chain attack. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/ernst-and-young-data-breach-claimed-by-shinyhunters-extortion-gang/"
+    },
+    {
+      "title": "Operation BlueDash Deploys Level RMM and ScreenConnect via Fake Teams Update",
+      "sector": "Non précisé",
+      "date": "27 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Cybersecurity researchers have flagged a Microsoft Teams-themed phishing campaign that employs \"secure document\" lures to deliver legitimate remote monitoring and management (RMM) tools. \"The victim was directed through …",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/operation-bluedash-deploys-level-rmm.html"
+    },
     {
       "title": "ShinyHunters data leaks fuel $2,000 sextortion email scam",
       "sector": "Non précisé",
@@ -91,36 +121,6 @@
       "desc": "Chick-fil-A has confirmed that over 13,000 customers had their accounts breached in a wave of credential stuffing attacks targeting its website and mobile app between June 17 and June 19. [...]",
       "src": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/security/chick-fil-a-data-breach-affects-more-than-13-000-customers/"
-    },
-    {
-      "title": "Man gets six years for hacking 750 women's Snapchat accounts",
-      "sector": "Non précisé",
-      "date": "24 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "An Illinois man was sentenced on Tuesday to 76 months in prison and three years of supervised release for hacking the Snapchat accounts of over 750 women to steal nude photos. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/man-gets-six-years-for-hacking-750-womens-snapchat-accounts/"
-    },
-    {
-      "title": "Clop ransomware targets Windchill, FlexPLM in data theft attacks",
-      "sector": "Non précisé",
-      "date": "24 Jul 2026",
-      "actor": "Cl0p",
-      "sev": "high",
-      "desc": "The Clop ransomware gang (also tracked as Cl0p) is targeting Internet-exposed PTC Windchill and FlexPLM instances in a new data theft extortion campaign. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/"
-    },
-    {
-      "title": "Fake Notepad++ Plugin Delivers MATCHBOIL.V2 in UAC-0099 Attacks",
-      "sector": "Gouvernement",
-      "date": "24 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The Computer Emergency Response Team of Ukraine (CERT-UA) has warned of a new campaign that involves the use of a malicious program that's dressed up as a Notepad++ plugin to compromise Windows systems. The activity has …",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html"
     }
   ],
   "vulns": [
@@ -389,28 +389,10 @@
     {
       "name": "ShinyHunters",
       "type": "RaaS / Extorsion",
-      "desc": "Threat actors are using email addresses exposed in data breaches leaked by the ShinyHunters extortion group to send sextortion emails demanding $2,000 in Bitcoin. [...]",
-      "victims": "2 mention(s) récente(s) — dernier article : 25 Jul 2026",
+      "desc": "The ShinyHunters extortion gang has claimed responsibility for a recently disclosed Ernst & Young data breach, saying it obtained credentials for some of the company's systems via a supply-chain attack. [...]",
+      "victims": "3 mention(s) récente(s) — dernier article : 27 Jul 2026",
       "region": "Non précisé",
-      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/",
-      "src": "BleepingComputer"
-    },
-    {
-      "name": "Cl0p",
-      "type": "RaaS / Extorsion",
-      "desc": "Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed PTC Windmill and FlexPLM deployments as part of a new data ext…",
-      "victims": "2 mention(s) récente(s) — dernier article : 25 Jul 2026",
-      "region": "Non précisé",
-      "url": "https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html",
-      "src": "The Hacker News"
-    },
-    {
-      "name": "Clop",
-      "type": "RaaS / Extorsion",
-      "desc": "The Clop ransomware gang (also tracked as Cl0p) is targeting Internet-exposed PTC Windchill and FlexPLM instances in a new data theft extortion campaign. [...]",
-      "victims": "1 mention(s) récente(s) — dernier article : 24 Jul 2026",
-      "region": "Non précisé",
-      "url": "https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/",
+      "url": "https://www.bleepingcomputer.com/news/security/ernst-and-young-data-breach-claimed-by-shinyhunters-extortion-gang/",
       "src": "BleepingComputer"
     },
     {
@@ -420,6 +402,15 @@
       "victims": "1 mention(s) récente(s) — dernier article : 25 Jul 2026",
       "region": "Non précisé",
       "url": "https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html",
+      "src": "The Hacker News"
+    },
+    {
+      "name": "Cl0p",
+      "type": "RaaS / Extorsion",
+      "desc": "Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed PTC Windmill and FlexPLM deployments as part of a new data ext…",
+      "victims": "1 mention(s) récente(s) — dernier article : 25 Jul 2026",
+      "region": "Non précisé",
+      "url": "https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html",
       "src": "The Hacker News"
     },
     {
@@ -435,18 +426,18 @@
   "threats": [
     {
       "title": "Activité soutenue de ShinyHunters",
-      "desc": "Threat actors are using email addresses exposed in data breaches leaked by the ShinyHunters extortion group to send sextortion emails demanding $2,000 in Bitcoin. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/"
+      "desc": "The ShinyHunters extortion gang has claimed responsibility for a recently disclosed Ernst & Young data breach, saying it obtained credentials for some of the company's systems via a supply-chain attack. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/ernst-and-young-data-breach-claimed-by-shinyhunters-extortion-gang/"
+    },
+    {
+      "title": "Activité soutenue de Play",
+      "desc": "For years, phishing campaigns targeting financial institutions followed the same playbook. Victims were tricked into entering usernames and passwords, attackers collected the credentials, and accounts were compromised la…",
+      "url": "https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html"
     },
     {
       "title": "Activité soutenue de Cl0p",
       "desc": "Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed PTC Windmill and FlexPLM deployments as part of a new data ext…",
       "url": "https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html"
-    },
-    {
-      "title": "Activité soutenue de Clop",
-      "desc": "The Clop ransomware gang (also tracked as Cl0p) is targeting Internet-exposed PTC Windchill and FlexPLM instances in a new data theft extortion campaign. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/"
     }
   ]
 }
