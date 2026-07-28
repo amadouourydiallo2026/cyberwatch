@@ -1,7 +1,57 @@
 {
-  "generated_at": "2026-07-27T15:58:35Z",
+  "generated_at": "2026-07-28T12:27:34Z",
   "week_label": "S31 · 27 juillet – 2 août 2026",
   "attacks": [
+    {
+      "title": "Data breach at medical billing firm MCBS affects 1.26 million people",
+      "sector": "Santé",
+      "date": "28 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Healthcare billing company Medical Computer Business Services (MCBS) has disclosed that a 2025 network breach exposed the sensitive information of more than 1.2 million people. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/data-breach-at-medical-billing-firm-mcbs-affects-126-million-people/"
+    },
+    {
+      "title": "Hackers target US firms in FastJson RCE zero-day attacks",
+      "sector": "Non précisé",
+      "date": "27 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Hackers are actively exploiting a vulnerability in the FastJson open-source Java library, allowing remote code execution without user interaction or elevated privileges. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-target-us-firms-in-fastjson-rce-zero-day-attacks/"
+    },
+    {
+      "title": "Arista patches VeloCloud Orchestrator zero-day exploited in attacks",
+      "sector": "Non précisé",
+      "date": "27 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Arista has patched a maximum-severity command injection vulnerability in on-premises VeloCloud Orchestrator deployments that is being actively exploited in attacks. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/"
+    },
+    {
+      "title": "New Dysphoria DDoS botnet spreads to 200k devices worldwide",
+      "sector": "Non précisé",
+      "date": "27 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "A botnet called Dysphoria has compromised around 200,000 devices across the world and is using them for distributed denial of service (DDoS) attacks and traffic relay operations. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/new-dysphoria-ddos-botnet-spreads-to-200k-devices-worldwide/"
+    },
+    {
+      "title": "New Certighost PoC exploit lets attackers hijack Windows domains",
+      "sector": "Non précisé",
+      "date": "27 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "A proof-of-concept exploit for \"Certighost,\" a Windows Active Directory Certificate Services vulnerability, has been released that can allow authenticated attackers to potentially compromise a Windows domain. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/new-certighost-poc-exploit-lets-attackers-hijack-windows-domains/"
+    },
     {
       "title": "Coca-Cola confirms data theft in Fairlife ransomware attack",
       "sector": "Non précisé",
@@ -71,59 +121,35 @@
       "desc": "The operators of the DevMan ransomware-as-a-service (RaaS) scheme are maintaining a dedicated web platform that offers affiliates the ability to build payloads, oversee earnings, and manage various aspects related to vic…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html"
-    },
-    {
-      "title": "OnTrac notifies customers of data breach after network hack",
-      "sector": "Non précisé",
-      "date": "24 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "OnTrac parcel delivery company is informing that hackers breached its corporate network and may have accessed personal details belonging to its customers. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/ontrac-notifies-customers-of-data-breach-after-network-hack/"
-    },
-    {
-      "title": "Hermes AI agent used to automate attack on Thai Finance Ministry",
-      "sector": "Finance",
-      "date": "24 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "A threat actor used the open-source Hermes AI agent in unattended \"YOLO\" mode to automate post-exploitation activity during an alleged breach of Thailand's Ministry of Finance. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry/"
-    },
-    {
-      "title": "Hackers hijack hotel Wi-Fi DNS to steal Microsoft 365 accounts",
-      "sector": "Non précisé",
-      "date": "24 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "Hackers are changing the DNS settings on Wi-Fi devices at hotels and conference centers to redirect users to fake Microsoft 365 login pages. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hotel-wi-fi-dns-to-steal-microsoft-365-accounts/"
-    },
-    {
-      "title": "BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery",
-      "sector": "Non précisé",
-      "date": "24 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the videoconferencing platform…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html"
-    },
-    {
-      "title": "Chick-fil-A data breach affects more than 13,000 customers",
-      "sector": "Non précisé",
-      "date": "24 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Chick-fil-A has confirmed that over 13,000 customers had their accounts breached in a wave of credential stuffing attacks targeting its website and mobile app between June 17 and June 19. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/chick-fil-a-data-breach-affects-more-than-13-000-customers/"
     }
   ],
   "vulns": [
+    {
+      "cve": "CVE-2025-68686",
+      "product": "Fortinet FortiOS",
+      "type": "Fortinet FortiOS Exposure of Sensitive Information to an Unauthorized Actor Vulnerability",
+      "cvss": 5.9,
+      "published": "2026-02-10",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-08-10",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68686"
+    },
+    {
+      "cve": "CVE-2026-16812",
+      "product": "Arista VeloCloud Orchestrator",
+      "type": "Arista VeloCloud Orchestrator On-Prem OS Command Injection Vulnerability",
+      "cvss": 10.0,
+      "published": "2026-07-27",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-07-30",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16812"
+    },
     {
       "cve": "CVE-2026-16232",
       "product": "Check Point SmartConsole",
@@ -159,7 +185,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-08-04",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60137"
     },
@@ -172,7 +198,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-07-24",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63030"
     },
@@ -185,7 +211,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-07-24",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0770"
     },
@@ -198,7 +224,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-07-24",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-27137"
     },
@@ -357,32 +383,6 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48939"
-    },
-    {
-      "cve": "CVE-2026-48908",
-      "product": "JoomShaper SP Page Builder",
-      "type": "JoomShaper SP Page Builder Unrestricted Upload of File with Dangerous Type Vulnerability",
-      "cvss": 9.8,
-      "published": "2026-06-20",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-07-10",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48908"
-    },
-    {
-      "cve": "CVE-2026-55255",
-      "product": "Langflow Langflow",
-      "type": "Langflow Authorization Bypass Through User-Controlled Key Vulnerability",
-      "cvss": 8.4,
-      "published": "2026-06-23",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-07-10",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55255"
     }
   ],
   "actors": [
@@ -390,7 +390,7 @@
       "name": "ShinyHunters",
       "type": "RaaS / Extorsion",
       "desc": "The ShinyHunters extortion gang has claimed responsibility for a recently disclosed Ernst & Young data breach, saying it obtained credentials for some of the company's systems via a supply-chain attack. [...]",
-      "victims": "3 mention(s) récente(s) — dernier article : 27 Jul 2026",
+      "victims": "2 mention(s) récente(s) — dernier article : 27 Jul 2026",
       "region": "Non précisé",
       "url": "https://www.bleepingcomputer.com/news/security/ernst-and-young-data-breach-claimed-by-shinyhunters-extortion-gang/",
       "src": "BleepingComputer"
@@ -411,15 +411,6 @@
       "victims": "1 mention(s) récente(s) — dernier article : 25 Jul 2026",
       "region": "Non précisé",
       "url": "https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html",
-      "src": "The Hacker News"
-    },
-    {
-      "name": "Qilin",
-      "type": "RaaS / Extorsion",
-      "desc": "Threat actors have been observed exploiting a now-patched high-severity Palo Alto Networks PAN-OS vulnerability as an entry point to deploy Qilin (aka Agenda) ransomware on victim environments. Arctic Wolf Labs said it i…",
-      "victims": "1 mention(s) récente(s) — dernier article : 21 Jul 2026",
-      "region": "Non précisé",
-      "url": "https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html",
       "src": "The Hacker News"
     }
   ],
