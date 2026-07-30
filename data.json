@@ -1,7 +1,87 @@
 {
-  "generated_at": "2026-07-29T13:10:21Z",
+  "generated_at": "2026-07-30T12:15:41Z",
   "week_label": "S31 · 27 juillet – 2 août 2026",
   "attacks": [
+    {
+      "title": "Hackers Exploit AnySign4PC via Hacked Korean Sites to Install Backdoors Without Prompts",
+      "sector": "Finance",
+      "date": "30 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "South Korean authorities and four security firms have disclosed a state-sponsored campaign that compromised trusted domestic websites. The attackers used those sites to exploit locally installed financial-security softwa…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/hackers-exploit-anysign4pc-via-hacked.html"
+    },
+    {
+      "title": "Amazon Links Debug and Chalk npm Hijack to North Korea’s Sapphire Sleet",
+      "sector": "Non précisé",
+      "date": "30 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Amazon has tied the September 2025 hijack of the npm packages debug and chalk to North Korea. For ten months, the incident sat in the public record as crypto theft: a maintainer phished through a lookalike npm domain and…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/amazon-links-debug-and-chalk-npm-hijack.html"
+    },
+    {
+      "title": "Cisco FMC Zero-Day Actively Exploited, Static Credentials Could Expose Sensitive Data",
+      "sector": "Gouvernement",
+      "date": "30 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a newly disclosed security flaw impacting Cisco Secure Firewall Management Center (FMC) Software to its Known Exploited Vulnerabilities …",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html"
+    },
+    {
+      "title": "Russian hackers exploit Exchange OWA zero-day for long-term mailbox access",
+      "sector": "Non précisé",
+      "date": "29 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "The Russian state-sponsored hacking group Laundry Bear, also known as Void Blizzard, is exploiting an Exchange Outlook Web Access vulnerability in email campaigns to deliver a sophisticated backdoor called OWAReaper. [..…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-exchange-owa-zero-day-for-long-term-mailbox-access/"
+    },
+    {
+      "title": "Cisco warns of FMC static credential flaw exploited in zero-day attacks",
+      "sector": "Non précisé",
+      "date": "29 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Cisco is warning that a high-severity Secure Firewall Management Center (FMC) static credential vulnerability, tracked as CVE-2026-20316, was actively exploited in zero-day attacks to gain unauthorized access to vulnerab…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-fmc-static-credential-flaw-exploited-in-zero-day-attacks/"
+    },
+    {
+      "title": "OpenAI agent used exposed credentials at 4 services in Hugging Face breach",
+      "sector": "Non précisé",
+      "date": "29 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "In a new update, OpenAI says its AI models also used publicly exposed credentials to compromise accounts on four third-party services during the recent attack on Hugging Face, expanding the scope of the four-day security…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/openai-agent-used-exposed-credentials-at-4-services-in-hugging-face-breach/"
+    },
+    {
+      "title": "Hackers disrupt over 30 Minnesota water utilities in coordinated OT attack",
+      "sector": "Gouvernement",
+      "date": "29 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The Minnesota IT Services (MNIT) agency activated its cybersecurity incident response capabilities across the entire state after hackers targeted more than 30 community water systems in \"a coordinated cyberattack.\" [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-target-over-30-minnesota-water-utilities-in-coordinated-ot-attack/"
+    },
+    {
+      "title": "Coordinated Cyberattack Targets 30+ Minnesota Water Systems as One Plant Goes Offline",
+      "sector": "Non précisé",
+      "date": "29 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "A coordinated cyberattack targeted operational technology at more than 30 Minnesota community water systems on July 26 and 27, triggering a statewide cybersecurity response. Braham, Plymouth, South St. Paul and Maple Pla…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/coordinated-cyberattack-targets-30.html"
+    },
     {
       "title": "Researchers Show a Single Malicious Webpage Visit Can Compromise Tor Browser",
       "sector": "Non précisé",
@@ -33,16 +113,6 @@
       "url": "https://thehackernews.com/2026/07/rapid7-releases-poc-for-exploited-check.html"
     },
     {
-      "title": "OpenAI Agent Used Exposed Credentials Across Four Services During Hugging Face Breach",
-      "sector": "Non précisé",
-      "date": "29 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "OpenAI on Tuesday revealed the rogue artificial intelligence (AI) agent that escaped its sealed evaluation environment and broke into Hugging Face's production environment also hacked multiple third-party accounts and se…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html"
-    },
-    {
       "title": "Two Compromised joyfill npm Packages Run RAT When Imported Into Node.js",
       "sector": "Non précisé",
       "date": "29 Jul 2026",
@@ -51,79 +121,22 @@
       "desc": "Beta release versions of two npm packages in the @joyfill namespace have been compromised to deliver a remote access trojan (RAT) associated with the DEV#POPPER malware family. The list of affected packages is as follows…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html"
-    },
-    {
-      "title": "OpenAI models used Artifactory zero-days to escape to the internet",
-      "sector": "Manufacturing",
-      "date": "28 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "JFrog has confirmed that OpenAI models exploited zero-day vulnerabilities in self-hosted Artifactory servers to help escape an isolated testing environment and gain access to the internet before attacking Hugging Face. […",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/openai-models-used-artifactory-zero-days-to-escape-to-the-internet/"
-    },
-    {
-      "title": "CISA shares advice on isolating vital systems during cyberattacks",
-      "sector": "Gouvernement",
-      "date": "28 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "The U.S. and Australian governments have released new guidance urging critical infrastructure organizations to prepare to isolate vital operational technology systems in the event of a cyberattack or other major disrupti…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-shares-advice-on-isolating-vital-systems-during-cyberattacks/"
-    },
-    {
-      "title": "Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process",
-      "sector": "Non précisé",
-      "date": "28 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "A new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its main process. If that happens, Tengu's other persistence mechanisms get another c…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html"
-    },
-    {
-      "title": "Is Your SSO Protected Against Modern Credential Attacks?",
-      "sector": "Non précisé",
-      "date": "28 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "A compromised SSO login can provide attackers with access to multiple enterprise applications and services. Specops Software explains how stronger passwords, phishing-resistant MFA, and identity hardening help secure mod…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/is-your-sso-protected-against-modern-credential-attacks/"
-    },
-    {
-      "title": "JFrog Confirms OpenAI Models Exploited Artifactory Zero-Day Before Hugging Face Breach",
-      "sector": "Manufacturing",
-      "date": "28 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "JFrog has confirmed that OpenAI models exploited a zero-day in self-hosted Artifactory while trying to reach the open internet from a sealed evaluation environment. Artifactory is JFrog's software repository manager. Ope…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html"
-    },
-    {
-      "title": "Nimbus Manticore Deploys NightLedger and Turns Victim Systems Into Covert Relays",
-      "sector": "Non précisé",
-      "date": "28 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The Iranian state-backed hacking group tracked as Nimbus Manticore (aka GalaxyGato, Mirage Kitten, Smoke Sandstorm, Subtle Snail, and UNC1549) has been attributed to a fresh set of attacks targeting entities across the M…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/nimbus-manticore-deploys-nightledger.html"
-    },
-    {
-      "title": "Data breach at medical billing firm MCBS affects 1.26 million people",
-      "sector": "Santé",
-      "date": "28 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Healthcare billing company Medical Computer Business Services (MCBS) has disclosed that a 2025 network breach exposed the sensitive information of more than 1.2 million people. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/data-breach-at-medical-billing-firm-mcbs-affects-126-million-people/"
     }
   ],
   "vulns": [
+    {
+      "cve": "CVE-2026-20316",
+      "product": "Cisco Secure Firewall Management Center (FMC)",
+      "type": "Cisco Secure Firewall Management Center Use of Hard-coded Password Vulnerability",
+      "cvss": 5.3,
+      "published": "2026-07-29",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-08-01",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20316"
+    },
     {
       "cve": "CVE-2025-68686",
       "product": "Fortinet FortiOS",
@@ -370,19 +383,6 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56291"
-    },
-    {
-      "cve": "CVE-2026-48939",
-      "product": "iCagenda iCagenda",
-      "type": "iCagenda Unrestricted Upload of File with Dangerous Type Vulnerability",
-      "cvss": 9.8,
-      "published": "2026-06-20",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-07-13",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48939"
     }
   ],
   "actors": [
@@ -398,10 +398,10 @@
     {
       "name": "ShinyHunters",
       "type": "RaaS / Extorsion",
-      "desc": "The ShinyHunters extortion gang has claimed responsibility for a recently disclosed Ernst & Young data breach, saying it obtained credentials for some of the company's systems via a supply-chain attack. [...]",
-      "victims": "1 mention(s) récente(s) — dernier article : 27 Jul 2026",
+      "desc": "Health-ISAC, a cybersecurity information-sharing organization for the health sector, is warning healthcare and medical technology organizations of an observed increase in successful attacks by ShinyHunters. [...]",
+      "victims": "1 mention(s) récente(s) — dernier article : 29 Jul 2026",
       "region": "Non précisé",
-      "url": "https://www.bleepingcomputer.com/news/security/ernst-and-young-data-breach-claimed-by-shinyhunters-extortion-gang/",
+      "url": "https://www.bleepingcomputer.com/news/security/health-isac-warns-of-rising-shinyhunters-data-theft-attacks-on-healthcare/",
       "src": "BleepingComputer"
     },
     {
@@ -422,8 +422,8 @@
     },
     {
       "title": "Activité soutenue de ShinyHunters",
-      "desc": "The ShinyHunters extortion gang has claimed responsibility for a recently disclosed Ernst & Young data breach, saying it obtained credentials for some of the company's systems via a supply-chain attack. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/ernst-and-young-data-breach-claimed-by-shinyhunters-extortion-gang/"
+      "desc": "Health-ISAC, a cybersecurity information-sharing organization for the health sector, is warning healthcare and medical technology organizations of an observed increase in successful attacks by ShinyHunters. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/health-isac-warns-of-rising-shinyhunters-data-theft-attacks-on-healthcare/"
     },
     {
       "title": "Activité soutenue de Cl0p",
