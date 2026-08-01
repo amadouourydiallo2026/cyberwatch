@@ -1,7 +1,87 @@
 {
-  "generated_at": "2026-07-31T12:34:18Z",
+  "generated_at": "2026-08-01T11:09:47Z",
   "week_label": "S31 · 27 juillet – 2 août 2026",
   "attacks": [
+    {
+      "title": "Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer Sites",
+      "sector": "Non précisé",
+      "date": "01 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Attackers modified a JavaScript file served by advertising technology company Adform, turning it into a browser-side tool that rewrites cryptocurrency wallet addresses. Adform detected the incident on July 27, 2026, remo…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html"
+    },
+    {
+      "title": "Amgen says cloud data breach exposed patient health, proprietary info",
+      "sector": "Santé",
+      "date": "31 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Pharmaceutical company Amgen says it suffered a data breach after threat actors stole corporate data and patient information stored in multiple cloud systems operated by third-party service providers. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/"
+    },
+    {
+      "title": "Online ad firm Adform’s script compromised to steal cryptocurrency",
+      "sector": "Non précisé",
+      "date": "31 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Online advertising firm Adform suffered a supply-chain attack that delivered cryptocurrency-stealing scripts to websites using its ad platform, replacing wallet addresses copied to visitors' clipboards with ones controll…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/"
+    },
+    {
+      "title": "Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk",
+      "sector": "Santé",
+      "date": "01 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "A Chinese-speaking threat actor is suspected to be behind a fresh wave of cyber attacks targeting government organizations mainly located in Central Asia, including Afghanistan, Kyrgyzstan, Tajikistan, Uzbekistan, Kazakh…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html"
+    },
+    {
+      "title": "Hacker uses DeepSeek AI to autonomously attack vulnerable servers",
+      "sector": "Non précisé",
+      "date": "31 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "A Chinese-speaking threat actor is using the DeepSeek AI model and the open-source Hermes Agent to conduct autonomous cyberattacks on exposed servers with limited human involvement. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hacker-uses-deepseek-ai-to-autonomously-attack-vulnerable-servers/"
+    },
+    {
+      "title": "CISA warns of cyberattacks disrupting U.S. water utilities",
+      "sector": "Gouvernement",
+      "date": "31 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of a significant increase in attacks targeting internet-exposed programmable logic controllers (PLCs) in the water and wastewater systems sector…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-disrupting-us-water-utilities/"
+    },
+    {
+      "title": "ESET tracks rise in malicious AI skills and adaptable malware",
+      "sector": "Non précisé",
+      "date": "31 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Attackers are adapting established techniques to AI platforms, emerging technologies, and changing user behavior. ESET's new threat report examines the rise of malicious AI skills, AI-assisted malware, ClickFix attacks, …",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/eset-tracks-rise-in-malicious-ai-skills-and-adaptable-malware/"
+    },
+    {
+      "title": "Researchers Report 84 Flaws in 4G and 5G Cores, Including a Session Hijacking Flaw",
+      "sector": "Éducation",
+      "date": "31 Jul 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "An academic study has disclosed a \"widespread class\" of security vulnerabilities impacting 4G and 5G core networks that, if successfully exploited, could trigger denial-of-service (DoS) attacks and even session hijacking…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/researchers-report-84-flaws-in-4g-and.html"
+    },
     {
       "title": "Chinese Hacker Commands DeepSeek via Telegram to Launch Autonomous Attacks",
       "sector": "Non précisé",
@@ -41,86 +121,6 @@
       "desc": "South Korea's Personal Information Protection Commission (PIPC) has fined telecommunications giant KT Corporation KRW 53.979 billion ($39 million) over data protection violations. [...]",
       "src": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/security/south-korea-fines-telco-giant-kt-39-million-for-customer-data-breach/"
-    },
-    {
-      "title": "JetBrains warns of critical TeamCity remote code execution flaw",
-      "sector": "Non précisé",
-      "date": "30 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "JetBrains is warning of a critical authentication bypass vulnerability affecting TeamCity On-Premises that could be exploited to achieve remote code execution. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/jetbrains-warns-of-critical-teamcity-remote-code-execution-flaw/"
-    },
-    {
-      "title": "Amazon links Debug, Chalk NPM supply-chain attacks to North Korean hackers",
-      "sector": "Non précisé",
-      "date": "30 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Amazon linked multiple high-profile open-source software supply chain attacks targeting the Node Package Manager (npm) ecosystem to North Korean hackers. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/amazon-links-debug-chalk-npm-supply-chain-attacks-to-north-korean-hackers/"
-    },
-    {
-      "title": "ShinyHunters claims Brinks Home breach, threatens to leak stolen data",
-      "sector": "Non précisé",
-      "date": "30 Jul 2026",
-      "actor": "ShinyHunters",
-      "sev": "high",
-      "desc": "Residential security company Brinks Home has disclosed that hackers breached some of its systems and are threatening to leak allegedly stolen data. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-brinks-home-breach-threatens-to-leak-stolen-data/"
-    },
-    {
-      "title": "Microsoft Teams vishing attacks lead to Chaos ransomware attacks",
-      "sector": "Non précisé",
-      "date": "30 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Threat actors are impersonating IT support staff in Microsoft Teams calls to gain remote access to corporate devices and deploy Chaos ransomware in attacks targeting North American organizations. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-vishing-attacks-lead-to-chaos-ransomware-attacks/"
-    },
-    {
-      "title": "ThreatsDay: AI-Powered Hacking, 370 Chrome Flaws, SonicWall Attacks, DNS Hijacking + 22 More Stories",
-      "sector": "Non précisé",
-      "date": "30 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "A lot of security still comes down to trusting the wrong screen. This week, that screen might be a login page, an install guide, a recruiter call, or a familiar service behaving slightly wrong. Behind it: reused credenti…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html"
-    },
-    {
-      "title": "Analog Devices discloses data breach, says operations unaffected",
-      "sector": "Non précisé",
-      "date": "30 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "American semiconductor company Analog Devices announced that an unauthorized party accessed some of its systems and exfiltrated certain files. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/analog-devices-discloses-data-breach-says-operations-unaffected/"
-    },
-    {
-      "title": "After the Break-In: What Attackers Do Once They're Already Inside",
-      "sector": "Non précisé",
-      "date": "30 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Attackers rarely stop after gaining initial access. Huntress analyzes a real-world intrusion to show how threat actors establish persistence, disable defenses, and reshape compromised systems, and why defenders must inve…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/after-the-break-in-what-attackers-do-once-theyre-already-inside/"
-    },
-    {
-      "title": "The Network Has Become the Control Plane for AI Security",
-      "sector": "Non précisé",
-      "date": "30 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Network firewalls are the workhorses of modern cybersecurity. They are trusted to protect the network, blocking malicious traffic and preventing intrusions and breaches. And for decades, network security teams have built…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/the-network-has-become-control-plane.html"
     }
   ],
   "vulns": [
@@ -387,15 +387,6 @@
   ],
   "actors": [
     {
-      "name": "ShinyHunters",
-      "type": "RaaS / Extorsion",
-      "desc": "Residential security company Brinks Home has disclosed that hackers breached some of its systems and are threatening to leak allegedly stolen data. [...]",
-      "victims": "2 mention(s) récente(s) — dernier article : 30 Jul 2026",
-      "region": "Non précisé",
-      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-brinks-home-breach-threatens-to-leak-stolen-data/",
-      "src": "BleepingComputer"
-    },
-    {
       "name": "Play",
       "type": "RaaS / Extorsion",
       "desc": "Threat actors with ties to North Korea have been attributed to a sophisticated macOS malvertising campaign that involves redirecting users to fake web pages displaying a full-screen non-existent update sequence to delive…",
@@ -403,18 +394,27 @@
       "region": "Non précisé",
       "url": "https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html",
       "src": "The Hacker News"
+    },
+    {
+      "name": "ShinyHunters",
+      "type": "RaaS / Extorsion",
+      "desc": "Residential security company Brinks Home has disclosed that hackers breached some of its systems and are threatening to leak allegedly stolen data. [...]",
+      "victims": "1 mention(s) récente(s) — dernier article : 30 Jul 2026",
+      "region": "Non précisé",
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-brinks-home-breach-threatens-to-leak-stolen-data/",
+      "src": "BleepingComputer"
     }
   ],
   "threats": [
     {
-      "title": "Activité soutenue de ShinyHunters",
-      "desc": "Residential security company Brinks Home has disclosed that hackers breached some of its systems and are threatening to leak allegedly stolen data. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-brinks-home-breach-threatens-to-leak-stolen-data/"
-    },
-    {
       "title": "Activité soutenue de Play",
       "desc": "Threat actors with ties to North Korea have been attributed to a sophisticated macOS malvertising campaign that involves redirecting users to fake web pages displaying a full-screen non-existent update sequence to delive…",
       "url": "https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html"
+    },
+    {
+      "title": "Activité soutenue de ShinyHunters",
+      "desc": "Residential security company Brinks Home has disclosed that hackers breached some of its systems and are threatening to leak allegedly stolen data. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-brinks-home-breach-threatens-to-leak-stolen-data/"
     }
   ]
 }
