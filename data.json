@@ -1,7 +1,57 @@
 {
-  "generated_at": "2026-08-02T11:09:39Z",
-  "week_label": "S31 · 27 juillet – 2 août 2026",
+  "generated_at": "2026-08-03T16:02:59Z",
+  "week_label": "S32 · 3 – 9 août 2026",
   "attacks": [
+    {
+      "title": "ExfilSquad hackers leak info of over 100,000 UK police officers, staff",
+      "sector": "Non précisé",
+      "date": "03 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "A cyberattack on the U.K.'s Police National Legal Database (PNLD) has compromised contact data of more than 100,000 police officers and other criminal justice professionals. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/exfilsquad-hackers-leak-info-of-over-100-000-uk-police-officers-staff/"
+    },
+    {
+      "title": "FOMO in the SOC: Where AI Platforms like Claude Actually Fit",
+      "sector": "Non précisé",
+      "date": "03 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "AI is moving incredibly fast, and every security leader is feeling the pressure to keep up. AI platforms like Claude, Codex and Cursor are already helping security teams write detections, investigate alerts, summarize in…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/fomo-in-soc-where-ai-platforms-like.html"
+    },
+    {
+      "title": "Chinese Threat Actor Uses Leaked DarkSword Kit to Deploy GHOSTBLADE on iOS",
+      "sector": "Non précisé",
+      "date": "03 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "An unknown Chinese-threat actor has been observed running a campaign targeting Apple iOS devices by leveraging a publicly leaked version of the DarkSword exploit kit. Attack surface management platform Censys said it ide…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/chinese-threat-actor-uses-leaked.html"
+    },
+    {
+      "title": "PNLD Breach Exposes U.K. Police and Government Contact Details on Dark Web",
+      "sector": "Gouvernement",
+      "date": "03 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The Police National Legal Database (PNLD) has confirmed that police, government and customer contact information was compromised and published on the dark web. The data included names, organisations and work email addres…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/pnld-breach-exposes-uk-police-and.html"
+    },
+    {
+      "title": "N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete",
+      "sector": "Non précisé",
+      "date": "03 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "N-able said attackers exploited an authentication bypass in N-central to gain remote administrative access and reach the customer systems managed through those servers. Its first fix was incomplete. CVE-2026-18577 affect…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html"
+    },
     {
       "title": "Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer Sites",
       "sector": "Non précisé",
@@ -71,56 +121,6 @@
       "desc": "Attackers are adapting established techniques to AI platforms, emerging technologies, and changing user behavior. ESET's new threat report examines the rise of malicious AI skills, AI-assisted malware, ClickFix attacks, …",
       "src": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/security/eset-tracks-rise-in-malicious-ai-skills-and-adaptable-malware/"
-    },
-    {
-      "title": "Researchers Report 84 Flaws in 4G and 5G Cores, Including a Session Hijacking Flaw",
-      "sector": "Éducation",
-      "date": "31 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "An academic study has disclosed a \"widespread class\" of security vulnerabilities impacting 4G and 5G core networks that, if successfully exploited, could trigger denial-of-service (DoS) attacks and even session hijacking…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/researchers-report-84-flaws-in-4g-and.html"
-    },
-    {
-      "title": "Chinese Hacker Commands DeepSeek via Telegram to Launch Autonomous Attacks",
-      "sector": "Non précisé",
-      "date": "31 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Palo Alto Networks' Unit 42 says a Chinese-speaking threat actor used DeepSeek through the open-source Hermes Agent framework to launch attacks autonomously. After an initial Telegram instruction, the agent found interne…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/chinese-hacker-commands-deepseek-via.html"
-    },
-    {
-      "title": "Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations",
-      "sector": "Non précisé",
-      "date": "31 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Anthropic on Thursday became the latest artificial intelligence (AI) company to reveal that three of its models, including Claude Opus 4.7, Mythos 5, and an unnamed research model, had breached three unnamed organization…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html"
-    },
-    {
-      "title": "Anthropic's Claude breached 3 orgs, uploaded PyPI malware during tests",
-      "sector": "Non précisé",
-      "date": "30 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "One of Anthropic's Claude models built and uploaded a malicious Python package to PyPI during a botched security evaluation, where it ran on 15 real systems and stole credentials from a security vendor. It was one of thr…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/anthropics-claude-breached-3-orgs-uploaded-pypi-malware-during-tests/"
-    },
-    {
-      "title": "South Korea fines telco giant KT $39 million for customer data breach",
-      "sector": "Télécoms",
-      "date": "30 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "South Korea's Personal Information Protection Commission (PIPC) has fined telecommunications giant KT Corporation KRW 53.979 billion ($39 million) over data protection violations. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/south-korea-fines-telco-giant-kt-39-million-for-customer-data-breach/"
     }
   ],
   "vulns": [
@@ -146,7 +146,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-08-10",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68686"
     },
@@ -159,7 +159,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-07-30",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16812"
     },
@@ -394,15 +394,6 @@
       "region": "Non précisé",
       "url": "https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html",
       "src": "The Hacker News"
-    },
-    {
-      "name": "ShinyHunters",
-      "type": "RaaS / Extorsion",
-      "desc": "Residential security company Brinks Home has disclosed that hackers breached some of its systems and are threatening to leak allegedly stolen data. [...]",
-      "victims": "1 mention(s) récente(s) — dernier article : 30 Jul 2026",
-      "region": "Non précisé",
-      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-brinks-home-breach-threatens-to-leak-stolen-data/",
-      "src": "BleepingComputer"
     }
   ],
   "threats": [
@@ -410,11 +401,6 @@
       "title": "Activité soutenue de Play",
       "desc": "Threat actors with ties to North Korea have been attributed to a sophisticated macOS malvertising campaign that involves redirecting users to fake web pages displaying a full-screen non-existent update sequence to delive…",
       "url": "https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html"
-    },
-    {
-      "title": "Activité soutenue de ShinyHunters",
-      "desc": "Residential security company Brinks Home has disclosed that hackers breached some of its systems and are threatening to leak allegedly stolen data. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-brinks-home-breach-threatens-to-leak-stolen-data/"
     }
   ]
 }
