@@ -1,7 +1,57 @@
 {
-  "generated_at": "2026-08-03T16:02:59Z",
+  "generated_at": "2026-08-04T12:32:57Z",
   "week_label": "S32 · 3 – 9 août 2026",
   "attacks": [
+    {
+      "title": "When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted",
+      "sector": "Non précisé",
+      "date": "04 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "The cybersecurity industry has spent decades assuming that offensive capability scales with technical expertise. That assumption is starting to break. Security teams have long estimated risk by ranking attacker sophistic…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html"
+    },
+    {
+      "title": "Hotel Wi-Fi attacks use custom malware to breach Microsoft 365 accounts",
+      "sector": "Santé",
+      "date": "03 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Microsoft has linked a global campaign targeting hospitality Wi-Fi networks to the Russian threat actor Midnight Blizzard, also known as APT29. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hotel-wi-fi-attacks-use-custom-malware-to-breach-microsoft-365-accounts/"
+    },
+    {
+      "title": "New Pass-ta-key attacks let malware hijack Google-synced passkeys",
+      "sector": "Non précisé",
+      "date": "03 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Security researchers have discovered three attacks that allow malware on already-compromised Windows devices to abuse Google Password Manager's synced passkeys to take over accounts, bypass user verification, and extract…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/new-pass-ta-key-attacks-let-malware-hijack-google-synced-passkeys/"
+    },
+    {
+      "title": "N-able warns of N-central auth bypass flaw exploited in attacks",
+      "sector": "Non précisé",
+      "date": "03 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "N-able is warning customers that hackers are exploiting an authentication bypass vulnerability (CVE-2026-18577) affecting both hosted and on-premises N-central servers. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/"
+    },
+    {
+      "title": "INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws",
+      "sector": "Non précisé",
+      "date": "03 Aug 2026",
+      "actor": "INC Ransom",
+      "sev": "high",
+      "desc": "The INC Ransomware operation has emerged as the \"dominant threat actor\" exploiting the recently disclosed security flaws in SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances. In a report published over the …",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html"
+    },
     {
       "title": "ExfilSquad hackers leak info of over 100,000 UK police officers, staff",
       "sector": "Non précisé",
@@ -28,7 +78,7 @@
       "date": "03 Aug 2026",
       "actor": "Non attribué",
       "sev": "high",
-      "desc": "An unknown Chinese-threat actor has been observed running a campaign targeting Apple iOS devices by leveraging a publicly leaked version of the DarkSword exploit kit. Attack surface management platform Censys said it ide…",
+      "desc": "An unknown Chinese-speaking threat actor has been observed running a campaign targeting Apple iOS devices by leveraging a publicly leaked version of the DarkSword exploit kit. Attack surface management platform Censys sa…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/08/chinese-threat-actor-uses-leaked.html"
     },
@@ -71,59 +121,22 @@
       "desc": "Pharmaceutical company Amgen says it suffered a data breach after threat actors stole corporate data and patient information stored in multiple cloud systems operated by third-party service providers. [...]",
       "src": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/"
-    },
-    {
-      "title": "Online ad firm Adform’s script compromised to steal cryptocurrency",
-      "sector": "Non précisé",
-      "date": "31 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Online advertising firm Adform suffered a supply-chain attack that delivered cryptocurrency-stealing scripts to websites using its ad platform, replacing wallet addresses copied to visitors' clipboards with ones controll…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/"
-    },
-    {
-      "title": "Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk",
-      "sector": "Santé",
-      "date": "01 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "A Chinese-speaking threat actor is suspected to be behind a fresh wave of cyber attacks targeting government organizations mainly located in Central Asia, including Afghanistan, Kyrgyzstan, Tajikistan, Uzbekistan, Kazakh…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html"
-    },
-    {
-      "title": "Hacker uses DeepSeek AI to autonomously attack vulnerable servers",
-      "sector": "Non précisé",
-      "date": "31 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "A Chinese-speaking threat actor is using the DeepSeek AI model and the open-source Hermes Agent to conduct autonomous cyberattacks on exposed servers with limited human involvement. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hacker-uses-deepseek-ai-to-autonomously-attack-vulnerable-servers/"
-    },
-    {
-      "title": "CISA warns of cyberattacks disrupting U.S. water utilities",
-      "sector": "Gouvernement",
-      "date": "31 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of a significant increase in attacks targeting internet-exposed programmable logic controllers (PLCs) in the water and wastewater systems sector…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-disrupting-us-water-utilities/"
-    },
-    {
-      "title": "ESET tracks rise in malicious AI skills and adaptable malware",
-      "sector": "Non précisé",
-      "date": "31 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Attackers are adapting established techniques to AI platforms, emerging technologies, and changing user behavior. ESET's new threat report examines the rise of malicious AI skills, AI-assisted malware, ClickFix attacks, …",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/eset-tracks-rise-in-malicious-ai-skills-and-adaptable-malware/"
     }
   ],
   "vulns": [
+    {
+      "cve": "CVE-2026-18577",
+      "product": "N-able N-central",
+      "type": "N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "cvss": null,
+      "published": "2026-08-02",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-08-06",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18577"
+    },
     {
       "cve": "CVE-2026-20316",
       "product": "Cisco Secure Firewall Management Center (FMC)",
@@ -342,7 +355,7 @@
       "poc": "unk",
       "deadline": "2026-07-17",
       "past": true,
-      "note": null,
+      "note": "Utilisée dans des campagnes ransomware",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15409"
     },
     {
@@ -355,7 +368,7 @@
       "poc": "unk",
       "deadline": "2026-07-17",
       "past": true,
-      "note": null,
+      "note": "Utilisée dans des campagnes ransomware",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15410"
     },
     {
@@ -370,37 +383,62 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2008-4128"
-    },
-    {
-      "cve": "CVE-2026-56291",
-      "product": "Balbooa Forms",
-      "type": "Balbooa Forms Unrestricted Upload of File with Dangerous Type Vulnerability",
-      "cvss": 9.8,
-      "published": "2026-07-09",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-07-13",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56291"
     }
   ],
   "actors": [
     {
       "name": "Play",
       "type": "RaaS / Extorsion",
-      "desc": "Threat actors with ties to North Korea have been attributed to a sophisticated macOS malvertising campaign that involves redirecting users to fake web pages displaying a full-screen non-existent update sequence to delive…",
-      "victims": "2 mention(s) récente(s) — dernier article : 30 Jul 2026",
+      "desc": "Fake Xeno Executor installers are infecting unsuspecting Roblox players with malware that provides remote access and steals sensitive information. [...]",
+      "victims": "3 mention(s) récente(s) — dernier article : 03 Aug 2026",
       "region": "Non précisé",
-      "url": "https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html",
+      "url": "https://www.bleepingcomputer.com/news/security/fake-roblox-xeno-script-launcher-pushes-infostealer-rat-malware/",
+      "src": "BleepingComputer"
+    },
+    {
+      "name": "APT29",
+      "type": "APT / Espionnage",
+      "desc": "Microsoft has linked a global campaign targeting hospitality Wi-Fi networks to the Russian threat actor Midnight Blizzard, also known as APT29. [...]",
+      "victims": "1 mention(s) récente(s) — dernier article : 03 Aug 2026",
+      "region": "Non précisé",
+      "url": "https://www.bleepingcomputer.com/news/security/hotel-wi-fi-attacks-use-custom-malware-to-breach-microsoft-365-accounts/",
+      "src": "BleepingComputer"
+    },
+    {
+      "name": "INC Ransom",
+      "type": "RaaS / Extorsion",
+      "desc": "The INC Ransomware operation has emerged as the \"dominant threat actor\" exploiting the recently disclosed security flaws in SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances. In a report published over the …",
+      "victims": "1 mention(s) récente(s) — dernier article : 03 Aug 2026",
+      "region": "Non précisé",
+      "url": "https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html",
       "src": "The Hacker News"
     }
   ],
   "threats": [
     {
+      "title": "CVE-2026-15409 — SonicWall SMA1000 Appliances",
+      "desc": "SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability — Utilisée dans des campagnes ransomware.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15409"
+    },
+    {
+      "title": "CVE-2026-15410 — SonicWall SMA1000 Appliances",
+      "desc": "SonicWall SMA1000 Appliances Code Injection Vulnerability — Utilisée dans des campagnes ransomware.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15410"
+    },
+    {
       "title": "Activité soutenue de Play",
-      "desc": "Threat actors with ties to North Korea have been attributed to a sophisticated macOS malvertising campaign that involves redirecting users to fake web pages displaying a full-screen non-existent update sequence to delive…",
-      "url": "https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html"
+      "desc": "Fake Xeno Executor installers are infecting unsuspecting Roblox players with malware that provides remote access and steals sensitive information. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/fake-roblox-xeno-script-launcher-pushes-infostealer-rat-malware/"
+    },
+    {
+      "title": "Activité soutenue de APT29",
+      "desc": "Microsoft has linked a global campaign targeting hospitality Wi-Fi networks to the Russian threat actor Midnight Blizzard, also known as APT29. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/hotel-wi-fi-attacks-use-custom-malware-to-breach-microsoft-365-accounts/"
+    },
+    {
+      "title": "Activité soutenue de INC Ransom",
+      "desc": "The INC Ransomware operation has emerged as the \"dominant threat actor\" exploiting the recently disclosed security flaws in SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances. In a report published over the …",
+      "url": "https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html"
     }
   ]
 }
