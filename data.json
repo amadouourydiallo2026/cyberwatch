@@ -1,7 +1,67 @@
 {
-  "generated_at": "2026-08-04T12:32:57Z",
+  "generated_at": "2026-08-05T12:29:30Z",
   "week_label": "S32 · 3 – 9 août 2026",
   "attacks": [
+    {
+      "title": "Leaked n8n API Tokens Exposed Live Instances to Credential Theft",
+      "sector": "Non précisé",
+      "date": "05 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "GitGuardian researchers found 321 n8n instances accepting API tokens exposed in public GitHub commits and demonstrated four ways attackers could use them to access sensitive data and downstream credentials without exploi…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/leaked-n8n-api-tokens-exposed-live.html"
+    },
+    {
+      "title": "CISA Flags Langflow RCE, Tomcat, and N-central Flaws as Actively Exploited",
+      "sector": "Gouvernement",
+      "date": "05 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on August 5, 2026, added three flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation in the wild. The list of…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html"
+    },
+    {
+      "title": "OpenAI, Anthropic AI agents targeted real people and systems in cyber tests",
+      "sector": "Non précisé",
+      "date": "04 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "OpenAI and Anthropic have confirmed that their AI models were involved in separate, newly disclosed third-party cybersecurity testing incidents that resulted in a real website being breached and social engineering attack…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-targeted-real-people-and-systems-in-cyber-tests/"
+    },
+    {
+      "title": "TP-Link patches Omada ZTP flaws allowing hackers to breach networks",
+      "sector": "Non précisé",
+      "date": "04 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "TP-Link has patched 15 vulnerabilities in the zero-touch provisioning (ZTP) mechanism of its Omada network devices that could be chained with previously disclosed flaws to achieve remote code execution (RCE). [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/tp-link-patches-omada-ztp-flaws-allowing-hackers-to-breach-networks/"
+    },
+    {
+      "title": "New XCSSET variant targets macOS devs via compromised Xcode projects",
+      "sector": "Non précisé",
+      "date": "04 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "A new version of the XCSSET malware is targeting thousands of macOS users through compromised Xcode projects and GitHub repositories. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/new-xcsset-variant-targets-macos-devs-via-compromised-xcode-projects/"
+    },
+    {
+      "title": "Massive ChainDrop npm supply-chain attack infects hundreds of packages",
+      "sector": "Non précisé",
+      "date": "04 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Self-propagating malware named 'ChainDrop' has compromised more than 1,300 packages with a combined 2 billion monthly downloads on the Node Package Manager (npm) registry. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/massive-chaindrop-npm-supply-chain-attack-infects-hundreds-of-packages/"
+    },
     {
       "title": "When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted",
       "sector": "Non précisé",
@@ -61,74 +121,53 @@
       "desc": "A cyberattack on the U.K.'s Police National Legal Database (PNLD) has compromised contact data of more than 100,000 police officers and other criminal justice professionals. [...]",
       "src": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/security/exfilsquad-hackers-leak-info-of-over-100-000-uk-police-officers-staff/"
-    },
-    {
-      "title": "FOMO in the SOC: Where AI Platforms like Claude Actually Fit",
-      "sector": "Non précisé",
-      "date": "03 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "AI is moving incredibly fast, and every security leader is feeling the pressure to keep up. AI platforms like Claude, Codex and Cursor are already helping security teams write detections, investigate alerts, summarize in…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/08/fomo-in-soc-where-ai-platforms-like.html"
-    },
-    {
-      "title": "Chinese Threat Actor Uses Leaked DarkSword Kit to Deploy GHOSTBLADE on iOS",
-      "sector": "Non précisé",
-      "date": "03 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "An unknown Chinese-speaking threat actor has been observed running a campaign targeting Apple iOS devices by leveraging a publicly leaked version of the DarkSword exploit kit. Attack surface management platform Censys sa…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/08/chinese-threat-actor-uses-leaked.html"
-    },
-    {
-      "title": "PNLD Breach Exposes U.K. Police and Government Contact Details on Dark Web",
-      "sector": "Gouvernement",
-      "date": "03 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The Police National Legal Database (PNLD) has confirmed that police, government and customer contact information was compromised and published on the dark web. The data included names, organisations and work email addres…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/08/pnld-breach-exposes-uk-police-and.html"
-    },
-    {
-      "title": "N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete",
-      "sector": "Non précisé",
-      "date": "03 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "N-able said attackers exploited an authentication bypass in N-central to gain remote administrative access and reach the customer systems managed through those servers. Its first fix was incomplete. CVE-2026-18577 affect…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html"
-    },
-    {
-      "title": "Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer Sites",
-      "sector": "Non précisé",
-      "date": "01 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Attackers modified a JavaScript file served by advertising technology company Adform, turning it into a browser-side tool that rewrites cryptocurrency wallet addresses. Adform detected the incident on July 27, 2026, remo…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html"
-    },
-    {
-      "title": "Amgen says cloud data breach exposed patient health, proprietary info",
-      "sector": "Santé",
-      "date": "31 Jul 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Pharmaceutical company Amgen says it suffered a data breach after threat actors stole corporate data and patient information stored in multiple cloud systems operated by third-party service providers. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/"
     }
   ],
   "vulns": [
     {
+      "cve": "CVE-2026-18556",
+      "product": "N-able N-central",
+      "type": "N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "cvss": 7.4,
+      "published": "2026-08-01",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-08-07",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18556"
+    },
+    {
+      "cve": "CVE-2026-34486",
+      "product": "Apache Tomcat",
+      "type": "Apache Tomcat Missing Encryption of Sensitive Data Vulnerability",
+      "cvss": 7.5,
+      "published": "2026-04-09",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-08-07",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34486"
+    },
+    {
+      "cve": "CVE-2026-9198",
+      "product": "IBM Langflow",
+      "type": "IBM Langflow Code Injection Vulnerability",
+      "cvss": 9.8,
+      "published": "2026-07-17",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-08-07",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9198"
+    },
+    {
       "cve": "CVE-2026-18577",
       "product": "N-able N-central",
       "type": "N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-      "cvss": null,
+      "cvss": 8.1,
       "published": "2026-08-02",
       "exploit": true,
       "poc": "unk",
@@ -146,7 +185,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-08-01",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20316"
     },
@@ -344,45 +383,6 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56164"
-    },
-    {
-      "cve": "CVE-2026-15409",
-      "product": "SonicWall SMA1000 Appliances",
-      "type": "SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability",
-      "cvss": 10.0,
-      "published": "2026-07-14",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-07-17",
-      "past": true,
-      "note": "Utilisée dans des campagnes ransomware",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15409"
-    },
-    {
-      "cve": "CVE-2026-15410",
-      "product": "SonicWall SMA1000 Appliances",
-      "type": "SonicWall SMA1000 Appliances Code Injection Vulnerability",
-      "cvss": 7.2,
-      "published": "2026-07-14",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-07-17",
-      "past": true,
-      "note": "Utilisée dans des campagnes ransomware",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15410"
-    },
-    {
-      "cve": "CVE-2008-4128",
-      "product": "Cisco IOS",
-      "type": "Cisco IOS Cross-Site Request Forgery Vulnerability",
-      "cvss": 4.3,
-      "published": "2008-09-18",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-07-16",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2008-4128"
     }
   ],
   "actors": [
@@ -390,7 +390,7 @@
       "name": "Play",
       "type": "RaaS / Extorsion",
       "desc": "Fake Xeno Executor installers are infecting unsuspecting Roblox players with malware that provides remote access and steals sensitive information. [...]",
-      "victims": "3 mention(s) récente(s) — dernier article : 03 Aug 2026",
+      "victims": "2 mention(s) récente(s) — dernier article : 03 Aug 2026",
       "region": "Non précisé",
       "url": "https://www.bleepingcomputer.com/news/security/fake-roblox-xeno-script-launcher-pushes-infostealer-rat-malware/",
       "src": "BleepingComputer"
@@ -415,16 +415,6 @@
     }
   ],
   "threats": [
-    {
-      "title": "CVE-2026-15409 — SonicWall SMA1000 Appliances",
-      "desc": "SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability — Utilisée dans des campagnes ransomware.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15409"
-    },
-    {
-      "title": "CVE-2026-15410 — SonicWall SMA1000 Appliances",
-      "desc": "SonicWall SMA1000 Appliances Code Injection Vulnerability — Utilisée dans des campagnes ransomware.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15410"
-    },
     {
       "title": "Activité soutenue de Play",
       "desc": "Fake Xeno Executor installers are infecting unsuspecting Roblox players with malware that provides remote access and steals sensitive information. [...]",
