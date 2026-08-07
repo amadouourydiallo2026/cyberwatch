@@ -1,7 +1,57 @@
 {
-  "generated_at": "2026-08-06T12:32:53Z",
+  "generated_at": "2026-08-07T09:38:24Z",
   "week_label": "S32 · 3 – 9 août 2026",
   "attacks": [
+    {
+      "title": "TeamPCP Linked To Redis Attacks Dating Back To 2020 And Later Supply Chain Campaign",
+      "sector": "Non précisé",
+      "date": "07 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "A new analysis has uncovered that the threat actor tracked as TeamPCP has been active on the cybercrime scene as far back as 2020, indicating the group has been compromising internet-facing infrastructure for years befor…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html"
+    },
+    {
+      "title": "Hedge fund cyberattacks tied to BlackFile-linked UNC6671 extortion group",
+      "sector": "Finance",
+      "date": "06 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "A recent wave of cyberattacks targeting hedge funds, private-equity firms, and other financial organizations has been linked to UNC6671, an extortion group reportedly associated with the BlackFile threat actors. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hedge-fund-cyberattacks-tied-to-blackfile-linked-unc6671-extortion-group/"
+    },
+    {
+      "title": "Swiss government SharePoint breach compromised 200 accounts",
+      "sector": "Gouvernement",
+      "date": "06 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Switzerland's federal IT office says hackers exploited vulnerabilities to breach its Microsoft SharePoint servers and compromised approximately 200 accounts. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/"
+    },
+    {
+      "title": "Meta AI model hacked a company during misconfigured cyber test",
+      "sector": "Non précisé",
+      "date": "06 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Meta has become the latest AI company to confirm that one of its models hacked a real organization during cybersecurity testing, as similar incidents continue to emerge following OpenAI'sOpenAI's initial disclosure that …",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/meta-ai-model-hacked-a-company-during-misconfigured-cyber-test/"
+    },
+    {
+      "title": "Over 4,400 Rockwell PLCs Exposed Online, 22 Found in Water Attack Cities",
+      "sector": "Télécoms",
+      "date": "06 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Forescout found 22 internet-facing Rockwell Automation programmable logic controllers (PLCs) in cities hit by recent cyberattacks on US water utilities. Nineteen used the same mobile carrier network. Its August 3 scan co…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html"
+    },
     {
       "title": "Snowflake Hacker Pleads Guilty Over Breaches Affecting at Least 100 Million People",
       "sector": "Gouvernement",
@@ -63,36 +113,6 @@
       "url": "https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-targeted-real-people-and-systems-in-cyber-tests/"
     },
     {
-      "title": "TP-Link patches Omada ZTP flaws allowing hackers to breach networks",
-      "sector": "Non précisé",
-      "date": "04 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "TP-Link has patched 15 vulnerabilities in the zero-touch provisioning (ZTP) mechanism of its Omada network devices that could be chained with previously disclosed flaws to achieve remote code execution (RCE). [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/tp-link-patches-omada-ztp-flaws-allowing-hackers-to-breach-networks/"
-    },
-    {
-      "title": "New XCSSET variant targets macOS devs via compromised Xcode projects",
-      "sector": "Non précisé",
-      "date": "04 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "A new version of the XCSSET malware is targeting thousands of macOS users through compromised Xcode projects and GitHub repositories. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/new-xcsset-variant-targets-macos-devs-via-compromised-xcode-projects/"
-    },
-    {
-      "title": "Massive ChainDrop npm supply-chain attack infects hundreds of packages",
-      "sector": "Non précisé",
-      "date": "04 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Self-propagating malware named 'ChainDrop' has compromised more than 1,300 packages with a combined 2 billion monthly downloads on the Node Package Manager (npm) registry. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/massive-chaindrop-npm-supply-chain-attack-infects-hundreds-of-packages/"
-    },
-    {
       "title": "When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted",
       "sector": "Non précisé",
       "date": "04 Aug 2026",
@@ -101,26 +121,6 @@
       "desc": "The cybersecurity industry has spent decades assuming that offensive capability scales with technical expertise. That assumption is starting to break. Security teams have long estimated risk by ranking attacker sophistic…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html"
-    },
-    {
-      "title": "CISA Adds Exploited N-able N-central Flaw to KEV After Customer Compromises",
-      "sector": "Gouvernement",
-      "date": "04 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a high-severity security flaw impacting N-able N-central to its Known Exploited Vulnerabilities (KEV) catalog following reports of active e…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html"
-    },
-    {
-      "title": "Hotel Wi-Fi attacks use custom malware to breach Microsoft 365 accounts",
-      "sector": "Santé",
-      "date": "03 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Microsoft has linked a global campaign targeting hospitality Wi-Fi networks to the Russian threat actor Midnight Blizzard, also known as APT29. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hotel-wi-fi-attacks-use-custom-malware-to-breach-microsoft-365-accounts/"
     }
   ],
   "vulns": [
@@ -154,7 +154,7 @@
       "cve": "CVE-2026-34486",
       "product": "Apache Tomcat",
       "type": "Apache Tomcat Missing Encryption of Sensitive Data Vulnerability",
-      "cvss": 9.8,
+      "cvss": 7.5,
       "published": "2026-04-09",
       "exploit": true,
       "poc": "unk",
@@ -387,15 +387,6 @@
   ],
   "actors": [
     {
-      "name": "APT29",
-      "type": "APT / Espionnage",
-      "desc": "Microsoft has linked a global campaign targeting hospitality Wi-Fi networks to the Russian threat actor Midnight Blizzard, also known as APT29. [...]",
-      "victims": "1 mention(s) récente(s) — dernier article : 03 Aug 2026",
-      "region": "Non précisé",
-      "url": "https://www.bleepingcomputer.com/news/security/hotel-wi-fi-attacks-use-custom-malware-to-breach-microsoft-365-accounts/",
-      "src": "BleepingComputer"
-    },
-    {
       "name": "INC Ransom",
       "type": "RaaS / Extorsion",
       "desc": "The INC Ransomware operation has emerged as the \"dominant threat actor\" exploiting the recently disclosed security flaws in SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances. In a report published over the …",
@@ -406,11 +397,6 @@
     }
   ],
   "threats": [
-    {
-      "title": "Activité soutenue de APT29",
-      "desc": "Microsoft has linked a global campaign targeting hospitality Wi-Fi networks to the Russian threat actor Midnight Blizzard, also known as APT29. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/hotel-wi-fi-attacks-use-custom-malware-to-breach-microsoft-365-accounts/"
-    },
     {
       "title": "Activité soutenue de INC Ransom",
       "desc": "The INC Ransomware operation has emerged as the \"dominant threat actor\" exploiting the recently disclosed security flaws in SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances. In a report published over the …",
