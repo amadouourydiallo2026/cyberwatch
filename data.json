@@ -1,7 +1,77 @@
 {
-  "generated_at": "2026-08-07T09:38:24Z",
+  "generated_at": "2026-08-08T08:08:37Z",
   "week_label": "S32 · 3 – 9 août 2026",
   "attacks": [
+    {
+      "title": "Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication",
+      "sector": "Manufacturing",
+      "date": "08 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Metabase has warned that a maximum-severity security flaw impacting its business intelligence and data visualization software package has been exploited in the wild as a zero-day. The vulnerability (CVSS score: 10.0), wh…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html"
+    },
+    {
+      "title": "Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts",
+      "sector": "Gouvernement",
+      "date": "08 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a critical-severity security flaw impacting Progress Kemp LoadMaster to its Known Exploited Vulnerabilities (KEV) catalog, following report…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html"
+    },
+    {
+      "title": "Metabase SQLi zero-day exploited in customer data-theft attacks",
+      "sector": "Non précisé",
+      "date": "07 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "A critical Metabase SQL injection vulnerability was exploited in zero-day attacks to breach customer instances in data theft attacks, known to impact Framework and Tally. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/"
+    },
+    {
+      "title": "Unlimited Technology Systems breach impacts 3.8 million people",
+      "sector": "Santé",
+      "date": "07 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Healthcare software company Unlimited Technology Systems reported that more than 3.8 million people were impacted by a data breach incident that occurred in October 2025. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/unlimited-technology-systems-breach-impacts-38-million-people/"
+    },
+    {
+      "title": "Levi Strauss & Co. says hackers stole corporate data in cyberattack",
+      "sector": "Non précisé",
+      "date": "07 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Levi Strauss & Co. (Levi's) says that hackers used social engineering on three of its employees to gain access to and steal corporate data stored on their machines. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/levi-strauss-and-co-says-hackers-stole-corporate-data-in-cyberattack/"
+    },
+    {
+      "title": "Real emails, hijacked payments: Two H1 2026 attack chains",
+      "sector": "Finance",
+      "date": "07 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Gen's H1 2026 Threat Report examines two separate attack chains. One used compromised business inboxes and browser manipulation in a banking-malware campaign, while the other used clipboard hijacking to redirect cryptocu…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/real-emails-hijacked-payments-two-h1-2026-attack-chains/"
+    },
+    {
+      "title": "North Carolina Ports confirms cyberattack disrupting operations",
+      "sector": "Non précisé",
+      "date": "07 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The North Carolina Ports Authority has confirmed that a cyberattack disrupted IT systems and slowed operations at Port of Wilmington, Port of Morehead City, and Charlotte Inland Port. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/north-carolina-ports-confirms-cyberattack-disrupting-operations/"
+    },
     {
       "title": "TeamPCP Linked To Redis Attacks Dating Back To 2020 And Later Supply Chain Campaign",
       "sector": "Non précisé",
@@ -51,79 +121,22 @@
       "desc": "Forescout found 22 internet-facing Rockwell Automation programmable logic controllers (PLCs) in cities hit by recent cyberattacks on US water utilities. Nineteen used the same mobile carrier network. Its August 3 scan co…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html"
-    },
-    {
-      "title": "Snowflake Hacker Pleads Guilty Over Breaches Affecting at Least 100 Million People",
-      "sector": "Gouvernement",
-      "date": "06 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Connor Riley Moucka pleaded guilty in Seattle federal court on Wednesday to computer fraud, wire fraud, aggravated identity theft and a related conspiracy over the 2024 breaches of Snowflake customer accounts. The intrus…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html"
-    },
-    {
-      "title": "Ransom Cartel ransomware creator sentenced to 16 years in prison",
-      "sector": "Non précisé",
-      "date": "05 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Maksim Silnikau, the creator and administrator of the Ransom Cartel ransomware operation, was sentenced to 16 years in prison for his role in ransomware attacks against at least 18 companies worldwide. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/ransom-cartel-ransomware-creator-sentenced-to-16-years-in-prison/"
-    },
-    {
-      "title": "Hackers run khunt post-exploitation toolkit from Oracle database",
-      "sector": "Non précisé",
-      "date": "05 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Hackers exploited a SQL injection vulnerability to install a post-exploitation toolkit directly inside an Oracle database that was used to breach a corporate network. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-run-khunt-post-exploitation-toolkit-from-oracle-database/"
-    },
-    {
-      "title": "CISA warns of hackers exploiting Langflow, N-central, Apache Tomcat flaws",
-      "sector": "Gouvernement",
-      "date": "05 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency is giving federal agencies three days to mitigate vulnerabilities in IBM Langflow, N-central, and Apache Tomcat, all actively exploited. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-langflow-n-central-apache-tomcat-flaws/"
-    },
-    {
-      "title": "Leaked n8n API Tokens Exposed Live Instances to Credential Theft",
-      "sector": "Non précisé",
-      "date": "05 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "GitGuardian researchers found 321 n8n instances accepting API tokens exposed in public GitHub commits and demonstrated four ways attackers could use them to access sensitive data and downstream credentials without exploi…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/08/leaked-n8n-api-tokens-exposed-live.html"
-    },
-    {
-      "title": "OpenAI, Anthropic AI agents targeted real people and systems in cyber tests",
-      "sector": "Non précisé",
-      "date": "04 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "OpenAI and Anthropic have confirmed that their AI models were involved in separate, newly disclosed third-party cybersecurity testing incidents that resulted in a real website being breached and social engineering attack…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-targeted-real-people-and-systems-in-cyber-tests/"
-    },
-    {
-      "title": "When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted",
-      "sector": "Non précisé",
-      "date": "04 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "The cybersecurity industry has spent decades assuming that offensive capability scales with technical expertise. That assumption is starting to break. Security teams have long estimated risk by ranking attacker sophistic…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html"
     }
   ],
   "vulns": [
+    {
+      "cve": "CVE-2026-8037",
+      "product": "Progress LoadMaster",
+      "type": "Progress LoadMaster Command Injection Vulnerability",
+      "cvss": 9.6,
+      "published": "2026-06-04",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-08-10",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8037"
+    },
     {
       "cve": "CVE-2026-63077",
       "product": "JetBrains TeamCity",
@@ -370,19 +383,6 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-4346"
-    },
-    {
-      "cve": "CVE-2026-56155",
-      "product": "Microsoft Active Directory Federation Services",
-      "type": "Microsoft Active Directory Federation Services Insufficient Granularity of Access Control ",
-      "cvss": 7.8,
-      "published": "2026-07-14",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-07-28",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56155"
     }
   ],
   "actors": [
