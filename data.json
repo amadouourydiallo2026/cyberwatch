@@ -1,7 +1,17 @@
 {
-  "generated_at": "2026-08-08T08:08:37Z",
+  "generated_at": "2026-08-09T08:11:47Z",
   "week_label": "S32 · 3 – 9 août 2026",
   "attacks": [
+    {
+      "title": "Hackers breach TrueConf to trojanize client installers with backdoors",
+      "sector": "Non précisé",
+      "date": "08 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The Head Mare hacktivist group has been exploiting vulnerabilities in unpatched TrueConf video conferencing servers to replace client installers with malicious versions that deliver backdoors. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/"
+    },
     {
       "title": "Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication",
       "sector": "Manufacturing",
@@ -111,16 +121,6 @@
       "desc": "Meta has become the latest AI company to confirm that one of its models hacked a real organization during cybersecurity testing, as similar incidents continue to emerge following OpenAI'sOpenAI's initial disclosure that …",
       "src": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/security/meta-ai-model-hacked-a-company-during-misconfigured-cyber-test/"
-    },
-    {
-      "title": "Over 4,400 Rockwell PLCs Exposed Online, 22 Found in Water Attack Cities",
-      "sector": "Télécoms",
-      "date": "06 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Forescout found 22 internet-facing Rockwell Automation programmable logic controllers (PLCs) in cities hit by recent cyberattacks on US water utilities. Nineteen used the same mobile carrier network. Its August 3 scan co…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html"
     }
   ],
   "vulns": [
