@@ -1,7 +1,17 @@
 {
-  "generated_at": "2026-08-09T08:11:47Z",
-  "week_label": "S32 · 3 – 9 août 2026",
+  "generated_at": "2026-08-10T10:43:19Z",
+  "week_label": "S33 · 10 – 16 août 2026",
   "attacks": [
+    {
+      "title": "Critical Progress LoadMaster flaw now actively exploited in attacks",
+      "sector": "Gouvernement",
+      "date": "10 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned that hackers are exploiting a critical-severity Progress Kemp LoadMaster command injection vulnerability. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/"
+    },
     {
       "title": "Hackers breach TrueConf to trojanize client installers with backdoors",
       "sector": "Non précisé",
@@ -111,16 +121,6 @@
       "desc": "Switzerland's federal IT office says hackers exploited vulnerabilities to breach its Microsoft SharePoint servers and compromised approximately 200 accounts. [...]",
       "src": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/"
-    },
-    {
-      "title": "Meta AI model hacked a company during misconfigured cyber test",
-      "sector": "Non précisé",
-      "date": "06 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Meta has become the latest AI company to confirm that one of its models hacked a real organization during cybersecurity testing, as similar incidents continue to emerge following OpenAI'sOpenAI's initial disclosure that …",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/meta-ai-model-hacked-a-company-during-misconfigured-cyber-test/"
     }
   ],
   "vulns": [
@@ -198,7 +198,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-08-06",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18577"
     },
