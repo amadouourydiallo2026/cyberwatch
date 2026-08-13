@@ -1,7 +1,57 @@
 {
-  "generated_at": "2026-08-12T09:49:09Z",
+  "generated_at": "2026-08-13T07:24:47Z",
   "week_label": "S33 · 10 – 16 août 2026",
   "attacks": [
+    {
+      "title": "Hackers exploit critical Adobe Commerce flaw to hijack customer accounts",
+      "sector": "Retail",
+      "date": "12 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Attempts to exploit a critical vulnerability (CVE-2026-71362) in Adobe's Commerce and Magento e-commerce platforms have been detected, potentially allowing attackers to hijack customer accounts. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-adobe-commerce-flaw-to-hijack-customer-accounts/"
+    },
+    {
+      "title": "Lazarus hackers exploited Windows zero-day to target defense firms",
+      "sector": "Non précisé",
+      "date": "12 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "North Korean hackers have been exploiting a Windows zero-day vulnerability (CVE-2026-68820) to target defense-sector companies as part of the Operation Dream Job campaign. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-exploited-windows-zero-day-to-target-defense-firms/"
+    },
+    {
+      "title": "FBI: Hackers target online accounts to steal nude photos",
+      "sector": "Non précisé",
+      "date": "12 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "The FBI warns that cybercriminals are targeting adults' and children's social media and other online accounts to steal sexually explicit images or videos. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-hackers-targeting-online-accounts-to-steal-explicit-photos/"
+    },
+    {
+      "title": "Hackers leverage new Microsoft SharePoint exploit in attacks",
+      "sector": "Non précisé",
+      "date": "12 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Hackers have already begun using a proof-of-concept (PoC) exploit for a critical Microsoft SharePoint vulnerability, published by cybersecurity company Rapid7 on Tuesday. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/hackers-leverage-new-microsoft-sharepoint-exploit-in-attacks/"
+    },
+    {
+      "title": "Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws",
+      "sector": "Retail",
+      "date": "12 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result in arbitrary code execution and privilege…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html"
+    },
     {
       "title": "Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations",
       "sector": "Non précisé",
@@ -53,26 +103,6 @@
       "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-asa-and-ftd-vpn-flaw-exploited-to-crash-devices/"
     },
     {
-      "title": "Delta probes Wi-Fi deauth attack on flight carrying DEF CON attendees",
-      "sector": "Non précisé",
-      "date": "11 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Delta Air Lines is investigating an unauthorized Wi-Fi network that appeared aboard a flight from Las Vegas to Atlanta carrying passengers who had attended the DEF CON hacker convention. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/delta-probes-wi-fi-deauth-attack-on-flight-carrying-def-con-attendees/"
-    },
-    {
-      "title": "Microsoft August 2026 Patch Tuesday fixes 400 flaws, 3 zero-days",
-      "sector": "Non précisé",
-      "date": "11 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Today is Microsoft's August 2026 Patch Tuesday, and with it comes security updates for a massive 400 flaws, including one actively exploited and two publicly disclosed zero-day vulnerabilities. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-2026-patch-tuesday-fixes-400-flaws-3-zero-days/"
-    },
-    {
       "title": "DeadLock Ransomware Uses Polygon Smart Contracts to Make Extortion Infra Harder to Disrupt",
       "sector": "Non précisé",
       "date": "11 Aug 2026",
@@ -83,16 +113,6 @@
       "url": "https://thehackernews.com/2026/08/deadlock-ransomware-uses-polygon-smart.html"
     },
     {
-      "title": "Wesco confirms security incident after ExfilSquad claims data theft",
-      "sector": "Non précisé",
-      "date": "11 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "Global supply chain and distribution giant Wesco has confirmed in a statement for BleepingComputer that it is investigating a cybersecurity incident. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/wesco-confirms-security-incident-after-exfilsquad-claims-data-theft/"
-    },
-    {
       "title": "OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development",
       "sector": "Non précisé",
       "date": "11 Aug 2026",
@@ -101,26 +121,6 @@
       "desc": "OpenAI on Monday unveiled a new cybersecurity-focused model called GPT‑5.6‑Cyber that it said is focused on vulnerability research, penetration testing, and incident response. \"Built on GPT‑5.6 Sol, it is trained to impr…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html"
-    },
-    {
-      "title": "CISA: Microsoft SharePoint flaw now exploited in ransomware attacks",
-      "sector": "Non précisé",
-      "date": "11 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "CISA confirmed today that ransomware gangs have begun abusing a high-severity Microsoft SharePoint remote code execution vulnerability, which has been flagged as actively exploited since early July. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-flaw-now-exploited-in-ransomware-attacks/"
-    },
-    {
-      "title": "US and South Korea warn of Gunra ransomware targeting govt agencies",
-      "sector": "Gouvernement",
-      "date": "11 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "U.S. federal agencies and South Korea's National Policy Agency warned government and critical infrastructure organizations worldwide to secure their systems against Gunra ransomware attacks. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/us-warns-of-gunra-ransomware-attacks-against-government-critical-infrastructure/"
     }
   ],
   "vulns": [
@@ -387,6 +387,24 @@
   ],
   "actors": [
     {
+      "name": "Play",
+      "type": "RaaS / Extorsion",
+      "desc": "Security researchers have disclosed new \"Plug and Pwn\" attacks that abuse the Windows Plug and Play feature to trigger Windows into installing vulnerable or insecure vendor software and gain SYSTEM privileges. [...]",
+      "victims": "3 mention(s) récente(s) — dernier article : 12 Aug 2026",
+      "region": "Non précisé",
+      "url": "https://www.bleepingcomputer.com/news/security/plug-and-pwn-attack-uses-fake-usb-devices-for-windows-system-access/",
+      "src": "BleepingComputer"
+    },
+    {
+      "name": "Lazarus",
+      "type": "APT / Espionnage",
+      "desc": "The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen backdoor targeting defense…",
+      "victims": "2 mention(s) récente(s) — dernier article : 12 Aug 2026",
+      "region": "Non précisé",
+      "url": "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
+      "src": "The Hacker News"
+    },
+    {
       "name": "Sandworm",
       "type": "APT / Espionnage",
       "desc": "Hackers associated with the Russian threat group Sandworm have been targeting system administrators and IT professionals through fake job offers since at least May. [...]",
@@ -394,15 +412,6 @@
       "region": "Non précisé",
       "url": "https://www.bleepingcomputer.com/news/security/sandworm-hackers-target-it-pros-with-trojanized-wireguard-vpn-client/",
       "src": "BleepingComputer"
-    },
-    {
-      "name": "Play",
-      "type": "RaaS / Extorsion",
-      "desc": "Windows Plug and Play can be abused to fetch signed vendor software for an emulated USB device and execute privileged installation components that researchers chained to SYSTEM access on a fully updated Windows 11 machin…",
-      "victims": "1 mention(s) récente(s) — dernier article : 11 Aug 2026",
-      "region": "Non précisé",
-      "url": "https://thehackernews.com/2026/08/researchers-turn-usb-auto-install-into.html",
-      "src": "The Hacker News"
     },
     {
       "name": "Medusa",
@@ -425,19 +434,19 @@
   ],
   "threats": [
     {
+      "title": "Activité soutenue de Play",
+      "desc": "Security researchers have disclosed new \"Plug and Pwn\" attacks that abuse the Windows Plug and Play feature to trigger Windows into installing vulnerable or insecure vendor software and gain SYSTEM privileges. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/plug-and-pwn-attack-uses-fake-usb-devices-for-windows-system-access/"
+    },
+    {
+      "title": "Activité soutenue de Lazarus",
+      "desc": "The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen backdoor targeting defense…",
+      "url": "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html"
+    },
+    {
       "title": "Activité soutenue de Sandworm",
       "desc": "Hackers associated with the Russian threat group Sandworm have been targeting system administrators and IT professionals through fake job offers since at least May. [...]",
       "url": "https://www.bleepingcomputer.com/news/security/sandworm-hackers-target-it-pros-with-trojanized-wireguard-vpn-client/"
-    },
-    {
-      "title": "Activité soutenue de Play",
-      "desc": "Windows Plug and Play can be abused to fetch signed vendor software for an emulated USB device and execute privileged installation components that researchers chained to SYSTEM access on a fully updated Windows 11 machin…",
-      "url": "https://thehackernews.com/2026/08/researchers-turn-usb-auto-install-into.html"
-    },
-    {
-      "title": "Activité soutenue de Medusa",
-      "desc": "Microsoft has disclosed that Storm-1175, a financially motivated threat actor linked to China, has deployed a previously undocumented ransomware strain called StormEncryptor. The use of StormEncryptor marks a shift from …",
-      "url": "https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html"
     }
   ]
 }
