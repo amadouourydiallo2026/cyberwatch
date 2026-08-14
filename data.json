@@ -1,7 +1,57 @@
 {
-  "generated_at": "2026-08-13T07:24:47Z",
+  "generated_at": "2026-08-14T07:22:28Z",
   "week_label": "S33 · 10 – 16 août 2026",
   "attacks": [
+    {
+      "title": "Akira hackers disable EDR with Safe Mode, steal data but fail to encrypt",
+      "sector": "Non précisé",
+      "date": "13 Aug 2026",
+      "actor": "Akira",
+      "sev": "high",
+      "desc": "An Akira ransomware affiliate disabled the endpoint detection and response (EDR) solution on a compromised system by restarting the machine into Safe Mode with Networking. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt/"
+    },
+    {
+      "title": "Hackers breach govt webmail while running parallel crypto fraud",
+      "sector": "Gouvernement",
+      "date": "13 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The Jewelbug hacker group has been carrying out espionage operations targeting governments and militaries while also engaging in cryptocurrency fraud. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-govt-webmail-while-running-parallel-crypto-fraud/"
+    },
+    {
+      "title": "Critical VMware vCenter RCE flaw exploited for reverse SSH access",
+      "sector": "Non précisé",
+      "date": "13 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "A recently patched critical vulnerability (CVE-2026-59310) in VMware vCenter Syslog Server is being exploited in an active campaign to deploy a reverse SSH tool for persistence and remote access. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-vmware-vcenter-rce-flaw-exploited-for-reverse-ssh-access/"
+    },
+    {
+      "title": "Trezor discloses data breach affecting nearly 14,000 customers",
+      "sector": "Transport",
+      "date": "13 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Hardware wallet manufacturer Trezor disclosed a data breach affecting nearly 14,000 of its customers after ShipMonk, its shipping and logistics provider, was hacked [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/trezor-discloses-data-breach-affecting-nearly-14-000-customers/"
+    },
+    {
+      "title": "White House taps security firms for offensive hack-back operations",
+      "sector": "Non précisé",
+      "date": "13 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "A new White House memo signed by U.S. President Donald Trump instructs the National Coordination Center (NCC) to establish a program that would allow private security companies to apply for approval to hack foreign cyber…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/white-house-taps-security-firms-for-offensive-hack-back-operations/"
+    },
     {
       "title": "Hackers exploit critical Adobe Commerce flaw to hijack customer accounts",
       "sector": "Retail",
@@ -11,36 +61,6 @@
       "desc": "Attempts to exploit a critical vulnerability (CVE-2026-71362) in Adobe's Commerce and Magento e-commerce platforms have been detected, potentially allowing attackers to hijack customer accounts. [...]",
       "src": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-adobe-commerce-flaw-to-hijack-customer-accounts/"
-    },
-    {
-      "title": "Lazarus hackers exploited Windows zero-day to target defense firms",
-      "sector": "Non précisé",
-      "date": "12 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "North Korean hackers have been exploiting a Windows zero-day vulnerability (CVE-2026-68820) to target defense-sector companies as part of the Operation Dream Job campaign. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-exploited-windows-zero-day-to-target-defense-firms/"
-    },
-    {
-      "title": "FBI: Hackers target online accounts to steal nude photos",
-      "sector": "Non précisé",
-      "date": "12 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "The FBI warns that cybercriminals are targeting adults' and children's social media and other online accounts to steal sexually explicit images or videos. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-hackers-targeting-online-accounts-to-steal-explicit-photos/"
-    },
-    {
-      "title": "Hackers leverage new Microsoft SharePoint exploit in attacks",
-      "sector": "Non précisé",
-      "date": "12 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Hackers have already begun using a proof-of-concept (PoC) exploit for a critical Microsoft SharePoint vulnerability, published by cybersecurity company Rapid7 on Tuesday. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/hackers-leverage-new-microsoft-sharepoint-exploit-in-attacks/"
     },
     {
       "title": "Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws",
@@ -73,36 +93,6 @@
       "url": "https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html"
     },
     {
-      "title": "DeadLock ransomware uses blockchain to resist infrastructure takedown",
-      "sector": "Non précisé",
-      "date": "11 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The DeadLock ransomware operation is using a decentralized infrastructure that relies on blockchain-backed services to protect its communication with victims and data-leak activity. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/deadlock-ransomware-uses-blockchain-to-resist-infrastructure-takedown/"
-    },
-    {
-      "title": "Sandworm hackers target IT pros with trojanized WireGuard VPN client",
-      "sector": "Non précisé",
-      "date": "11 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "Hackers associated with the Russian threat group Sandworm have been targeting system administrators and IT professionals through fake job offers since at least May. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/sandworm-hackers-target-it-pros-with-trojanized-wireguard-vpn-client/"
-    },
-    {
-      "title": "Cisco warns of ASA and FTD VPN flaw exploited to crash devices",
-      "sector": "Non précisé",
-      "date": "11 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Cisco is warning that a high-severity denial-of-service vulnerability in Secure Firewall ASA and Threat Defense (FTD) software is being actively exploited in attacks to remotely crash affected devices. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-asa-and-ftd-vpn-flaw-exploited-to-crash-devices/"
-    },
-    {
       "title": "DeadLock Ransomware Uses Polygon Smart Contracts to Make Extortion Infra Harder to Disrupt",
       "sector": "Non précisé",
       "date": "11 Aug 2026",
@@ -121,6 +111,16 @@
       "desc": "OpenAI on Monday unveiled a new cybersecurity-focused model called GPT‑5.6‑Cyber that it said is focused on vulnerability research, penetration testing, and incident response. \"Built on GPT‑5.6 Sol, it is trained to impr…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html"
+    },
+    {
+      "title": "Gunra Ransomware Exploits Fortinet FortiOS, FortiProxy Flaws to Breach Networks",
+      "sector": "Santé",
+      "date": "11 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Cybersecurity and intelligence agencies from South Korea and the U.S. warned of Gunra ransomware attacks targeting critical infrastructure sectors and organizations across the world. Targets of these attacks include heal…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html"
     }
   ],
   "vulns": [
@@ -172,7 +172,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-08-10",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8037"
     },
@@ -389,17 +389,26 @@
     {
       "name": "Play",
       "type": "RaaS / Extorsion",
-      "desc": "Security researchers have disclosed new \"Plug and Pwn\" attacks that abuse the Windows Plug and Play feature to trigger Windows into installing vulnerable or insecure vendor software and gain SYSTEM privileges. [...]",
-      "victims": "3 mention(s) récente(s) — dernier article : 12 Aug 2026",
+      "desc": "A newly disclosed flaw in the way OpenAI, Anthropic, and Google carried hidden AI reasoning between API calls let researchers recover internal reasoning and secrets from session logs, including API keys and passwords. Th…",
+      "victims": "2 mention(s) récente(s) — dernier article : 12 Aug 2026",
       "region": "Non précisé",
-      "url": "https://www.bleepingcomputer.com/news/security/plug-and-pwn-attack-uses-fake-usb-devices-for-windows-system-access/",
+      "url": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html",
+      "src": "The Hacker News"
+    },
+    {
+      "name": "Akira",
+      "type": "RaaS / Extorsion",
+      "desc": "An Akira ransomware affiliate disabled the endpoint detection and response (EDR) solution on a compromised system by restarting the machine into Safe Mode with Networking. [...]",
+      "victims": "1 mention(s) récente(s) — dernier article : 13 Aug 2026",
+      "region": "Non précisé",
+      "url": "https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt/",
       "src": "BleepingComputer"
     },
     {
       "name": "Lazarus",
       "type": "APT / Espionnage",
       "desc": "The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen backdoor targeting defense…",
-      "victims": "2 mention(s) récente(s) — dernier article : 12 Aug 2026",
+      "victims": "1 mention(s) récente(s) — dernier article : 12 Aug 2026",
       "region": "Non précisé",
       "url": "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
       "src": "The Hacker News"
@@ -407,11 +416,11 @@
     {
       "name": "Sandworm",
       "type": "APT / Espionnage",
-      "desc": "Hackers associated with the Russian threat group Sandworm have been targeting system administrators and IT professionals through fake job offers since at least May. [...]",
-      "victims": "2 mention(s) récente(s) — dernier article : 11 Aug 2026",
+      "desc": "The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed details of a new social engineering campaign orchestrated by Russian nation-state threat actors targeting IT workers in the country by masquerading …",
+      "victims": "1 mention(s) récente(s) — dernier article : 12 Aug 2026",
       "region": "Non précisé",
-      "url": "https://www.bleepingcomputer.com/news/security/sandworm-hackers-target-it-pros-with-trojanized-wireguard-vpn-client/",
-      "src": "BleepingComputer"
+      "url": "https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html",
+      "src": "The Hacker News"
     },
     {
       "name": "Medusa",
@@ -435,18 +444,18 @@
   "threats": [
     {
       "title": "Activité soutenue de Play",
-      "desc": "Security researchers have disclosed new \"Plug and Pwn\" attacks that abuse the Windows Plug and Play feature to trigger Windows into installing vulnerable or insecure vendor software and gain SYSTEM privileges. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/plug-and-pwn-attack-uses-fake-usb-devices-for-windows-system-access/"
+      "desc": "A newly disclosed flaw in the way OpenAI, Anthropic, and Google carried hidden AI reasoning between API calls let researchers recover internal reasoning and secrets from session logs, including API keys and passwords. Th…",
+      "url": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html"
+    },
+    {
+      "title": "Activité soutenue de Akira",
+      "desc": "An Akira ransomware affiliate disabled the endpoint detection and response (EDR) solution on a compromised system by restarting the machine into Safe Mode with Networking. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt/"
     },
     {
       "title": "Activité soutenue de Lazarus",
       "desc": "The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen backdoor targeting defense…",
       "url": "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html"
-    },
-    {
-      "title": "Activité soutenue de Sandworm",
-      "desc": "Hackers associated with the Russian threat group Sandworm have been targeting system administrators and IT professionals through fake job offers since at least May. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/sandworm-hackers-target-it-pros-with-trojanized-wireguard-vpn-client/"
     }
   ]
 }
