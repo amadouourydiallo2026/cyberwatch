@@ -1,7 +1,47 @@
 {
-  "generated_at": "2026-08-14T07:22:28Z",
+  "generated_at": "2026-08-15T06:35:07Z",
   "week_label": "S33 · 10 – 16 août 2026",
   "attacks": [
+    {
+      "title": "Hackers arrested over €30M bank fraud exploiting service provider flaw",
+      "sector": "Finance",
+      "date": "14 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Four cybercriminals were arrested in Brazil, and three others were charged in Europe over allegations that they exploited a vulnerability at a service provider, allowing them to withdraw funds from Commerzbank customers'…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw/"
+    },
+    {
+      "title": "Hackers exploit macOS Screen Sharing flaw to deploy Monero miner",
+      "sector": "Non précisé",
+      "date": "14 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "The Netherlands' National Cyber Security Centre (NCSC) is warning that hackers are actively exploiting a macOS authentication bypass vulnerability after public exploit code emerged. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/"
+    },
+    {
+      "title": "Shell investigates 'potential incident' after Clop data theft claims",
+      "sector": "Non précisé",
+      "date": "14 Aug 2026",
+      "actor": "Clop",
+      "sev": "high",
+      "desc": "Oil giant Shell has confirmed it is investigating a potential security incident after the Clop ransomware gang claimed it stole 89GB of data. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/"
+    },
+    {
+      "title": "RingCentral data breach exposed info of 1.6 million accounts",
+      "sector": "Non précisé",
+      "date": "14 Aug 2026",
+      "actor": "ShinyHunters",
+      "sev": "critical",
+      "desc": "The ShinyHunters extortion group stole personal information from 1.6 million RingCentral accounts after hacking the company in July, according to the data breach notification service Have I Been Pwned. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/"
+    },
     {
       "title": "Akira hackers disable EDR with Safe Mode, steal data but fail to encrypt",
       "sector": "Non précisé",
@@ -31,36 +71,6 @@
       "desc": "A recently patched critical vulnerability (CVE-2026-59310) in VMware vCenter Syslog Server is being exploited in an active campaign to deploy a reverse SSH tool for persistence and remote access. [...]",
       "src": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/security/critical-vmware-vcenter-rce-flaw-exploited-for-reverse-ssh-access/"
-    },
-    {
-      "title": "Trezor discloses data breach affecting nearly 14,000 customers",
-      "sector": "Transport",
-      "date": "13 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Hardware wallet manufacturer Trezor disclosed a data breach affecting nearly 14,000 of its customers after ShipMonk, its shipping and logistics provider, was hacked [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/trezor-discloses-data-breach-affecting-nearly-14-000-customers/"
-    },
-    {
-      "title": "White House taps security firms for offensive hack-back operations",
-      "sector": "Non précisé",
-      "date": "13 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "A new White House memo signed by U.S. President Donald Trump instructs the National Coordination Center (NCC) to establish a program that would allow private security companies to apply for approval to hack foreign cyber…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/white-house-taps-security-firms-for-offensive-hack-back-operations/"
-    },
-    {
-      "title": "Hackers exploit critical Adobe Commerce flaw to hijack customer accounts",
-      "sector": "Retail",
-      "date": "12 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Attempts to exploit a critical vulnerability (CVE-2026-71362) in Adobe's Commerce and Magento e-commerce platforms have been detected, potentially allowing attackers to hijack customer accounts. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-adobe-commerce-flaw-to-hijack-customer-accounts/"
     },
     {
       "title": "Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws",
@@ -111,16 +121,6 @@
       "desc": "OpenAI on Monday unveiled a new cybersecurity-focused model called GPT‑5.6‑Cyber that it said is focused on vulnerability research, penetration testing, and incident response. \"Built on GPT‑5.6 Sol, it is trained to impr…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html"
-    },
-    {
-      "title": "Gunra Ransomware Exploits Fortinet FortiOS, FortiProxy Flaws to Breach Networks",
-      "sector": "Santé",
-      "date": "11 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Cybersecurity and intelligence agencies from South Korea and the U.S. warned of Gunra ransomware attacks targeting critical infrastructure sectors and organizations across the world. Targets of these attacks include heal…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html"
     }
   ],
   "vulns": [
@@ -396,6 +396,24 @@
       "src": "The Hacker News"
     },
     {
+      "name": "Clop",
+      "type": "RaaS / Extorsion",
+      "desc": "Oil giant Shell has confirmed it is investigating a potential security incident after the Clop ransomware gang claimed it stole 89GB of data. [...]",
+      "victims": "1 mention(s) récente(s) — dernier article : 14 Aug 2026",
+      "region": "Non précisé",
+      "url": "https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/",
+      "src": "BleepingComputer"
+    },
+    {
+      "name": "ShinyHunters",
+      "type": "RaaS / Extorsion",
+      "desc": "The ShinyHunters extortion group stole personal information from 1.6 million RingCentral accounts after hacking the company in July, according to the data breach notification service Have I Been Pwned. [...]",
+      "victims": "1 mention(s) récente(s) — dernier article : 14 Aug 2026",
+      "region": "Non précisé",
+      "url": "https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/",
+      "src": "BleepingComputer"
+    },
+    {
       "name": "Akira",
       "type": "RaaS / Extorsion",
       "desc": "An Akira ransomware affiliate disabled the endpoint detection and response (EDR) solution on a compromised system by restarting the machine into Safe Mode with Networking. [...]",
@@ -448,14 +466,14 @@
       "url": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html"
     },
     {
-      "title": "Activité soutenue de Akira",
-      "desc": "An Akira ransomware affiliate disabled the endpoint detection and response (EDR) solution on a compromised system by restarting the machine into Safe Mode with Networking. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt/"
+      "title": "Activité soutenue de Clop",
+      "desc": "Oil giant Shell has confirmed it is investigating a potential security incident after the Clop ransomware gang claimed it stole 89GB of data. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/"
     },
     {
-      "title": "Activité soutenue de Lazarus",
-      "desc": "The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen backdoor targeting defense…",
-      "url": "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html"
+      "title": "Activité soutenue de ShinyHunters",
+      "desc": "The ShinyHunters extortion group stole personal information from 1.6 million RingCentral accounts after hacking the company in July, according to the data breach notification service Have I Been Pwned. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/"
     }
   ]
 }
