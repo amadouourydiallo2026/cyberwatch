@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T06:35:07Z",
+  "generated_at": "2026-08-16T06:37:05Z",
   "week_label": "S33 · 10 – 16 août 2026",
   "attacks": [
     {
@@ -63,16 +63,6 @@
       "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-govt-webmail-while-running-parallel-crypto-fraud/"
     },
     {
-      "title": "Critical VMware vCenter RCE flaw exploited for reverse SSH access",
-      "sector": "Non précisé",
-      "date": "13 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "A recently patched critical vulnerability (CVE-2026-59310) in VMware vCenter Syslog Server is being exploited in an active campaign to deploy a reverse SSH tool for persistence and remote access. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/critical-vmware-vcenter-rce-flaw-exploited-for-reverse-ssh-access/"
-    },
-    {
       "title": "Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws",
       "sector": "Retail",
       "date": "12 Aug 2026",
@@ -121,6 +111,16 @@
       "desc": "OpenAI on Monday unveiled a new cybersecurity-focused model called GPT‑5.6‑Cyber that it said is focused on vulnerability research, penetration testing, and incident response. \"Built on GPT‑5.6 Sol, it is trained to impr…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html"
+    },
+    {
+      "title": "Gunra Ransomware Exploits Fortinet FortiOS, FortiProxy Flaws to Breach Networks",
+      "sector": "Santé",
+      "date": "11 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Cybersecurity and intelligence agencies from South Korea and the U.S. warned of Gunra ransomware attacks targeting critical infrastructure sectors and organizations across the world. Targets of these attacks include heal…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html"
     }
   ],
   "vulns": [
