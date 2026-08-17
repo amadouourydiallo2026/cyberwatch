@@ -1,7 +1,17 @@
 {
-  "generated_at": "2026-08-16T06:37:05Z",
-  "week_label": "S33 · 10 – 16 août 2026",
+  "generated_at": "2026-08-17T06:51:12Z",
+  "week_label": "S34 · 17 – 23 août 2026",
   "attacks": [
+    {
+      "title": "SafePal data breach impacts 39,798 customers, stolen info for sale",
+      "sector": "Non précisé",
+      "date": "16 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Cryptocurrency hardware wallet provider SafePal is warning of a data breach affecting about 39,798 customers after a flaw was exploited to steal customer order information, and a threat actor is now claiming to be sellin…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/"
+    },
     {
       "title": "Hackers arrested over €30M bank fraud exploiting service provider flaw",
       "sector": "Finance",
@@ -41,26 +51,6 @@
       "desc": "The ShinyHunters extortion group stole personal information from 1.6 million RingCentral accounts after hacking the company in July, according to the data breach notification service Have I Been Pwned. [...]",
       "src": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/"
-    },
-    {
-      "title": "Akira hackers disable EDR with Safe Mode, steal data but fail to encrypt",
-      "sector": "Non précisé",
-      "date": "13 Aug 2026",
-      "actor": "Akira",
-      "sev": "high",
-      "desc": "An Akira ransomware affiliate disabled the endpoint detection and response (EDR) solution on a compromised system by restarting the machine into Safe Mode with Networking. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt/"
-    },
-    {
-      "title": "Hackers breach govt webmail while running parallel crypto fraud",
-      "sector": "Gouvernement",
-      "date": "13 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The Jewelbug hacker group has been carrying out espionage operations targeting governments and militaries while also engaging in cryptocurrency fraud. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-govt-webmail-while-running-parallel-crypto-fraud/"
     },
     {
       "title": "Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws",
@@ -121,6 +111,16 @@
       "desc": "Cybersecurity and intelligence agencies from South Korea and the U.S. warned of Gunra ransomware attacks targeting critical infrastructure sectors and organizations across the world. Targets of these attacks include heal…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html"
+    },
+    {
+      "title": "Hackers Breach Polish Power Plant Controls via Private Cellular Network and Shut Turbine",
+      "sector": "Non précisé",
+      "date": "11 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Attackers shut down a steam turbine and the process-water treatment system at a Polish combined heat and power plant by coming in over the private cellular network the local grid operator uses to reach remote equipment. …",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html"
     }
   ],
   "vulns": [
@@ -411,15 +411,6 @@
       "victims": "1 mention(s) récente(s) — dernier article : 14 Aug 2026",
       "region": "Non précisé",
       "url": "https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/",
-      "src": "BleepingComputer"
-    },
-    {
-      "name": "Akira",
-      "type": "RaaS / Extorsion",
-      "desc": "An Akira ransomware affiliate disabled the endpoint detection and response (EDR) solution on a compromised system by restarting the machine into Safe Mode with Networking. [...]",
-      "victims": "1 mention(s) récente(s) — dernier article : 13 Aug 2026",
-      "region": "Non précisé",
-      "url": "https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt/",
       "src": "BleepingComputer"
     },
     {
