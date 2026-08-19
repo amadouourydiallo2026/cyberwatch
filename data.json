@@ -1,7 +1,57 @@
 {
-  "generated_at": "2026-08-18T06:39:55Z",
+  "generated_at": "2026-08-19T06:40:30Z",
   "week_label": "S34 · 17 – 23 août 2026",
   "attacks": [
+    {
+      "title": "Clop created custom web shell for Windchill data theft attacks",
+      "sector": "Non précisé",
+      "date": "18 Aug 2026",
+      "actor": "Clop",
+      "sev": "high",
+      "desc": "A custom Java web shell likely linked to the Clop ransomware gang was designed specifically for PTC Windchill and FlexPLM servers, with built-in features to decrypt credentials, enumerate file repositories, and steal fil…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/"
+    },
+    {
+      "title": "Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000",
+      "sector": "Non précisé",
+      "date": "18 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "A ransomware affiliate calling itself Ransom Busters has been spotted proactively sending emails to victim organizations and claims to delete stolen data from ransomware groups' servers in exchange for a fee ranging from…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html"
+    },
+    {
+      "title": "TWINLOOT Abuses SharePoint and Teams to Steal Credentials and Move Across Networks",
+      "sector": "Non précisé",
+      "date": "18 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Cybersecurity researchers have disclosed details of a previously undocumented Python implant framework dubbed TWINLOOT. \"TWINLOOT is a modular, PyArmor-hardened Python implant designed to operate its entire command-and-c…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html"
+    },
+    {
+      "title": "CISA: Windows Task Host flaw now exploited by ransomware gangs",
+      "sector": "Gouvernement",
+      "date": "18 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has confirmed that ransomware gangs are also exploiting a high-severity Windows Task Host vulnerability that was flagged as actively exploited in April. [.…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-windows-task-host-flaw-now-exploited-by-ransomware-gangs/"
+    },
+    {
+      "title": "CISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE",
+      "sector": "Gouvernement",
+      "date": "18 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a critical flaw impacting Ray to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. Ray is an open-…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html"
+    },
     {
       "title": "Hacker claims 3.6 million Azure account records stolen from major companies",
       "sector": "Non précisé",
@@ -71,59 +121,61 @@
       "desc": "Tech giants General Electric (GE) and Philips have also confirmed they're investigating claims that the Clop ransomware gang breached their systems and stole data. [...]",
       "src": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/"
-    },
-    {
-      "title": "French tax authority data breach affects 678,000 individuals",
-      "sector": "Finance",
-      "date": "17 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The French Ministry of the Economy and Finance has disclosed a data breach after an attacker accessed the General Directorate of Public Finances (DGFiP) systems and stole data belonging to 678,000 individuals. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/"
-    },
-    {
-      "title": "Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5 Proxies",
-      "sector": "Non précisé",
-      "date": "17 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "Cybersecurity researchers have flagged a previously undocumented Linux botnet family dubbed Evooo1Bot that derives its core functionality from the Mirai botnet source code and is equipped to turn internet-facing devices …",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html"
-    },
-    {
-      "title": "Suspected China-Nexus Actor Exploits VMware vCenter Flaw, Deploys Babuk-Derived Ransomware",
-      "sector": "Non précisé",
-      "date": "17 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Cybersecurity researchers have attributed the exploitation of a newly patched security flaw in Broadcom VMware vCenter to a suspected China-nexus advanced persistent threat (APT). The attacks involve the exploitation of …",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html"
-    },
-    {
-      "title": "SafePal data breach impacts 39,798 customers, stolen info for sale",
-      "sector": "Non précisé",
-      "date": "16 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Cryptocurrency hardware wallet provider SafePal is warning of a data breach affecting about 39,798 customers after a flaw was exploited to steal customer order information, and a threat actor is now claiming to be sellin…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/"
-    },
-    {
-      "title": "Apple macOS Screen Sharing Flaw Exploited on Internet-Exposed Macs to Install Monero Miner",
-      "sector": "Non précisé",
-      "date": "15 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "A recently patched security flaw in Apple macOS has come under active exploitation in the wild to deploy a cryptocurrency miner, the Netherlands National Cyber Security Centre (NCSC-NL) has warned. The vulnerability in q…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/08/apple-macos-screen-sharing-flaw.html"
     }
   ],
   "vulns": [
+    {
+      "cve": "CVE-2026-33824",
+      "product": "Microsoft Internet Key Exchange (IKE) Service Extensions",
+      "type": "Microsoft Internet Key Exchange (IKE) Service Extensions Double Free Vulnerability",
+      "cvss": 9.8,
+      "published": "2026-04-14",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-08-21",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33824"
+    },
+    {
+      "cve": "CVE-2026-59310",
+      "product": "Broadcom VMware vCenter",
+      "type": "Broadcom VMware vCenter Path Traversal Vulnerability",
+      "cvss": 9.8,
+      "published": "2026-07-30",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-08-21",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59310"
+    },
+    {
+      "cve": "CVE-2026-55040",
+      "product": "Microsoft SharePoint",
+      "type": "Microsoft SharePoint Weak Authentication Vulnerability",
+      "cvss": 9.1,
+      "published": "2026-07-14",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-08-21",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55040"
+    },
+    {
+      "cve": "CVE-2026-65400",
+      "product": "Apple macOS",
+      "type": "Apple macOS Improper Authentication Vulnerability",
+      "cvss": 9.8,
+      "published": "2026-08-06",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-08-21",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65400"
+    },
     {
       "cve": "CVE-2025-62593",
       "product": "Ray-Project Ray",
@@ -331,77 +383,16 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60137"
-    },
-    {
-      "cve": "CVE-2026-63030",
-      "product": "WordPress Core",
-      "type": "WordPress Core Interpretation Conflict Vulnerability",
-      "cvss": 9.8,
-      "published": "2026-07-17",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-07-24",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63030"
-    },
-    {
-      "cve": "CVE-2026-0770",
-      "product": "Langflow Langflow",
-      "type": "Langflow Inclusion of Functionality from Untrusted Control Sphere Vulnerability",
-      "cvss": 9.8,
-      "published": "2026-01-23",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-07-24",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0770"
-    },
-    {
-      "cve": "CVE-2021-27137",
-      "product": "DD-WRT DD-WRT",
-      "type": "DD-WRT Stack-Based Buffer Overflow Vulnerability",
-      "cvss": 8.1,
-      "published": "2026-07-16",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-07-24",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-27137"
-    },
-    {
-      "cve": "CVE-2026-58644",
-      "product": "Microsoft SharePoint",
-      "type": "Microsoft SharePoint Deserialization of Untrusted Data Vulnerability",
-      "cvss": 9.8,
-      "published": "2026-07-14",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-07-19",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58644"
     }
   ],
   "actors": [
     {
-      "name": "Play",
-      "type": "RaaS / Extorsion",
-      "desc": "A newly disclosed flaw in the way OpenAI, Anthropic, and Google carried hidden AI reasoning between API calls let researchers recover internal reasoning and secrets from session logs, including API keys and passwords. Th…",
-      "victims": "2 mention(s) récente(s) — dernier article : 12 Aug 2026",
-      "region": "Non précisé",
-      "url": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html",
-      "src": "The Hacker News"
-    },
-    {
       "name": "Clop",
       "type": "RaaS / Extorsion",
-      "desc": "Tech giants General Electric (GE) and Philips have also confirmed they're investigating claims that the Clop ransomware gang breached their systems and stole data. [...]",
-      "victims": "1 mention(s) récente(s) — dernier article : 17 Aug 2026",
+      "desc": "A custom Java web shell likely linked to the Clop ransomware gang was designed specifically for PTC Windchill and FlexPLM servers, with built-in features to decrypt credentials, enumerate file repositories, and steal fil…",
+      "victims": "2 mention(s) récente(s) — dernier article : 18 Aug 2026",
       "region": "Non précisé",
-      "url": "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/",
+      "url": "https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/",
       "src": "BleepingComputer"
     },
     {
@@ -423,6 +414,15 @@
       "src": "The Hacker News"
     },
     {
+      "name": "Play",
+      "type": "RaaS / Extorsion",
+      "desc": "A newly disclosed flaw in the way OpenAI, Anthropic, and Google carried hidden AI reasoning between API calls let researchers recover internal reasoning and secrets from session logs, including API keys and passwords. Th…",
+      "victims": "1 mention(s) récente(s) — dernier article : 12 Aug 2026",
+      "region": "Non précisé",
+      "url": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html",
+      "src": "The Hacker News"
+    },
+    {
       "name": "Sandworm",
       "type": "APT / Espionnage",
       "desc": "The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed details of a new social engineering campaign orchestrated by Russian nation-state threat actors targeting IT workers in the country by masquerading …",
@@ -434,19 +434,19 @@
   ],
   "threats": [
     {
-      "title": "Activité soutenue de Play",
-      "desc": "A newly disclosed flaw in the way OpenAI, Anthropic, and Google carried hidden AI reasoning between API calls let researchers recover internal reasoning and secrets from session logs, including API keys and passwords. Th…",
-      "url": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html"
-    },
-    {
       "title": "Activité soutenue de Clop",
-      "desc": "Tech giants General Electric (GE) and Philips have also confirmed they're investigating claims that the Clop ransomware gang breached their systems and stole data. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/"
+      "desc": "A custom Java web shell likely linked to the Clop ransomware gang was designed specifically for PTC Windchill and FlexPLM servers, with built-in features to decrypt credentials, enumerate file repositories, and steal fil…",
+      "url": "https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/"
     },
     {
       "title": "Activité soutenue de Mustang Panda",
       "desc": "The threat actor known as HoneyMyte (aka Mustang Panda) has been observed deploying an updated version of the CoolClient backdoor with a signed Windows kernel-mode rootkit that can hide and protect malicious processes, f…",
       "url": "https://thehackernews.com/2026/08/mustang-panda-adds-signed-windows.html"
+    },
+    {
+      "title": "Activité soutenue de Lazarus",
+      "desc": "The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen backdoor targeting defense…",
+      "url": "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html"
     }
   ]
 }
