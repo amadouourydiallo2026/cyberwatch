@@ -1,7 +1,77 @@
 {
-  "generated_at": "2026-08-20T06:42:49Z",
+  "generated_at": "2026-08-21T06:42:28Z",
   "week_label": "S34 · 17 – 23 août 2026",
   "attacks": [
+    {
+      "title": "Microsoft Entra ID Flaw (CVSS 10.0) Exploited in Wild, Allows Remote Code Execution",
+      "sector": "Non précisé",
+      "date": "21 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Microsoft on Thursday warned of a maximum-severity security flaw in Entra ID that it said has been exploited in the wild, but noted that no customer action is required. The vulnerability, tracked as CVE-2026-69836 (CVSS …",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html"
+    },
+    {
+      "title": "Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads",
+      "sector": "Non précisé",
+      "date": "21 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "The Rust Project has deleted malicious versions of three widely used Rust crates from crates.io after a compromised maintainer account published releases that added a typosquatted dependency whose build script downloaded…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html"
+    },
+    {
+      "title": "Suspected Russian Hackers Abuse Google OAuth and WhatsApp Linking to Hijack Accounts",
+      "sector": "Gouvernement",
+      "date": "21 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Three distinct suspected Russian cyber espionage threat clusters have been observed leveraging legitimate authentication flows to single out individuals working in academia, aerospace and defense, governments, and think …",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html"
+    },
+    {
+      "title": "Hackers poison arrayref Rust crate to push infostealer malware",
+      "sector": "Non précisé",
+      "date": "20 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Hackers compromised the maintainer account behind the widely used Rust crate arrayref to introduce malware that executed on developers' systems during compilation. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-poison-arrayref-rust-crate-to-push-infostealer-malware/"
+    },
+    {
+      "title": "Why \"Shady AI\" is Security's Next Big Governance Problem",
+      "sector": "Non précisé",
+      "date": "20 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "In March 2026, an internal AI agent at Meta triggered a “Sev 1” incident after sensitive company and user data was exposed to employees who weren’t authorized to access it. The incident began when a Meta employee posted …",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/why-shady-ai-is-securitys-next-big.html"
+    },
+    {
+      "title": "CISA warns of hackers exploiting critical MLflow vulnerability",
+      "sector": "Gouvernement",
+      "date": "20 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "The Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that threat actors are now exploiting a critical vulnerability in the MLflow open-source AI engineering platform. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/"
+    },
+    {
+      "title": "Critical Zimbra RCE flaw now actively exploited in attacks",
+      "sector": "Non précisé",
+      "date": "20 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "CERT Polska, the Polish Computer Emergency Response Team (CERT), warned that attackers have begun exploiting a critical vulnerability in Zimbra Collaboration Suite (ZCS). [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-zimbra-rce-flaw-now-actively-exploited-in-attacks/"
+    },
     {
       "title": "Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code",
       "sector": "Non précisé",
@@ -51,79 +121,35 @@
       "desc": "Cybersecurity researchers have disclosed details of a remote Spectre attack against Cloudflare Workers that leaked a JSON Web Token (JWT) from a co-located Worker in the production environment at up to 12 bits per second…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html"
-    },
-    {
-      "title": "Hackers compromise 14,500 Dahua web cameras in 35-day campaign",
-      "sector": "Non précisé",
-      "date": "19 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "In a large-scale campaign that researchers dubbed CameraSwarm, hackers compromised more than 14,500 Dahua IP cameras mostly in Ukraine and Russia. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-14-500-dahua-web-cameras-in-35-day-campaign/"
-    },
-    {
-      "title": "OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe AI Behavior",
-      "sector": "Non précisé",
-      "date": "19 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "OpenAI on Tuesday revealed that it paused reinforcement learning (RL) training for its latest artificial intelligence (AI) models for two weeks while it shored up additional defenses and increased the scope of its monito…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html"
-    },
-    {
-      "title": "US charges Iranian hackers over $3.4 billion intellectual property theft",
-      "sector": "Non précisé",
-      "date": "19 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "The U.S. has charged 17 Iranians, alleged members of a hacking-for-hire company called Mabna Institute, involved in years-long operations that stole data from American organizations. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/us-charges-iranian-hackers-over-34-billion-intellectual-property-theft/"
-    },
-    {
-      "title": "Password spraying attacks surge 155x as hackers exploit MFA gaps",
-      "sector": "Non précisé",
-      "date": "19 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Huntress observed a 155x increase in password spraying attacks in H1 2026, including a campaign that generated more than 81 million login attempts in two weeks. The attacks exploited legacy authentication and gaps in MFA…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/password-spraying-attacks-surge-155x-as-hackers-exploit-mfa-gaps/"
-    },
-    {
-      "title": "Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasses, and P2P",
-      "sector": "Non précisé",
-      "date": "19 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Cybersecurity researchers at Hunt.io have disclosed details of a campaign that they say compromised more than 14,530 Dahua devices between June 17 and July 22, 2026, using credential attacks, two authentication-bypass fl…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html"
-    },
-    {
-      "title": "StopAndProtect Uses Nearly 2,000 Hacked WordPress Sites to Spread Malware and Steal Data",
-      "sector": "Non précisé",
-      "date": "19 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "Cybersecurity researchers have flagged a global cybercrime operation that abuses thousands of hacked WordPress websites as infrastructure to disseminate malware, commandeer infected hosts, store stolen documents, screens…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/08/stopandprotect-uses-nearly-2000-hacked.html"
-    },
-    {
-      "title": "Critical macOS, SharePoint, vCenter, and Microsoft IKE Flaws Under Active Exploitation",
-      "sector": "Gouvernement",
-      "date": "19 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four critical vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, stating they are being exploited in the wild. The shor…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html"
     }
   ],
   "vulns": [
+    {
+      "cve": "CVE-2026-72530",
+      "product": "TrueConf Server",
+      "type": "TrueConf Server Code Injection Vulnerability",
+      "cvss": 9.0,
+      "published": "2026-08-19",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-09-03",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72530"
+    },
+    {
+      "cve": "CVE-2026-72529",
+      "product": "TrueConf Server",
+      "type": "TrueConf Server Missing Authentication for Critical Function Vulnerability",
+      "cvss": 9.8,
+      "published": "2026-08-19",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-08-23",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72529"
+    },
     {
       "cve": "CVE-2026-64849",
       "product": "MLflow MLflow",
@@ -357,32 +383,6 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16812"
-    },
-    {
-      "cve": "CVE-2026-16232",
-      "product": "Check Point SmartConsole",
-      "type": "Check Point SmartConsole Improper Authentication Vulnerability",
-      "cvss": 9.8,
-      "published": "2026-07-22",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-07-25",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16232"
-    },
-    {
-      "cve": "CVE-2026-50522",
-      "product": "Microsoft SharePoint",
-      "type": "Microsoft SharePoint Deserialization of Untrusted Data Vulnerability ",
-      "cvss": 9.8,
-      "published": "2026-07-14",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-07-25",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50522"
     }
   ],
   "actors": [
@@ -390,19 +390,10 @@
       "name": "Clop",
       "type": "RaaS / Extorsion",
       "desc": "A JavaServer Pages (JSP) web shell deployed following the exploitation of a critical security flaw in PTC Windchill and FlexPLM servers is specifically designed for the enterprise Product Lifecycle Management (PLM) softw…",
-      "victims": "2 mention(s) récente(s) — dernier article : 19 Aug 2026",
+      "victims": "1 mention(s) récente(s) — dernier article : 19 Aug 2026",
       "region": "Non précisé",
       "url": "https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html",
       "src": "The Hacker News"
-    },
-    {
-      "name": "Medusa",
-      "type": "RaaS / Extorsion",
-      "desc": "The FBI said Tuesday that the Medusa ransomware gang has breached more than 500 critical infrastructure organizations in the United States since June 2021. [...]",
-      "victims": "1 mention(s) récente(s) — dernier article : 19 Aug 2026",
-      "region": "Non précisé",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs/",
-      "src": "BleepingComputer"
     },
     {
       "name": "Mustang Panda",
@@ -412,24 +403,6 @@
       "region": "Non précisé",
       "url": "https://thehackernews.com/2026/08/mustang-panda-adds-signed-windows.html",
       "src": "The Hacker News"
-    },
-    {
-      "name": "Lazarus",
-      "type": "APT / Espionnage",
-      "desc": "The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen backdoor targeting defense…",
-      "victims": "1 mention(s) récente(s) — dernier article : 12 Aug 2026",
-      "region": "Non précisé",
-      "url": "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
-      "src": "The Hacker News"
-    },
-    {
-      "name": "Play",
-      "type": "RaaS / Extorsion",
-      "desc": "A newly disclosed flaw in the way OpenAI, Anthropic, and Google carried hidden AI reasoning between API calls let researchers recover internal reasoning and secrets from session logs, including API keys and passwords. Th…",
-      "victims": "1 mention(s) récente(s) — dernier article : 12 Aug 2026",
-      "region": "Non précisé",
-      "url": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html",
-      "src": "The Hacker News"
     }
   ],
   "threats": [
@@ -437,11 +410,6 @@
       "title": "Activité soutenue de Clop",
       "desc": "A JavaServer Pages (JSP) web shell deployed following the exploitation of a critical security flaw in PTC Windchill and FlexPLM servers is specifically designed for the enterprise Product Lifecycle Management (PLM) softw…",
       "url": "https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html"
-    },
-    {
-      "title": "Activité soutenue de Medusa",
-      "desc": "The FBI said Tuesday that the Medusa ransomware gang has breached more than 500 critical infrastructure organizations in the United States since June 2021. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs/"
     },
     {
       "title": "Activité soutenue de Mustang Panda",
