@@ -1,14 +1,84 @@
 {
-  "generated_at": "2026-08-21T06:42:28Z",
+  "generated_at": "2026-08-22T06:37:01Z",
   "week_label": "S34 · 17 – 23 août 2026",
   "attacks": [
     {
-      "title": "Microsoft Entra ID Flaw (CVSS 10.0) Exploited in Wild, Allows Remote Code Execution",
+      "title": "Hundreds of leaked AWS keys give full control over corporate accounts",
+      "sector": "Non précisé",
+      "date": "21 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "More than 9,300 Amazon Web Services (AWS) access keys publicly exposed between August 2022 and August 2026 are still active and valid. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hundreds-of-leaked-aws-keys-give-full-control-over-corporate-accounts/"
+    },
+    {
+      "title": "Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot",
       "sector": "Non précisé",
       "date": "21 Aug 2026",
       "actor": "Non attribué",
       "sev": "high",
-      "desc": "Microsoft on Thursday warned of a maximum-severity security flaw in Entra ID that it said has been exploited in the wild, but noted that no customer action is required. The vulnerability, tracked as CVE-2026-69836 (CVSS …",
+      "desc": "Check Point Research has disclosed a technique that uses Microsoft Defender's own legitimately signed boot-time remediation driver to perform arbitrary kernel-level file and registry operations on Windows systems ranging…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html"
+    },
+    {
+      "title": "Is Online Privacy Possible? How Digital Identities Can Help",
+      "sector": "Non précisé",
+      "date": "21 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Using the same email, phone number, payment method, and other identifiers makes it easier for data brokers and attackers to profile your activity. Anonyome Labs explains how separate digital personas can reduce correlati…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/is-online-privacy-possible-how-digital-identities-can-help/"
+    },
+    {
+      "title": "CISA orders feds to patch actively exploited TrueConf Server flaws",
+      "sector": "Gouvernement",
+      "date": "21 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered U.S. federal agencies to prioritize patching two actively exploited vulnerabilities in the TrueConf Server self-hosted communications platform. [..…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws/"
+    },
+    {
+      "title": "Microsoft warns of max severity Entra ID flaw exploited in attacks",
+      "sector": "Non précisé",
+      "date": "21 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Microsoft has patched a maximum-severity vulnerability in the Entra ID identity and access management (IAM) platform that has been exploited in attacks. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/"
+    },
+    {
+      "title": "Hackers abuse FTP server banners to deliver new Windows malware",
+      "sector": "Non précisé",
+      "date": "21 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Threat actors are abusing FTP banners to hide commands that deliver two previously undocumented remote access trojans named E4del and PINHOLE. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-ftp-server-banners-to-deliver-new-windows-malware/"
+    },
+    {
+      "title": "SickKids data breach exposes employee and job applicant info",
+      "sector": "Santé",
+      "date": "21 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Toronto's Hospital for Sick Children (SickKids) says a cybersecurity incident exposed the personal information of some current and former employees and job applicants, stemming from a flaw in third-party software. Clinic…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/sickkids-data-breach-exposes-employee-and-job-applicant-info/"
+    },
+    {
+      "title": "Microsoft Patches Severe Entra ID Flaw (CVSS 10.0) Allowing Remote Code Execution",
+      "sector": "Non précisé",
+      "date": "21 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Update: The story was updated after publication to note that the vulnerability has not been exploited. Although the security bulletin originally marked the \"Exploited\" field under the Exploitability Assessment table as \"…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html"
     },
@@ -51,79 +121,22 @@
       "desc": "In March 2026, an internal AI agent at Meta triggered a “Sev 1” incident after sensitive company and user data was exposed to employees who weren’t authorized to access it. The incident began when a Meta employee posted …",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/08/why-shady-ai-is-securitys-next-big.html"
-    },
-    {
-      "title": "CISA warns of hackers exploiting critical MLflow vulnerability",
-      "sector": "Gouvernement",
-      "date": "20 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "The Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that threat actors are now exploiting a critical vulnerability in the MLflow open-source AI engineering platform. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/"
-    },
-    {
-      "title": "Critical Zimbra RCE flaw now actively exploited in attacks",
-      "sector": "Non précisé",
-      "date": "20 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "CERT Polska, the Polish Computer Emergency Response Team (CERT), warned that attackers have begun exploiting a critical vulnerability in Zimbra Collaboration Suite (ZCS). [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/critical-zimbra-rce-flaw-now-actively-exploited-in-attacks/"
-    },
-    {
-      "title": "Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code",
-      "sector": "Non précisé",
-      "date": "20 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Cybersecurity researchers have disclosed details of a critical flaw in the Elementor Pro WordPress plugin that, if successfully exploited, could lead to remote code execution. The vulnerability, tracked as CVE-2026-32475…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html"
-    },
-    {
-      "title": "Rogue ransomware affiliate poses as recovery firm to steal payments",
-      "sector": "Non précisé",
-      "date": "19 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "A suspected ransomware affiliate is posing as a ransomware recovery service called \"Ransom Busters,\" contacting the victims before the attacks become public and claiming to be able to provide decryption keys and delete s…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/rogue-ransomware-affiliate-ransom-busters-poses-as-recovery-firm/"
-    },
-    {
-      "title": "Sakura Internet hack exposes data of up to 1.36 million accounts",
-      "sector": "Non précisé",
-      "date": "19 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Japanese cloud and data center service provider Sakura Internet disclosed that hackers accessed its sales management system, where customer contract and membership information is stored. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/sakura-internet-hack-exposes-data-of-up-to-136-million-accounts/"
-    },
-    {
-      "title": "Healthtech firm CareCloud data breach impacts 3.7 million patients",
-      "sector": "Santé",
-      "date": "19 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "U.S. healthcare IT company CareCloud disclosed that the data breach incident it suffered earlier this year has impacted more than 3.7 million individuals. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/healthtech-firm-carecloud-data-breach-impacts-37-million-patients/"
-    },
-    {
-      "title": "Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second",
-      "sector": "Non précisé",
-      "date": "20 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Cybersecurity researchers have disclosed details of a remote Spectre attack against Cloudflare Workers that leaked a JSON Web Token (JWT) from a co-located Worker in the production environment at up to 12 bits per second…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html"
     }
   ],
   "vulns": [
+    {
+      "cve": "CVE-2026-73570",
+      "product": "Synacor Zimbra Collaboration Suite (ZCS)",
+      "type": "Zimbra Collaboration Suite (ZCS) OS Command Injection Vulnerability",
+      "cvss": 8.9,
+      "published": "2026-08-13",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-08-24",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73570"
+    },
     {
       "cve": "CVE-2026-72530",
       "product": "TrueConf Server",
@@ -370,19 +383,6 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68686"
-    },
-    {
-      "cve": "CVE-2026-16812",
-      "product": "Arista VeloCloud Orchestrator",
-      "type": "Arista VeloCloud Orchestrator On-Prem OS Command Injection Vulnerability",
-      "cvss": 10.0,
-      "published": "2026-07-27",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-07-30",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16812"
     }
   ],
   "actors": [
@@ -394,15 +394,6 @@
       "region": "Non précisé",
       "url": "https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html",
       "src": "The Hacker News"
-    },
-    {
-      "name": "Mustang Panda",
-      "type": "APT / Espionnage",
-      "desc": "The threat actor known as HoneyMyte (aka Mustang Panda) has been observed deploying an updated version of the CoolClient backdoor with a signed Windows kernel-mode rootkit that can hide and protect malicious processes, f…",
-      "victims": "1 mention(s) récente(s) — dernier article : 14 Aug 2026",
-      "region": "Non précisé",
-      "url": "https://thehackernews.com/2026/08/mustang-panda-adds-signed-windows.html",
-      "src": "The Hacker News"
     }
   ],
   "threats": [
@@ -410,11 +401,6 @@
       "title": "Activité soutenue de Clop",
       "desc": "A JavaServer Pages (JSP) web shell deployed following the exploitation of a critical security flaw in PTC Windchill and FlexPLM servers is specifically designed for the enterprise Product Lifecycle Management (PLM) softw…",
       "url": "https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html"
-    },
-    {
-      "title": "Activité soutenue de Mustang Panda",
-      "desc": "The threat actor known as HoneyMyte (aka Mustang Panda) has been observed deploying an updated version of the CoolClient backdoor with a signed Windows kernel-mode rootkit that can hide and protect malicious processes, f…",
-      "url": "https://thehackernews.com/2026/08/mustang-panda-adds-signed-windows.html"
     }
   ]
 }
