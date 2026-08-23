@@ -1,7 +1,17 @@
 {
-  "generated_at": "2026-08-22T06:37:01Z",
+  "generated_at": "2026-08-23T06:37:59Z",
   "week_label": "S34 · 17 – 23 août 2026",
   "attacks": [
+    {
+      "title": "Hackers infect Android car head units with proxy botnet malware",
+      "sector": "Non précisé",
+      "date": "22 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "A supply-chain attack targeting Android-based car head units is using a legitimate device-update app to spread malware that enlists compromised devices in a proxy botnet or uses them for ad fraud. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/"
+    },
     {
       "title": "Hundreds of leaked AWS keys give full control over corporate accounts",
       "sector": "Non précisé",
@@ -43,7 +53,7 @@
       "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws/"
     },
     {
-      "title": "Microsoft warns of max severity Entra ID flaw exploited in attacks",
+      "title": "Microsoft patches max severity code execution, privilege escalation flaws",
       "sector": "Non précisé",
       "date": "21 Aug 2026",
       "actor": "Non attribué",
@@ -111,16 +121,6 @@
       "desc": "Hackers compromised the maintainer account behind the widely used Rust crate arrayref to introduce malware that executed on developers' systems during compilation. [...]",
       "src": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/security/hackers-poison-arrayref-rust-crate-to-push-infostealer-malware/"
-    },
-    {
-      "title": "Why \"Shady AI\" is Security's Next Big Governance Problem",
-      "sector": "Non précisé",
-      "date": "20 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "In March 2026, an internal AI agent at Meta triggered a “Sev 1” incident after sensitive company and user data was exposed to employees who weren’t authorized to access it. The incident began when a Meta employee posted …",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/08/why-shady-ai-is-securitys-next-big.html"
     }
   ],
   "vulns": [
