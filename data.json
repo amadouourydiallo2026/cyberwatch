@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-23T06:37:59Z",
-  "week_label": "S34 · 17 – 23 août 2026",
+  "generated_at": "2026-08-24T06:54:43Z",
+  "week_label": "S35 · 24 – 30 août 2026",
   "attacks": [
     {
       "title": "Hackers infect Android car head units with proxy botnet malware",
@@ -237,7 +237,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-08-20",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62593"
     },
@@ -387,6 +387,15 @@
   ],
   "actors": [
     {
+      "name": "Play",
+      "type": "RaaS / Extorsion",
+      "desc": "The ToxicPanda Android malware has evolved with new malicious functionality, expanding its targeting to 349 applications and adding support for 167 remote commands. [...]",
+      "victims": "1 mention(s) récente(s) — dernier article : 23 Aug 2026",
+      "region": "Non précisé",
+      "url": "https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/",
+      "src": "BleepingComputer"
+    },
+    {
       "name": "Clop",
       "type": "RaaS / Extorsion",
       "desc": "A JavaServer Pages (JSP) web shell deployed following the exploitation of a critical security flaw in PTC Windchill and FlexPLM servers is specifically designed for the enterprise Product Lifecycle Management (PLM) softw…",
@@ -397,6 +406,11 @@
     }
   ],
   "threats": [
+    {
+      "title": "Activité soutenue de Play",
+      "desc": "The ToxicPanda Android malware has evolved with new malicious functionality, expanding its targeting to 349 applications and adding support for 167 remote commands. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/"
+    },
     {
       "title": "Activité soutenue de Clop",
       "desc": "A JavaServer Pages (JSP) web shell deployed following the exploitation of a critical security flaw in PTC Windchill and FlexPLM servers is specifically designed for the enterprise Product Lifecycle Management (PLM) softw…",
