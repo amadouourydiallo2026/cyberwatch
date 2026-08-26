@@ -1,7 +1,77 @@
 {
-  "generated_at": "2026-08-25T06:43:11Z",
+  "generated_at": "2026-08-26T06:44:59Z",
   "week_label": "S35 · 24 – 30 août 2026",
   "attacks": [
+    {
+      "title": "LACMA data breach last year exposed social security and medical data",
+      "sector": "Santé",
+      "date": "25 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The Los Angeles County Museum of Art (LACMA) has announced that a breach last year exposed customer and employee information. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/lacma-data-breach-last-year-exposed-social-security-and-medical-data/"
+    },
+    {
+      "title": "Hackers abuse npm mirrors to host phishing redirect pages",
+      "sector": "Non précisé",
+      "date": "25 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Threat actors are abusing npm and its mirrors to host malicious HTML pages that impersonate Cloudflare CAPTCHAs to redirect visitors to attacker-controlled websites. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-npm-mirrors-to-host-phishing-redirect-pages/"
+    },
+    {
+      "title": "U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches",
+      "sector": "Finance",
+      "date": "25 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "The U.S. Department of the Treasury has announced fresh sanctions on Iranian cyber actors as part of what it called an \"unprecedented, whole-of-government, economic campaign\" against the nation and its enablers. \"We are …",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html"
+    },
+    {
+      "title": "Hospital operator Nutex Health says data stolen in cyberattack",
+      "sector": "Santé",
+      "date": "25 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Healthcare and services provider Nutex is investigating a data breach incident where an unauthorized third party exfiltrated information from company servers. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hospital-operator-nutex-health-says-data-stolen-in-cyberattack/"
+    },
+    {
+      "title": "A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw",
+      "sector": "Non précisé",
+      "date": "25 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Oasis Security has disclosed a weakness in NVIDIA NemoClaw that could let an attacker-controlled webpage take unauthenticated control of the local Ollama instance serving an AI agent and plant hidden instructions inside …",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html"
+    },
+    {
+      "title": "Hackers breached over 270 Zimbra servers in ongoing attacks",
+      "sector": "Non précisé",
+      "date": "25 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Threat actors have already compromised over 270 Zimbra instances in remote code execution attacks targeting a high-severity Zimbra Collaboration Suite (ZCS) vulnerability. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-breached-over-270-zimbra-servers-in-ongoing-attacks/"
+    },
+    {
+      "title": "Mirage2FA Surge Hits 4,500 US and EU Companies, Abusing Microsoft 365 Login Flows",
+      "sector": "Non précisé",
+      "date": "25 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Thousands of companies have been affected by the Mirage2FA campaign from 2024 to 2026. The commercial phishing-as-a-service toolkit targets Microsoft 365 accounts by abusing legitimate login flows and bypassing two-facto…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html"
+    },
     {
       "title": "Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data",
       "sector": "Gouvernement",
@@ -51,79 +121,22 @@
       "desc": "Cybersecurity company ReliaQuest has confirmed that one of its employees was targeted in a social engineering attack after hackers impersonated a member of the security team. [...]",
       "src": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/"
-    },
-    {
-      "title": "South Korean startup platform breach exposes key management failures",
-      "sector": "Gouvernement",
-      "date": "24 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "A breach at South Korea's government-backed startup platform exposed encrypted personal data after an encryption key was included in an API. Penta Security explains why encryption keys must be securely managed and kept s…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/south-korean-startup-platform-breach-exposes-key-management-failures/"
-    },
-    {
-      "title": "WordlistLoader Delivers Amatera via ClickFix, SynkLoader Phishes Windows Passwords",
-      "sector": "Non précisé",
-      "date": "24 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Cybersecurity researchers have flagged two new malware families called WordlistLoader and SynkLoader that's used to deliver next-stage payloads and likely sell access to ransomware groups. According to findings from Gen …",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html"
-    },
-    {
-      "title": "CISA orders urgent patching of actively exploited Zimbra flaw",
-      "sector": "Gouvernement",
-      "date": "24 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The Cybersecurity and Infrastructure Security Agency (CISA) has ordered U.S. government agencies to patch an actively exploited vulnerability in Zimbra Collaboration Suite (ZCS) within three days. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-urgent-patching-of-actively-exploited-zimbra-flaw/"
-    },
-    {
-      "title": "Hackers infect Android car head units with proxy botnet malware",
-      "sector": "Non précisé",
-      "date": "22 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "A supply-chain attack targeting Android-based car head units is using a legitimate device-update app to spread malware that enlists compromised devices in a proxy botnet or uses them for ad fraud. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/"
-    },
-    {
-      "title": "Hundreds of leaked AWS keys give full control over corporate accounts",
-      "sector": "Non précisé",
-      "date": "21 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "More than 9,300 Amazon Web Services (AWS) access keys publicly exposed between August 2022 and August 2026 are still active and valid. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hundreds-of-leaked-aws-keys-give-full-control-over-corporate-accounts/"
-    },
-    {
-      "title": "Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot",
-      "sector": "Non précisé",
-      "date": "21 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Check Point Research has disclosed a technique that uses Microsoft Defender's own legitimately signed boot-time remediation driver to perform arbitrary kernel-level file and registry operations on Windows systems ranging…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html"
-    },
-    {
-      "title": "Microsoft Patches Severe Entra ID Flaw (CVSS 10.0) Allowing Remote Code Execution",
-      "sector": "Non précisé",
-      "date": "21 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Update: The story was updated after publication to note that the vulnerability has not been exploited. Although the security bulletin originally marked the \"Exploited\" field under the Exploitability Assessment table as \"…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html"
     }
   ],
   "vulns": [
+    {
+      "cve": "CVE-2026-60004",
+      "product": "Gitea Gitea",
+      "type": "Gitea Code Injection Vulnerability",
+      "cvss": null,
+      "published": null,
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-08-28",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60004"
+    },
     {
       "cve": "CVE-2026-21962",
       "product": "Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in",
@@ -185,7 +198,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-09-02",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64849"
     },
@@ -370,19 +383,6 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18577"
-    },
-    {
-      "cve": "CVE-2026-20316",
-      "product": "Cisco Secure Firewall Management Center (FMC)",
-      "type": "Cisco Secure Firewall Management Center Use of Hard-coded Password Vulnerability",
-      "cvss": 5.3,
-      "published": "2026-07-29",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-08-01",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20316"
     }
   ],
   "actors": [
@@ -394,24 +394,6 @@
       "region": "Non précisé",
       "url": "https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/",
       "src": "BleepingComputer"
-    },
-    {
-      "name": "Play",
-      "type": "RaaS / Extorsion",
-      "desc": "The ToxicPanda Android malware has evolved with new malicious functionality, expanding its targeting to 349 applications and adding support for 167 remote commands. [...]",
-      "victims": "1 mention(s) récente(s) — dernier article : 23 Aug 2026",
-      "region": "Non précisé",
-      "url": "https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/",
-      "src": "BleepingComputer"
-    },
-    {
-      "name": "Clop",
-      "type": "RaaS / Extorsion",
-      "desc": "A JavaServer Pages (JSP) web shell deployed following the exploitation of a critical security flaw in PTC Windchill and FlexPLM servers is specifically designed for the enterprise Product Lifecycle Management (PLM) softw…",
-      "victims": "1 mention(s) récente(s) — dernier article : 19 Aug 2026",
-      "region": "Non précisé",
-      "url": "https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html",
-      "src": "The Hacker News"
     }
   ],
   "threats": [
@@ -419,16 +401,108 @@
       "title": "Activité soutenue de ShinyHunters",
       "desc": "Cybersecurity company ReliaQuest has confirmed that one of its employees was targeted in a social engineering attack after hackers impersonated a member of the security team. [...]",
       "url": "https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/"
+    }
+  ],
+  "iocs": [
+    {
+      "type": "domain",
+      "value": "fix.unknower.win",
+      "malware": "XMRIG",
+      "confidence": 100,
+      "first_seen": "2026-08-08",
+      "related_cve": "CVE-2026-60004",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1870727/"
     },
     {
-      "title": "Activité soutenue de Play",
-      "desc": "The ToxicPanda Android malware has evolved with new malicious functionality, expanding its targeting to 349 applications and adding support for 167 remote commands. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/"
+      "type": "url",
+      "value": "http://176.65.148.250:6556/ok",
+      "malware": "XMRIG",
+      "confidence": 100,
+      "first_seen": "2026-08-08",
+      "related_cve": "CVE-2026-60004",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1870728/"
     },
     {
-      "title": "Activité soutenue de Clop",
-      "desc": "A JavaServer Pages (JSP) web shell deployed following the exploitation of a critical security flaw in PTC Windchill and FlexPLM servers is specifically designed for the enterprise Product Lifecycle Management (PLM) softw…",
-      "url": "https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html"
+      "type": "ip:port",
+      "value": "176.65.148.250:6556",
+      "malware": "XMRIG",
+      "confidence": 100,
+      "first_seen": "2026-08-08",
+      "related_cve": "CVE-2026-60004",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1870729/"
+    },
+    {
+      "type": "url",
+      "value": "http://fix.unknower.win/",
+      "malware": "XMRIG",
+      "confidence": 100,
+      "first_seen": "2026-08-08",
+      "related_cve": "CVE-2026-60004",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1870730/"
+    },
+    {
+      "type": "url",
+      "value": "https://kworker.eth.limo/kworker/api",
+      "malware": "XMRIG",
+      "confidence": 100,
+      "first_seen": "2026-08-08",
+      "related_cve": "CVE-2026-60004",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1870731/"
+    },
+    {
+      "type": "url",
+      "value": "https://kworker.eth.link/kworker/api",
+      "malware": "XMRIG",
+      "confidence": 100,
+      "first_seen": "2026-08-08",
+      "related_cve": "CVE-2026-60004",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1870732/"
+    },
+    {
+      "type": "domain",
+      "value": "kworker.eth.limo",
+      "malware": "XMRIG",
+      "confidence": 100,
+      "first_seen": "2026-08-08",
+      "related_cve": "CVE-2026-60004",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1870733/"
+    },
+    {
+      "type": "domain",
+      "value": "kworker.eth.link",
+      "malware": "XMRIG",
+      "confidence": 100,
+      "first_seen": "2026-08-08",
+      "related_cve": "CVE-2026-60004",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1870734/"
+    },
+    {
+      "type": "ip:port",
+      "value": "167.179.119.120:80",
+      "malware": "XMRIG",
+      "confidence": 100,
+      "first_seen": "2026-08-08",
+      "related_cve": "CVE-2026-60004",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1870735/"
+    },
+    {
+      "type": "ip:port",
+      "value": "34.70.205.211:80",
+      "malware": "XMRIG",
+      "confidence": 100,
+      "first_seen": "2026-08-08",
+      "related_cve": "CVE-2026-60004",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1870736/"
     }
   ]
 }
