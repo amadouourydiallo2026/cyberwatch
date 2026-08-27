@@ -1,135 +1,213 @@
 {
-  "generated_at": "2026-08-26T06:44:59Z",
+  "generated_at": "2026-08-27T17:20:40Z",
   "week_label": "S35 · 24 – 30 août 2026",
   "attacks": [
     {
-      "title": "LACMA data breach last year exposed social security and medical data",
-      "sector": "Santé",
-      "date": "25 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The Los Angeles County Museum of Art (LACMA) has announced that a breach last year exposed customer and employee information. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/lacma-data-breach-last-year-exposed-social-security-and-medical-data/"
-    },
-    {
-      "title": "Hackers abuse npm mirrors to host phishing redirect pages",
+      "title": "PaperCut warns of NG, MF flaw exploited in zero-day attacks",
       "sector": "Non précisé",
-      "date": "25 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Threat actors are abusing npm and its mirrors to host malicious HTML pages that impersonate Cloudflare CAPTCHAs to redirect visitors to attacker-controlled websites. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-npm-mirrors-to-host-phishing-redirect-pages/"
-    },
-    {
-      "title": "U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches",
-      "sector": "Finance",
-      "date": "25 Aug 2026",
+      "date": "27 Aug 2026",
       "actor": "Non attribué",
       "sev": "critical",
-      "desc": "The U.S. Department of the Treasury has announced fresh sanctions on Iranian cyber actors as part of what it called an \"unprecedented, whole-of-government, economic campaign\" against the nation and its enablers. \"We are …",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html"
-    },
-    {
-      "title": "Hospital operator Nutex Health says data stolen in cyberattack",
-      "sector": "Santé",
-      "date": "25 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Healthcare and services provider Nutex is investigating a data breach incident where an unauthorized third party exfiltrated information from company servers. [...]",
+      "desc": "PaperCut is warning that hackers are actively exploiting a vulnerability in all versions of its PaperCut NG and PaperCut MF print management software in zero-day attacks. [...]",
       "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hospital-operator-nutex-health-says-data-stolen-in-cyberattack/"
+      "url": "https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks/"
     },
     {
-      "title": "A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw",
-      "sector": "Non précisé",
-      "date": "25 Aug 2026",
+      "title": "Manchester Airports Group says hackers stole travelers' data",
+      "sector": "Transport",
+      "date": "27 Aug 2026",
       "actor": "Non attribué",
       "sev": "high",
-      "desc": "Oasis Security has disclosed a weakness in NVIDIA NemoClaw that could let an attacker-controlled webpage take unauthenticated control of the local Ollama instance serving an AI agent and plant hidden instructions inside …",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html"
-    },
-    {
-      "title": "Hackers breached over 270 Zimbra servers in ongoing attacks",
-      "sector": "Non précisé",
-      "date": "25 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Threat actors have already compromised over 270 Zimbra instances in remote code execution attacks targeting a high-severity Zimbra Collaboration Suite (ZCS) vulnerability. [...]",
+      "desc": "The Manchester Airports Group (MAG) disclosed that hackers breached its systems and stole customer data, including Wi-Fi sign-ups from Manchester, Stansted, and East Midlands airports. [...]",
       "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-breached-over-270-zimbra-servers-in-ongoing-attacks/"
+      "url": "https://www.bleepingcomputer.com/news/security/manchester-airports-group-says-hackers-stole-travelers-data/"
     },
     {
-      "title": "Mirage2FA Surge Hits 4,500 US and EU Companies, Abusing Microsoft 365 Login Flows",
+      "title": "Next.js Patches Critical AVIF and Windows Flaws Enabling Unauthenticated RCE",
       "sector": "Non précisé",
-      "date": "25 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "Thousands of companies have been affected by the Mirage2FA campaign from 2024 to 2026. The commercial phishing-as-a-service toolkit targets Microsoft 365 accounts by abusing legitimate login flows and bypassing two-facto…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html"
-    },
-    {
-      "title": "Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data",
-      "sector": "Gouvernement",
-      "date": "25 Aug 2026",
+      "date": "27 Aug 2026",
       "actor": "Non attribué",
       "sev": "critical",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a maximum-severity security flaw impacting Oracle HTTP Server and Oracle WebLogic Server to its Known Exploited Vulnerabilities (KEV) catal…",
+      "desc": "Credit: Hacktron Vercel has released security patches for two critical-severity vulnerabilities in the Next.js web framework, both of which allow unauthenticated remote code execution, one exploitable via specially craft…",
       "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html"
+      "url": "https://thehackernews.com/2026/08/nextjs-patches-critical-avif-and.html"
     },
     {
-      "title": "Unpatched Calix flaw lets hackers bypass NAT to expose internal devices",
+      "title": "Australia arrests alleged TeamPCP hackers behind supply-chain attacks",
       "sector": "Non précisé",
-      "date": "24 Aug 2026",
+      "date": "27 Aug 2026",
       "actor": "Non attribué",
       "sev": "high",
-      "desc": "An unpatched vulnerability in Calix GS7 XGS (GS5239XG) residential routers used by multiple U.S. broadband providers allows remote, unauthenticated attackers to create port-forwarding rules that can expose local network …",
+      "desc": "Australian authorities have arrested and charged two young men accused of being part of the TeamPCP hacking group linked to a string of far-reaching developer supply chain attacks. [...]",
       "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/unpatched-calix-flaw-lets-hackers-bypass-nat-to-expose-internal-devices/"
+      "url": "https://www.bleepingcomputer.com/news/security/australia-arrests-alleged-teampcp-hackers-behind-supply-chain-attacks/"
     },
     {
-      "title": "Hackers target WordPress sites in miniOrange auth bypass attacks",
+      "title": "Webinar: How Google Workspace breaches happen and what to do next",
       "sector": "Non précisé",
-      "date": "24 Aug 2026",
+      "date": "27 Aug 2026",
       "actor": "Non attribué",
       "sev": "critical",
-      "desc": "Hackers are attempting to exploit two critical authentication bypass vulnerabilities in the miniOrange SAML 2.0 Single Sign On plugin for WordPress that can be used to forge SAML responses and log in as administrators. […",
+      "desc": "Google Workspace breaches can begin with social engineering or forgotten third-party integrations rather than sophisticated exploits. This webinar examines real-world breaches, what happens during the critical first hour…",
       "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/"
+      "url": "https://www.bleepingcomputer.com/news/security/webinar-how-google-workspace-breaches-happen-and-what-to-do-next/"
     },
     {
-      "title": "Weedhack Malware Spreads via Fake Minecraft Clients and SEO Poisoning",
-      "sector": "Non précisé",
-      "date": "24 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "Cybersecurity researchers have found that several websites are still actively distributing a malware family known as Weedhack to gamers by masquerading as Minecraft clients. McAfee Labs said it detected and blocked more …",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html"
-    },
-    {
-      "title": "ReliaQuest confirms failed data-theft attack after ShinyHunters breach",
-      "sector": "Non précisé",
-      "date": "24 Aug 2026",
+      "title": "Carhartt data breach exposes information of 12.9 million accounts",
+      "sector": "Retail",
+      "date": "27 Aug 2026",
       "actor": "ShinyHunters",
-      "sev": "high",
-      "desc": "Cybersecurity company ReliaQuest has confirmed that one of its employees was targeted in a social engineering attack after hackers impersonated a member of the security team. [...]",
+      "sev": "critical",
+      "desc": "The ShinyHunters extortion group has published sensitive data from nearly 13 million accounts stolen from clothing retailer giant Carhartt earlier this month, according to data breach notification service Have I Been Pwn…",
       "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/"
+      "url": "https://www.bleepingcomputer.com/news/security/carhartt-data-breach-exposes-information-of-129-million-accounts/"
+    },
+    {
+      "title": "CISA orders feds to patch Citrix NetScaler RCE flaw by Saturday",
+      "sector": "Gouvernement",
+      "date": "27 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "CISA has ordered U.S. government agencies to patch their Citrix NetScaler appliances against an actively exploited remote code execution vulnerability by Saturday. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploiting-citrix-netscaler-rce-flaw-in-attacks/"
+    },
+    {
+      "title": "ATF confirms “major incident” after recent Qilin breach claims",
+      "sector": "Gouvernement",
+      "date": "27 Aug 2026",
+      "actor": "Qilin",
+      "sev": "high",
+      "desc": "ATF, the regulatory agency that enforces federal laws governing firearms and explosives in the United States, has confirmed that one of its systems was compromised after breach claims made by the Qilin ransomware gang. […",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/atf-confirms-major-incident-after-recent-qilin-breach-claims/"
+    },
+    {
+      "title": "CISA Adds Six Exploited Flaws to KEV, Including NetScaler, Linux, and SQL Server Bugs",
+      "sector": "Gouvernement",
+      "date": "27 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added six flaws to its Known Exploited Vulnerabilities (KEV) catalog, including a high-severity security vulnerability impacting Citrix NetSca…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/cisa-adds-six-exploited-flaws-to-kev.html"
+    },
+    {
+      "title": "Critical Avada WordPress theme flaw enables zero-click RCE",
+      "sector": "Non précisé",
+      "date": "26 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "A critical vulnerability chain in the popular Avada theme for WordPress can be exploited by an unauthenticated attacker to execute arbitrary PHP code on the server. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-avada-wordpress-theme-flaw-enables-zero-click-rce/"
+    },
+    {
+      "title": "FBI Disrupts China-Linked QTFY Infrastructure Used to Steal Data From U.S. Organizations",
+      "sector": "Non précisé",
+      "date": "26 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "The U.S. Department of Justice (DoJ) on Wednesday announced the disruption of two hacking platforms named QScan and QTRouter operated by Chinese threat actors to target critical infrastructure and other sensitive network…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/fbi-disrupts-china-linked-qtfy.html"
+    },
+    {
+      "title": "Nimbus Manticore Expands Toolset With TWOSTROKE-Like Backdoor and SSH Tunneler",
+      "sector": "Non précisé",
+      "date": "26 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Cybersecurity researchers have discovered additional infrastructure and previously undocumented malware associated with Nimbus Manticore, an Iranian state-sponsored hacking group affiliated with the Islamic Revolutionary…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/nimbus-manticore-expands-toolset-with.html"
     }
   ],
   "vulns": [
     {
+      "cve": "CVE-2021-23758",
+      "product": "Ajax.NET Professional Ajax.NET Professional",
+      "type": "Ajax.NET Professional Deserialization of Untrusted Data Vulnerability",
+      "cvss": 8.1,
+      "published": "2021-12-03",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-09-09",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-23758"
+    },
+    {
+      "cve": "CVE-2015-3246",
+      "product": "Red Hat Libuser",
+      "type": "Red Hat Libuser Race Condition Vulnerability",
+      "cvss": 5.1,
+      "published": "2015-08-11",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-09-09",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-3246"
+    },
+    {
+      "cve": "CVE-2015-5287",
+      "product": "Red Hat Automatic Bug Reporting Tool",
+      "type": "Red Hat Automatic Bug Reporting Tool Privilege Escalation Vulnerability",
+      "cvss": 7.8,
+      "published": "2015-12-07",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-09-09",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-5287"
+    },
+    {
+      "cve": "CVE-2022-0995",
+      "product": "Linux Kernel",
+      "type": "Linux Kernel Out-of-Bounds Write Vulnerability",
+      "cvss": 7.8,
+      "published": "2022-03-25",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-09-09",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-0995"
+    },
+    {
+      "cve": "CVE-2026-8452",
+      "product": "Citrix NetScaler ADC and NetScaler Gateway",
+      "type": "Citrix NetScaler ADC and NetScaler Gateway Improper Restriction of Operations within the B",
+      "cvss": 9.8,
+      "published": "2026-06-30",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-08-29",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8452"
+    },
+    {
+      "cve": "CVE-2019-1068",
+      "product": "Microsoft SQL Server",
+      "type": "Microsoft SQL Server Remote Code Execution Vulnerability",
+      "cvss": 8.8,
+      "published": "2019-07-15",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-08-29",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-1068"
+    },
+    {
       "cve": "CVE-2026-60004",
       "product": "Gitea Gitea",
       "type": "Gitea Code Injection Vulnerability",
-      "cvss": null,
-      "published": null,
+      "cvss": 9.8,
+      "published": "2026-08-26",
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-08-28",
@@ -172,7 +250,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-09-03",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72530"
     },
@@ -185,7 +263,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-08-23",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72529"
     },
@@ -305,204 +383,174 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72898"
-    },
-    {
-      "cve": "CVE-2026-8037",
-      "product": "Progress LoadMaster",
-      "type": "Progress LoadMaster Command Injection Vulnerability",
-      "cvss": 9.6,
-      "published": "2026-06-04",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-08-10",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8037"
-    },
-    {
-      "cve": "CVE-2026-63077",
-      "product": "JetBrains TeamCity",
-      "type": "JetBrains TeamCity Deserialization of Untrusted Data Vulnerability",
-      "cvss": 9.8,
-      "published": "2026-07-27",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-08-08",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63077"
-    },
-    {
-      "cve": "CVE-2026-18556",
-      "product": "N-able N-central",
-      "type": "N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-      "cvss": 7.4,
-      "published": "2026-08-01",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-08-07",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18556"
-    },
-    {
-      "cve": "CVE-2026-34486",
-      "product": "Apache Tomcat",
-      "type": "Apache Tomcat Missing Encryption of Sensitive Data Vulnerability",
-      "cvss": 7.5,
-      "published": "2026-04-09",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-08-07",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34486"
-    },
-    {
-      "cve": "CVE-2026-9198",
-      "product": "IBM Langflow",
-      "type": "IBM Langflow Code Injection Vulnerability",
-      "cvss": 9.8,
-      "published": "2026-07-17",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-08-07",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9198"
-    },
-    {
-      "cve": "CVE-2026-18577",
-      "product": "N-able N-central",
-      "type": "N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-      "cvss": 8.1,
-      "published": "2026-08-02",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-08-06",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18577"
     }
   ],
   "actors": [
     {
       "name": "ShinyHunters",
       "type": "RaaS / Extorsion",
-      "desc": "Cybersecurity company ReliaQuest has confirmed that one of its employees was targeted in a social engineering attack after hackers impersonated a member of the security team. [...]",
-      "victims": "1 mention(s) récente(s) — dernier article : 24 Aug 2026",
+      "desc": "The ShinyHunters extortion group has published sensitive data from nearly 13 million accounts stolen from clothing retailer giant Carhartt earlier this month, according to data breach notification service Have I Been Pwn…",
+      "victims": "1 mention(s) récente(s) — dernier article : 27 Aug 2026",
       "region": "Non précisé",
-      "url": "https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/",
+      "url": "https://www.bleepingcomputer.com/news/security/carhartt-data-breach-exposes-information-of-129-million-accounts/",
       "src": "BleepingComputer"
+    },
+    {
+      "name": "Qilin",
+      "type": "RaaS / Extorsion",
+      "desc": "ATF, the regulatory agency that enforces federal laws governing firearms and explosives in the United States, has confirmed that one of its systems was compromised after breach claims made by the Qilin ransomware gang. […",
+      "victims": "1 mention(s) récente(s) — dernier article : 27 Aug 2026",
+      "region": "Non précisé",
+      "url": "https://www.bleepingcomputer.com/news/security/atf-confirms-major-incident-after-recent-qilin-breach-claims/",
+      "src": "BleepingComputer"
+    },
+    {
+      "name": "Play",
+      "type": "RaaS / Extorsion",
+      "desc": "The CERT Coordination Center (CERT/CC) has disclosed two unpatched vulnerabilities in Kaltura's HTML5 video player library that allow a remote, unauthenticated attacker to read arbitrary files from a server and execute c…",
+      "victims": "1 mention(s) récente(s) — dernier article : 26 Aug 2026",
+      "region": "Non précisé",
+      "url": "https://thehackernews.com/2026/08/unpatched-kaltura-mwembed-flaws-could.html",
+      "src": "The Hacker News"
     }
   ],
   "threats": [
     {
       "title": "Activité soutenue de ShinyHunters",
-      "desc": "Cybersecurity company ReliaQuest has confirmed that one of its employees was targeted in a social engineering attack after hackers impersonated a member of the security team. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/"
+      "desc": "The ShinyHunters extortion group has published sensitive data from nearly 13 million accounts stolen from clothing retailer giant Carhartt earlier this month, according to data breach notification service Have I Been Pwn…",
+      "url": "https://www.bleepingcomputer.com/news/security/carhartt-data-breach-exposes-information-of-129-million-accounts/"
+    },
+    {
+      "title": "Activité soutenue de Qilin",
+      "desc": "ATF, the regulatory agency that enforces federal laws governing firearms and explosives in the United States, has confirmed that one of its systems was compromised after breach claims made by the Qilin ransomware gang. […",
+      "url": "https://www.bleepingcomputer.com/news/security/atf-confirms-major-incident-after-recent-qilin-breach-claims/"
+    },
+    {
+      "title": "Activité soutenue de Play",
+      "desc": "The CERT Coordination Center (CERT/CC) has disclosed two unpatched vulnerabilities in Kaltura's HTML5 video player library that allow a remote, unauthenticated attacker to read arbitrary files from a server and execute c…",
+      "url": "https://thehackernews.com/2026/08/unpatched-kaltura-mwembed-flaws-could.html"
     }
   ],
   "iocs": [
     {
-      "type": "domain",
-      "value": "fix.unknower.win",
-      "malware": "XMRIG",
-      "confidence": 100,
-      "first_seen": "2026-08-08",
-      "related_cve": "CVE-2026-60004",
-      "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1870727/"
-    },
-    {
-      "type": "url",
-      "value": "http://176.65.148.250:6556/ok",
-      "malware": "XMRIG",
-      "confidence": 100,
-      "first_seen": "2026-08-08",
-      "related_cve": "CVE-2026-60004",
-      "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1870728/"
-    },
-    {
       "type": "ip:port",
-      "value": "176.65.148.250:6556",
+      "value": "92.246.139.83:80",
       "malware": "XMRIG",
       "confidence": 100,
-      "first_seen": "2026-08-08",
+      "first_seen": "2026-08-27",
       "related_cve": "CVE-2026-60004",
       "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1870729/"
-    },
-    {
-      "type": "url",
-      "value": "http://fix.unknower.win/",
-      "malware": "XMRIG",
-      "confidence": 100,
-      "first_seen": "2026-08-08",
-      "related_cve": "CVE-2026-60004",
-      "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1870730/"
-    },
-    {
-      "type": "url",
-      "value": "https://kworker.eth.limo/kworker/api",
-      "malware": "XMRIG",
-      "confidence": 100,
-      "first_seen": "2026-08-08",
-      "related_cve": "CVE-2026-60004",
-      "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1870731/"
-    },
-    {
-      "type": "url",
-      "value": "https://kworker.eth.link/kworker/api",
-      "malware": "XMRIG",
-      "confidence": 100,
-      "first_seen": "2026-08-08",
-      "related_cve": "CVE-2026-60004",
-      "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1870732/"
+      "source_url": "https://threatfox.abuse.ch/ioc/1889271/"
     },
     {
       "type": "domain",
-      "value": "kworker.eth.limo",
+      "value": "abcdefghijklmnopqrst.net",
       "malware": "XMRIG",
       "confidence": 100,
-      "first_seen": "2026-08-08",
+      "first_seen": "2026-08-27",
       "related_cve": "CVE-2026-60004",
       "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1870733/"
+      "source_url": "https://threatfox.abuse.ch/ioc/1889270/"
     },
     {
-      "type": "domain",
-      "value": "kworker.eth.link",
+      "type": "url",
+      "value": "http://92.246.139.83/3",
       "malware": "XMRIG",
       "confidence": 100,
-      "first_seen": "2026-08-08",
+      "first_seen": "2026-08-27",
       "related_cve": "CVE-2026-60004",
       "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1870734/"
+      "source_url": "https://threatfox.abuse.ch/ioc/1889274/"
+    },
+    {
+      "type": "url",
+      "value": "http://92.246.139.83/2",
+      "malware": "XMRIG",
+      "confidence": 100,
+      "first_seen": "2026-08-27",
+      "related_cve": "CVE-2026-60004",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1889273/"
+    },
+    {
+      "type": "url",
+      "value": "http://92.246.139.83/1",
+      "malware": "XMRIG",
+      "confidence": 100,
+      "first_seen": "2026-08-27",
+      "related_cve": "CVE-2026-60004",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1889272/"
+    },
+    {
+      "type": "url",
+      "value": "https://cta.edu.pe/wp-content/plugins/linux.bin",
+      "malware": "XMRIG",
+      "confidence": 100,
+      "first_seen": "2026-08-27",
+      "related_cve": "CVE-2026-60004",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1889192/"
+    },
+    {
+      "type": "url",
+      "value": "http://puschl.langhaar-schaeferhunde.com/plugins/linux.bin",
+      "malware": "XMRIG",
+      "confidence": 100,
+      "first_seen": "2026-08-27",
+      "related_cve": "CVE-2026-60004",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1889193/"
+    },
+    {
+      "type": "url",
+      "value": "https://casasmediterraneas.com/wp-content/plugins/linux.bin",
+      "malware": "XMRIG",
+      "confidence": 100,
+      "first_seen": "2026-08-27",
+      "related_cve": "CVE-2026-60004",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1889194/"
+    },
+    {
+      "type": "url",
+      "value": "https://www.mediocasavolponi.com/wp-content/plugins/linux.bin",
+      "malware": "XMRIG",
+      "confidence": 100,
+      "first_seen": "2026-08-27",
+      "related_cve": "CVE-2026-60004",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1889195/"
+    },
+    {
+      "type": "url",
+      "value": "https://cloud.calltop.com.br/apps/web/linux.bin",
+      "malware": "XMRIG",
+      "confidence": 100,
+      "first_seen": "2026-08-27",
+      "related_cve": "CVE-2026-60004",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1889196/"
+    },
+    {
+      "type": "url",
+      "value": "http://147.182.224.216/zed",
+      "malware": "Irc16",
+      "confidence": 50,
+      "first_seen": "2026-08-26",
+      "related_cve": "CVE-2026-73570",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1888067/"
     },
     {
       "type": "ip:port",
-      "value": "167.179.119.120:80",
-      "malware": "XMRIG",
-      "confidence": 100,
-      "first_seen": "2026-08-08",
-      "related_cve": "CVE-2026-60004",
+      "value": "185.209.228.162:2087",
+      "malware": "Irc16",
+      "confidence": 50,
+      "first_seen": "2026-08-26",
+      "related_cve": "CVE-2026-73570",
       "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1870735/"
-    },
-    {
-      "type": "ip:port",
-      "value": "34.70.205.211:80",
-      "malware": "XMRIG",
-      "confidence": 100,
-      "first_seen": "2026-08-08",
-      "related_cve": "CVE-2026-60004",
-      "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1870736/"
+      "source_url": "https://threatfox.abuse.ch/ioc/1888066/"
     }
   ]
 }
