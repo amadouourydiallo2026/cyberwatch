@@ -1,7 +1,57 @@
 {
-  "generated_at": "2026-08-27T17:20:40Z",
+  "generated_at": "2026-08-28T18:13:04Z",
   "week_label": "S35 · 24 – 30 août 2026",
   "attacks": [
+    {
+      "title": "Over 8,300 Gitea servers vulnerable to code execution attacks",
+      "sector": "Non précisé",
+      "date": "28 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Over 8,300 Internet-exposed Gitea instances are still unpatched against a critical security flaw exploited in ongoing remote code execution attacks, according to cybersecurity watchdog Shadowserver. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/over-8-300-gitea-servers-vulnerable-to-code-execution-attacks/"
+    },
+    {
+      "title": "Toy-making giant Hasbro disclose data breach affecting employees",
+      "sector": "Finance",
+      "date": "28 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Hasbro, one of the world's largest toy and game companies, has disclosed that attackers have accessed the personal and financial information of an undisclosed number of employees. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/toy-making-giant-hasbro-disclose-data-breach-affecting-employees/"
+    },
+    {
+      "title": "ServiceNow warns of three max severity security vulnerabilities",
+      "sector": "Non précisé",
+      "date": "28 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "ServiceNow released security patches for three new maximum-severity AI Platform vulnerabilities that can be exploited in code injection, SQL injection, and privilege escalation attacks. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/servicenow-warns-of-three-max-severity-security-vulnerabilities/"
+    },
+    {
+      "title": "Nearly 700 rogue AI agents coordinated in the Hugging Face attack",
+      "sector": "Non précisé",
+      "date": "27 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "New details about the July attack on Hugging Face reveal that hundreds of AI agents driven by OpenAI's internal IM1 model coordinated the compromise through an unauthorized message board. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/nearly-700-rogue-ai-agents-coordinated-in-the-hugging-face-attack/"
+    },
+    {
+      "title": "OpenAI Says Reward Hacking Drove AI Agents to Exploit Zero-Days and Breach Hugging Face",
+      "sector": "Non précisé",
+      "date": "28 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "OpenAI on Wednesday revealed that reward hacking was a key driver behind the artificial intelligence (AI)-powered hack of Hugging Face last month, adding that it found evidence of misaligned behavior as early as late May…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html"
+    },
     {
       "title": "PaperCut warns of NG, MF flaw exploited in zero-day attacks",
       "sector": "Non précisé",
@@ -63,26 +113,6 @@
       "url": "https://www.bleepingcomputer.com/news/security/carhartt-data-breach-exposes-information-of-129-million-accounts/"
     },
     {
-      "title": "CISA orders feds to patch Citrix NetScaler RCE flaw by Saturday",
-      "sector": "Gouvernement",
-      "date": "27 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "CISA has ordered U.S. government agencies to patch their Citrix NetScaler appliances against an actively exploited remote code execution vulnerability by Saturday. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploiting-citrix-netscaler-rce-flaw-in-attacks/"
-    },
-    {
-      "title": "ATF confirms “major incident” after recent Qilin breach claims",
-      "sector": "Gouvernement",
-      "date": "27 Aug 2026",
-      "actor": "Qilin",
-      "sev": "high",
-      "desc": "ATF, the regulatory agency that enforces federal laws governing firearms and explosives in the United States, has confirmed that one of its systems was compromised after breach claims made by the Qilin ransomware gang. […",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/atf-confirms-major-incident-after-recent-qilin-breach-claims/"
-    },
-    {
       "title": "CISA Adds Six Exploited Flaws to KEV, Including NetScaler, Linux, and SQL Server Bugs",
       "sector": "Gouvernement",
       "date": "27 Aug 2026",
@@ -91,39 +121,48 @@
       "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added six flaws to its Known Exploited Vulnerabilities (KEV) catalog, including a high-severity security vulnerability impacting Citrix NetSca…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/08/cisa-adds-six-exploited-flaws-to-kev.html"
-    },
-    {
-      "title": "Critical Avada WordPress theme flaw enables zero-click RCE",
-      "sector": "Non précisé",
-      "date": "26 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "A critical vulnerability chain in the popular Avada theme for WordPress can be exploited by an unauthenticated attacker to execute arbitrary PHP code on the server. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/critical-avada-wordpress-theme-flaw-enables-zero-click-rce/"
-    },
-    {
-      "title": "FBI Disrupts China-Linked QTFY Infrastructure Used to Steal Data From U.S. Organizations",
-      "sector": "Non précisé",
-      "date": "26 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "The U.S. Department of Justice (DoJ) on Wednesday announced the disruption of two hacking platforms named QScan and QTRouter operated by Chinese threat actors to target critical infrastructure and other sensitive network…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/08/fbi-disrupts-china-linked-qtfy.html"
-    },
-    {
-      "title": "Nimbus Manticore Expands Toolset With TWOSTROKE-Like Backdoor and SSH Tunneler",
-      "sector": "Non précisé",
-      "date": "26 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "Cybersecurity researchers have discovered additional infrastructure and previously undocumented malware associated with Nimbus Manticore, an Iranian state-sponsored hacking group affiliated with the Islamic Revolutionary…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/08/nimbus-manticore-expands-toolset-with.html"
     }
   ],
   "vulns": [
+    {
+      "cve": "CVE-2023-49105",
+      "product": "ownCloud ownCloud",
+      "type": "ownCloud Improper Authentication Vulnerability",
+      "cvss": 9.8,
+      "published": "2023-11-21",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-08-30",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-49105"
+    },
+    {
+      "cve": "CVE-2026-53362",
+      "product": "Linux Kernel",
+      "type": "Linux Kernel Unspecified Vulnerability",
+      "cvss": 7.8,
+      "published": "2026-07-04",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-08-30",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53362"
+    },
+    {
+      "cve": "CVE-2026-66384",
+      "product": "JFrog Artifactory",
+      "type": "JFrog Artifactory Improper Limitation of a Pathname to a Restricted Directory Vulnerabilit",
+      "cvss": 5.3,
+      "published": "2026-08-12",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-09-10",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66384"
+    },
     {
       "cve": "CVE-2021-23758",
       "product": "Ajax.NET Professional Ajax.NET Professional",
@@ -237,7 +276,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-08-24",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73570"
     },
@@ -344,45 +383,6 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62593"
-    },
-    {
-      "cve": "CVE-2026-20349",
-      "product": "Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD)",
-      "type": "Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense",
-      "cvss": 8.6,
-      "published": "2026-08-11",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-08-14",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20349"
-    },
-    {
-      "cve": "CVE-2026-68820",
-      "product": "Microsoft Windows Ancillary Function Driver for WinSock",
-      "type": "Microsoft Windows Ancillary Function Driver for WinSock Use-After-Free Vulnerability",
-      "cvss": 7.0,
-      "published": "2026-08-11",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-08-25",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68820"
-    },
-    {
-      "cve": "CVE-2026-72898",
-      "product": "Metabase Metabase",
-      "type": "Metabase SQL Injection Vulnerability",
-      "cvss": 10.0,
-      "published": "2026-08-10",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-08-14",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72898"
     }
   ],
   "actors": [
@@ -396,13 +396,13 @@
       "src": "BleepingComputer"
     },
     {
-      "name": "Qilin",
-      "type": "RaaS / Extorsion",
-      "desc": "ATF, the regulatory agency that enforces federal laws governing firearms and explosives in the United States, has confirmed that one of its systems was compromised after breach claims made by the Qilin ransomware gang. […",
-      "victims": "1 mention(s) récente(s) — dernier article : 27 Aug 2026",
+      "name": "APT28",
+      "type": "APT / Espionnage",
+      "desc": "Cybersecurity researchers have flagged a fresh set of campaigns targeting government and diplomatic organizations in Romania, Spain, and Türkiye between late September 2025 and early April 2026. These campaigns, per Reco…",
+      "victims": "1 mention(s) récente(s) — dernier article : 28 Aug 2026",
       "region": "Non précisé",
-      "url": "https://www.bleepingcomputer.com/news/security/atf-confirms-major-incident-after-recent-qilin-breach-claims/",
-      "src": "BleepingComputer"
+      "url": "https://thehackernews.com/2026/08/apt28-linked-hookedge-backdoor-targets.html",
+      "src": "The Hacker News"
     },
     {
       "name": "Play",
@@ -421,9 +421,9 @@
       "url": "https://www.bleepingcomputer.com/news/security/carhartt-data-breach-exposes-information-of-129-million-accounts/"
     },
     {
-      "title": "Activité soutenue de Qilin",
-      "desc": "ATF, the regulatory agency that enforces federal laws governing firearms and explosives in the United States, has confirmed that one of its systems was compromised after breach claims made by the Qilin ransomware gang. […",
-      "url": "https://www.bleepingcomputer.com/news/security/atf-confirms-major-incident-after-recent-qilin-breach-claims/"
+      "title": "Activité soutenue de APT28",
+      "desc": "Cybersecurity researchers have flagged a fresh set of campaigns targeting government and diplomatic organizations in Romania, Spain, and Türkiye between late September 2025 and early April 2026. These campaigns, per Reco…",
+      "url": "https://thehackernews.com/2026/08/apt28-linked-hookedge-backdoor-targets.html"
     },
     {
       "title": "Activité soutenue de Play",
