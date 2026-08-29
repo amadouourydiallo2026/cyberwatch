@@ -1,7 +1,67 @@
 {
-  "generated_at": "2026-08-28T18:13:04Z",
+  "generated_at": "2026-08-29T12:17:49Z",
   "week_label": "S35 · 24 – 30 août 2026",
   "attacks": [
+    {
+      "title": "McKesson discloses breach after ShinyHunters claims patient data theft",
+      "sector": "Santé",
+      "date": "28 Aug 2026",
+      "actor": "ShinyHunters",
+      "sev": "critical",
+      "desc": "Healthcare and pharmaceutical distribution giant McKesson has disclosed a cybersecurity incident involving unauthorized access to third-party applications and data theft, with the ShinyHunters extortion group claiming it…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft/"
+    },
+    {
+      "title": "Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network",
+      "sector": "Gouvernement",
+      "date": "29 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Berlin's state government has confirmed that it is the target of an extortion attempt following the August compromise of the city's state administrative network, and said it will not meet the extortionists' demands. The …",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html"
+    },
+    {
+      "title": "Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable",
+      "sector": "Non précisé",
+      "date": "29 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Cosmos Labs has warned that a critical balance-handling flaw in the shared Cosmos EVM module was exploited to drain funds from six blockchains between August 20 and August 25, 2026. The vulnerability, designated GHSA-7g4…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/cosmos-evm-flaw-exploited-after-cosmos.html"
+    },
+    {
+      "title": "PaperCut releases second emergency patch for exploited flaws",
+      "sector": "Non précisé",
+      "date": "28 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "PaperCut has released a second emergency security update for two actively exploited vulnerabilities in its PaperCut NG and MF print management software after researchers discovered multiple ways to bypass the initial fix…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/papercut-releases-second-emergency-patch-for-exploited-flaws/"
+    },
+    {
+      "title": "GiveWP WordPress donation plugin flaw lets hackers execute server commands",
+      "sector": "Non précisé",
+      "date": "28 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "A maximum-severity vulnerability in the GiveWP plugin for WordPress allows an unauthenticated attacker to execute arbitrary commands on the hosting server. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/givewp-wordpress-donation-plugin-flaw-lets-hackers-execute-server-commands/"
+    },
+    {
+      "title": "ownCloud Flaw Exploited to Steal Nuclear Records From Philippine Research Body",
+      "sector": "Gouvernement",
+      "date": "28 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a critical security flaw impacting ownCloud to its Known Exploited Vulnerabilities (KEV) catalog following reports that a Chinese-speakin…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html"
+    },
     {
       "title": "Over 8,300 Gitea servers vulnerable to code execution attacks",
       "sector": "Non précisé",
@@ -61,66 +121,6 @@
       "desc": "PaperCut is warning that hackers are actively exploiting a vulnerability in all versions of its PaperCut NG and PaperCut MF print management software in zero-day attacks. [...]",
       "src": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks/"
-    },
-    {
-      "title": "Manchester Airports Group says hackers stole travelers' data",
-      "sector": "Transport",
-      "date": "27 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The Manchester Airports Group (MAG) disclosed that hackers breached its systems and stole customer data, including Wi-Fi sign-ups from Manchester, Stansted, and East Midlands airports. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/manchester-airports-group-says-hackers-stole-travelers-data/"
-    },
-    {
-      "title": "Next.js Patches Critical AVIF and Windows Flaws Enabling Unauthenticated RCE",
-      "sector": "Non précisé",
-      "date": "27 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Credit: Hacktron Vercel has released security patches for two critical-severity vulnerabilities in the Next.js web framework, both of which allow unauthenticated remote code execution, one exploitable via specially craft…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/08/nextjs-patches-critical-avif-and.html"
-    },
-    {
-      "title": "Australia arrests alleged TeamPCP hackers behind supply-chain attacks",
-      "sector": "Non précisé",
-      "date": "27 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Australian authorities have arrested and charged two young men accused of being part of the TeamPCP hacking group linked to a string of far-reaching developer supply chain attacks. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/australia-arrests-alleged-teampcp-hackers-behind-supply-chain-attacks/"
-    },
-    {
-      "title": "Webinar: How Google Workspace breaches happen and what to do next",
-      "sector": "Non précisé",
-      "date": "27 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Google Workspace breaches can begin with social engineering or forgotten third-party integrations rather than sophisticated exploits. This webinar examines real-world breaches, what happens during the critical first hour…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/webinar-how-google-workspace-breaches-happen-and-what-to-do-next/"
-    },
-    {
-      "title": "Carhartt data breach exposes information of 12.9 million accounts",
-      "sector": "Retail",
-      "date": "27 Aug 2026",
-      "actor": "ShinyHunters",
-      "sev": "critical",
-      "desc": "The ShinyHunters extortion group has published sensitive data from nearly 13 million accounts stolen from clothing retailer giant Carhartt earlier this month, according to data breach notification service Have I Been Pwn…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/carhartt-data-breach-exposes-information-of-129-million-accounts/"
-    },
-    {
-      "title": "CISA Adds Six Exploited Flaws to KEV, Including NetScaler, Linux, and SQL Server Bugs",
-      "sector": "Gouvernement",
-      "date": "27 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added six flaws to its Known Exploited Vulnerabilities (KEV) catalog, including a high-severity security vulnerability impacting Citrix NetSca…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/08/cisa-adds-six-exploited-flaws-to-kev.html"
     }
   ],
   "vulns": [
@@ -389,10 +389,10 @@
     {
       "name": "ShinyHunters",
       "type": "RaaS / Extorsion",
-      "desc": "The ShinyHunters extortion group has published sensitive data from nearly 13 million accounts stolen from clothing retailer giant Carhartt earlier this month, according to data breach notification service Have I Been Pwn…",
-      "victims": "1 mention(s) récente(s) — dernier article : 27 Aug 2026",
+      "desc": "Healthcare and pharmaceutical distribution giant McKesson has disclosed a cybersecurity incident involving unauthorized access to third-party applications and data theft, with the ShinyHunters extortion group claiming it…",
+      "victims": "1 mention(s) récente(s) — dernier article : 28 Aug 2026",
       "region": "Non précisé",
-      "url": "https://www.bleepingcomputer.com/news/security/carhartt-data-breach-exposes-information-of-129-million-accounts/",
+      "url": "https://www.bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft/",
       "src": "BleepingComputer"
     },
     {
@@ -417,8 +417,8 @@
   "threats": [
     {
       "title": "Activité soutenue de ShinyHunters",
-      "desc": "The ShinyHunters extortion group has published sensitive data from nearly 13 million accounts stolen from clothing retailer giant Carhartt earlier this month, according to data breach notification service Have I Been Pwn…",
-      "url": "https://www.bleepingcomputer.com/news/security/carhartt-data-breach-exposes-information-of-129-million-accounts/"
+      "desc": "Healthcare and pharmaceutical distribution giant McKesson has disclosed a cybersecurity incident involving unauthorized access to third-party applications and data theft, with the ShinyHunters extortion group claiming it…",
+      "url": "https://www.bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft/"
     },
     {
       "title": "Activité soutenue de APT28",
