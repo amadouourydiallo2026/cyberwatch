@@ -1,7 +1,47 @@
 {
-  "generated_at": "2026-08-30T11:15:48Z",
-  "week_label": "S35 · 24 – 30 août 2026",
+  "generated_at": "2026-08-31T12:41:22Z",
+  "week_label": "S36 · 31 août – 6 septembre 2026",
   "attacks": [
+    {
+      "title": "Aurora Ransomware Operators Use Cursor AI in Attacks Against 10 Targets",
+      "sector": "Non précisé",
+      "date": "31 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Threat actors associated with Aurora (aka Aur0ra) ransomware have been observed using SpaceX's artificial intelligence (AI)-powered coding assistant Cursor to break into target networks, according to findings from CloudS…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/aurora-ransomware-operators-use-cursor.html"
+    },
+    {
+      "title": "China-Linked Fire Ant Hijacks Cisco Routers to Steal Credentials and Blind Security Logs",
+      "sector": "Non précisé",
+      "date": "31 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "A China-nexus cyber espionage actor tracked as Fire Ant has expanded a long-running campaign beyond VMware hypervisors to compromise Cisco IOS XR routers, Terminal Access Controller Access-Control System (TACACS) servers…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/china-linked-fire-ant-hijacks-cisco.html"
+    },
+    {
+      "title": "DoJ Corrects China Hacking Claim, Says U.S. Agencies Were Targets, Not Victims",
+      "sector": "Gouvernement",
+      "date": "31 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The U.S. Department of Justice (DoJ) on Friday corrected a previously issued press statement that several of its agencies were victims of attacks carried out by Chinese threat actors, instead now pointing out that they w…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/doj-corrects-china-hacking-claim-says.html"
+    },
+    {
+      "title": "FulcrumSec claims Manchester Airports hack, theft of 86 GB of data",
+      "sector": "Transport",
+      "date": "30 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "FulcrumSec claims it stole 86 GB of data from Manchester Airports Group. BleepingComputer validated one traveller's record, while samples revealed detailed customer, booking, and travel information beyond what MAG initia…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/fulcrumsec-claims-manchester-airports-hack-theft-of-86-gb-of-data/"
+    },
     {
       "title": "McKesson discloses breach after ShinyHunters claims patient data theft",
       "sector": "Santé",
@@ -81,46 +121,6 @@
       "desc": "Hasbro, one of the world's largest toy and game companies, has disclosed that attackers have accessed the personal and financial information of an undisclosed number of employees. [...]",
       "src": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/security/toy-making-giant-hasbro-disclose-data-breach-affecting-employees/"
-    },
-    {
-      "title": "ServiceNow warns of three max severity security vulnerabilities",
-      "sector": "Non précisé",
-      "date": "28 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "ServiceNow released security patches for three new maximum-severity AI Platform vulnerabilities that can be exploited in code injection, SQL injection, and privilege escalation attacks. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/servicenow-warns-of-three-max-severity-security-vulnerabilities/"
-    },
-    {
-      "title": "Nearly 700 rogue AI agents coordinated in the Hugging Face attack",
-      "sector": "Non précisé",
-      "date": "27 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "New details about the July attack on Hugging Face reveal that hundreds of AI agents driven by OpenAI's internal IM1 model coordinated the compromise through an unauthorized message board. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/nearly-700-rogue-ai-agents-coordinated-in-the-hugging-face-attack/"
-    },
-    {
-      "title": "OpenAI Says Reward Hacking Drove AI Agents to Exploit Zero-Days and Breach Hugging Face",
-      "sector": "Non précisé",
-      "date": "28 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "OpenAI on Wednesday revealed that reward hacking was a key driver behind the artificial intelligence (AI)-powered hack of Hugging Face last month, adding that it found evidence of misaligned behavior as early as late May…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html"
-    },
-    {
-      "title": "PaperCut warns of NG, MF flaw exploited in zero-day attacks",
-      "sector": "Non précisé",
-      "date": "27 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "PaperCut is warning that hackers are actively exploiting a vulnerability in all versions of its PaperCut NG and PaperCut MF print management software in zero-day attacks. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks/"
     }
   ],
   "vulns": [
@@ -263,7 +263,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-08-27",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21962"
     },
