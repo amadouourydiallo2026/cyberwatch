@@ -1,7 +1,67 @@
 {
-  "generated_at": "2026-08-31T12:41:22Z",
+  "generated_at": "2026-09-01T11:06:09Z",
   "week_label": "S36 · 31 août – 6 septembre 2026",
   "attacks": [
+    {
+      "title": "Attackers Steal METR API Key and Consume AI Credits Worth About $600,000",
+      "sector": "Non précisé",
+      "date": "01 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "METR (short for Model Evaluation and Threat Research and pronounced \"Meter\"), a research non-profit that evaluates frontier artificial intelligence (AI) models for their ability to carry out long-horizon, agentic tasks, …",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/attackers-steal-metr-api-key-and.html"
+    },
+    {
+      "title": "Recently patched PaperCut zero-days used in data theft attacks",
+      "sector": "Non précisé",
+      "date": "01 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Two security vulnerabilities in the PaperCut NG and MF print management software, patched last week after being exploited as zero-days, are now being abused in data theft attacks. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/recently-patched-papercut-zero-days-used-in-data-theft-attacks/"
+    },
+    {
+      "title": "Attackers Exploit Critical Langflow and Rails Flaws in Credential-Probing and C2 Activity",
+      "sector": "Non précisé",
+      "date": "01 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Threat actors are exploiting two critical flaws impacting Langflow and Ruby on Rails, according to new findings from VulnCheck. The vulnerabilities in question are listed below - CVE-2026-0768 (CVSS score: 9.8) - A lack …",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html"
+    },
+    {
+      "title": "Microsoft warns of TerminalFix attacks deploying reverse tunnels",
+      "sector": "Non précisé",
+      "date": "31 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "A new ClickFix variant dubbed TerminalFix uses fake Cloudflare CAPTCHA prompts on compromised websites to trick victims into running malicious PowerShell commands in Windows Terminal. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-terminalfix-attacks-deploying-reverse-tunnels/"
+    },
+    {
+      "title": "Chinese Fire Ant hackers turn Cisco routers into spying platforms",
+      "sector": "Non précisé",
+      "date": "31 Aug 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "The researchers discovered Fire Ant's new tactic after finding an active GRE (Generic Routing Encapsulation) tunnel interface on a Cisco IOS XR router that could not be explained by a running configuration or commit hist…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/chinese-fire-ant-hackers-turn-cisco-routers-into-spying-platforms/"
+    },
+    {
+      "title": "Berlin confirms data theft after Rhysida ransomware attack claims",
+      "sector": "Non précisé",
+      "date": "31 Aug 2026",
+      "actor": "Rhysida",
+      "sev": "high",
+      "desc": "Berlin's city administration has confirmed that cybercriminals are attempting to extort the city after the Rhysida ransomware gang listed it on their data leak site. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/berlin-confirms-data-theft-after-rhysida-ransomware-attack-claims/"
+    },
     {
       "title": "Aurora Ransomware Operators Use Cursor AI in Attacks Against 10 Targets",
       "sector": "Non précisé",
@@ -43,16 +103,6 @@
       "url": "https://www.bleepingcomputer.com/news/security/fulcrumsec-claims-manchester-airports-hack-theft-of-86-gb-of-data/"
     },
     {
-      "title": "McKesson discloses breach after ShinyHunters claims patient data theft",
-      "sector": "Santé",
-      "date": "28 Aug 2026",
-      "actor": "ShinyHunters",
-      "sev": "critical",
-      "desc": "Healthcare and pharmaceutical distribution giant McKesson has disclosed a cybersecurity incident involving unauthorized access to third-party applications and data theft, with the ShinyHunters extortion group claiming it…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft/"
-    },
-    {
       "title": "Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network",
       "sector": "Gouvernement",
       "date": "29 Aug 2026",
@@ -71,59 +121,35 @@
       "desc": "Cosmos Labs has warned that a critical balance-handling flaw in the shared Cosmos EVM module was exploited to drain funds from six blockchains between August 20 and August 25, 2026. The vulnerability, designated GHSA-7g4…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/08/cosmos-evm-flaw-exploited-after-cosmos.html"
-    },
-    {
-      "title": "PaperCut releases second emergency patch for exploited flaws",
-      "sector": "Non précisé",
-      "date": "28 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "PaperCut has released a second emergency security update for two actively exploited vulnerabilities in its PaperCut NG and MF print management software after researchers discovered multiple ways to bypass the initial fix…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/papercut-releases-second-emergency-patch-for-exploited-flaws/"
-    },
-    {
-      "title": "GiveWP WordPress donation plugin flaw lets hackers execute server commands",
-      "sector": "Non précisé",
-      "date": "28 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "A maximum-severity vulnerability in the GiveWP plugin for WordPress allows an unauthenticated attacker to execute arbitrary commands on the hosting server. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/givewp-wordpress-donation-plugin-flaw-lets-hackers-execute-server-commands/"
-    },
-    {
-      "title": "ownCloud Flaw Exploited to Steal Nuclear Records From Philippine Research Body",
-      "sector": "Gouvernement",
-      "date": "28 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a critical security flaw impacting ownCloud to its Known Exploited Vulnerabilities (KEV) catalog following reports that a Chinese-speakin…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html"
-    },
-    {
-      "title": "Over 8,300 Gitea servers vulnerable to code execution attacks",
-      "sector": "Non précisé",
-      "date": "28 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Over 8,300 Internet-exposed Gitea instances are still unpatched against a critical security flaw exploited in ongoing remote code execution attacks, according to cybersecurity watchdog Shadowserver. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/over-8-300-gitea-servers-vulnerable-to-code-execution-attacks/"
-    },
-    {
-      "title": "Toy-making giant Hasbro disclose data breach affecting employees",
-      "sector": "Finance",
-      "date": "28 Aug 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Hasbro, one of the world's largest toy and game companies, has disclosed that attackers have accessed the personal and financial information of an undisclosed number of employees. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/toy-making-giant-hasbro-disclose-data-breach-affecting-employees/"
     }
   ],
   "vulns": [
+    {
+      "cve": "CVE-2026-82078",
+      "product": "PaperCut NG/MF",
+      "type": "PaperCut NG/MF Unsafe Reflection Vulnerability",
+      "cvss": 9.1,
+      "published": "2026-08-28",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-09-14",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82078"
+    },
+    {
+      "cve": "CVE-2026-81578",
+      "product": "PaperCut NG/MF",
+      "type": "PaperCut NG/MF Missing Authentication for Critical Function Vulnerability",
+      "cvss": 9.8,
+      "published": "2026-08-28",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-09-14",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81578"
+    },
     {
       "cve": "CVE-2023-49105",
       "product": "ownCloud ownCloud",
@@ -250,7 +276,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-08-28",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60004"
     },
@@ -357,42 +383,16 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55040"
-    },
-    {
-      "cve": "CVE-2026-65400",
-      "product": "Apple macOS",
-      "type": "Apple macOS Improper Authentication Vulnerability",
-      "cvss": 9.8,
-      "published": "2026-08-06",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-08-21",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65400"
-    },
-    {
-      "cve": "CVE-2025-62593",
-      "product": "Ray-Project Ray",
-      "type": "Ray-Project Ray Code Injection Vulnerability",
-      "cvss": 8.8,
-      "published": "2025-11-26",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-08-20",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62593"
     }
   ],
   "actors": [
     {
-      "name": "ShinyHunters",
+      "name": "Rhysida",
       "type": "RaaS / Extorsion",
-      "desc": "Healthcare and pharmaceutical distribution giant McKesson has disclosed a cybersecurity incident involving unauthorized access to third-party applications and data theft, with the ShinyHunters extortion group claiming it…",
-      "victims": "1 mention(s) récente(s) — dernier article : 28 Aug 2026",
+      "desc": "Berlin's city administration has confirmed that cybercriminals are attempting to extort the city after the Rhysida ransomware gang listed it on their data leak site. [...]",
+      "victims": "1 mention(s) récente(s) — dernier article : 31 Aug 2026",
       "region": "Non précisé",
-      "url": "https://www.bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft/",
+      "url": "https://www.bleepingcomputer.com/news/security/berlin-confirms-data-theft-after-rhysida-ransomware-attack-claims/",
       "src": "BleepingComputer"
     },
     {
@@ -416,9 +416,9 @@
   ],
   "threats": [
     {
-      "title": "Activité soutenue de ShinyHunters",
-      "desc": "Healthcare and pharmaceutical distribution giant McKesson has disclosed a cybersecurity incident involving unauthorized access to third-party applications and data theft, with the ShinyHunters extortion group claiming it…",
-      "url": "https://www.bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft/"
+      "title": "Activité soutenue de Rhysida",
+      "desc": "Berlin's city administration has confirmed that cybercriminals are attempting to extort the city after the Rhysida ransomware gang listed it on their data leak site. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/berlin-confirms-data-theft-after-rhysida-ransomware-attack-claims/"
     },
     {
       "title": "Activité soutenue de APT28",
