@@ -1,7 +1,87 @@
 {
-  "generated_at": "2026-09-03T10:41:49Z",
+  "generated_at": "2026-09-04T10:35:51Z",
   "week_label": "S36 · 31 août – 6 septembre 2026",
   "attacks": [
+    {
+      "title": "Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day",
+      "sector": "Non précisé",
+      "date": "04 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Google on Thursday released security updates to patch 12 vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, tracked as CVE-2026-85046 (CVSS score: 8.8), h…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html"
+    },
+    {
+      "title": "French hospital fined €500,000 after breach exposes data of 727,000",
+      "sector": "Santé",
+      "date": "03 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "France's data protection authority (CNIL) has fined Hôpital privé de la Loire €500,000 ($580,000) for failing to adequately protect patients' and their relatives' data. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/french-hospital-fined-500-000-after-breach-exposes-data-of-727-000/"
+    },
+    {
+      "title": "Coder's registry infrastructure compromised to push malicious modules",
+      "sector": "Non précisé",
+      "date": "03 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Attackers compromised Coder's Cloudflare infrastructure and added unauthorized registry servers that delivered malicious Terraform modules containing credential-stealing code. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules/"
+    },
+    {
+      "title": "ThreatsDay: CEO Phishing Kits, 5K Dropbox Account Hacks, OAuth Traps + 17 More Stories",
+      "sector": "Non précisé",
+      "date": "03 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The worst part is how normal these attacks look. A call from IT. A shared file. A trusted app. A simple request to click “Allow.” Why break in when someone might open the door? That idea runs through this edition. Attack…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/threatsday-ceo-phishing-kits-5k-dropbox.html"
+    },
+    {
+      "title": "BraZetsu Malware Turns Compromised Windows Hosts Into Criminal Marketplace Inventory",
+      "sector": "Non précisé",
+      "date": "03 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Cybersecurity researchers have disclosed details of a sophisticated Python-based Windows malware framework called BraZetsu that fuels an underground marketplace commercializing access to compromised hosts. \"Unlike the st…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/brazetsu-malware-turns-compromised.html"
+    },
+    {
+      "title": "Critical Elementor Pro flaw exploited to take over WordPress sites",
+      "sector": "Non précisé",
+      "date": "03 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "A recently patched critical vulnerability (CVE-2026-32475) in the Elementor Pro plugin for WordPress is being exploited in attacks that deliver a webshell payload and execute arbitrary commands on the server. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-flaw-exploited-to-take-over-wordpress-sites/"
+    },
+    {
+      "title": "Thomson Reuters Court Software Breach May Have Exposed SSNs and Sealed Data",
+      "sector": "Non précisé",
+      "date": "03 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Thomson Reuters disclosed on Wednesday that an unauthorized party obtained files from C-Track, the court case management platform sold by its West Publishing Corporation unit, in March 2026, affecting courts in 11 U.S. s…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/thomson-reuters-court-software-breach.html"
+    },
+    {
+      "title": "Your Employee’s Password Appeared in an Infostealer Log. Now What?",
+      "sector": "Non précisé",
+      "date": "03 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Infostealers can expose far more than passwords, including authenticated sessions that may let attackers bypass MFA. Flare explains how defenders can prioritize compromised identities, determine whether stolen access is …",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/your-employees-password-appeared-in-an-infostealer-log-now-what/"
+    },
     {
       "title": "CISA Adds Seven Exploited Flaws as Attackers Deploy Reverse Shells and Crypto Miners",
       "sector": "Gouvernement",
@@ -41,86 +121,6 @@
       "desc": "A critical authentication bypass vulnerability (CVE-2026-82329) in JFrog Artifactory is being exploited in attacks to create tokens that provide administrative access. [...]",
       "src": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-jfrog-artifactory-flaw-to-forge-admin-tokens/"
-    },
-    {
-      "title": "Ransomware protection for MSPs: A 6-point checklist for faster recovery",
-      "sector": "Non précisé",
-      "date": "02 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Ransomware resilience requires more than backups or endpoint detection alone. Acronis outlines six capabilities MSPs should test across client environments, from reducing exposure and detecting attacks to preserving reco…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/ransomware-protection-for-msps-a-6-point-checklist-for-faster-recovery/"
-    },
-    {
-      "title": "Malicious Apache Modules Hijack Brazilian Government Site Traffic to Push Betting Pages",
-      "sector": "Gouvernement",
-      "date": "02 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "A Chinese-speaking cybercrime cluster known as Gambling Goblin has been observed installing malicious Apache modules on compromised web servers run by Brazilian government and educational institutions, and using them to …",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/malicious-apache-modules-hijack.html"
-    },
-    {
-      "title": "BGP Hijack Delivers Malicious Virtualizor Update That Establishes Persistent Root Access",
-      "sector": "Non précisé",
-      "date": "02 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "Virtualizor said hackers used a Border Gateway Protocol (BGP) hijack to divert Softaculous traffic. The hackers then used the diverted update traffic to deliver a malicious Virtualizor package to some installations. A ho…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/bgp-hijack-delivers-malicious.html"
-    },
-    {
-      "title": "Dropbox accounts breached through Lenovo email verification flaw",
-      "sector": "Non précisé",
-      "date": "02 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Dropbox is warning some users that an unauthorized party accessed their accounts by exploiting a flaw in Lenovo's email verification process to register fraudulent Lenovo IDs. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/dropbox-accounts-breached-through-lenovo-email-verification-flaw/"
-    },
-    {
-      "title": "How to Secure Enterprise AI: From Adoption to Incident Readiness",
-      "sector": "Manufacturing",
-      "date": "02 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "The debate about whether AI delivers business value is over. The challenge now is implementing it at scale and securely across every function while meeting board-level pressure to move fast. Organizations must focus on a…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/how-to-secure-enterprise-ai-from.html"
-    },
-    {
-      "title": "Attackers Exploit Two SonicWall SMA 1000 Zero-Days That May Form an Attack Chain",
-      "sector": "Non précisé",
-      "date": "02 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "SonicWall has released security updates to address two security flaws impacting its Secure Mobile Access (SMA) 1000 series VPN appliances that have been exploited in zero-day attacks. The vulnerabilities, discovered inte…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/attackers-exploit-two-sonicwall-sma.html"
-    },
-    {
-      "title": "Extradited Russian Hacker Faces Charges Over Excel Malware Campaign That Infected Thousands",
-      "sector": "Non précisé",
-      "date": "02 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "The U.S. Department of Justice (DoJ) has charged a Russian national, extradited from Cyprus on August 28, with using roughly 255 fake accounts on a freelance platform to send malware-laced Excel attachments to about 80,0…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/extradited-russian-hacker-faces-charges.html"
-    },
-    {
-      "title": "SonicWall warns of actively exploited SMA1000 zero-day flaws",
-      "sector": "Non précisé",
-      "date": "02 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "SonicWall warned customers that threat actors are chaining two new SMA1000 zero-day vulnerabilities in remote code execution attacks. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-actively-exploited-sma1000-zero-day-flaws/"
     }
   ],
   "vulns": [
