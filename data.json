@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-09-06T10:16:25Z",
-  "week_label": "S36 · 31 août – 6 septembre 2026",
+  "generated_at": "2026-09-07T11:34:49Z",
+  "week_label": "S37 · 7 – 13 septembre 2026",
   "attacks": [
+    {
+      "title": "Hackers exploit new MikroTik RouterOS flaws to hijack routers",
+      "sector": "Non précisé",
+      "date": "07 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Hackers are exploiting a chain of two recently disclosed vulnerabilities in MikroTik routers to take control of devices with SSH services exposed to the internet. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-new-mikrotik-routeros-flaws-to-hijack-routers/"
+    },
+    {
+      "title": "N-able Issues Fourth N-central Hotfix in Five Weeks for Unauthenticated RCE Flaw",
+      "sector": "Non précisé",
+      "date": "07 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Every on-premises N-central build below 2026.3.1.14 — including servers updated to Hotfix 3 a day earlier — needs Hotfix 4. N-able's incident notice says the flaw has been exploited in the wild; its release notes say tha…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html"
+    },
     {
       "title": "Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication",
       "sector": "Non précisé",
@@ -91,26 +111,6 @@
       "desc": "Google has updated the Chrome browser to address an actively exploited high-severity zero-day flaw in the V8 engine and 11 other vulnerabilities. [...]",
       "src": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/"
-    },
-    {
-      "title": "French hospital fined €500,000 after breach exposes data of 727,000",
-      "sector": "Santé",
-      "date": "03 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "France's data protection authority (CNIL) has fined Hôpital privé de la Loire €500,000 ($580,000) for failing to adequately protect patients' and their relatives' data. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/french-hospital-fined-500-000-after-breach-exposes-data-of-727-000/"
-    },
-    {
-      "title": "Coder's registry infrastructure compromised to push malicious modules",
-      "sector": "Non précisé",
-      "date": "03 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Attackers compromised Coder's Cloudflare infrastructure and added unauthorized registry servers that delivered malicious Terraform modules containing credential-stealing code. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules/"
     },
     {
       "title": "ThreatsDay: CEO Phishing Kits, 5K Dropbox Account Hacks, OAuth Traps + 17 More Stories",
@@ -237,7 +237,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-09-14",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82078"
     },
@@ -250,7 +250,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-09-14",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81578"
     },
