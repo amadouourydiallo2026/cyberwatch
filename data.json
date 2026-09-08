@@ -1,7 +1,57 @@
 {
-  "generated_at": "2026-09-07T11:34:49Z",
+  "generated_at": "2026-09-08T10:35:38Z",
   "week_label": "S37 · 7 – 13 septembre 2026",
   "attacks": [
+    {
+      "title": "PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command Execution",
+      "sector": "Non précisé",
+      "date": "07 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Cybersecurity researchers have disclosed details of a complex Chromium-based post-exploitation toolkit called PEEP that masquerades as a bookmarks extension for the web browser. \"Requiring prior administrative or code ex…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html"
+    },
+    {
+      "title": "Magento StyleSmuggler zero-day exploited to deploy Linux backdoor",
+      "sector": "Retail",
+      "date": "07 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "A zero-day vulnerability dubbed \"StyleSmuggler\" affecting all versions of Magento and Adobe Commerce is being exploited in attacks to deploy a backdoor. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/magento-stylesmuggler-zero-day-exploited-to-deploy-linux-backdoor/"
+    },
+    {
+      "title": "Mathspace discloses data breach affecting over 1 million people",
+      "sector": "Éducation",
+      "date": "07 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Online maths learning platform Mathspace disclosed over the weekend that attackers stole data from more than 1 million students, staff, and parents after breaching its Metabase internal reporting system. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/mathspace-discloses-data-breach-affecting-over-1-million-people/"
+    },
+    {
+      "title": "Trezor data breach impact now reaches 81,000 customers",
+      "sector": "Transport",
+      "date": "07 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Cryptocurrency hardware wallet maker Trezor says an August data breach at its shipping and logistics provider, ShipMonk, affects an additional 67,000 U.S. customers. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/trezor-data-breach-impact-now-reaches-81-000-customers/"
+    },
+    {
+      "title": "Rogue ScreenConnect Clients Spread Four-Stage VBScript Chain to Newly Connected Hosts",
+      "sector": "Non précisé",
+      "date": "07 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Cybersecurity researchers have disclosed details of worm-like activity that abuses ConnectWise ScreenConnect to distribute a malicious Visual Basic Script (VBScript) payload to newly connected systems. According to Huntr…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/rogue-screenconnect-clients-spread-four.html"
+    },
     {
       "title": "Hackers exploit new MikroTik RouterOS flaws to hijack routers",
       "sector": "Non précisé",
@@ -71,56 +121,6 @@
       "desc": "Hardware wallet manufacturer Trezor on Friday disclosed that another 67,000 customers from the U.S. have been impacted in a breach at its shipping provider ShipMonk. The exposed information includes customer names, email…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/09/trezor-says-shipmonk-breach-exposed.html"
-    },
-    {
-      "title": "OpenAI admits it didn't disclose rogue AI wiki hijacking incident",
-      "sector": "Non précisé",
-      "date": "05 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "OpenAI admits it did not disclose an incident where autonomous AI agents hijacked a German wiki, created 18,000 posts, shared answers, and bypassed restrictions, saying it treated the activity as model \"misalignment\" rat…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/"
-    },
-    {
-      "title": "IDScan sued over alleged data breach affecting 153 million drivers",
-      "sector": "Non précisé",
-      "date": "04 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Multiple lawsuits have been filed against identity verification company IDScan after hackers allegedly breached the service and offered to sell more than 153 million driver's licenses. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers/"
-    },
-    {
-      "title": "39 New Methods That Compromise Passkey Authentication",
-      "sector": "Non précisé",
-      "date": "04 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Passkeys eliminate many password-based attacks, but researchers have documented 39 methods for compromising authentication built around them. Token explains how attackers can abuse authentication prompts, synced credenti…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/39-new-methods-that-compromise-passkey-authentication/"
-    },
-    {
-      "title": "Google warns of new Chrome zero-day flaw exploited in attacks",
-      "sector": "Non précisé",
-      "date": "04 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Google has updated the Chrome browser to address an actively exploited high-severity zero-day flaw in the V8 engine and 11 other vulnerabilities. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/"
-    },
-    {
-      "title": "ThreatsDay: CEO Phishing Kits, 5K Dropbox Account Hacks, OAuth Traps + 17 More Stories",
-      "sector": "Non précisé",
-      "date": "03 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The worst part is how normal these attacks look. A call from IT. A shared file. A trusted app. A simple request to click “Allow.” Why break in when someone might open the door? That idea runs through this edition. Attack…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/threatsday-ceo-phishing-kits-5k-dropbox.html"
     }
   ],
   "vulns": [
