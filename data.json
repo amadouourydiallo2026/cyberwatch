@@ -1,129 +1,181 @@
 {
-  "generated_at": "2026-09-08T10:35:38Z",
+  "generated_at": "2026-09-09T10:46:41Z",
   "week_label": "S37 · 7 – 13 septembre 2026",
   "attacks": [
     {
-      "title": "PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command Execution",
+      "title": "Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox",
       "sector": "Non précisé",
-      "date": "07 Sep 2026",
+      "date": "09 Sep 2026",
       "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "Cybersecurity researchers have disclosed details of a complex Chromium-based post-exploitation toolkit called PEEP that masquerades as a bookmarks extension for the web browser. \"Requiring prior administrative or code ex…",
+      "sev": "critical",
+      "desc": "Google on Thursday released updates to patch 230 security vulnerabilities, including one that has come under active exploitation in the wild. The medium-severity vulnerability, assigned the CVE identifier CVE-2026-87491 …",
       "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html"
+      "url": "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html"
     },
     {
-      "title": "Magento StyleSmuggler zero-day exploited to deploy Linux backdoor",
+      "title": "Google warns of new Chrome zero-day bug exploited in attacks",
+      "sector": "Non précisé",
+      "date": "09 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Google has patched 230 vulnerabilities on Tuesday, including another actively exploited Chrome zero-day bug, the seventh such vulnerability patched since the start of the year. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/google-patches-seventh-chrome-zero-day-exploited-in-attacks-this-year/"
+    },
+    {
+      "title": "Microsoft Patches Record 974 Flaws, Including Two Exploited Windows Zero-Days",
+      "sector": "Non précisé",
+      "date": "09 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Microsoft on Tuesday broke Patch Tuesday records by addressing an earth-shattering 974 vulnerabilities spanning its software portfolio, including two flaws that it said have been actively exploited in the wild. These inc…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/microsoft-patches-record-974-flaws.html"
+    },
+    {
+      "title": "N-able N-central Pre-Auth RCE Flaw Exploited in the Wild",
+      "sector": "Gouvernement",
+      "date": "09 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a maximum-severity security flaw impacting N-able N-central to its Known Exploited Vulnerabilities (KEV) catalog, requiring Federal Civili…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/n-able-n-central-pre-auth-rce-flaw.html"
+    },
+    {
+      "title": "The EU CRA's Real Question: What Shipped, and When Did You Know?",
+      "sector": "Non précisé",
+      "date": "08 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "The EU Cyber Resilience Act's vulnerability reporting requirements take effect September 11, giving software vendors as little as 24 hours to report actively exploited flaws. ActiveState explains why knowing exactly what…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/the-eu-cras-real-question-what-shipped-and-when-did-you-know/"
+    },
+    {
+      "title": "Hackers breach F5 BIG-IP APM devices to deploy Linux rootkit",
+      "sector": "Non précisé",
+      "date": "08 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "A Linux rootkit targeting devices in F5 BIG-IP APM environments can intercept PHP file loading and inject a fileless web shell directly into memory, avoiding the need to write malicious code to disk. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-f5-big-ip-apm-devices-to-deploy-linux-rootkit/"
+    },
+    {
+      "title": "Microsoft September 2026 Patch Tuesday fixes 966 flaws, 2 zero-days",
+      "sector": "Non précisé",
+      "date": "08 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Today is Microsoft's September 2026 Patch Tuesday, with security updates released for a record-breaking 966 flaws, including two actively exploited zero-day vulnerabilities. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-patch-tuesday-fixes-966-flaws-2-zero-days/"
+    },
+    {
+      "title": "ShinyHunters hackers claim breach of Florida \"DAVID\" DMV database",
+      "sector": "Non précisé",
+      "date": "08 Sep 2026",
+      "actor": "ShinyHunters",
+      "sev": "high",
+      "desc": "The ShinyHunters extortion gang claims it breached an online platform for the Florida Department of Motor Vehicles database known as \"DAVID\" and stole over 200,000 records about drivers in the state. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hackers-claim-breach-of-florida-david-dmv-database/"
+    },
+    {
+      "title": "OpenAI says ChatGPT outage causes image generation errors",
+      "sector": "Non précisé",
+      "date": "08 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "OpenAI is investigating an ongoing incident causing ChatGPT image generation failures and delays when uploading files. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/technology/openai-says-chatgpt-outage-causes-image-generation-errors/"
+    },
+    {
+      "title": "Liquid Hackers Return 3,400 Bitcoin Taken via Elements Bug, Still Holding $47M in BTC",
+      "sector": "Non précisé",
+      "date": "08 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Whoever took nearly 4,000 bitcoin from the Liquid Network on Sunday, September 6, returned 3,400 of it the next day, Bitcoin's public record shows. About 598.5 bitcoin has not come back. Liquid is a Bitcoin sidechain tha…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/liquid-hackers-return-3400-bitcoin.html"
+    },
+    {
+      "title": "Autonomous AI Agents Compromise Thousands of Credentials in Under Six Hours",
+      "sector": "Finance",
+      "date": "08 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Threat actors are continuing to leverage artificial intelligence (AI) to streamline their operations, with one financially motivated hacking group employing an autonomous, multi-agent attack framework to carry out a larg…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/autonomous-ai-agents-compromise.html"
+    },
+    {
+      "title": "Adobe Patches Magento Zero-Day Exploited to Deploy Rust Backdoor and PHP Web Shell",
       "sector": "Retail",
-      "date": "07 Sep 2026",
+      "date": "08 Sep 2026",
       "actor": "Non attribué",
       "sev": "critical",
-      "desc": "A zero-day vulnerability dubbed \"StyleSmuggler\" affecting all versions of Magento and Adobe Commerce is being exploited in attacks to deploy a backdoor. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/magento-stylesmuggler-zero-day-exploited-to-deploy-linux-backdoor/"
-    },
-    {
-      "title": "Mathspace discloses data breach affecting over 1 million people",
-      "sector": "Éducation",
-      "date": "07 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Online maths learning platform Mathspace disclosed over the weekend that attackers stole data from more than 1 million students, staff, and parents after breaching its Metabase internal reporting system. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/mathspace-discloses-data-breach-affecting-over-1-million-people/"
-    },
-    {
-      "title": "Trezor data breach impact now reaches 81,000 customers",
-      "sector": "Transport",
-      "date": "07 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Cryptocurrency hardware wallet maker Trezor says an August data breach at its shipping and logistics provider, ShipMonk, affects an additional 67,000 U.S. customers. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/trezor-data-breach-impact-now-reaches-81-000-customers/"
-    },
-    {
-      "title": "Rogue ScreenConnect Clients Spread Four-Stage VBScript Chain to Newly Connected Hosts",
-      "sector": "Non précisé",
-      "date": "07 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "Cybersecurity researchers have disclosed details of worm-like activity that abuses ConnectWise ScreenConnect to distribute a malicious Visual Basic Script (VBScript) payload to newly connected systems. According to Huntr…",
+      "desc": "Adobe on Monday released security patches to address a maximum-severity flaw impacting Adobe Commerce and Magento Open Source that has come under active exploitation in the wild. The vulnerability, now tracked as CVE-202…",
       "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/rogue-screenconnect-clients-spread-four.html"
-    },
-    {
-      "title": "Hackers exploit new MikroTik RouterOS flaws to hijack routers",
-      "sector": "Non précisé",
-      "date": "07 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "Hackers are exploiting a chain of two recently disclosed vulnerabilities in MikroTik routers to take control of devices with SSH services exposed to the internet. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-new-mikrotik-routeros-flaws-to-hijack-routers/"
-    },
-    {
-      "title": "N-able Issues Fourth N-central Hotfix in Five Weeks for Unauthenticated RCE Flaw",
-      "sector": "Non précisé",
-      "date": "07 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Every on-premises N-central build below 2026.3.1.14 — including servers updated to Hotfix 3 a day earlier — needs Hotfix 4. N-able's incident notice says the flaw has been exploited in the wild; its release notes say tha…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html"
-    },
-    {
-      "title": "Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication",
-      "sector": "Non précisé",
-      "date": "06 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Attackers are exploiting MikroTik routers with their Secure Shell (SSH) remote-access service, which is reachable from the internet, to gain full administrative control without authentication, according to CERT Polska's …",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html"
-    },
-    {
-      "title": "Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
-      "sector": "Retail",
-      "date": "06 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Attackers are exploiting a new unpatched vulnerability in Magento Open Source and Adobe Commerce that lets them run malicious code on an online store's server without logging in, Dutch e-commerce security company Sansec …",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html"
-    },
-    {
-      "title": "Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials",
-      "sector": "Non précisé",
-      "date": "05 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "JetBrains is urging Cadence users to revoke and rotate all credentials following a security incident last month in which unidentified threat actors exploited a recently disclosed critical vulnerability in TeamCity to bre…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html"
-    },
-    {
-      "title": "Over 5,400 hacked sites serve ClickFix payloads stored on the blockchain",
-      "sector": "Manufacturing",
-      "date": "05 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "A massive cybercriminal operation is leveraging thousands of compromised small-business websites to deliver ClickFix payloads stored in smart contracts on the BNB Smart Chain (BSC). [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/"
-    },
-    {
-      "title": "Trezor Says ShipMonk Breach Exposed 67,000 U.S. Customers' Data It Said Was Deleted",
-      "sector": "Non précisé",
-      "date": "05 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Hardware wallet manufacturer Trezor on Friday disclosed that another 67,000 customers from the U.S. have been impacted in a breach at its shipping provider ShipMonk. The exposed information includes customer names, email…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/trezor-says-shipmonk-breach-exposed.html"
+      "url": "https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html"
     }
   ],
   "vulns": [
+    {
+      "cve": "CVE-2026-75650",
+      "product": "Adobe Commerce and Magento",
+      "type": "Adobe Commerce and Magento Improper Neutralization of Special Elements Used in a Template ",
+      "cvss": 10.0,
+      "published": "2026-09-07",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-09-11",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75650"
+    },
+    {
+      "cve": "CVE-2026-81963",
+      "product": "Microsoft Windows",
+      "type": "Microsoft Windows Link Following Vulnerability",
+      "cvss": 7.8,
+      "published": "2026-09-08",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-09-22",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81963"
+    },
+    {
+      "cve": "CVE-2026-86218",
+      "product": "N-able N-central",
+      "type": "N-able N-central Static Code Injection Vulnerability",
+      "cvss": 9.8,
+      "published": "2026-09-06",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-09-11",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86218"
+    },
+    {
+      "cve": "CVE-2026-85880",
+      "product": "Microsoft Windows",
+      "type": "Microsoft Windows Heap-Based Buffer Overflow Vulnerability",
+      "cvss": 7.8,
+      "published": "2026-09-08",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-09-22",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85880"
+    },
     {
       "cve": "CVE-2026-85046",
       "product": "Google Chromium V8",
@@ -146,7 +198,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-09-16",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59822"
     },
@@ -159,7 +211,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-09-16",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48710"
     },
@@ -172,7 +224,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-09-05",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49869"
     },
@@ -185,7 +237,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-09-05",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82329"
     },
@@ -198,7 +250,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-09-05",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9586"
     },
@@ -211,7 +263,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-09-05",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83548"
     },
@@ -224,7 +276,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-09-05",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83549"
     },
@@ -331,76 +383,24 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-5287"
-    },
-    {
-      "cve": "CVE-2022-0995",
-      "product": "Linux Kernel",
-      "type": "Linux Kernel Out-of-Bounds Write Vulnerability",
-      "cvss": 7.8,
-      "published": "2022-03-25",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-09-09",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-0995"
-    },
-    {
-      "cve": "CVE-2026-8452",
-      "product": "Citrix NetScaler ADC and NetScaler Gateway",
-      "type": "Citrix NetScaler ADC and NetScaler Gateway Improper Restriction of Operations within the B",
-      "cvss": 9.8,
-      "published": "2026-06-30",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-08-29",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8452"
-    },
-    {
-      "cve": "CVE-2019-1068",
-      "product": "Microsoft SQL Server",
-      "type": "Microsoft SQL Server Remote Code Execution Vulnerability",
-      "cvss": 8.8,
-      "published": "2019-07-15",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-08-29",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-1068"
-    },
-    {
-      "cve": "CVE-2026-60004",
-      "product": "Gitea Gitea",
-      "type": "Gitea Code Injection Vulnerability",
-      "cvss": 9.8,
-      "published": "2026-08-26",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-08-28",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60004"
     }
   ],
   "actors": [
     {
-      "name": "APT28",
-      "type": "APT / Espionnage",
-      "desc": "Cybersecurity researchers have flagged a fresh set of campaigns targeting government and diplomatic organizations in Romania, Spain, and Türkiye between late September 2025 and early April 2026. These campaigns, per Reco…",
-      "victims": "1 mention(s) récente(s) — dernier article : 28 Aug 2026",
+      "name": "ShinyHunters",
+      "type": "RaaS / Extorsion",
+      "desc": "The ShinyHunters extortion gang claims it breached an online platform for the Florida Department of Motor Vehicles database known as \"DAVID\" and stole over 200,000 records about drivers in the state. [...]",
+      "victims": "1 mention(s) récente(s) — dernier article : 08 Sep 2026",
       "region": "Non précisé",
-      "url": "https://thehackernews.com/2026/08/apt28-linked-hookedge-backdoor-targets.html",
-      "src": "The Hacker News"
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hackers-claim-breach-of-florida-david-dmv-database/",
+      "src": "BleepingComputer"
     }
   ],
   "threats": [
     {
-      "title": "Activité soutenue de APT28",
-      "desc": "Cybersecurity researchers have flagged a fresh set of campaigns targeting government and diplomatic organizations in Romania, Spain, and Türkiye between late September 2025 and early April 2026. These campaigns, per Reco…",
-      "url": "https://thehackernews.com/2026/08/apt28-linked-hookedge-backdoor-targets.html"
+      "title": "Activité soutenue de ShinyHunters",
+      "desc": "The ShinyHunters extortion gang claims it breached an online platform for the Florida Department of Motor Vehicles database known as \"DAVID\" and stole over 200,000 records about drivers in the state. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hackers-claim-breach-of-florida-david-dmv-database/"
     }
   ],
   "iocs": [
