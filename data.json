@@ -1,14 +1,84 @@
 {
-  "generated_at": "2026-09-09T10:46:41Z",
+  "generated_at": "2026-09-10T10:36:46Z",
   "week_label": "S37 · 7 – 13 septembre 2026",
   "attacks": [
+    {
+      "title": "CISA: WatchGuard RCE flaw now exploited in ransomware attacks",
+      "sector": "Gouvernement",
+      "date": "10 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has confirmed that ransomware gangs are also exploiting a critical WatchGuard Firebox firewall vulnerability, which it flagged as actively exploited in Dec…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-watchguard-rce-flaw-now-exploited-in-ransomware-attacks/"
+    },
+    {
+      "title": "Anthropic Discloses Fourth AI Hacking Incident Involving Claude Opus 4.6",
+      "sector": "Non précisé",
+      "date": "10 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Anthropic on Wednesday disclosed a fourth incident in which its artificial intelligence (AI) model broke into real third-party systems, marking the latest in a growing list of cases that have raised concerns about the se…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/anthropic-ai-models-breached-real.html"
+    },
+    {
+      "title": "Trezor warns users of email provider breach, phishing attacks",
+      "sector": "Non précisé",
+      "date": "10 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Trezor warned customers on Wednesday that threat actors who breached its third-party email provider are targeting them in phishing attacks. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/trezor-warns-users-of-email-provider-breach-phishing-attacks/"
+    },
+    {
+      "title": "Cisco confirms CVE-2026-20079 Secure FMC flaw exploited in attacks",
+      "sector": "Non précisé",
+      "date": "09 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Cisco has confirmed that a maximum-severity authentication bypass vulnerability tracked as CVE-2026-20079 in its Secure Firewall Management Center (FMC) software is being actively exploited in attacks. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/cisco-confirms-cve-2026-20079-secure-fmc-flaw-exploited-in-attacks/"
+    },
+    {
+      "title": "AdaptHealth confirms 4.1 million people exposed in July cyberattack",
+      "sector": "Santé",
+      "date": "09 Sep 2026",
+      "actor": "ShinyHunters",
+      "sev": "critical",
+      "desc": "Healthcare company AdaptHealth has confirmed that data of 4.1 million people was exposed in a cyberattack discovered in July that was attributed to the ShinyHunters threat group. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/adapthealth-confirms-41-million-people-exposed-in-july-cyberattack/"
+    },
+    {
+      "title": "Veradigm warns of patient data breach after ransomware gang claims attack",
+      "sector": "Santé",
+      "date": "09 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Healthcare technology company Veradigm disclosed a data breach after a cybersecurity incident at one of its third-party vendors exposed patients' personal data. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/veradigm-discloses-patient-data-breach-after-gentlemen-gang-claims-attack/"
+    },
+    {
+      "title": "Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA",
+      "sector": "Non précisé",
+      "date": "09 Sep 2026",
+      "actor": "Play",
+      "sev": "medium",
+      "desc": "Cybercriminals are hijacking artificial intelligence (AI) user accounts via information stealer logs to create \"stolen keys\" that grant illicit access to tools from model providers like Google, Anthropic, and others. Inf…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html"
+    },
     {
       "title": "Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox",
       "sector": "Non précisé",
       "date": "09 Sep 2026",
       "actor": "Non attribué",
       "sev": "critical",
-      "desc": "Google on Thursday released updates to patch 230 security vulnerabilities, including one that has come under active exploitation in the wild. The medium-severity vulnerability, assigned the CVE identifier CVE-2026-87491 …",
+      "desc": "Google on Tuesday released updates to patch 230 security vulnerabilities, including one that has come under active exploitation in the wild. The medium-severity vulnerability, assigned the CVE identifier CVE-2026-87491 (…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html"
     },
@@ -43,56 +113,6 @@
       "url": "https://thehackernews.com/2026/09/n-able-n-central-pre-auth-rce-flaw.html"
     },
     {
-      "title": "The EU CRA's Real Question: What Shipped, and When Did You Know?",
-      "sector": "Non précisé",
-      "date": "08 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "The EU Cyber Resilience Act's vulnerability reporting requirements take effect September 11, giving software vendors as little as 24 hours to report actively exploited flaws. ActiveState explains why knowing exactly what…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/the-eu-cras-real-question-what-shipped-and-when-did-you-know/"
-    },
-    {
-      "title": "Hackers breach F5 BIG-IP APM devices to deploy Linux rootkit",
-      "sector": "Non précisé",
-      "date": "08 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "A Linux rootkit targeting devices in F5 BIG-IP APM environments can intercept PHP file loading and inject a fileless web shell directly into memory, avoiding the need to write malicious code to disk. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-f5-big-ip-apm-devices-to-deploy-linux-rootkit/"
-    },
-    {
-      "title": "Microsoft September 2026 Patch Tuesday fixes 966 flaws, 2 zero-days",
-      "sector": "Non précisé",
-      "date": "08 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Today is Microsoft's September 2026 Patch Tuesday, with security updates released for a record-breaking 966 flaws, including two actively exploited zero-day vulnerabilities. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-patch-tuesday-fixes-966-flaws-2-zero-days/"
-    },
-    {
-      "title": "ShinyHunters hackers claim breach of Florida \"DAVID\" DMV database",
-      "sector": "Non précisé",
-      "date": "08 Sep 2026",
-      "actor": "ShinyHunters",
-      "sev": "high",
-      "desc": "The ShinyHunters extortion gang claims it breached an online platform for the Florida Department of Motor Vehicles database known as \"DAVID\" and stole over 200,000 records about drivers in the state. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hackers-claim-breach-of-florida-david-dmv-database/"
-    },
-    {
-      "title": "OpenAI says ChatGPT outage causes image generation errors",
-      "sector": "Non précisé",
-      "date": "08 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "OpenAI is investigating an ongoing incident causing ChatGPT image generation failures and delays when uploading files. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/technology/openai-says-chatgpt-outage-causes-image-generation-errors/"
-    },
-    {
       "title": "Liquid Hackers Return 3,400 Bitcoin Taken via Elements Bug, Still Holding $47M in BTC",
       "sector": "Non précisé",
       "date": "08 Sep 2026",
@@ -101,29 +121,61 @@
       "desc": "Whoever took nearly 4,000 bitcoin from the Liquid Network on Sunday, September 6, returned 3,400 of it the next day, Bitcoin's public record shows. About 598.5 bitcoin has not come back. Liquid is a Bitcoin sidechain tha…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/09/liquid-hackers-return-3400-bitcoin.html"
-    },
-    {
-      "title": "Autonomous AI Agents Compromise Thousands of Credentials in Under Six Hours",
-      "sector": "Finance",
-      "date": "08 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Threat actors are continuing to leverage artificial intelligence (AI) to streamline their operations, with one financially motivated hacking group employing an autonomous, multi-agent attack framework to carry out a larg…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/autonomous-ai-agents-compromise.html"
-    },
-    {
-      "title": "Adobe Patches Magento Zero-Day Exploited to Deploy Rust Backdoor and PHP Web Shell",
-      "sector": "Retail",
-      "date": "08 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Adobe on Monday released security patches to address a maximum-severity flaw impacting Adobe Commerce and Magento Open Source that has come under active exploitation in the wild. The vulnerability, now tracked as CVE-202…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html"
     }
   ],
   "vulns": [
+    {
+      "cve": "CVE-2026-19490",
+      "product": "Citrix NetScaler",
+      "type": "Citrix NetScaler Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "cvss": null,
+      "published": "2026-08-19",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-09-12",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19490"
+    },
+    {
+      "cve": "CVE-2025-25249",
+      "product": "Fortinet Multiple Products",
+      "type": "Fortinet Multiple Products Heap-based Buffer Overflow Vulnerability",
+      "cvss": 8.1,
+      "published": "2026-01-13",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-09-12",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-25249"
+    },
+    {
+      "cve": "CVE-2026-87491",
+      "product": "Google Chromium V8",
+      "type": "Google Chromium V8 Out of Bounds Write Vulnerability",
+      "cvss": 8.8,
+      "published": "2026-09-09",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-09-23",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87491"
+    },
+    {
+      "cve": "CVE-2026-20079",
+      "product": "Cisco Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management",
+      "type": "Cisco Firewall Management Center Authentication Bypass Using an Alternate Path or Channel ",
+      "cvss": 10.0,
+      "published": "2026-03-04",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-09-12",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20079"
+    },
     {
       "cve": "CVE-2026-75650",
       "product": "Adobe Commerce and Magento",
@@ -331,76 +383,38 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53362"
-    },
-    {
-      "cve": "CVE-2026-66384",
-      "product": "JFrog Artifactory",
-      "type": "JFrog Artifactory Improper Limitation of a Pathname to a Restricted Directory Vulnerabilit",
-      "cvss": 5.3,
-      "published": "2026-08-12",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-09-10",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66384"
-    },
-    {
-      "cve": "CVE-2021-23758",
-      "product": "Ajax.NET Professional Ajax.NET Professional",
-      "type": "Ajax.NET Professional Deserialization of Untrusted Data Vulnerability",
-      "cvss": 8.1,
-      "published": "2021-12-03",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-09-09",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-23758"
-    },
-    {
-      "cve": "CVE-2015-3246",
-      "product": "Red Hat Libuser",
-      "type": "Red Hat Libuser Race Condition Vulnerability",
-      "cvss": 5.1,
-      "published": "2015-08-11",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-09-09",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-3246"
-    },
-    {
-      "cve": "CVE-2015-5287",
-      "product": "Red Hat Automatic Bug Reporting Tool",
-      "type": "Red Hat Automatic Bug Reporting Tool Privilege Escalation Vulnerability",
-      "cvss": 7.8,
-      "published": "2015-12-07",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-09-09",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-5287"
     }
   ],
   "actors": [
     {
       "name": "ShinyHunters",
       "type": "RaaS / Extorsion",
-      "desc": "The ShinyHunters extortion gang claims it breached an online platform for the Florida Department of Motor Vehicles database known as \"DAVID\" and stole over 200,000 records about drivers in the state. [...]",
-      "victims": "1 mention(s) récente(s) — dernier article : 08 Sep 2026",
+      "desc": "Healthcare company AdaptHealth has confirmed that data of 4.1 million people was exposed in a cyberattack discovered in July that was attributed to the ShinyHunters threat group. [...]",
+      "victims": "1 mention(s) récente(s) — dernier article : 09 Sep 2026",
       "region": "Non précisé",
-      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hackers-claim-breach-of-florida-david-dmv-database/",
+      "url": "https://www.bleepingcomputer.com/news/security/adapthealth-confirms-41-million-people-exposed-in-july-cyberattack/",
       "src": "BleepingComputer"
+    },
+    {
+      "name": "Play",
+      "type": "RaaS / Extorsion",
+      "desc": "Cybercriminals are hijacking artificial intelligence (AI) user accounts via information stealer logs to create \"stolen keys\" that grant illicit access to tools from model providers like Google, Anthropic, and others. Inf…",
+      "victims": "1 mention(s) récente(s) — dernier article : 09 Sep 2026",
+      "region": "Non précisé",
+      "url": "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html",
+      "src": "The Hacker News"
     }
   ],
   "threats": [
     {
       "title": "Activité soutenue de ShinyHunters",
-      "desc": "The ShinyHunters extortion gang claims it breached an online platform for the Florida Department of Motor Vehicles database known as \"DAVID\" and stole over 200,000 records about drivers in the state. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hackers-claim-breach-of-florida-david-dmv-database/"
+      "desc": "Healthcare company AdaptHealth has confirmed that data of 4.1 million people was exposed in a cyberattack discovered in July that was attributed to the ShinyHunters threat group. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/adapthealth-confirms-41-million-people-exposed-in-july-cyberattack/"
+    },
+    {
+      "title": "Activité soutenue de Play",
+      "desc": "Cybercriminals are hijacking artificial intelligence (AI) user accounts via information stealer logs to create \"stolen keys\" that grant illicit access to tools from model providers like Google, Anthropic, and others. Inf…",
+      "url": "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html"
     }
   ],
   "iocs": [
