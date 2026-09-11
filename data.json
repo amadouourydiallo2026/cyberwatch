@@ -1,134 +1,160 @@
 {
-  "generated_at": "2026-09-10T10:36:46Z",
+  "generated_at": "2026-09-11T10:37:16Z",
   "week_label": "S37 · 7 – 13 septembre 2026",
   "attacks": [
     {
-      "title": "CISA: WatchGuard RCE flaw now exploited in ransomware attacks",
-      "sector": "Gouvernement",
+      "title": "Trezor: 347,000 users targeted in phishing attacks after Brevo breach",
+      "sector": "Non précisé",
+      "date": "11 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Trezor has revealed that phishing attacks against its customers earlier this week targeted 347,000 email addresses and affected 2,500 users who clicked an embedded malicious link. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/trezor-347-000-users-targeted-in-phishing-attacks-after-brevo-breach/"
+    },
+    {
+      "title": "China-Linked UNC3569 Exploited Sogou Input Method Flaw to Deploy GRAYRABBIT Backdoor",
+      "sector": "Non précisé",
+      "date": "11 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "A China-linked hacking group exploited a flaw in Sogou Input Method, one of the most widely used tools for typing Chinese characters on Windows, to install a backdoor on victims' computers, security company Gen Digital s…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/china-linked-unc3569-exploited-sogou.html"
+    },
+    {
+      "title": "Conti ransomware gang member sentenced to 4 years in prison",
+      "sector": "Non précisé",
+      "date": "11 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "A Ukrainian national has been sentenced to four years in prison for his role in Conti ransomware attacks between 2021 and 2022. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/conti-ransomware-gang-member-sentenced-to-four-years-in-prison/"
+    },
+    {
+      "title": "PaperCut Replaces Emergency Patches With Fixes for Two Actively Exploited Flaws",
+      "sector": "Non précisé",
+      "date": "11 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "PaperCut on Thursday released a new security maintenance release that replaces all previously published emergency patches that were pushed to address two security flaws that have come under active exploitation. The softw…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/papercut-replaces-emergency-patches.html"
+    },
+    {
+      "title": "Cisco FMC Flaws Exploited to Steal Credentials and Deploy Qilin Ransomware",
+      "sector": "Non précisé",
+      "date": "11 Sep 2026",
+      "actor": "Qilin",
+      "sev": "high",
+      "desc": "Cisco has revealed that three distinct threat clusters linked to ransomware and state-sponsored attacks have been exploiting two recently patched Secure Firewall Management Center (FMC) vulnerabilities. The attacks lever…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html"
+    },
+    {
+      "title": "New Android malware encrypts files, steals data, and harasses victims",
+      "sector": "Non précisé",
+      "date": "10 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "A new Android malware strain called Mantax Otax combines ransomware and spyware capabilities to encrypt files, steal sensitive data, and spam and harass victims. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/new-android-malware-encrypts-files-steals-data-and-harasses-victims/"
+    },
+    {
+      "title": "Surfshark VPN says hackers breached internal testing, proxy servers",
+      "sector": "Non précisé",
+      "date": "10 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Surfshark disclosed that hackers accessed one of its internal test servers after a configuration error exposed it to the internet. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/surfshark-vpn-says-hackers-breached-internal-testing-proxy-servers/"
+    },
+    {
+      "title": "AI-powered attack exploited PaperCut flaws to hack 395 organizations",
+      "sector": "Non précisé",
+      "date": "10 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "A threat actor, likely Russian-speaking, used hundreds of AI agents to develop and launch a global exploitation campaign targeting vulnerable PaperCut NG/MF servers. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/ai-powered-attack-exploited-papercut-flaws-to-hack-395-organizations/"
+    },
+    {
+      "title": "Cisco FMC flaws exploited by ransomware gang, state-sponsored hackers",
+      "sector": "Non précisé",
+      "date": "10 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Cisco Talos says two recently patched Secure Firewall Management Center (FMC) vulnerabilities have been exploited by three separate threat clusters linked to ransomware and state-sponsored attacks. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/cisco-fmc-flaws-exploited-by-ransomware-gang-state-sponsored-hackers/"
+    },
+    {
+      "title": "IDScan confirms breach tied to 153 million stolen driver’s licenses",
+      "sector": "Non précisé",
       "date": "10 Sep 2026",
       "actor": "Non attribué",
       "sev": "critical",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has confirmed that ransomware gangs are also exploiting a critical WatchGuard Firebox firewall vulnerability, which it flagged as actively exploited in Dec…",
+      "desc": "Identity verification company IDScan has confirmed that hackers accessed customer data stored in its cloud platform, days after reports linked the company to a massive database containing more than 153 million driver's l…",
       "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-watchguard-rce-flaw-now-exploited-in-ransomware-attacks/"
+      "url": "https://www.bleepingcomputer.com/news/security/idscan-confirms-breach-tied-to-153-million-stolen-drivers-licenses/"
     },
     {
-      "title": "Anthropic Discloses Fourth AI Hacking Incident Involving Claude Opus 4.6",
+      "title": "New 'BlueMoon' kit exploited Windows and Chrome zero-day flaws",
+      "sector": "Non précisé",
+      "date": "10 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Multiple cyber-espionage groups deployed an exploit kit dubbed \"BlueMoon\" that leveraged zero-day vulnerabilities in Microsoft Windows and Google Chrome. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/new-bluemoon-kit-exploited-windows-and-chrome-zero-day-flaws/"
+    },
+    {
+      "title": "PaperCut Attacker Uses Hundreds of AI Agents to Compromise 440+ Instances",
       "sector": "Non précisé",
       "date": "10 Sep 2026",
       "actor": "Non attribué",
       "sev": "high",
-      "desc": "Anthropic on Wednesday disclosed a fourth incident in which its artificial intelligence (AI) model broke into real third-party systems, marking the latest in a growing list of cases that have raised concerns about the se…",
+      "desc": "A suspected Russian-speaking cyber actor has been attributed to the use of artificial intelligence (AI) to devise exploits targeting a recently disclosed pair of security flaws in PaperCut NG/MF and break into hundreds o…",
       "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/anthropic-ai-models-breached-real.html"
-    },
-    {
-      "title": "Trezor warns users of email provider breach, phishing attacks",
-      "sector": "Non précisé",
-      "date": "10 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Trezor warned customers on Wednesday that threat actors who breached its third-party email provider are targeting them in phishing attacks. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/trezor-warns-users-of-email-provider-breach-phishing-attacks/"
-    },
-    {
-      "title": "Cisco confirms CVE-2026-20079 Secure FMC flaw exploited in attacks",
-      "sector": "Non précisé",
-      "date": "09 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Cisco has confirmed that a maximum-severity authentication bypass vulnerability tracked as CVE-2026-20079 in its Secure Firewall Management Center (FMC) software is being actively exploited in attacks. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/cisco-confirms-cve-2026-20079-secure-fmc-flaw-exploited-in-attacks/"
-    },
-    {
-      "title": "AdaptHealth confirms 4.1 million people exposed in July cyberattack",
-      "sector": "Santé",
-      "date": "09 Sep 2026",
-      "actor": "ShinyHunters",
-      "sev": "critical",
-      "desc": "Healthcare company AdaptHealth has confirmed that data of 4.1 million people was exposed in a cyberattack discovered in July that was attributed to the ShinyHunters threat group. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/adapthealth-confirms-41-million-people-exposed-in-july-cyberattack/"
-    },
-    {
-      "title": "Veradigm warns of patient data breach after ransomware gang claims attack",
-      "sector": "Santé",
-      "date": "09 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Healthcare technology company Veradigm disclosed a data breach after a cybersecurity incident at one of its third-party vendors exposed patients' personal data. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/veradigm-discloses-patient-data-breach-after-gentlemen-gang-claims-attack/"
-    },
-    {
-      "title": "Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA",
-      "sector": "Non précisé",
-      "date": "09 Sep 2026",
-      "actor": "Play",
-      "sev": "medium",
-      "desc": "Cybercriminals are hijacking artificial intelligence (AI) user accounts via information stealer logs to create \"stolen keys\" that grant illicit access to tools from model providers like Google, Anthropic, and others. Inf…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html"
-    },
-    {
-      "title": "Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox",
-      "sector": "Non précisé",
-      "date": "09 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Google on Tuesday released updates to patch 230 security vulnerabilities, including one that has come under active exploitation in the wild. The medium-severity vulnerability, assigned the CVE identifier CVE-2026-87491 (…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html"
-    },
-    {
-      "title": "Google warns of new Chrome zero-day bug exploited in attacks",
-      "sector": "Non précisé",
-      "date": "09 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Google has patched 230 vulnerabilities on Tuesday, including another actively exploited Chrome zero-day bug, the seventh such vulnerability patched since the start of the year. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/google-patches-seventh-chrome-zero-day-exploited-in-attacks-this-year/"
-    },
-    {
-      "title": "Microsoft Patches Record 974 Flaws, Including Two Exploited Windows Zero-Days",
-      "sector": "Non précisé",
-      "date": "09 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Microsoft on Tuesday broke Patch Tuesday records by addressing an earth-shattering 974 vulnerabilities spanning its software portfolio, including two flaws that it said have been actively exploited in the wild. These inc…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/microsoft-patches-record-974-flaws.html"
-    },
-    {
-      "title": "N-able N-central Pre-Auth RCE Flaw Exploited in the Wild",
-      "sector": "Gouvernement",
-      "date": "09 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a maximum-severity security flaw impacting N-able N-central to its Known Exploited Vulnerabilities (KEV) catalog, requiring Federal Civili…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/n-able-n-central-pre-auth-rce-flaw.html"
-    },
-    {
-      "title": "Liquid Hackers Return 3,400 Bitcoin Taken via Elements Bug, Still Holding $47M in BTC",
-      "sector": "Non précisé",
-      "date": "08 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "Whoever took nearly 4,000 bitcoin from the Liquid Network on Sunday, September 6, returned 3,400 of it the next day, Bitcoin's public record shows. About 598.5 bitcoin has not come back. Liquid is a Bitcoin sidechain tha…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/liquid-hackers-return-3400-bitcoin.html"
+      "url": "https://thehackernews.com/2026/09/papercut-attacker-uses-hundreds-of-ai.html"
     }
   ],
   "vulns": [
     {
+      "cve": "CVE-2026-86060",
+      "product": "MikroTik RouterOS",
+      "type": "MikroTik RouterOS Improper Neutralization of Argument Delimiters in a Command Vulnerabilit",
+      "cvss": null,
+      "published": "2026-09-05",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-09-13",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86060"
+    },
+    {
+      "cve": "CVE-2026-67277",
+      "product": "MikroTik RouterOS",
+      "type": "MikroTik RouterOS Missing Authentication for Critical Function Vulnerability",
+      "cvss": null,
+      "published": "2026-09-05",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-09-13",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67277"
+    },
+    {
       "cve": "CVE-2026-19490",
       "product": "Citrix NetScaler",
       "type": "Citrix NetScaler Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-      "cvss": null,
+      "cvss": 9.8,
       "published": "2026-08-19",
       "exploit": true,
       "poc": "unk",
@@ -237,7 +263,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-09-18",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85046"
     },
@@ -357,64 +383,38 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81578"
-    },
-    {
-      "cve": "CVE-2023-49105",
-      "product": "ownCloud ownCloud",
-      "type": "ownCloud Improper Authentication Vulnerability",
-      "cvss": 9.8,
-      "published": "2023-11-21",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-08-30",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-49105"
-    },
-    {
-      "cve": "CVE-2026-53362",
-      "product": "Linux Kernel",
-      "type": "Linux Kernel Unspecified Vulnerability",
-      "cvss": 7.8,
-      "published": "2026-07-04",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-08-30",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53362"
     }
   ],
   "actors": [
     {
-      "name": "ShinyHunters",
-      "type": "RaaS / Extorsion",
-      "desc": "Healthcare company AdaptHealth has confirmed that data of 4.1 million people was exposed in a cyberattack discovered in July that was attributed to the ShinyHunters threat group. [...]",
-      "victims": "1 mention(s) récente(s) — dernier article : 09 Sep 2026",
-      "region": "Non précisé",
-      "url": "https://www.bleepingcomputer.com/news/security/adapthealth-confirms-41-million-people-exposed-in-july-cyberattack/",
-      "src": "BleepingComputer"
-    },
-    {
       "name": "Play",
       "type": "RaaS / Extorsion",
-      "desc": "Cybercriminals are hijacking artificial intelligence (AI) user accounts via information stealer logs to create \"stolen keys\" that grant illicit access to tools from model providers like Google, Anthropic, and others. Inf…",
-      "victims": "1 mention(s) récente(s) — dernier article : 09 Sep 2026",
+      "desc": "Bad actors are misusing Google Play's Early Access program to push deceptive apps that claim to offer money, rewards, casino winnings, and premium content. Early Access apps are apps that haven't been released on the off…",
+      "victims": "2 mention(s) récente(s) — dernier article : 10 Sep 2026",
       "region": "Non précisé",
-      "url": "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html",
+      "url": "https://thehackernews.com/2026/09/google-play-early-access-abused-to-push.html",
+      "src": "The Hacker News"
+    },
+    {
+      "name": "Qilin",
+      "type": "RaaS / Extorsion",
+      "desc": "Cisco has revealed that three distinct threat clusters linked to ransomware and state-sponsored attacks have been exploiting two recently patched Secure Firewall Management Center (FMC) vulnerabilities. The attacks lever…",
+      "victims": "1 mention(s) récente(s) — dernier article : 11 Sep 2026",
+      "region": "Non précisé",
+      "url": "https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html",
       "src": "The Hacker News"
     }
   ],
   "threats": [
     {
-      "title": "Activité soutenue de ShinyHunters",
-      "desc": "Healthcare company AdaptHealth has confirmed that data of 4.1 million people was exposed in a cyberattack discovered in July that was attributed to the ShinyHunters threat group. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/adapthealth-confirms-41-million-people-exposed-in-july-cyberattack/"
+      "title": "Activité soutenue de Play",
+      "desc": "Bad actors are misusing Google Play's Early Access program to push deceptive apps that claim to offer money, rewards, casino winnings, and premium content. Early Access apps are apps that haven't been released on the off…",
+      "url": "https://thehackernews.com/2026/09/google-play-early-access-abused-to-push.html"
     },
     {
-      "title": "Activité soutenue de Play",
-      "desc": "Cybercriminals are hijacking artificial intelligence (AI) user accounts via information stealer logs to create \"stolen keys\" that grant illicit access to tools from model providers like Google, Anthropic, and others. Inf…",
-      "url": "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html"
+      "title": "Activité soutenue de Qilin",
+      "desc": "Cisco has revealed that three distinct threat clusters linked to ransomware and state-sponsored attacks have been exploiting two recently patched Secure Firewall Management Center (FMC) vulnerabilities. The attacks lever…",
+      "url": "https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html"
     }
   ],
   "iocs": [
