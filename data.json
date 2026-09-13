@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-09-12T10:05:48Z",
+  "generated_at": "2026-09-13T11:06:13Z",
   "week_label": "S37 · 7 – 13 septembre 2026",
   "attacks": [
+    {
+      "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
+      "sector": "Finance",
+      "date": "13 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Microsoft has disclosed details of two campaigns in which threat actors are abusing third-party email delivery infrastructure to blast financial fraud scam messages and using passkey-themed social engineering to breach c…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html"
+    },
+    {
+      "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
+      "sector": "Gouvernement",
+      "date": "12 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added five security flaws impacting JFrog Artifactory, ConnectWise ScreenConnect, and MikroTik RouterOS to its Known Exploited Vulnerabilities (KEV) ca…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html"
+    },
     {
       "title": "Hackers abused Claude to extract secrets from 1.8M Android apps",
       "sector": "Finance",
@@ -101,26 +121,6 @@
       "desc": "PaperCut on Thursday released a new security maintenance release that replaces all previously published emergency patches that were pushed to address two security flaws that have come under active exploitation. The softw…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/09/papercut-replaces-emergency-patches.html"
-    },
-    {
-      "title": "Cisco FMC Flaws Exploited to Steal Credentials and Deploy Qilin Ransomware",
-      "sector": "Non précisé",
-      "date": "11 Sep 2026",
-      "actor": "Qilin",
-      "sev": "high",
-      "desc": "Cisco has revealed that three distinct threat clusters linked to ransomware and state-sponsored attacks have been exploiting two recently patched Secure Firewall Management Center (FMC) vulnerabilities. The attacks lever…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html"
-    },
-    {
-      "title": "New Android malware encrypts files, steals data, and harasses victims",
-      "sector": "Non précisé",
-      "date": "10 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "A new Android malware strain called Mantax Otax combines ransomware and spyware capabilities to encrypt files, steal sensitive data, and spam and harass victims. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/new-android-malware-encrypts-files-steals-data-and-harasses-victims/"
     }
   ],
   "vulns": [
