@@ -1,7 +1,47 @@
 {
-  "generated_at": "2026-09-13T11:06:13Z",
-  "week_label": "S37 · 7 – 13 septembre 2026",
+  "generated_at": "2026-09-14T11:47:21Z",
+  "week_label": "S38 · 14 – 20 septembre 2026",
   "attacks": [
+    {
+      "title": "Revolut discloses data breach exposing financial info, passports",
+      "sector": "Finance",
+      "date": "14 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Fintech company Revolut has disclosed a data breach after sharing data from an undisclosed number of customers with a threat actor impersonating a government agency. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/revolut-discloses-data-breach-exposing-financial-info-passports/"
+    },
+    {
+      "title": "Malicious Twitch Browser Extension Leaks OAuth Tokens From Nearly 31,000 Users",
+      "sector": "Non précisé",
+      "date": "14 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "A malicious cross-store Twitch browser extension has leaked OAuth tokens associated with nearly 31,000 users to proxy servers operated by a Russian commercial bot service. The extension, named \"Twitch Enhanced Viewer | J…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html"
+    },
+    {
+      "title": "CISA: Hackers now exploit max severity GitLab flaw in attacks",
+      "sector": "Gouvernement",
+      "date": "14 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned that hackers are now exploiting a maximum-severity GitLab vulnerability in attacks. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-max-severity-gitlab-flaw-in-attacks/"
+    },
+    {
+      "title": "Hackers exploit Tencent app flaw to deploy GrayRabbit malware",
+      "sector": "Non précisé",
+      "date": "13 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Threat actors linked to a China-aligned espionage group are exploiting a critical vulnerability (CVE-2026-51990) in Tencent's Sogou Input Method for Windows to deploy the GrayRabbit backdoor. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/"
+    },
     {
       "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
       "sector": "Finance",
@@ -81,46 +121,6 @@
       "desc": "Security teams have become exceptionally talented at finding vulnerabilities. Now, it’s time to turn our attention to optimizing the process for determining which of those vulnerabilities actually create a path to compro…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/09/your-critical-vulnerabilities-might-not.html"
-    },
-    {
-      "title": "Trezor: 347,000 users targeted in phishing attacks after Brevo breach",
-      "sector": "Non précisé",
-      "date": "11 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Trezor has revealed that phishing attacks against its customers earlier this week targeted 347,000 email addresses and affected 2,500 users who clicked an embedded malicious link. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/trezor-347-000-users-targeted-in-phishing-attacks-after-brevo-breach/"
-    },
-    {
-      "title": "China-Linked UNC3569 Exploited Sogou Input Method Flaw to Deploy GRAYRABBIT Backdoor",
-      "sector": "Non précisé",
-      "date": "11 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "A China-linked hacking group exploited a flaw in Sogou Input Method, one of the most widely used tools for typing Chinese characters on Windows, to install a backdoor on victims' computers, security company Gen Digital s…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/china-linked-unc3569-exploited-sogou.html"
-    },
-    {
-      "title": "Conti ransomware gang member sentenced to 4 years in prison",
-      "sector": "Non précisé",
-      "date": "11 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "A Ukrainian national has been sentenced to four years in prison for his role in Conti ransomware attacks between 2021 and 2022. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/conti-ransomware-gang-member-sentenced-to-four-years-in-prison/"
-    },
-    {
-      "title": "PaperCut Replaces Emergency Patches With Fixes for Two Actively Exploited Flaws",
-      "sector": "Non précisé",
-      "date": "11 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "PaperCut on Thursday released a new security maintenance release that replaces all previously published emergency patches that were pushed to address two security flaws that have come under active exploitation. The softw…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/papercut-replaces-emergency-patches.html"
     }
   ],
   "vulns": [
