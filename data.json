@@ -1,7 +1,77 @@
 {
-  "generated_at": "2026-09-14T11:47:21Z",
+  "generated_at": "2026-09-15T11:04:40Z",
   "week_label": "S38 · 14 – 20 septembre 2026",
   "attacks": [
+    {
+      "title": "Cisco patches Secure Email Gateway zero-day exploited in attacks",
+      "sector": "Non précisé",
+      "date": "15 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Cisco warned customers to patch a critical Secure Email Gateway zero-day security flaw that threat actors have been exploiting in attacks. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/new-cisco-secure-email-zero-day-exploited-to-execute-commands-as-root/"
+    },
+    {
+      "title": "China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE",
+      "sector": "Gouvernement",
+      "date": "15 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "A Chinese threat actor has been attributed to a spear-phishing campaign that exploits recently patched security flaws in Google Chrome and Microsoft Windows to deliver a malicious JavaScript backdoor called GRIMWEDGE. Vo…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html"
+    },
+    {
+      "title": "Japan's Digital Agency says VPN flaw exposed 246,000 personnel records",
+      "sector": "Gouvernement",
+      "date": "14 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Japan's Digital Agency has discovered a data breach that may have exposed around 246,000 record rows containing personal information of government employees. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/japans-digital-agency-says-vpn-flaw-exposed-246-000-personnel-records/"
+    },
+    {
+      "title": "Hackers hijack HBO Max Reddit account to push malware in ClickFix ads",
+      "sector": "Non précisé",
+      "date": "14 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Hackers compromised HBO Max's official Reddit account and used it to push malicious ads that launched ClickFix attacks to infect Windows and macOS devices with information-stealing malware. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hbo-max-reddit-account-to-push-malware-in-clickfix-ads/"
+    },
+    {
+      "title": "Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries",
+      "sector": "Non précisé",
+      "date": "14 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "A suspected Chinese threat actor tracked as Red Heron has been attributed to the rapid exploitation of a recently disclosed security vulnerability in Gitea to compromise internet-facing instances as part of a multi-natio…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html"
+    },
+    {
+      "title": "Hackers target exposed Vite dev servers to steal AWS, Azure secrets",
+      "sector": "Non précisé",
+      "date": "14 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "A mass-scanning campaign targeting internet-exposed Vite development servers is attempting to steal cloud credentials and configurations from AWS and Azure deployments. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-target-exposed-vite-dev-servers-to-steal-aws-azure-secrets/"
+    },
+    {
+      "title": "Webinar: How malicious OAuth apps can lead to Google Workspace breaches",
+      "sector": "Non précisé",
+      "date": "14 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Attackers can combine social engineering with malicious OAuth applications to gain access to Google Workspace data without relying solely on stolen passwords. This webinar examines two attacks to show how these breaches …",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/webinar-how-malicious-oauth-apps-can-lead-to-google-workspace-breaches/"
+    },
     {
       "title": "Revolut discloses data breach exposing financial info, passports",
       "sector": "Finance",
@@ -13,16 +83,6 @@
       "url": "https://www.bleepingcomputer.com/news/security/revolut-discloses-data-breach-exposing-financial-info-passports/"
     },
     {
-      "title": "Malicious Twitch Browser Extension Leaks OAuth Tokens From Nearly 31,000 Users",
-      "sector": "Non précisé",
-      "date": "14 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "A malicious cross-store Twitch browser extension has leaked OAuth tokens associated with nearly 31,000 users to proxy servers operated by a Russian commercial bot service. The extension, named \"Twitch Enhanced Viewer | J…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html"
-    },
-    {
       "title": "CISA: Hackers now exploit max severity GitLab flaw in attacks",
       "sector": "Gouvernement",
       "date": "14 Sep 2026",
@@ -31,16 +91,6 @@
       "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned that hackers are now exploiting a maximum-severity GitLab vulnerability in attacks. [...]",
       "src": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-max-severity-gitlab-flaw-in-attacks/"
-    },
-    {
-      "title": "Hackers exploit Tencent app flaw to deploy GrayRabbit malware",
-      "sector": "Non précisé",
-      "date": "13 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Threat actors linked to a China-aligned espionage group are exploiting a critical vulnerability (CVE-2026-51990) in Tencent's Sogou Input Method for Windows to deploy the GrayRabbit backdoor. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/"
     },
     {
       "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
@@ -63,36 +113,6 @@
       "url": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html"
     },
     {
-      "title": "Hackers abused Claude to extract secrets from 1.8M Android apps",
-      "sector": "Finance",
-      "date": "11 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "Anthropic says multiple threat groups, including the financially motivated and state-sponsored espionage groups linked to Russia and China, tried to abuse its Claude AI model for malicious purposes. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-abused-claude-to-extract-secrets-from-18m-android-apps/"
-    },
-    {
-      "title": "Florida confirms DMV database breached via stolen police account",
-      "sector": "Non précisé",
-      "date": "11 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The Florida Department of Highway Safety and Motor Vehicles (FLHSMV) has confirmed that its DAVID driver database suffered a data breach, saying the attackers gained access using credentials belonging to a police departm…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/florida-confirms-dmv-database-breached-via-stolen-police-account/"
-    },
-    {
-      "title": "Passkey-themed phishing attacks lead to Microsoft 365 data theft",
-      "sector": "Non précisé",
-      "date": "11 Sep 2026",
-      "actor": "ShinyHunters",
-      "sev": "high",
-      "desc": "Microsoft says threat actors linked to ShinyHunters, Helix, and other extortion gangs are using passkey and single sign-on-themed social engineering attacks to compromise corporate Microsoft accounts and steal data from …",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/"
-    },
-    {
       "title": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
       "sector": "Finance",
       "date": "11 Sep 2026",
@@ -101,29 +121,22 @@
       "desc": "Anthropic has warned that cybercriminals and state-sponsored hackers alike are using its Claude models for cyber attacks, weapons design, propaganda, and mass surveillance between December 2025 and August 2026. The threa…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html"
-    },
-    {
-      "title": "Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection",
-      "sector": "Non précisé",
-      "date": "11 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "Anthropic on Thursday revealed it disrupted a campaign mounted by a Russian state-sponsored threat actor that abused Claude for developing an AI-assisted workflow to get ahead of the detection curve. The operation has be…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html"
-    },
-    {
-      "title": "Your Critical Vulnerabilities Might Not Be Your Biggest Risk",
-      "sector": "Non précisé",
-      "date": "11 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Security teams have become exceptionally talented at finding vulnerabilities. Now, it’s time to turn our attention to optimizing the process for determining which of those vulnerabilities actually create a path to compro…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/your-critical-vulnerabilities-might-not.html"
     }
   ],
   "vulns": [
+    {
+      "cve": "CVE-2026-76461",
+      "product": "Cisco Secure Email Gateway",
+      "type": "Cisco Secure Email Gateway SQL Injection Vulnerability",
+      "cvss": 9.8,
+      "published": "2026-09-14",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-09-17",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76461"
+    },
     {
       "cve": "CVE-2026-84869",
       "product": "ConnectWise ScreenConnect",
@@ -263,7 +276,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-09-11",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75650"
     },
@@ -276,7 +289,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-09-22",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81963"
     },
@@ -289,7 +302,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-09-11",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86218"
     },
@@ -302,7 +315,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-09-22",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85880"
     },
@@ -370,19 +383,6 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82329"
-    },
-    {
-      "cve": "CVE-2026-9586",
-      "product": "Sangoma Switchvox",
-      "type": "Sangoma Switchvox SQL Injection Vulnerability",
-      "cvss": 9.8,
-      "published": "2026-07-17",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-09-05",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9586"
     }
   ],
   "actors": [
@@ -394,15 +394,6 @@
       "region": "Non précisé",
       "url": "https://thehackernews.com/2026/09/google-play-early-access-abused-to-push.html",
       "src": "The Hacker News"
-    },
-    {
-      "name": "ShinyHunters",
-      "type": "RaaS / Extorsion",
-      "desc": "Microsoft says threat actors linked to ShinyHunters, Helix, and other extortion gangs are using passkey and single sign-on-themed social engineering attacks to compromise corporate Microsoft accounts and steal data from …",
-      "victims": "1 mention(s) récente(s) — dernier article : 11 Sep 2026",
-      "region": "Non précisé",
-      "url": "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/",
-      "src": "BleepingComputer"
     },
     {
       "name": "Qilin",
@@ -419,11 +410,6 @@
       "title": "Activité soutenue de Play",
       "desc": "Bad actors are misusing Google Play's Early Access program to push deceptive apps that claim to offer money, rewards, casino winnings, and premium content. Early Access apps are apps that haven't been released on the off…",
       "url": "https://thehackernews.com/2026/09/google-play-early-access-abused-to-push.html"
-    },
-    {
-      "title": "Activité soutenue de ShinyHunters",
-      "desc": "Microsoft says threat actors linked to ShinyHunters, Helix, and other extortion gangs are using passkey and single sign-on-themed social engineering attacks to compromise corporate Microsoft accounts and steal data from …",
-      "url": "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/"
     },
     {
       "title": "Activité soutenue de Qilin",
