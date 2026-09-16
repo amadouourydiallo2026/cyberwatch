@@ -1,7 +1,87 @@
 {
-  "generated_at": "2026-09-15T11:04:40Z",
+  "generated_at": "2026-09-16T10:51:47Z",
   "week_label": "S38 · 14 – 20 septembre 2026",
   "attacks": [
+    {
+      "title": "Google fixes actively exploited Android zero-day on Pixel devices",
+      "sector": "Non précisé",
+      "date": "16 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Google has released the September 2026 security patches to address 110 vulnerabilities affecting its Pixel devices, including one zero-day flaw actively exploited in targeted attacks. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-android-zero-day-on-pixel-devices/"
+    },
+    {
+      "title": "Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens",
+      "sector": "Non précisé",
+      "date": "16 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "A critical security flaw in WSO2 API Manager has come under active exploitation in the wild, according to findings from watchTowr. The vulnerability, tracked as CVE-2026-5430 (CVSS score: 9.8/10.0), is a case of improper…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/active-exploitation-attempts-target.html"
+    },
+    {
+      "title": "Acronis warns of actively exploited flaw in its cPanel backup plugin",
+      "sector": "Non précisé",
+      "date": "15 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Acronis disclosed a high-severity Linux local privilege escalation vulnerability in its backup plugin for cPanel, WebHost Manager (WHM), and Plesk that may be exploited in the wild. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/acronis-warns-of-actively-exploited-flaw-in-its-cpanel-backup-plugin/"
+    },
+    {
+      "title": "Malcious Admin Menu Editor Pro plugin backdoors 1,500 WordPress sites",
+      "sector": "Non précisé",
+      "date": "15 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Malicious versions of the Admin Menu Editor Pro plugin for WordPress have been distributed to more than 200 customers after a threat actor compromised the maintainer's website and pushed updates that created a hidden use…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/malcious-admin-menu-editor-pro-plugin-backdoors-1-500-wordpress-sites/"
+    },
+    {
+      "title": "CenterPoint Energy confirms customer data stolen in cyberattack",
+      "sector": "Énergie",
+      "date": "15 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "CenterPoint Energy disclosed a breach compromising some customers' personal information after an attacker leaked data allegedly stolen from the utility company. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/centerpoint-energy-confirms-customer-data-stolen-in-cyberattack/"
+    },
+    {
+      "title": "Iranian Hackers Use Telegram-Controlled Malware to Spy on Dissidents and Journalists",
+      "sector": "Non précisé",
+      "date": "15 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Cybersecurity agencies in the United States, the United Kingdom, and the Netherlands have detailed a Windows malware that they say Iran's intelligence service uses to spy on dissidents, journalists, and activists around …",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html"
+    },
+    {
+      "title": "Hackers target WordPress sites via third-party WooCommerce plugin",
+      "sector": "Retail",
+      "date": "15 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Hackers are actively exploiting a critical vulnerability in the WooCommerce Wholesale Lead Capture premium plugin for WordPress to upload a PHP backdoor. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-via-third-party-woocommerce-plugin/"
+    },
+    {
+      "title": "CISA: Critical VMware RCE flaw now exploited by ransomware gangs",
+      "sector": "Gouvernement",
+      "date": "15 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned security teams that ransomware gangs have now joined ongoing attacks exploiting a critical VMware vCenter vulnerability patched in July. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-critical-vmware-vcenter-rce-flaw-now-exploited-by-ransomware-gangs/"
+    },
     {
       "title": "Cisco patches Secure Email Gateway zero-day exploited in attacks",
       "sector": "Non précisé",
@@ -33,16 +113,6 @@
       "url": "https://www.bleepingcomputer.com/news/security/japans-digital-agency-says-vpn-flaw-exposed-246-000-personnel-records/"
     },
     {
-      "title": "Hackers hijack HBO Max Reddit account to push malware in ClickFix ads",
-      "sector": "Non précisé",
-      "date": "14 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Hackers compromised HBO Max's official Reddit account and used it to push malicious ads that launched ClickFix attacks to infect Windows and macOS devices with information-stealing malware. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hbo-max-reddit-account-to-push-malware-in-clickfix-ads/"
-    },
-    {
       "title": "Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries",
       "sector": "Non précisé",
       "date": "14 Sep 2026",
@@ -51,76 +121,6 @@
       "desc": "A suspected Chinese threat actor tracked as Red Heron has been attributed to the rapid exploitation of a recently disclosed security vulnerability in Gitea to compromise internet-facing instances as part of a multi-natio…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html"
-    },
-    {
-      "title": "Hackers target exposed Vite dev servers to steal AWS, Azure secrets",
-      "sector": "Non précisé",
-      "date": "14 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "A mass-scanning campaign targeting internet-exposed Vite development servers is attempting to steal cloud credentials and configurations from AWS and Azure deployments. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-target-exposed-vite-dev-servers-to-steal-aws-azure-secrets/"
-    },
-    {
-      "title": "Webinar: How malicious OAuth apps can lead to Google Workspace breaches",
-      "sector": "Non précisé",
-      "date": "14 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Attackers can combine social engineering with malicious OAuth applications to gain access to Google Workspace data without relying solely on stolen passwords. This webinar examines two attacks to show how these breaches …",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/webinar-how-malicious-oauth-apps-can-lead-to-google-workspace-breaches/"
-    },
-    {
-      "title": "Revolut discloses data breach exposing financial info, passports",
-      "sector": "Finance",
-      "date": "14 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Fintech company Revolut has disclosed a data breach after sharing data from an undisclosed number of customers with a threat actor impersonating a government agency. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/revolut-discloses-data-breach-exposing-financial-info-passports/"
-    },
-    {
-      "title": "CISA: Hackers now exploit max severity GitLab flaw in attacks",
-      "sector": "Gouvernement",
-      "date": "14 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned that hackers are now exploiting a maximum-severity GitLab vulnerability in attacks. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-max-severity-gitlab-flaw-in-attacks/"
-    },
-    {
-      "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
-      "sector": "Finance",
-      "date": "13 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Microsoft has disclosed details of two campaigns in which threat actors are abusing third-party email delivery infrastructure to blast financial fraud scam messages and using passkey-themed social engineering to breach c…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html"
-    },
-    {
-      "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
-      "sector": "Gouvernement",
-      "date": "12 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added five security flaws impacting JFrog Artifactory, ConnectWise ScreenConnect, and MikroTik RouterOS to its Known Exploited Vulnerabilities (KEV) ca…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html"
-    },
-    {
-      "title": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
-      "sector": "Finance",
-      "date": "11 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Anthropic has warned that cybercriminals and state-sponsored hackers alike are using its Claude models for cyber attacks, weapons design, propaganda, and mass surveillance between December 2025 and August 2026. The threa…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html"
     }
   ],
   "vulns": [
@@ -224,7 +224,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-09-12",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19490"
     },
@@ -237,7 +237,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-09-12",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-25249"
     },
@@ -250,7 +250,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-09-23",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87491"
     },
@@ -263,7 +263,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-09-12",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20079"
     },
