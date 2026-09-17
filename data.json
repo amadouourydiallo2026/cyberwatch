@@ -1,7 +1,107 @@
 {
-  "generated_at": "2026-09-16T10:51:47Z",
+  "generated_at": "2026-09-17T10:58:45Z",
   "week_label": "S38 · 14 – 20 septembre 2026",
   "attacks": [
+    {
+      "title": "Chinese hackers use SparroWocky malware in govt espionage attacks",
+      "sector": "Gouvernement",
+      "date": "17 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The China-linked espionage group FamousSparrow has been using a new backdoor named SparroWocky in attacks on government organizations in Latin America. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-sparrowocky-malware-in-govt-espionage-attacks/"
+    },
+    {
+      "title": "Cisco warns of max severity ISE zero-day exploited in attacks",
+      "sector": "Non précisé",
+      "date": "17 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Cisco has released security updates to address a maximum-severity Identity Services Engine vulnerability that attackers are actively exploiting in the wild. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-identity-service-engine-zero-day-exploited-in-attacks/"
+    },
+    {
+      "title": "Iranian hackers use CHOSEN BRICK Windows malware to spy on targets",
+      "sector": "Gouvernement",
+      "date": "16 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Government agencies are warning that Iranian state-linked hackers are using a Windows malware strain named CHOSEN BRICK to target dissidents, activists, and journalists worldwide. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/iranian-hackers-use-chosen-brick-windows-malware-to-spy-on-targets/"
+    },
+    {
+      "title": "Spain's data agency gets first report of AI-powered data breach",
+      "sector": "Gouvernement",
+      "date": "16 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The Spanish Data Protection Agency (AEPD) was notified of an attack allegedly carried out with an AI agent powered by a known large language model (LLM). [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/spains-data-agency-gets-first-report-of-ai-powered-data-breach/"
+    },
+    {
+      "title": "Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers",
+      "sector": "Non précisé",
+      "date": "16 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Enterprises in Russia have emerged as the target of three threat activity clusters tracked as NightEagle, Hacking Cat, and Toy Ghouls, according to multiple reports from Kaspersky. The cybersecurity vendor said it has id…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/three-threat-groups-target-russian.html"
+    },
+    {
+      "title": "The true cost of a ransomware attack, with and without BCDR",
+      "sector": "Non précisé",
+      "date": "16 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "The ransom itself can be only a fraction of the total cost of a ransomware attack, with downtime, recovery, remediation, and legal obligations adding millions to the bill. Datto explains how a mature BCDR strategy can re…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/the-true-cost-of-a-ransomware-attack-with-and-without-bcdr/"
+    },
+    {
+      "title": "Webinar: What happens in the first hours of a Google Workspace breach",
+      "sector": "Non précisé",
+      "date": "16 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The first hours after discovering a Google Workspace breach can determine how an incident unfolds. This webinar examines real-world breaches to show which early response decisions can limit the impact and which can make …",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/webinar-what-happens-in-the-first-hours-of-a-google-workspace-breach/"
+    },
+    {
+      "title": "N0va Phishkit Targets US and EU Businesses: A New Challenge for Identity Security",
+      "sector": "Manufacturing",
+      "date": "16 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "N0va is targeting organizations across North America and Europe with phishing campaigns that impersonate trusted services and abuse legitimate authentication flows. Successful attacks can give threat actors access to val…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/n0va-phishkit-targets-us-and-eu.html"
+    },
+    {
+      "title": "Threat Intelligence Alone Won't Close the Exploitation Gap",
+      "sector": "Non précisé",
+      "date": "16 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "A leaked credential shows up in a criminal marketplace, or a vulnerability gets a disclosure advisory, and either one can be weaponized against a real target before most security teams have triaged the alert. Attackers a…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/threat-intelligence-alone-wont-close.html"
+    },
+    {
+      "title": "Critical ScreenConnect flaw now actively exploited in attacks",
+      "sector": "Gouvernement",
+      "date": "16 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Attackers now exploit a critical-severity ConnectWise ScreenConnect vulnerability in the wild, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA). [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-screenconnect-flaw/"
+    },
     {
       "title": "Google fixes actively exploited Android zero-day on Pixel devices",
       "sector": "Non précisé",
@@ -21,109 +121,48 @@
       "desc": "A critical security flaw in WSO2 API Manager has come under active exploitation in the wild, according to findings from watchTowr. The vulnerability, tracked as CVE-2026-5430 (CVSS score: 9.8/10.0), is a case of improper…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/09/active-exploitation-attempts-target.html"
-    },
-    {
-      "title": "Acronis warns of actively exploited flaw in its cPanel backup plugin",
-      "sector": "Non précisé",
-      "date": "15 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Acronis disclosed a high-severity Linux local privilege escalation vulnerability in its backup plugin for cPanel, WebHost Manager (WHM), and Plesk that may be exploited in the wild. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/acronis-warns-of-actively-exploited-flaw-in-its-cpanel-backup-plugin/"
-    },
-    {
-      "title": "Malcious Admin Menu Editor Pro plugin backdoors 1,500 WordPress sites",
-      "sector": "Non précisé",
-      "date": "15 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "Malicious versions of the Admin Menu Editor Pro plugin for WordPress have been distributed to more than 200 customers after a threat actor compromised the maintainer's website and pushed updates that created a hidden use…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/malcious-admin-menu-editor-pro-plugin-backdoors-1-500-wordpress-sites/"
-    },
-    {
-      "title": "CenterPoint Energy confirms customer data stolen in cyberattack",
-      "sector": "Énergie",
-      "date": "15 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "CenterPoint Energy disclosed a breach compromising some customers' personal information after an attacker leaked data allegedly stolen from the utility company. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/centerpoint-energy-confirms-customer-data-stolen-in-cyberattack/"
-    },
-    {
-      "title": "Iranian Hackers Use Telegram-Controlled Malware to Spy on Dissidents and Journalists",
-      "sector": "Non précisé",
-      "date": "15 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "Cybersecurity agencies in the United States, the United Kingdom, and the Netherlands have detailed a Windows malware that they say Iran's intelligence service uses to spy on dissidents, journalists, and activists around …",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html"
-    },
-    {
-      "title": "Hackers target WordPress sites via third-party WooCommerce plugin",
-      "sector": "Retail",
-      "date": "15 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Hackers are actively exploiting a critical vulnerability in the WooCommerce Wholesale Lead Capture premium plugin for WordPress to upload a PHP backdoor. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-via-third-party-woocommerce-plugin/"
-    },
-    {
-      "title": "CISA: Critical VMware RCE flaw now exploited by ransomware gangs",
-      "sector": "Gouvernement",
-      "date": "15 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned security teams that ransomware gangs have now joined ongoing attacks exploiting a critical VMware vCenter vulnerability patched in July. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-critical-vmware-vcenter-rce-flaw-now-exploited-by-ransomware-gangs/"
-    },
-    {
-      "title": "Cisco patches Secure Email Gateway zero-day exploited in attacks",
-      "sector": "Non précisé",
-      "date": "15 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Cisco warned customers to patch a critical Secure Email Gateway zero-day security flaw that threat actors have been exploiting in attacks. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/new-cisco-secure-email-zero-day-exploited-to-execute-commands-as-root/"
-    },
-    {
-      "title": "China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE",
-      "sector": "Gouvernement",
-      "date": "15 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "A Chinese threat actor has been attributed to a spear-phishing campaign that exploits recently patched security flaws in Google Chrome and Microsoft Windows to deliver a malicious JavaScript backdoor called GRIMWEDGE. Vo…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html"
-    },
-    {
-      "title": "Japan's Digital Agency says VPN flaw exposed 246,000 personnel records",
-      "sector": "Gouvernement",
-      "date": "14 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Japan's Digital Agency has discovered a data breach that may have exposed around 246,000 record rows containing personal information of government employees. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/japans-digital-agency-says-vpn-flaw-exposed-246-000-personnel-records/"
-    },
-    {
-      "title": "Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries",
-      "sector": "Non précisé",
-      "date": "14 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "A suspected Chinese threat actor tracked as Red Heron has been attributed to the rapid exploitation of a recently disclosed security vulnerability in Gitea to compromise internet-facing instances as part of a multi-natio…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html"
     }
   ],
   "vulns": [
+    {
+      "cve": "CVE-2026-58704",
+      "product": "Google Pixel",
+      "type": "Google Pixel Improper Authorization Vulnerability",
+      "cvss": 8.8,
+      "published": "2026-09-15",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-09-19",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58704"
+    },
+    {
+      "cve": "CVE-2026-76460",
+      "product": "Cisco Identity Services Engine",
+      "type": "Cisco Identity Services Engine Incorrect Use of Privileged APIs Vulnerability",
+      "cvss": 10.0,
+      "published": "2026-09-16",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-09-19",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76460"
+    },
+    {
+      "cve": "CVE-2026-87886",
+      "product": "Acronis Backup",
+      "type": "Acronis Backup Incorrect Default Permissions Vulnerability",
+      "cvss": null,
+      "published": null,
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-09-19",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87886"
+    },
     {
       "cve": "CVE-2026-76461",
       "product": "Cisco Secure Email Gateway",
@@ -154,8 +193,8 @@
       "cve": "CVE-2026-42016",
       "product": "JFrog Artifactory",
       "type": "JFrog Artifactory Incorrect Authorization Vulnerability",
-      "cvss": 8.1,
-      "published": "2026-07-27",
+      "cvss": null,
+      "published": null,
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-09-25",
@@ -198,7 +237,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-09-13",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86060"
     },
@@ -211,7 +250,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-09-13",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67277"
     },
@@ -344,179 +383,74 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59822"
-    },
-    {
-      "cve": "CVE-2026-48710",
-      "product": "Kludex Starlette",
-      "type": "Kludex Starlette HTTP Request/Response Smuggling Vulnerability",
-      "cvss": 6.5,
-      "published": "2026-05-26",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-09-16",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48710"
-    },
-    {
-      "cve": "CVE-2026-49869",
-      "product": "Kestra Kestra OSS",
-      "type": "Kestra OSS OS Command Injection Vulnerability",
-      "cvss": 10.0,
-      "published": "2026-06-26",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-09-05",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49869"
-    },
-    {
-      "cve": "CVE-2026-82329",
-      "product": "JFrog Artifactory",
-      "type": "JFrog Artifactory Improper Authentication Vulnerability",
-      "cvss": 9.8,
-      "published": "2026-08-28",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-09-05",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82329"
     }
   ],
   "actors": [
     {
+      "name": "Qilin",
+      "type": "RaaS / Extorsion",
+      "desc": "Ransomware incidents in Japan rose 4.7% year over year. The Gentlemen was the most active group, with leak-site listings more than doubling from January to July. Qilin ranked second and appeared to use AI, while SMEs wit…",
+      "victims": "2 mention(s) récente(s) — dernier article : 17 Sep 2026",
+      "region": "Non précisé",
+      "url": "https://blog.talosintelligence.com/ransomware-incidents-in-japan-in-the-first-half-of-2026/",
+      "src": "Cisco Talos"
+    },
+    {
       "name": "Play",
       "type": "RaaS / Extorsion",
       "desc": "Bad actors are misusing Google Play's Early Access program to push deceptive apps that claim to offer money, rewards, casino winnings, and premium content. Early Access apps are apps that haven't been released on the off…",
-      "victims": "2 mention(s) récente(s) — dernier article : 10 Sep 2026",
+      "victims": "1 mention(s) récente(s) — dernier article : 10 Sep 2026",
       "region": "Non précisé",
       "url": "https://thehackernews.com/2026/09/google-play-early-access-abused-to-push.html",
       "src": "The Hacker News"
     },
     {
-      "name": "Qilin",
+      "name": "The Gentlemen",
       "type": "RaaS / Extorsion",
-      "desc": "Cisco has revealed that three distinct threat clusters linked to ransomware and state-sponsored attacks have been exploiting two recently patched Secure Firewall Management Center (FMC) vulnerabilities. The attacks lever…",
-      "victims": "1 mention(s) récente(s) — dernier article : 11 Sep 2026",
+      "desc": "Ransomware incidents in Japan rose 4.7% year over year. The Gentlemen was the most active group, with leak-site listings more than doubling from January to July. Qilin ranked second and appeared to use AI, while SMEs wit…",
+      "victims": "1 mention(s) récente(s) — dernier article : 17 Sep 2026",
       "region": "Non précisé",
-      "url": "https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html",
-      "src": "The Hacker News"
+      "url": "https://blog.talosintelligence.com/ransomware-incidents-in-japan-in-the-first-half-of-2026/",
+      "src": "Cisco Talos"
     }
   ],
   "threats": [
+    {
+      "title": "Activité soutenue de Qilin",
+      "desc": "Ransomware incidents in Japan rose 4.7% year over year. The Gentlemen was the most active group, with leak-site listings more than doubling from January to July. Qilin ranked second and appeared to use AI, while SMEs wit…",
+      "url": "https://blog.talosintelligence.com/ransomware-incidents-in-japan-in-the-first-half-of-2026/"
+    },
     {
       "title": "Activité soutenue de Play",
       "desc": "Bad actors are misusing Google Play's Early Access program to push deceptive apps that claim to offer money, rewards, casino winnings, and premium content. Early Access apps are apps that haven't been released on the off…",
       "url": "https://thehackernews.com/2026/09/google-play-early-access-abused-to-push.html"
     },
     {
-      "title": "Activité soutenue de Qilin",
-      "desc": "Cisco has revealed that three distinct threat clusters linked to ransomware and state-sponsored attacks have been exploiting two recently patched Secure Firewall Management Center (FMC) vulnerabilities. The attacks lever…",
-      "url": "https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html"
+      "title": "Activité soutenue de The Gentlemen",
+      "desc": "Ransomware incidents in Japan rose 4.7% year over year. The Gentlemen was the most active group, with leak-site listings more than doubling from January to July. Qilin ranked second and appeared to use AI, while SMEs wit…",
+      "url": "https://blog.talosintelligence.com/ransomware-incidents-in-japan-in-the-first-half-of-2026/"
     }
   ],
   "iocs": [
     {
       "type": "ip:port",
-      "value": "92.246.139.83:80",
-      "malware": "XMRIG",
+      "value": "87.120.219.207:80",
+      "malware": "Unknown Loader",
       "confidence": 100,
-      "first_seen": "2026-08-27",
-      "related_cve": "CVE-2026-60004",
+      "first_seen": "2026-09-17",
+      "related_cve": "CVE-2026-76461",
       "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1889271/"
+      "source_url": "https://threatfox.abuse.ch/ioc/1921414/"
     },
     {
-      "type": "domain",
-      "value": "abcdefghijklmnopqrst.net",
-      "malware": "XMRIG",
+      "type": "ip:port",
+      "value": "87.120.219.207:82",
+      "malware": "Unknown Loader",
       "confidence": 100,
-      "first_seen": "2026-08-27",
-      "related_cve": "CVE-2026-60004",
+      "first_seen": "2026-09-17",
+      "related_cve": "CVE-2026-76461",
       "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1889270/"
-    },
-    {
-      "type": "url",
-      "value": "http://92.246.139.83/3",
-      "malware": "XMRIG",
-      "confidence": 100,
-      "first_seen": "2026-08-27",
-      "related_cve": "CVE-2026-60004",
-      "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1889274/"
-    },
-    {
-      "type": "url",
-      "value": "http://92.246.139.83/2",
-      "malware": "XMRIG",
-      "confidence": 100,
-      "first_seen": "2026-08-27",
-      "related_cve": "CVE-2026-60004",
-      "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1889273/"
-    },
-    {
-      "type": "url",
-      "value": "http://92.246.139.83/1",
-      "malware": "XMRIG",
-      "confidence": 100,
-      "first_seen": "2026-08-27",
-      "related_cve": "CVE-2026-60004",
-      "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1889272/"
-    },
-    {
-      "type": "url",
-      "value": "https://cta.edu.pe/wp-content/plugins/linux.bin",
-      "malware": "XMRIG",
-      "confidence": 100,
-      "first_seen": "2026-08-27",
-      "related_cve": "CVE-2026-60004",
-      "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1889192/"
-    },
-    {
-      "type": "url",
-      "value": "http://puschl.langhaar-schaeferhunde.com/plugins/linux.bin",
-      "malware": "XMRIG",
-      "confidence": 100,
-      "first_seen": "2026-08-27",
-      "related_cve": "CVE-2026-60004",
-      "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1889193/"
-    },
-    {
-      "type": "url",
-      "value": "https://casasmediterraneas.com/wp-content/plugins/linux.bin",
-      "malware": "XMRIG",
-      "confidence": 100,
-      "first_seen": "2026-08-27",
-      "related_cve": "CVE-2026-60004",
-      "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1889194/"
-    },
-    {
-      "type": "url",
-      "value": "https://www.mediocasavolponi.com/wp-content/plugins/linux.bin",
-      "malware": "XMRIG",
-      "confidence": 100,
-      "first_seen": "2026-08-27",
-      "related_cve": "CVE-2026-60004",
-      "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1889195/"
-    },
-    {
-      "type": "url",
-      "value": "https://cloud.calltop.com.br/apps/web/linux.bin",
-      "malware": "XMRIG",
-      "confidence": 100,
-      "first_seen": "2026-08-27",
-      "related_cve": "CVE-2026-60004",
-      "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1889196/"
+      "source_url": "https://threatfox.abuse.ch/ioc/1921415/"
     }
   ]
 }
