@@ -1,7 +1,87 @@
 {
-  "generated_at": "2026-09-17T10:58:45Z",
+  "generated_at": "2026-09-18T10:34:35Z",
   "week_label": "S38 · 14 – 20 septembre 2026",
   "attacks": [
+    {
+      "title": "New Check Point flaw lets hackers execute code with root privileges",
+      "sector": "Non précisé",
+      "date": "18 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Check Point Software has released security updates to address a critical vulnerability that can let attackers execute code with root privileges on management systems. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/check-point-warns-critical-flaw-lets-hackers-execute-code-as-root/"
+    },
+    {
+      "title": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall",
+      "sector": "Non précisé",
+      "date": "18 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Cybersecurity researchers have flagged a new Android malware called RatHat that's assessed to be operated by China-based threat actors and features an artificial intelligence (AI)-powered system to navigate and control c…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html"
+    },
+    {
+      "title": "New RatHat Android malware uses AI to automate device control",
+      "sector": "Non précisé",
+      "date": "17 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "A new Android malware called RatHat has been discovered, targeting users with an AI-powered subsystem that helps operators remotely navigate compromised devices. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/new-rathat-android-malware-uses-ai-to-automate-device-control/"
+    },
+    {
+      "title": "Iran-Linked Handala Hack Tied to HEAVYGRAM Telegram Backdoor That Can Steal Passwords",
+      "sector": "Énergie",
+      "date": "17 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "The Iran-linked \"hacktivist\" persona known as Handala Hack has been attributed to a Telegram-based surveillance backdoor called HEAVYGRAM and a Delphi-based utility known as CRUDEEXCLUDE. \"HEAVYGRAM offers builtin comman…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/iran-linked-handala-hack-tied-to.html"
+    },
+    {
+      "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
+      "sector": "Non précisé",
+      "date": "17 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "A new CVE drops. Your scanner finds it. The severity score looks ugly. But that still does not answer the question that matters: Can it actually be exploited in your environment? Mythos-class AI is compressing the time b…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html"
+    },
+    {
+      "title": "CISO's Expert Guide to Agentic Pentesting for Websites",
+      "sector": "Non précisé",
+      "date": "17 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Attackers now weaponize new vulnerabilities in about five days (Mandiant, part of Google Cloud). The median organization takes 43 days to patch one (Verizon DBIR 2026). A new free guide explains how autonomous AI agents …",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html"
+    },
+    {
+      "title": "China-Aligned FamousSparrow Deploys SparroWocky Backdoor Across Latin America",
+      "sector": "Non précisé",
+      "date": "17 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The China-aligned state-sponsored threat actor known as FamousSparrow has been observed deploying a previously unreported backdoor called SparroWocky in attacks targeting multiple countries in Latin America since at leas…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/china-aligned-famoussparrow-deploys.html"
+    },
+    {
+      "title": "OpenAI Reveals Six Model Incidents Involving Hidden Failures and Unauthorized Uploads",
+      "sector": "Non précisé",
+      "date": "17 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "OpenAI on Wednesday disclosed six new instances of \"unexpected or concerning model behavior\" that took place over the past six months, while sharing a new framework for reporting, tracking, investigating, and disclosing …",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/openai-reveals-six-model-incidents.html"
+    },
     {
       "title": "Chinese hackers use SparroWocky malware in govt espionage attacks",
       "sector": "Gouvernement",
@@ -11,6 +91,16 @@
       "desc": "The China-linked espionage group FamousSparrow has been using a new backdoor named SparroWocky in attacks on government organizations in Latin America. [...]",
       "src": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-sparrowocky-malware-in-govt-espionage-attacks/"
+    },
+    {
+      "title": "Gyazo Breach Exposes 23.62 Million User Records and 490 Million Image Metadata Records",
+      "sector": "Non précisé",
+      "date": "17 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "A security breach at Gyazo, Helpfeel's image-sharing service, exposed about 23.62 million user records, including email addresses and password hashes, the Kyoto-based company said in a notice published Wednesday. It also…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/gyazo-breach-exposes-2362-million-user.html"
     },
     {
       "title": "Cisco warns of max severity ISE zero-day exploited in attacks",
@@ -31,96 +121,6 @@
       "desc": "Government agencies are warning that Iranian state-linked hackers are using a Windows malware strain named CHOSEN BRICK to target dissidents, activists, and journalists worldwide. [...]",
       "src": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/security/iranian-hackers-use-chosen-brick-windows-malware-to-spy-on-targets/"
-    },
-    {
-      "title": "Spain's data agency gets first report of AI-powered data breach",
-      "sector": "Gouvernement",
-      "date": "16 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The Spanish Data Protection Agency (AEPD) was notified of an attack allegedly carried out with an AI agent powered by a known large language model (LLM). [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/spains-data-agency-gets-first-report-of-ai-powered-data-breach/"
-    },
-    {
-      "title": "Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers",
-      "sector": "Non précisé",
-      "date": "16 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Enterprises in Russia have emerged as the target of three threat activity clusters tracked as NightEagle, Hacking Cat, and Toy Ghouls, according to multiple reports from Kaspersky. The cybersecurity vendor said it has id…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/three-threat-groups-target-russian.html"
-    },
-    {
-      "title": "The true cost of a ransomware attack, with and without BCDR",
-      "sector": "Non précisé",
-      "date": "16 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "The ransom itself can be only a fraction of the total cost of a ransomware attack, with downtime, recovery, remediation, and legal obligations adding millions to the bill. Datto explains how a mature BCDR strategy can re…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/the-true-cost-of-a-ransomware-attack-with-and-without-bcdr/"
-    },
-    {
-      "title": "Webinar: What happens in the first hours of a Google Workspace breach",
-      "sector": "Non précisé",
-      "date": "16 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The first hours after discovering a Google Workspace breach can determine how an incident unfolds. This webinar examines real-world breaches to show which early response decisions can limit the impact and which can make …",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/webinar-what-happens-in-the-first-hours-of-a-google-workspace-breach/"
-    },
-    {
-      "title": "N0va Phishkit Targets US and EU Businesses: A New Challenge for Identity Security",
-      "sector": "Manufacturing",
-      "date": "16 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "N0va is targeting organizations across North America and Europe with phishing campaigns that impersonate trusted services and abuse legitimate authentication flows. Successful attacks can give threat actors access to val…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/n0va-phishkit-targets-us-and-eu.html"
-    },
-    {
-      "title": "Threat Intelligence Alone Won't Close the Exploitation Gap",
-      "sector": "Non précisé",
-      "date": "16 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "A leaked credential shows up in a criminal marketplace, or a vulnerability gets a disclosure advisory, and either one can be weaponized against a real target before most security teams have triaged the alert. Attackers a…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/threat-intelligence-alone-wont-close.html"
-    },
-    {
-      "title": "Critical ScreenConnect flaw now actively exploited in attacks",
-      "sector": "Gouvernement",
-      "date": "16 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Attackers now exploit a critical-severity ConnectWise ScreenConnect vulnerability in the wild, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA). [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-screenconnect-flaw/"
-    },
-    {
-      "title": "Google fixes actively exploited Android zero-day on Pixel devices",
-      "sector": "Non précisé",
-      "date": "16 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Google has released the September 2026 security patches to address 110 vulnerabilities affecting its Pixel devices, including one zero-day flaw actively exploited in targeted attacks. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-android-zero-day-on-pixel-devices/"
-    },
-    {
-      "title": "Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens",
-      "sector": "Non précisé",
-      "date": "16 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "A critical security flaw in WSO2 API Manager has come under active exploitation in the wild, according to findings from watchTowr. The vulnerability, tracked as CVE-2026-5430 (CVSS score: 9.8/10.0), is a case of improper…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/active-exploitation-attempts-target.html"
     }
   ],
   "vulns": [
@@ -154,8 +154,8 @@
       "cve": "CVE-2026-87886",
       "product": "Acronis Backup",
       "type": "Acronis Backup Incorrect Default Permissions Vulnerability",
-      "cvss": null,
-      "published": null,
+      "cvss": 7.8,
+      "published": "2026-09-17",
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-09-19",
@@ -185,7 +185,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-09-14",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84869"
     },
@@ -193,12 +193,12 @@
       "cve": "CVE-2026-42016",
       "product": "JFrog Artifactory",
       "type": "JFrog Artifactory Incorrect Authorization Vulnerability",
-      "cvss": null,
-      "published": null,
+      "cvss": 8.1,
+      "published": "2026-07-27",
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-09-25",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42016"
     },
@@ -211,7 +211,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-09-25",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42018"
     },
@@ -224,7 +224,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-09-14",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85706"
     },
@@ -390,19 +390,10 @@
       "name": "Qilin",
       "type": "RaaS / Extorsion",
       "desc": "Ransomware incidents in Japan rose 4.7% year over year. The Gentlemen was the most active group, with leak-site listings more than doubling from January to July. Qilin ranked second and appeared to use AI, while SMEs wit…",
-      "victims": "2 mention(s) récente(s) — dernier article : 17 Sep 2026",
+      "victims": "1 mention(s) récente(s) — dernier article : 17 Sep 2026",
       "region": "Non précisé",
       "url": "https://blog.talosintelligence.com/ransomware-incidents-in-japan-in-the-first-half-of-2026/",
       "src": "Cisco Talos"
-    },
-    {
-      "name": "Play",
-      "type": "RaaS / Extorsion",
-      "desc": "Bad actors are misusing Google Play's Early Access program to push deceptive apps that claim to offer money, rewards, casino winnings, and premium content. Early Access apps are apps that haven't been released on the off…",
-      "victims": "1 mention(s) récente(s) — dernier article : 10 Sep 2026",
-      "region": "Non précisé",
-      "url": "https://thehackernews.com/2026/09/google-play-early-access-abused-to-push.html",
-      "src": "The Hacker News"
     },
     {
       "name": "The Gentlemen",
@@ -419,11 +410,6 @@
       "title": "Activité soutenue de Qilin",
       "desc": "Ransomware incidents in Japan rose 4.7% year over year. The Gentlemen was the most active group, with leak-site listings more than doubling from January to July. Qilin ranked second and appeared to use AI, while SMEs wit…",
       "url": "https://blog.talosintelligence.com/ransomware-incidents-in-japan-in-the-first-half-of-2026/"
-    },
-    {
-      "title": "Activité soutenue de Play",
-      "desc": "Bad actors are misusing Google Play's Early Access program to push deceptive apps that claim to offer money, rewards, casino winnings, and premium content. Early Access apps are apps that haven't been released on the off…",
-      "url": "https://thehackernews.com/2026/09/google-play-early-access-abused-to-push.html"
     },
     {
       "title": "Activité soutenue de The Gentlemen",
