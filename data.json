@@ -1,7 +1,67 @@
 {
-  "generated_at": "2026-09-19T10:19:14Z",
+  "generated_at": "2026-09-20T10:37:49Z",
   "week_label": "S38 · 14 – 20 septembre 2026",
   "attacks": [
+    {
+      "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
+      "sector": "Non précisé",
+      "date": "20 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Three researchers at the security firm Hacktron used Anthropic's Claude Opus 5 to chain two flaws and take over the ChatGPT and Codex accounts of several OpenAI employees, then reach an internal OpenAI code repository. T…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html"
+    },
+    {
+      "title": "North Korean WaterPlum hackers infected 30,000 devices worldwide",
+      "sector": "Non précisé",
+      "date": "19 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "A joint law enforcement advisory warns that the North Korean hacking group WaterPlum compromised at least 30,000 devices worldwide from December 2025 through July 2026 and transferred more than $10.7 million in stolen cr…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide/"
+    },
+    {
+      "title": "ShinyHunters hacks Clop leak site, threatens to extort ransomware gang",
+      "sector": "Non précisé",
+      "date": "19 Sep 2026",
+      "actor": "Cl0p",
+      "sev": "high",
+      "desc": "The ShinyHunters extortion gang breached the Clop (aka Cl0p) ransomware operation's data leak site, defacing the Tor site and allegedly stealing server data and the private keys for its onion service. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/"
+    },
+    {
+      "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
+      "sector": "Non précisé",
+      "date": "19 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "A new CVE drops. Your scanner finds it. The severity score looks ugly. But that still does not answer the question that matters: Can it actually be exploited in your environment? Mythos-class AI is compressing the time b…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html"
+    },
+    {
+      "title": "Identity Visibility in 2026: The Foundation of Identity Security",
+      "sector": "Non précisé",
+      "date": "19 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Identity visibility is a starting point for modern identity security, because stolen and misused credentials are among the most frequently reported initial access vectors in breach research, including Verizon's annual Da…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html"
+    },
+    {
+      "title": "SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE",
+      "sector": "Non précisé",
+      "date": "19 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "SolarWinds has released security updates to address a high-severity flaw in Access Rights Manager (ARM) that, if successfully exploited, could lead to an unauthenticated remote code execution vulnerability. The vulnerabi…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html"
+    },
     {
       "title": "Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild",
       "sector": "Non précisé",
@@ -61,66 +121,6 @@
       "desc": "Fast-growing companies face countless recommendations for securing Google Workspace, but not every control provides the same value. This webinar examines real-world breaches to explore which security controls matter most…",
       "src": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/security/webinar-which-google-workspace-security-controls-actually-matter/"
-    },
-    {
-      "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
-      "sector": "Non précisé",
-      "date": "18 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Microsoft has released fixes for a maximum-severity security flaw in Azure AI Foundry that could be exploited to achieve privilege escalation. No customer action is required. The vulnerability, tracked as CVE-2026-85889,…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html"
-    },
-    {
-      "title": "New Check Point flaw lets hackers execute code with root privileges",
-      "sector": "Non précisé",
-      "date": "18 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Check Point Software has released security updates to address a critical vulnerability that can let attackers execute code with root privileges on management systems. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/check-point-warns-critical-flaw-lets-hackers-execute-code-as-root/"
-    },
-    {
-      "title": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall",
-      "sector": "Non précisé",
-      "date": "18 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "Cybersecurity researchers have flagged a new Android malware called RatHat that's assessed to be operated by China-based threat actors and features an artificial intelligence (AI)-powered system to navigate and control c…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html"
-    },
-    {
-      "title": "New RatHat Android malware uses AI to automate device control",
-      "sector": "Non précisé",
-      "date": "17 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "A new Android malware called RatHat has been discovered, targeting users with an AI-powered subsystem that helps operators remotely navigate compromised devices. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/new-rathat-android-malware-uses-ai-to-automate-device-control/"
-    },
-    {
-      "title": "Iran-Linked Handala Hack Tied to HEAVYGRAM Telegram Backdoor That Can Steal Passwords",
-      "sector": "Énergie",
-      "date": "17 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "The Iran-linked \"hacktivist\" persona known as Handala Hack has been attributed to a Telegram-based surveillance backdoor called HEAVYGRAM and a Delphi-based utility known as CRUDEEXCLUDE. \"HEAVYGRAM offers builtin comman…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/iran-linked-handala-hack-tied-to.html"
-    },
-    {
-      "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
-      "sector": "Non précisé",
-      "date": "17 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "A new CVE drops. Your scanner finds it. The severity score looks ugly. But that still does not answer the question that matters: Can it actually be exploited in your environment? Mythos-class AI is compressing the time b…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html"
     }
   ],
   "vulns": [
@@ -387,6 +387,33 @@
   ],
   "actors": [
     {
+      "name": "Cl0p",
+      "type": "RaaS / Extorsion",
+      "desc": "The ShinyHunters extortion gang breached the Clop (aka Cl0p) ransomware operation's data leak site, defacing the Tor site and allegedly stealing server data and the private keys for its onion service. [...]",
+      "victims": "1 mention(s) récente(s) — dernier article : 19 Sep 2026",
+      "region": "Non précisé",
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/",
+      "src": "BleepingComputer"
+    },
+    {
+      "name": "Clop",
+      "type": "RaaS / Extorsion",
+      "desc": "The ShinyHunters extortion gang breached the Clop (aka Cl0p) ransomware operation's data leak site, defacing the Tor site and allegedly stealing server data and the private keys for its onion service. [...]",
+      "victims": "1 mention(s) récente(s) — dernier article : 19 Sep 2026",
+      "region": "Non précisé",
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/",
+      "src": "BleepingComputer"
+    },
+    {
+      "name": "ShinyHunters",
+      "type": "RaaS / Extorsion",
+      "desc": "The ShinyHunters extortion gang breached the Clop (aka Cl0p) ransomware operation's data leak site, defacing the Tor site and allegedly stealing server data and the private keys for its onion service. [...]",
+      "victims": "1 mention(s) récente(s) — dernier article : 19 Sep 2026",
+      "region": "Non précisé",
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/",
+      "src": "BleepingComputer"
+    },
+    {
       "name": "Qilin",
       "type": "RaaS / Extorsion",
       "desc": "Ransomware incidents in Japan rose 4.7% year over year. The Gentlemen was the most active group, with leak-site listings more than doubling from January to July. Qilin ranked second and appeared to use AI, while SMEs wit…",
@@ -407,14 +434,19 @@
   ],
   "threats": [
     {
-      "title": "Activité soutenue de Qilin",
-      "desc": "Ransomware incidents in Japan rose 4.7% year over year. The Gentlemen was the most active group, with leak-site listings more than doubling from January to July. Qilin ranked second and appeared to use AI, while SMEs wit…",
-      "url": "https://blog.talosintelligence.com/ransomware-incidents-in-japan-in-the-first-half-of-2026/"
+      "title": "Activité soutenue de Cl0p",
+      "desc": "The ShinyHunters extortion gang breached the Clop (aka Cl0p) ransomware operation's data leak site, defacing the Tor site and allegedly stealing server data and the private keys for its onion service. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/"
     },
     {
-      "title": "Activité soutenue de The Gentlemen",
-      "desc": "Ransomware incidents in Japan rose 4.7% year over year. The Gentlemen was the most active group, with leak-site listings more than doubling from January to July. Qilin ranked second and appeared to use AI, while SMEs wit…",
-      "url": "https://blog.talosintelligence.com/ransomware-incidents-in-japan-in-the-first-half-of-2026/"
+      "title": "Activité soutenue de Clop",
+      "desc": "The ShinyHunters extortion gang breached the Clop (aka Cl0p) ransomware operation's data leak site, defacing the Tor site and allegedly stealing server data and the private keys for its onion service. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/"
+    },
+    {
+      "title": "Activité soutenue de ShinyHunters",
+      "desc": "The ShinyHunters extortion gang breached the Clop (aka Cl0p) ransomware operation's data leak site, defacing the Tor site and allegedly stealing server data and the private keys for its onion service. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/"
     }
   ],
   "iocs": [
