@@ -1,7 +1,17 @@
 {
-  "generated_at": "2026-09-20T10:37:49Z",
-  "week_label": "S38 · 14 – 20 septembre 2026",
+  "generated_at": "2026-09-21T11:59:43Z",
+  "week_label": "S39 · 21 – 27 septembre 2026",
   "attacks": [
+    {
+      "title": "Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors",
+      "sector": "Non précisé",
+      "date": "21 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The North Korean threat actor known as Jade Sleet has been attributed to the compromise of an India-based \"much smaller organization\" in the information technology (IT) services industry, once again highlighting how the …",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html"
+    },
     {
       "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
       "sector": "Non précisé",
@@ -111,16 +121,6 @@
       "desc": "The Gyazo image-sharing platform has confirmed it suffered a data breach after hackers exploited a server vulnerability that allowed them to steal 23.6 million user records. [...]",
       "src": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/security/gyazo-server-flaw-exploited-to-steal-236-million-user-records/"
-    },
-    {
-      "title": "Webinar: Which Google Workspace security controls actually matter?",
-      "sector": "Non précisé",
-      "date": "18 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Fast-growing companies face countless recommendations for securing Google Workspace, but not every control provides the same value. This webinar examines real-world breaches to explore which security controls matter most…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/webinar-which-google-workspace-security-controls-actually-matter/"
     }
   ],
   "vulns": [
@@ -211,7 +211,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-09-17",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76461"
     },
