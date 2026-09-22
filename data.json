@@ -1,7 +1,77 @@
 {
-  "generated_at": "2026-09-21T11:59:43Z",
+  "generated_at": "2026-09-22T10:59:23Z",
   "week_label": "S39 · 21 – 27 septembre 2026",
   "attacks": [
+    {
+      "title": "CISA orders feds to patch Zyxel flaw exploited for data theft",
+      "sector": "Gouvernement",
+      "date": "22 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "​Attackers are now actively exploiting a high-severity vulnerability in Zyxel GS1900 series switches, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA). [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-zyxel-flaw-by-thursday/"
+    },
+    {
+      "title": "Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access",
+      "sector": "Gouvernement",
+      "date": "22 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a now-patched security flaw impacting Zyxel GS1900 series switches to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html"
+    },
+    {
+      "title": "BigCommerce alerts merchants of data breach linked to Ribon apps",
+      "sector": "Retail",
+      "date": "21 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Ecommerce platform BigCommerce has alerted multiple merchants to data breaches after attackers compromised credentials for third-party Ribon applications and used them to inject malicious scripts into online stores. [...…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps/"
+    },
+    {
+      "title": "CISA alerts of active exploitation of three Linux kernel flaws",
+      "sector": "Gouvernement",
+      "date": "21 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that hackers are exploiting three Linux kernel vulnerabilities, one of them rated critical. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/"
+    },
+    {
+      "title": "WordPress Click2Shell flaw lets hackers execute PHP on the server",
+      "sector": "Non précisé",
+      "date": "21 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Technical details and a proof-of-concept exploit have been published for a new WordPress cross-site request forgery (CSRF) vulnerability dubbed 'Click2Shell' that affects the platform's Core component. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/wordpress-click2shell-flaw-lets-hackers-execute-php-on-the-server/"
+    },
+    {
+      "title": "Contagious Interview Campaign Compromises 30,000 Devices, Steals $10.71M in Crypto",
+      "sector": "Non précisé",
+      "date": "21 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "The North Korean threat actors behind the Contagious Interview campaign have compromised at least 30,000 devices located in more than 100 countries and siphoned funds or account credentials from over 7,000 cryptocurrency…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/contagious-interview-campaign.html"
+    },
+    {
+      "title": "TASK#STOMP PowerShell Backdoor Steals Documents, Wi-Fi Passwords, and Clipboard Data",
+      "sector": "Manufacturing",
+      "date": "21 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Cybersecurity researchers have disclosed details of a new campaign dubbed TASK#STOMP that delivers a PowerShell backdoor designed to harvest sensitive data from compromised hosts. The backdoor \"automatically harvests and…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/taskstomp-powershell-backdoor-steals.html"
+    },
     {
       "title": "Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors",
       "sector": "Non précisé",
@@ -33,16 +103,6 @@
       "url": "https://www.bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide/"
     },
     {
-      "title": "ShinyHunters hacks Clop leak site, threatens to extort ransomware gang",
-      "sector": "Non précisé",
-      "date": "19 Sep 2026",
-      "actor": "Cl0p",
-      "sev": "high",
-      "desc": "The ShinyHunters extortion gang breached the Clop (aka Cl0p) ransomware operation's data leak site, defacing the Tor site and allegedly stealing server data and the private keys for its onion service. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/"
-    },
-    {
       "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
       "sector": "Non précisé",
       "date": "19 Sep 2026",
@@ -61,69 +121,22 @@
       "desc": "Identity visibility is a starting point for modern identity security, because stolen and misused credentials are among the most frequently reported initial access vectors in breach research, including Verizon's annual Da…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html"
-    },
-    {
-      "title": "SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE",
-      "sector": "Non précisé",
-      "date": "19 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "SolarWinds has released security updates to address a high-severity flaw in Access Rights Manager (ARM) that, if successfully exploited, could lead to an unauthenticated remote code execution vulnerability. The vulnerabi…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html"
-    },
-    {
-      "title": "Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild",
-      "sector": "Non précisé",
-      "date": "19 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "A critical vulnerability impacting Orkes Conductor is being actively exploited in the wild, according to Fortinet. The vulnerability in question is CVE-2026-58138 (CVSS v3.1 score: 9.8/CVSS v4 score: 9.3), which relates …",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html"
-    },
-    {
-      "title": "Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up",
-      "sector": "Non précisé",
-      "date": "19 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "Google's Gemini model has become the latest artificial intelligence (AI) system to access the internet and break into other companies during a cybersecurity evaluation. The development was first reported by The Wall Stre…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html"
-    },
-    {
-      "title": "CrowdSec Says TanStack npm Attack Led to Copy of 170 Private GitHub Repositories",
-      "sector": "Non précisé",
-      "date": "19 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "An attacker copied about 170 of CrowdSec's private GitHub repositories on May 22 using the account of an employee who had just left, CrowdSec said on September 18. The French security company had kept his GitHub access o…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html"
-    },
-    {
-      "title": "CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild",
-      "sector": "Gouvernement",
-      "date": "19 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added three security flaws impacting the Linux kernel to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitatio…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html"
-    },
-    {
-      "title": "Gyazo server flaw exploited to steal 23.6 million user records",
-      "sector": "Non précisé",
-      "date": "18 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "The Gyazo image-sharing platform has confirmed it suffered a data breach after hackers exploited a server vulnerability that allowed them to steal 23.6 million user records. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/gyazo-server-flaw-exploited-to-steal-236-million-user-records/"
     }
   ],
   "vulns": [
+    {
+      "cve": "CVE-2026-7273",
+      "product": "Zyxel GS1900 Series Switches",
+      "type": "Zyxel GS1900 Series Switches Stack-Based Buffer Overflow Vulnerability",
+      "cvss": 8.8,
+      "published": "2026-06-16",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-09-24",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7273"
+    },
     {
       "cve": "CVE-2025-39964",
       "product": "Linux Kernel",
@@ -370,49 +383,9 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81963"
-    },
-    {
-      "cve": "CVE-2026-86218",
-      "product": "N-able N-central",
-      "type": "N-able N-central Static Code Injection Vulnerability",
-      "cvss": 9.8,
-      "published": "2026-09-06",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-09-11",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86218"
     }
   ],
   "actors": [
-    {
-      "name": "Cl0p",
-      "type": "RaaS / Extorsion",
-      "desc": "The ShinyHunters extortion gang breached the Clop (aka Cl0p) ransomware operation's data leak site, defacing the Tor site and allegedly stealing server data and the private keys for its onion service. [...]",
-      "victims": "1 mention(s) récente(s) — dernier article : 19 Sep 2026",
-      "region": "Non précisé",
-      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/",
-      "src": "BleepingComputer"
-    },
-    {
-      "name": "Clop",
-      "type": "RaaS / Extorsion",
-      "desc": "The ShinyHunters extortion gang breached the Clop (aka Cl0p) ransomware operation's data leak site, defacing the Tor site and allegedly stealing server data and the private keys for its onion service. [...]",
-      "victims": "1 mention(s) récente(s) — dernier article : 19 Sep 2026",
-      "region": "Non précisé",
-      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/",
-      "src": "BleepingComputer"
-    },
-    {
-      "name": "ShinyHunters",
-      "type": "RaaS / Extorsion",
-      "desc": "The ShinyHunters extortion gang breached the Clop (aka Cl0p) ransomware operation's data leak site, defacing the Tor site and allegedly stealing server data and the private keys for its onion service. [...]",
-      "victims": "1 mention(s) récente(s) — dernier article : 19 Sep 2026",
-      "region": "Non précisé",
-      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/",
-      "src": "BleepingComputer"
-    },
     {
       "name": "Qilin",
       "type": "RaaS / Extorsion",
@@ -434,19 +407,14 @@
   ],
   "threats": [
     {
-      "title": "Activité soutenue de Cl0p",
-      "desc": "The ShinyHunters extortion gang breached the Clop (aka Cl0p) ransomware operation's data leak site, defacing the Tor site and allegedly stealing server data and the private keys for its onion service. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/"
+      "title": "Activité soutenue de Qilin",
+      "desc": "Ransomware incidents in Japan rose 4.7% year over year. The Gentlemen was the most active group, with leak-site listings more than doubling from January to July. Qilin ranked second and appeared to use AI, while SMEs wit…",
+      "url": "https://blog.talosintelligence.com/ransomware-incidents-in-japan-in-the-first-half-of-2026/"
     },
     {
-      "title": "Activité soutenue de Clop",
-      "desc": "The ShinyHunters extortion gang breached the Clop (aka Cl0p) ransomware operation's data leak site, defacing the Tor site and allegedly stealing server data and the private keys for its onion service. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/"
-    },
-    {
-      "title": "Activité soutenue de ShinyHunters",
-      "desc": "The ShinyHunters extortion gang breached the Clop (aka Cl0p) ransomware operation's data leak site, defacing the Tor site and allegedly stealing server data and the private keys for its onion service. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/"
+      "title": "Activité soutenue de The Gentlemen",
+      "desc": "Ransomware incidents in Japan rose 4.7% year over year. The Gentlemen was the most active group, with leak-site listings more than doubling from January to July. Qilin ranked second and appeared to use AI, while SMEs wit…",
+      "url": "https://blog.talosintelligence.com/ransomware-incidents-in-japan-in-the-first-half-of-2026/"
     }
   ],
   "iocs": [
