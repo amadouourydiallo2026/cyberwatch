@@ -1,7 +1,117 @@
 {
-  "generated_at": "2026-09-23T10:47:06Z",
+  "generated_at": "2026-09-24T11:08:03Z",
   "week_label": "S39 · 21 – 27 septembre 2026",
   "attacks": [
+    {
+      "title": "CISA: Ransomware gangs now exploiting critical TeamCity flaw",
+      "sector": "Gouvernement",
+      "date": "24 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "​The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies on Wednesday that ransomware gangs are now also exploiting a critical JetBrains TeamCity vulnerability patched in July. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-ransomware-gangs-now-exploiting-critical-teamcity-flaw/"
+    },
+    {
+      "title": "OpenAI hacked Australian Medicare govt site, probed data providers",
+      "sector": "Gouvernement",
+      "date": "24 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "OpenAI agents targeted public data providers in multiple countries, probing some for vulnerabilities and exploiting a security weakness in an Australian government portal while performing information-retrieval tasks as p…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/openai-hacked-australian-medicare-govt-site-probed-data-providers/"
+    },
+    {
+      "title": "TeamFiltration Campaign Compromises Seven Microsoft 365 Accounts Using Default Passwords",
+      "sector": "Finance",
+      "date": "24 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Cybersecurity researchers have disclosed details of an active TeamFiltration campaign codenamed UNK_CondorFiltration that has targeted over 5,700 accounts across 28 Microsoft 365 tenants. According to Proofpoint, the act…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/teamfiltration-compromises-seven.html"
+    },
+    {
+      "title": "Check Point warns of hackers exploiting Security Gateway VPN RCE flaw",
+      "sector": "Non précisé",
+      "date": "23 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Cybersecurity company Check Point has confirmed active exploitation of CVE-2026-85102, a pre-authentication remote code execution (RCE) vulnerability in the VPN certificate-handling functionality of its Security Gateway …",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/"
+    },
+    {
+      "title": "Hackers start exploiting critical WordPress flaw for code execution",
+      "sector": "Non précisé",
+      "date": "23 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Threat actors have moved from probing WordPress sites vulnerable to CVE-2026-87902 to exploiting the flaw to write files to disk that execute shell commands when accessed. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/"
+    },
+    {
+      "title": "A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You",
+      "sector": "Non précisé",
+      "date": "23 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "The private email address GitLab gives you for filing issues by email is a credential. Anyone who gets it can email a patch that GitLab commits in your name, to any branch you can push to, including main, and can start C…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html"
+    },
+    {
+      "title": "InfraTrust report warns network management systems under attack",
+      "sector": "Non précisé",
+      "date": "23 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Attackers are increasingly targeting the management systems used to control enterprise infrastructure, with several critical vulnerabilities actively exploited before or shortly after vendors disclosed them. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-network-management-systems-under-attack/"
+    },
+    {
+      "title": "Compromised MemTensor Packages Deliver sckit Credential Stealer via npm and PyPI",
+      "sector": "Non précisé",
+      "date": "23 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Unknown threat actors have managed to compromise two legitimate MemTensor packages across the npm and Python Package Index (PyPI) repositories to push a platform-specific Go-based implant dubbed sckit designed for Window…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html"
+    },
+    {
+      "title": "Arista patches actively exploited VeloCloud Orchestrator zero-day",
+      "sector": "Non précisé",
+      "date": "23 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Arista Networks has released security patches for a zero-day flaw that is being actively exploited and affects VeloCloud Orchestrator (VCO) On-Prem deployments. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/arista-patches-actively-exploited-velocloud-orchestrator-zero-day/"
+    },
+    {
+      "title": "545 Hackers Tested It First. Now XRanges for AI Scores Your Security Agent",
+      "sector": "Non précisé",
+      "date": "23 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Autonomous security agents are getting good at finding bugs. Nobody has a good way to measure how good. Point one at a realistic target and what comes back is a report the agent wrote about itself: confident prose, a lis…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/545-hackers-tested-it-first-now-xranges.html"
+    },
+    {
+      "title": "F5 Patches Critical BIG-IP APM Zero-Day Exploited for Unauthenticated RCE on OAuth Servers",
+      "sector": "Non précisé",
+      "date": "23 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Attackers are exploiting a critical flaw in F5 BIG-IP Access Policy Manager (APM) that lets them run code on a BIG-IP system without logging in, F5 says. The flaw, CVE-2026-94127, affects only systems in which APM serves…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html"
+    },
     {
       "title": "Chinese Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy CLEANGULP Malware",
       "sector": "Non précisé",
@@ -11,116 +121,6 @@
       "desc": "A Chinese threat actor codenamed UTA0565 has been observed exploiting the recently disclosed Google Chrome-Microsoft Windows exploit chain as zero-days through fake websites. The attacks, detected on September 3 and 4, 2…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/09/chinese-hackers-exploit-chrome-windows.html"
-    },
-    {
-      "title": "Ryuk ransomware member sentenced to 24 months in prison",
-      "sector": "Non précisé",
-      "date": "23 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "An Armenian man was sentenced to 24 months in prison and 3 years of supervised release for hacking U.S. companies and encrypting their systems in Ryuk ransomware attacks. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-sentenced-to-24-months-in-prison/"
-    },
-    {
-      "title": "F5 patches BIG-IP APM zero-day flaw exploited in RCE attacks",
-      "sector": "Non précisé",
-      "date": "23 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "F5 has released security updates to address a critical BIG-IP APM zero-day vulnerability being exploited in remote code execution attacks. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/f5-warns-of-big-ip-apm-remote-code-execution-zero-day-exploited-in-attacks/"
-    },
-    {
-      "title": "ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants",
-      "sector": "Gouvernement",
-      "date": "23 Sep 2026",
-      "actor": "ShinyHunters",
-      "sev": "high",
-      "desc": "The cyber extortion group known as ShinyHunters on Tuesday claimed it had breached the U.S. Federal Bureau of Investigation and stolen data belonging to current and former employees at the agency. \"We have compromised th…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html"
-    },
-    {
-      "title": "Rogue external MFA providers can steal passwords during logins",
-      "sector": "Non précisé",
-      "date": "22 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Security researchers developed an attack that lets hackers with privileged access register a rogue external MFA provider that steals users' passwords during legitimate login attempts. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/rogue-external-mfa-providers-can-steal-passwords-during-logins/"
-    },
-    {
-      "title": "Sweden fines Miljödata $183,000 over breach affecting 2.2 million",
-      "sector": "Non précisé",
-      "date": "22 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Sweden's data privacy regulator, IMY, has imposed a $183,000 (SEK 1.8 million) fine on IT systems provider Miljödata for inadequate security measures leading to a breach in August 2025 affecting 2.2 million people. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/sweden-fines-milj-data-183-000-over-breach-affecting-22-million/"
-    },
-    {
-      "title": "Chinese hackers exploit WordPress, Zyxel flaws to steal govt data",
-      "sector": "Non précisé",
-      "date": "22 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "A Chinese-speaking threat actor has been exploiting vulnerabilities in ZyXEL GS1900 Smart Managed Switches and WordPress to steal sensitive data from 996 devices and more than 18,500 records stored in backend databases. …",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-exploit-multiple-technologies-to-steal-govt-data/"
-    },
-    {
-      "title": "ShinyHunters claims FBI hack, data theft in PeopleSoft zero-day breach",
-      "sector": "Non précisé",
-      "date": "22 Sep 2026",
-      "actor": "ShinyHunters",
-      "sev": "critical",
-      "desc": "The ShinyHunters extortion gang claims it breached FBI systems using a new Oracle PeopleSoft zero-day vulnerability, gaining access to internal services and stealing sensitive data on employees and job applicants. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach/"
-    },
-    {
-      "title": "New ClosedQuorum Windows malware uses AI for attack decisions",
-      "sector": "Non précisé",
-      "date": "22 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "A new Windows malware named ClosedQuorum uses Google Gemini, DeepSeek, Qwen, and Mistral AI models to autonomously determine the actions to take during post-compromise stages of an attack. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/new-closedquorum-windows-malware-uses-ai-for-attack-decisions/"
-    },
-    {
-      "title": "Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises",
-      "sector": "Santé",
-      "date": "22 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Microsoft on Tuesday announced the takedown of the EvilTokens device code phishing service that it said used artificial intelligence (AI) \"at every step of the attack chain.\" The action, carried out with authorization fr…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html"
-    },
-    {
-      "title": "Check Point warns of Management Server zero-day exploited in attacks",
-      "sector": "Non précisé",
-      "date": "22 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Check Point Software released emergency hotfixes to address a critical Security Management Server vulnerability that could let attackers run arbitrary scripts. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-management-server-zero-day-exploited-in-attacks/"
-    },
-    {
-      "title": "EvilTokens PhaaS disrupted after compromising 12,000 Microsoft accounts",
-      "sector": "Non précisé",
-      "date": "22 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "The EvilTokens platform that compromised more than 12,000 Microsoft accounts at over 10,000 organizations has been disrupted in an effort led by Microsoft's Digital Crimes Unit (DCU). [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/eviltokens-phaas-disrupted-after-compromising-12-000-microsoft-accounts/"
     }
   ],
   "vulns": [
@@ -390,7 +390,7 @@
       "name": "ShinyHunters",
       "type": "RaaS / Extorsion",
       "desc": "The cyber extortion group known as ShinyHunters on Tuesday claimed it had breached the U.S. Federal Bureau of Investigation and stolen data belonging to current and former employees at the agency. \"We have compromised th…",
-      "victims": "2 mention(s) récente(s) — dernier article : 23 Sep 2026",
+      "victims": "1 mention(s) récente(s) — dernier article : 23 Sep 2026",
       "region": "Non précisé",
       "url": "https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html",
       "src": "The Hacker News"
