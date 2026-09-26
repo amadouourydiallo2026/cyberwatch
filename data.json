@@ -1,7 +1,67 @@
 {
-  "generated_at": "2026-09-25T11:08:30Z",
+  "generated_at": "2026-09-26T10:49:42Z",
   "week_label": "S39 · 21 – 27 septembre 2026",
   "attacks": [
+    {
+      "title": "SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild",
+      "sector": "Gouvernement",
+      "date": "26 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Microsoft SharePoint and Mikrotik RouterOS to its Known Exploited Vulnerabilities (KEV) catalog, citing eviden…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html"
+    },
+    {
+      "title": "Kiteworks urges 6-hour server shutdown over potential zero-day attacks",
+      "sector": "Technologie",
+      "date": "25 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Secure file-sharing software company Kiteworks is urging customers worldwide to temporarily shut down their servers on Saturday for a six-hour window after receiving threat intelligence warning of a potentially imminent …",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks/"
+    },
+    {
+      "title": "ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw",
+      "sector": "Non précisé",
+      "date": "25 Sep 2026",
+      "actor": "Clop",
+      "sev": "high",
+      "desc": "The Clop ransomware gang has moved its data leak site to a new Tor address after confirming its previous server was compromised and defaced through an unpatched Grav CMS flaw that BleepingComputer has learned is an unaut…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/"
+    },
+    {
+      "title": "CISA warns of Sharepoint, WSO2, Adobe Commerce flaws exploited in attacks",
+      "sector": "Gouvernement",
+      "date": "25 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "The Cybersecurity and Infrastructure Security Agency (CISA) warns that hackers are exploiting a critical authentication bypass vulnerability (CVE-2026-5430) affecting multiple products from enterprise software provider W…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-sharepoint-wso2-adobe-commerce-flaws-exploited-in-attacks/"
+    },
+    {
+      "title": "Compromised GitHub Actions Came Back Online and Resumed Executing Mini Shai-Hulud Malware",
+      "sector": "Non précisé",
+      "date": "25 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Two actions-cool GitHub Actions have been disabled for a second time after the repositories became accessible last week, months after they were compromised during the May 2026 Mini Shai-Hulud campaign. The affected GitHu…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/compromised-github-actions-came-back.html"
+    },
+    {
+      "title": "The SOC Doesn't Need to Start Over with Every Alert",
+      "sector": "Non précisé",
+      "date": "25 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Security leaders keep debating whether AI will produce an entirely new class of cyberattack. The nearer change is quieter and already visible: AI has made a failed attack cheap to retry. The routine version looks like th…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/the-soc-doesnt-need-to-start-over-with.html"
+    },
     {
       "title": "Bitget Says Suspected North Korean Hackers Stole $351.6M After Backend Compromise",
       "sector": "Non précisé",
@@ -33,16 +93,6 @@
       "url": "https://www.bleepingcomputer.com/news/security/hackers-steal-3516-million-in-bitget-crypto-exchange-hack/"
     },
     {
-      "title": "WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV",
-      "sector": "Gouvernement",
-      "date": "25 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added two critical security flaws impacting WSO2 and Adobe Commerce and Magento to its Known Exploited Vulnerabilities (KEV) catalog, based o…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html"
-    },
-    {
       "title": "Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer",
       "sector": "Manufacturing",
       "date": "24 Sep 2026",
@@ -51,16 +101,6 @@
       "desc": "An active ClickFix campaign has been observed compromising legitimate Ukrainian business websites to inject bogus Cloudflare verification pages and trick victims into downloading a previously undocumented information ste…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html"
-    },
-    {
-      "title": "Hackers now exploit critical Roundcube flaw in code injection attacks",
-      "sector": "Non précisé",
-      "date": "24 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "A high-severity Roundcube Webmail vulnerability patched in May is now being actively exploited in attacks, according to the Canadian Centre for Cyber Security. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/critical-roundcube-flaw-now-actively-exploited-in-code-injection-attacks/"
     },
     {
       "title": "Secrets Sprawl Is an Identity Problem That AI Just Made Impossible to Ignore",
@@ -73,26 +113,6 @@
       "url": "https://thehackernews.com/2026/09/secrets-sprawl-is-identity-problem-that.html"
     },
     {
-      "title": "CISA: Ransomware gangs now exploiting critical TeamCity flaw",
-      "sector": "Gouvernement",
-      "date": "24 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "​The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies on Wednesday that ransomware gangs are now also exploiting a critical JetBrains TeamCity vulnerability patched in July. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-ransomware-gangs-now-exploiting-critical-teamcity-flaw/"
-    },
-    {
-      "title": "OpenAI hacked Australian Medicare govt site, probed data providers",
-      "sector": "Gouvernement",
-      "date": "24 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "OpenAI agents targeted public data providers in multiple countries, probing some for vulnerabilities and exploiting a security weakness in an Australian government portal while performing information-retrieval tasks as p…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/openai-hacked-australian-medicare-govt-site-probed-data-providers/"
-    },
-    {
       "title": "TeamFiltration Campaign Compromises Seven Microsoft 365 Accounts Using Default Passwords",
       "sector": "Finance",
       "date": "24 Sep 2026",
@@ -101,29 +121,48 @@
       "desc": "Cybersecurity researchers have disclosed details of an active TeamFiltration campaign codenamed UNK_CondorFiltration that has targeted over 5,700 accounts across 28 Microsoft 365 tenants. According to Proofpoint, the act…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/09/teamfiltration-compromises-seven.html"
-    },
-    {
-      "title": "Check Point warns of hackers exploiting Security Gateway VPN RCE flaw",
-      "sector": "Non précisé",
-      "date": "23 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "Cybersecurity company Check Point has confirmed active exploitation of CVE-2026-85102, a pre-authentication remote code execution (RCE) vulnerability in the VPN certificate-handling functionality of its Security Gateway …",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/"
-    },
-    {
-      "title": "A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You",
-      "sector": "Non précisé",
-      "date": "23 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "The private email address GitLab gives you for filing issues by email is a credential. Anyone who gets it can email a patch that GitLab commits in your name, to any branch you can push to, including main, and can start C…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html"
     }
   ],
   "vulns": [
+    {
+      "cve": "CVE-2026-67279",
+      "product": "MikroTik RouterOS",
+      "type": "Mikrotik RouterOS Improper Enforcement of Behavioral Workflow Vulnerability",
+      "cvss": 6.5,
+      "published": "2026-09-05",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-09-28",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67279"
+    },
+    {
+      "cve": "CVE-2026-65660",
+      "product": "Microsoft SharePoint",
+      "type": "Microsoft SharePoint Code Injection Vulnerability",
+      "cvss": 8.8,
+      "published": "2026-08-11",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-09-28",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65660"
+    },
+    {
+      "cve": "CVE-2026-87902",
+      "product": "WordPress Core",
+      "type": "WordPress Core Remote File Inclusion Vulnerability",
+      "cvss": 8.1,
+      "published": "2026-09-22",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-09-28",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87902"
+    },
     {
       "cve": "CVE-2026-5430",
       "product": "WSO2 Multiple Products",
@@ -180,8 +219,8 @@
       "cve": "CVE-2026-93616",
       "product": "Check Point Multiple Products",
       "type": "Check Point Multiple Products Path Traversal Vulnerability",
-      "cvss": null,
-      "published": null,
+      "cvss": 9.8,
+      "published": "2026-09-22",
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-09-25",
@@ -193,8 +232,8 @@
       "cve": "CVE-2026-85102",
       "product": "Check Point Multiple Products",
       "type": "Check Point Multiple Products Improper Certificate Validation Vulnerability",
-      "cvss": null,
-      "published": null,
+      "cvss": 9.8,
+      "published": "2026-09-09",
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-09-25",
@@ -232,8 +271,8 @@
       "cve": "CVE-2026-53266",
       "product": "Linux Kernel",
       "type": "Linux Kernel Out-of-Bounds Write Vulnerability",
-      "cvss": null,
-      "published": null,
+      "cvss": 8.8,
+      "published": "2026-06-25",
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-09-21",
@@ -258,8 +297,8 @@
       "cve": "CVE-2026-58704",
       "product": "Google Pixel",
       "type": "Google Pixel Improper Authorization Vulnerability",
-      "cvss": null,
-      "published": null,
+      "cvss": 8.8,
+      "published": "2026-09-15",
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-09-19",
@@ -284,8 +323,8 @@
       "cve": "CVE-2026-87886",
       "product": "Acronis Backup",
       "type": "Acronis Backup Incorrect Default Permissions Vulnerability",
-      "cvss": null,
-      "published": null,
+      "cvss": 7.8,
+      "published": "2026-09-17",
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-09-19",
@@ -344,48 +383,18 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42018"
-    },
-    {
-      "cve": "CVE-2026-85706",
-      "product": "GitLab Community Edition and Enterprise Edition",
-      "type": "GitLab Community Edition and Enterprise Edition Path Traversal Vulnerability",
-      "cvss": 10.0,
-      "published": "2026-09-12",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-09-14",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85706"
-    },
-    {
-      "cve": "CVE-2026-86060",
-      "product": "MikroTik RouterOS",
-      "type": "MikroTik RouterOS Improper Neutralization of Argument Delimiters in a Command Vulnerabilit",
-      "cvss": 9.8,
-      "published": "2026-09-05",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-09-13",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86060"
-    },
-    {
-      "cve": "CVE-2026-67277",
-      "product": "MikroTik RouterOS",
-      "type": "MikroTik RouterOS Missing Authentication for Critical Function Vulnerability",
-      "cvss": 8.2,
-      "published": "2026-09-05",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-09-13",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67277"
     }
   ],
   "actors": [
+    {
+      "name": "ShinyHunters",
+      "type": "RaaS / Extorsion",
+      "desc": "The Clop ransomware gang has moved its data leak site to a new Tor address after confirming its previous server was compromised and defaced through an unpatched Grav CMS flaw that BleepingComputer has learned is an unaut…",
+      "victims": "2 mention(s) récente(s) — dernier article : 25 Sep 2026",
+      "region": "Non précisé",
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/",
+      "src": "BleepingComputer"
+    },
     {
       "name": "Play",
       "type": "RaaS / Extorsion",
@@ -405,13 +414,13 @@
       "src": "Microsoft Security Blog"
     },
     {
-      "name": "ShinyHunters",
+      "name": "Clop",
       "type": "RaaS / Extorsion",
-      "desc": "The cyber extortion group known as ShinyHunters on Tuesday claimed it had breached the U.S. Federal Bureau of Investigation and stolen data belonging to current and former employees at the agency. \"We have compromised th…",
-      "victims": "1 mention(s) récente(s) — dernier article : 23 Sep 2026",
+      "desc": "The Clop ransomware gang has moved its data leak site to a new Tor address after confirming its previous server was compromised and defaced through an unpatched Grav CMS flaw that BleepingComputer has learned is an unaut…",
+      "victims": "1 mention(s) récente(s) — dernier article : 25 Sep 2026",
       "region": "Non précisé",
-      "url": "https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html",
-      "src": "The Hacker News"
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/",
+      "src": "BleepingComputer"
     },
     {
       "name": "The Gentlemen",
@@ -443,6 +452,11 @@
   ],
   "threats": [
     {
+      "title": "Activité soutenue de ShinyHunters",
+      "desc": "The Clop ransomware gang has moved its data leak site to a new Tor address after confirming its previous server was compromised and defaced through an unpatched Grav CMS flaw that BleepingComputer has learned is an unaut…",
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/"
+    },
+    {
       "title": "Activité soutenue de Play",
       "desc": "The \"third-party[.]com\" domain, commonly used as a documentation placeholder, has been observed serving a ClickFix lure to Windows browsers while displaying a harmless decoy to other users. \"third-party[.]com has been a …",
       "url": "https://thehackernews.com/2026/09/placeholder-third-partycom-referenced.html"
@@ -451,11 +465,6 @@
       "title": "Activité soutenue de Qilin",
       "desc": "Storm-2570 is a ransomware affiliate that uses consistent post-compromise tools and techniques across deployments involving Qilin, DragonForce, Anubis, and BERT ransomware, and provides guidance to help defenders detect …",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/09/24/beyond-ransomware-tracking-storm-2570-consistent-tradecraft-across-deployments/"
-    },
-    {
-      "title": "Activité soutenue de ShinyHunters",
-      "desc": "The cyber extortion group known as ShinyHunters on Tuesday claimed it had breached the U.S. Federal Bureau of Investigation and stolen data belonging to current and former employees at the agency. \"We have compromised th…",
-      "url": "https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html"
     }
   ],
   "iocs": [
