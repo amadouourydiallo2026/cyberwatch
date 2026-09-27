@@ -1,7 +1,57 @@
 {
-  "generated_at": "2026-09-26T10:49:42Z",
+  "generated_at": "2026-09-27T11:24:51Z",
   "week_label": "S39 · 21 – 27 septembre 2026",
   "attacks": [
+    {
+      "title": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
+      "sector": "Non précisé",
+      "date": "27 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Two new unpatched zero-day vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway appliances that allow remote code execution are being actively exploited in the wild, security firm watchTowr said on September 26.…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html"
+    },
+    {
+      "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
+      "sector": "Non précisé",
+      "date": "26 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The Psychedelic Stealer malware distributed via compromised Ukrainian websites using ClickFix-style Cloudflare verification checks is part of a wider malware-as-a-service (MaaS) platform called Lunex. The new findings co…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html"
+    },
+    {
+      "title": "GitHub Actions re-enabled with Mini Shai-Hulud payload still active",
+      "sector": "Non précisé",
+      "date": "26 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Two third-party GitHub Actions previously compromised in a Mini Shai-Hulud campaign were re-enabled by their maintainer and remained accessible for more than a week despite still pointing to malicious code. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/"
+    },
+    {
+      "title": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
+      "sector": "Non précisé",
+      "date": "26 Sep 2026",
+      "actor": "ShinyHunters",
+      "sev": "critical",
+      "desc": "Google is warning of renewed mass exploitation of a known security vulnerability in Oracle PeopleSoft as part of a campaign targeting multiple sectors globally. The ShinyHunters-linked activity involves the weaponization…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html"
+    },
+    {
+      "title": "Zero Trust for AI Agents Starts With Fixing Zero Visibility",
+      "sector": "Non précisé",
+      "date": "26 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "The way we talk about AI agents is shifting, and the way we implement them requires an even more fundamental shift. While earlier discourse focused on how quickly organizations could stand up agents and how much producti…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html"
+    },
     {
       "title": "SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild",
       "sector": "Gouvernement",
@@ -71,56 +121,6 @@
       "desc": "Cryptocurrency exchange Bitget said suspected North Korean threat actors have stolen $351.6 million from its hot and warm wallets. \"At 18:31 UTC on September 24, 2026, Bitget's security systems identified unauthorized tr…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/09/bitget-says-suspected-north-korean.html"
-    },
-    {
-      "title": "Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild",
-      "sector": "Non précisé",
-      "date": "25 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The Canadian Centre for Cyber Security has warned that a now-patched Roundcube Webmail vulnerability is being actively exploited in the wild. The vulnerability in question is CVE-2026-48842 (CVSS score: 8.1), a pre-authe…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html"
-    },
-    {
-      "title": "Hackers steal $351.6 million in Bitget crypto exchange hack",
-      "sector": "Non précisé",
-      "date": "25 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "​Cryptocurrency exchange Bitget disclosed today that suspected North Korean hackers have stolen $351.6 million from its hot and warm wallets. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-steal-3516-million-in-bitget-crypto-exchange-hack/"
-    },
-    {
-      "title": "Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer",
-      "sector": "Manufacturing",
-      "date": "24 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "An active ClickFix campaign has been observed compromising legitimate Ukrainian business websites to inject bogus Cloudflare verification pages and trick victims into downloading a previously undocumented information ste…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html"
-    },
-    {
-      "title": "Secrets Sprawl Is an Identity Problem That AI Just Made Impossible to Ignore",
-      "sector": "Non précisé",
-      "date": "24 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "AI coding agents are changing how quickly developers can build and ship software as well as how quickly credentials can become exposed. According to GitGuardian’s 2026 State of Secrets Sprawl Report, commits identified a…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/secrets-sprawl-is-identity-problem-that.html"
-    },
-    {
-      "title": "TeamFiltration Campaign Compromises Seven Microsoft 365 Accounts Using Default Passwords",
-      "sector": "Finance",
-      "date": "24 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "Cybersecurity researchers have disclosed details of an active TeamFiltration campaign codenamed UNK_CondorFiltration that has targeted over 5,700 accounts across 28 Microsoft 365 tenants. According to Proofpoint, the act…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/teamfiltration-compromises-seven.html"
     }
   ],
   "vulns": [
@@ -389,10 +389,10 @@
     {
       "name": "ShinyHunters",
       "type": "RaaS / Extorsion",
-      "desc": "The Clop ransomware gang has moved its data leak site to a new Tor address after confirming its previous server was compromised and defaced through an unpatched Grav CMS flaw that BleepingComputer has learned is an unaut…",
-      "victims": "2 mention(s) récente(s) — dernier article : 25 Sep 2026",
+      "desc": "The ShinyHunters extortion gang is using a URL-encoding trick to bypass web application firewall rules that mitigate the Oracle PeopleSoft CVE-2026-35273 flaw, allowing the threat actors to resume widespread exploitation…",
+      "victims": "4 mention(s) récente(s) — dernier article : 26 Sep 2026",
       "region": "Non précisé",
-      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/",
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
       "src": "BleepingComputer"
     },
     {
@@ -453,8 +453,8 @@
   "threats": [
     {
       "title": "Activité soutenue de ShinyHunters",
-      "desc": "The Clop ransomware gang has moved its data leak site to a new Tor address after confirming its previous server was compromised and defaced through an unpatched Grav CMS flaw that BleepingComputer has learned is an unaut…",
-      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/"
+      "desc": "The ShinyHunters extortion gang is using a URL-encoding trick to bypass web application firewall rules that mitigate the Oracle PeopleSoft CVE-2026-35273 flaw, allowing the threat actors to resume widespread exploitation…",
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/"
     },
     {
       "title": "Activité soutenue de Play",
