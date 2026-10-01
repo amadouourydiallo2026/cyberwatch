@@ -1,7 +1,87 @@
 {
-  "generated_at": "2026-09-30T11:56:16Z",
+  "generated_at": "2026-10-01T12:27:06Z",
   "week_label": "S40 · 28 septembre – 4 octobre 2026",
   "attacks": [
+    {
+      "title": "CISA Adds Exploited Cisco Catalyst SD-WAN Manager Auth Bypass to KEV",
+      "sector": "Gouvernement",
+      "date": "01 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical authentication bypass flaw impacting Cisco Catalyst SD-WAN Manager to its Known Exploited Vulnerabilities (KEV), following re…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html"
+    },
+    {
+      "title": "Hackers stole Pentagon personnel records of over 3 million people",
+      "sector": "Non précisé",
+      "date": "01 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "The Pentagon's Defense Manpower Data Center (DMDC) is notifying millions of military service members that hackers stole their data after breaching the Pentagon's human resources management system in October 2025. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-pentagon-human-resources-management-system-steal-data-of-nearly-3-million-people/"
+    },
+    {
+      "title": "Metamask discloses security incident affecting its infrastructure",
+      "sector": "Non précisé",
+      "date": "01 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "On Thursday, cryptocurrency wallet provider MetaMask has disclosed an ongoing infrastructure security incident affecting some of its infrastructure. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/metamask-discloses-security-incident-affecting-its-infrastructure/"
+    },
+    {
+      "title": "MetaMask Security Incident Prompts Exit of Affected Ethereum Validators",
+      "sector": "Non précisé",
+      "date": "01 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "MetaMask on Thursday said it's responding to what it described as an \"ongoing security incident\" impacting part of its infrastructure. \"We are actively addressing and remediating the issue internally, in coordination wit…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html"
+    },
+    {
+      "title": "Russian state hackers use new RedFlick technique to push malware",
+      "sector": "Non précisé",
+      "date": "30 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "The Russian state actor Star Blizzard has been using a new malware installation tactic dubbed \"RedFlick\" to deploy its signature CosmicPulse backdoor. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/russian-state-hackers-use-new-redflick-technique-to-push-malware/"
+    },
+    {
+      "title": "DIVD says Zammad zero-days enabled AI-driven network breach",
+      "sector": "Non précisé",
+      "date": "30 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "The Dutch Institute for Vulnerability Disclosure (DIVD) says that the breach of its network was possible by exploiting a chain of two zero-day vulnerabilities in the open-source Zammad ticketing system. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/divd-says-zammad-zero-days-enabled-ai-driven-network-breach/"
+    },
+    {
+      "title": "Cisco warns of new SD-WAN zero-day exploited in attacks",
+      "sector": "Non précisé",
+      "date": "30 Sep 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Cisco released security updates to address a critical zero-day in the Catalyst SD-WAN Manager (tracked as CVE-2026-76504) that attackers are actively exploiting to escalate to admin privileges. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-sd-wan-authentication-bypass-zero-day-exploited-in-attacks/"
+    },
+    {
+      "title": "Know Your Enemy: Browser-Based Attack Techniques in 2026",
+      "sector": "Manufacturing",
+      "date": "30 Sep 2026",
+      "actor": "Play",
+      "sev": "high",
+      "desc": "Given that the browser is where business apps are accessed and used, it makes sense that attacks are happening there too. Most breaches today begin in a browser session. Often, they never leave it, with the entire attack…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/know-your-enemy-browser-based-attack.html"
+    },
     {
       "title": "Bitget hacked via zero-day in third-party security products",
       "sector": "Non précisé",
@@ -23,26 +103,6 @@
       "url": "https://thehackernews.com/2026/09/us-focused-csuite-phishing-steals.html"
     },
     {
-      "title": "Hackers exploit Citrix NetScaler zero-day to deploy web shells",
-      "sector": "Non précisé",
-      "date": "29 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Cybersecurity firms say attackers exploited the Citrix NetScaler CVE-2026-88772 zero-day to deploy custom web shells and tunneling malware, gain root access, steal credentials, and spread into internal networks. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/"
-    },
-    {
-      "title": "Former US Air Force members sent to prison over BEC attacks",
-      "sector": "Gouvernement",
-      "date": "29 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Two former members of the United States Air Force were sentenced to a combined 189 months in federal prison for their roles in a multi-year series of business email compromise (BEC) scams and phishing campaigns. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/former-us-air-force-members-sent-to-prison-over-bec-attacks/"
-    },
-    {
       "title": "Russia's Star Blizzard Targets 100+ Organizations With Fake Event Invites to Deliver Backdoor",
       "sector": "Non précisé",
       "date": "29 Sep 2026",
@@ -53,16 +113,6 @@
       "url": "https://thehackernews.com/2026/09/russias-star-blizzard-targets-100.html"
     },
     {
-      "title": "Automated AI agent used to breach cybersecurity nonprofit DIVD",
-      "sector": "Non précisé",
-      "date": "29 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The Dutch Institute for Vulnerability Disclosure (DIVD) suffered an AI-driven cyberattack that the organization described as \"loud and very, very messy.\" [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/automated-ai-agent-used-to-breach-cybersecurity-nonprofit-divd/"
-    },
-    {
       "title": "Dutch Police Arrest 24-Year-Old Amsterdam Man in ShinyHunters Investigation",
       "sector": "Non précisé",
       "date": "29 Sep 2026",
@@ -71,59 +121,22 @@
       "desc": "Dutch authorities have confirmed that they arrested a 24-year-old man from Amsterdam in connection with the ShinyHunters group. \"It is true that this month a 24-year-old man from Amsterdam was arrested in an investigatio…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html"
-    },
-    {
-      "title": "Apple patches CoreGraphics zero-day flaw exploited in attacks",
-      "sector": "Non précisé",
-      "date": "29 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Apple released security updates to fix a zero-day vulnerability exploited in \"extremely sophisticated\" targeted attacks on iOS devices. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/apple-patches-coregraphics-zero-day-flaw-exploited-in-attacks/"
-    },
-    {
-      "title": "Japan's Keio confirms ransomware attack disrupted business systems",
-      "sector": "Manufacturing",
-      "date": "28 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Keio Corporation (Keio), a major private railway operator in Japan, said its network was hit by a ransomware attack over the weekend, disrupting some of its business systems. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/japans-keio-confirms-ransomware-attack-disrupted-business-systems/"
-    },
-    {
-      "title": "Hackers Use NeedyMantis to Maintain Long-Term Access in Breached Networks",
-      "sector": "Santé",
-      "date": "29 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Hackers have used a malware family called NeedyMantis to maintain long-term access to networks they had already breached, Microsoft said in a technical analysis. The malware has been seen in a small number of targeted in…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/hackers-use-needymantis-to-maintain.html"
-    },
-    {
-      "title": "Bitget Says Attacker Exploited Third-Party Security Product Flaw to Steal $388M",
-      "sector": "Non précisé",
-      "date": "28 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "The attacker who stole about $388 million from the cryptocurrency exchange Bitget gained access through a vulnerability in a third-party security product the exchange used, Bitget said on Monday. The attacker exploited t…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/bitget-says-attacker-exploited-third.html"
-    },
-    {
-      "title": "⚡ Weekly Recap: $387M Crypto Hack, Citrix Exploits, AI Agents Go Off-Script, and More Threats",
-      "sector": "Non précisé",
-      "date": "28 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "A domain used as harmless placeholder text showed up in roughly 1,700 repositories. Then somebody registered it and started serving malicious lures. That is the kind of week this was: forgotten assumptions turning into l…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/weekly-recap-387m-crypto-hack-citrix.html"
     }
   ],
   "vulns": [
+    {
+      "cve": "CVE-2026-76504",
+      "product": "Cisco Catalyst SD-WAN Manager",
+      "type": "Cisco Catalyst SD-WAN Manager Hex Encoding Vulnerability",
+      "cvss": 9.8,
+      "published": "2026-09-30",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-10-03",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76504"
+    },
     {
       "cve": "CVE-2026-86950",
       "product": "Apple Multiple Products",
@@ -211,7 +224,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-09-27",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5430"
     },
@@ -224,7 +237,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-09-27",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71362"
     },
@@ -370,57 +383,35 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87886"
-    },
-    {
-      "cve": "CVE-2026-76461",
-      "product": "Cisco Secure Email Gateway",
-      "type": "Cisco Secure Email Gateway SQL Injection Vulnerability",
-      "cvss": 9.8,
-      "published": "2026-09-14",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-09-17",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76461"
     }
   ],
   "actors": [
     {
-      "name": "ShinyHunters",
-      "type": "RaaS / Extorsion",
-      "desc": "The FBI is warning members of the ShinyHunters extortion group to turn themselves in after Dutch police arrested a man the bureau described as one of the group's alleged leaders. [...]",
-      "victims": "3 mention(s) récente(s) — dernier article : 29 Sep 2026",
-      "region": "Non précisé",
-      "url": "https://www.bleepingcomputer.com/news/security/fbi-tells-shinyhunters-members-to-turn-themselves-in-after-recent-arrest/",
-      "src": "BleepingComputer"
-    },
-    {
       "name": "Play",
       "type": "RaaS / Extorsion",
-      "desc": "The \"third-party[.]com\" domain, commonly used as a documentation placeholder, has been observed serving a ClickFix lure to Windows browsers while displaying a harmless decoy to other users. \"third-party[.]com has been a …",
-      "victims": "2 mention(s) récente(s) — dernier article : 24 Sep 2026",
+      "desc": "Given that the browser is where business apps are accessed and used, it makes sense that attacks are happening there too. Most breaches today begin in a browser session. Often, they never leave it, with the entire attack…",
+      "victims": "1 mention(s) récente(s) — dernier article : 30 Sep 2026",
       "region": "Non précisé",
-      "url": "https://thehackernews.com/2026/09/placeholder-third-partycom-referenced.html",
+      "url": "https://thehackernews.com/2026/09/know-your-enemy-browser-based-attack.html",
+      "src": "The Hacker News"
+    },
+    {
+      "name": "ShinyHunters",
+      "type": "RaaS / Extorsion",
+      "desc": "Dutch authorities have confirmed that they arrested a 24-year-old man from Amsterdam in connection with the ShinyHunters group. \"It is true that this month a 24-year-old man from Amsterdam was arrested in an investigatio…",
+      "victims": "1 mention(s) récente(s) — dernier article : 29 Sep 2026",
+      "region": "Non précisé",
+      "url": "https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html",
       "src": "The Hacker News"
     },
     {
       "name": "Qilin",
       "type": "RaaS / Extorsion",
       "desc": "Storm-2570 is a ransomware affiliate that uses consistent post-compromise tools and techniques across deployments involving Qilin, DragonForce, Anubis, and BERT ransomware, and provides guidance to help defenders detect …",
-      "victims": "2 mention(s) récente(s) — dernier article : 24 Sep 2026",
+      "victims": "1 mention(s) récente(s) — dernier article : 24 Sep 2026",
       "region": "Non précisé",
       "url": "https://www.microsoft.com/en-us/security/blog/2026/09/24/beyond-ransomware-tracking-storm-2570-consistent-tradecraft-across-deployments/",
       "src": "Microsoft Security Blog"
-    },
-    {
-      "name": "The Gentlemen",
-      "type": "RaaS / Extorsion",
-      "desc": "Ransomware incidents in Japan rose 4.7% year over year. The Gentlemen was the most active group, with leak-site listings more than doubling from January to July. Qilin ranked second and appeared to use AI, while SMEs wit…",
-      "victims": "1 mention(s) récente(s) — dernier article : 17 Sep 2026",
-      "region": "Non précisé",
-      "url": "https://blog.talosintelligence.com/ransomware-incidents-in-japan-in-the-first-half-of-2026/",
-      "src": "Cisco Talos"
     },
     {
       "name": "Anubis",
@@ -443,14 +434,14 @@
   ],
   "threats": [
     {
-      "title": "Activité soutenue de ShinyHunters",
-      "desc": "The FBI is warning members of the ShinyHunters extortion group to turn themselves in after Dutch police arrested a man the bureau described as one of the group's alleged leaders. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/fbi-tells-shinyhunters-members-to-turn-themselves-in-after-recent-arrest/"
+      "title": "Activité soutenue de Play",
+      "desc": "Given that the browser is where business apps are accessed and used, it makes sense that attacks are happening there too. Most breaches today begin in a browser session. Often, they never leave it, with the entire attack…",
+      "url": "https://thehackernews.com/2026/09/know-your-enemy-browser-based-attack.html"
     },
     {
-      "title": "Activité soutenue de Play",
-      "desc": "The \"third-party[.]com\" domain, commonly used as a documentation placeholder, has been observed serving a ClickFix lure to Windows browsers while displaying a harmless decoy to other users. \"third-party[.]com has been a …",
-      "url": "https://thehackernews.com/2026/09/placeholder-third-partycom-referenced.html"
+      "title": "Activité soutenue de ShinyHunters",
+      "desc": "Dutch authorities have confirmed that they arrested a 24-year-old man from Amsterdam in connection with the ShinyHunters group. \"It is true that this month a 24-year-old man from Amsterdam was arrested in an investigatio…",
+      "url": "https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html"
     },
     {
       "title": "Activité soutenue de Qilin",
@@ -460,24 +451,104 @@
   ],
   "iocs": [
     {
-      "type": "ip:port",
-      "value": "87.120.219.207:80",
-      "malware": "Unknown Loader",
+      "type": "domain",
+      "value": "entretiensol.com",
+      "malware": "Unknown malware",
       "confidence": 100,
-      "first_seen": "2026-09-17",
-      "related_cve": "CVE-2026-76461",
+      "first_seen": "2026-10-01",
+      "related_cve": "CVE-2026-88771",
       "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1921414/"
+      "source_url": "https://threatfox.abuse.ch/ioc/1943576/"
+    },
+    {
+      "type": "sha256_hash",
+      "value": "73b74309f4728d169cc9edfb2767c5aadd75d39b62de93c935a86c777d2646bc",
+      "malware": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-10-01",
+      "related_cve": "CVE-2026-88771",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1943572/"
+    },
+    {
+      "type": "sha256_hash",
+      "value": "57f9f30c50240fd48d761de7961a430cdebf2c084a36bc76d376a1ce8e6dfa9d",
+      "malware": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-10-01",
+      "related_cve": "CVE-2026-88771",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1943571/"
+    },
+    {
+      "type": "sha256_hash",
+      "value": "6f5a2a452a7901323abd21879c6cecccb47c06aeeaccb1b467212f3b11e4b1e7",
+      "malware": "Unknown malware",
+      "confidence": 75,
+      "first_seen": "2026-10-01",
+      "related_cve": "CVE-2026-88771",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1943772/"
+    },
+    {
+      "type": "sha256_hash",
+      "value": "ed082f744f035035900f67edf438f2f7d0528ac501234f63d476d65273cdb9a1",
+      "malware": "Unknown malware",
+      "confidence": 75,
+      "first_seen": "2026-10-01",
+      "related_cve": "CVE-2026-88771",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1943773/"
+    },
+    {
+      "type": "sha256_hash",
+      "value": "5ea5ea61e9062822bee3f66ef5ff47c217178d9e31936ad6daf10c5dfae44d12",
+      "malware": "Unknown malware",
+      "confidence": 75,
+      "first_seen": "2026-10-01",
+      "related_cve": "CVE-2026-88771",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1943774/"
+    },
+    {
+      "type": "sha256_hash",
+      "value": "ae22ef2517b5c0fb47f78745b9cb5260acee0e751b89bcd354640ff8bc8d29ec",
+      "malware": "Unknown malware",
+      "confidence": 75,
+      "first_seen": "2026-10-01",
+      "related_cve": "CVE-2026-88771",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1943776/"
+    },
+    {
+      "type": "sha256_hash",
+      "value": "7add390ceee4a1373211b3e340451b34f08965fc4d805f94c9b8cebdc0775774",
+      "malware": "Unknown malware",
+      "confidence": 75,
+      "first_seen": "2026-10-01",
+      "related_cve": "CVE-2026-88771",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1943775/"
     },
     {
       "type": "ip:port",
-      "value": "87.120.219.207:82",
-      "malware": "Unknown Loader",
-      "confidence": 100,
-      "first_seen": "2026-09-17",
-      "related_cve": "CVE-2026-76461",
+      "value": "89.44.80.7:58963",
+      "malware": "Unknown malware",
+      "confidence": 75,
+      "first_seen": "2026-10-01",
+      "related_cve": "CVE-2026-88771",
       "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1921415/"
+      "source_url": "https://threatfox.abuse.ch/ioc/1943578/"
+    },
+    {
+      "type": "ip:port",
+      "value": "45.141.21.130:443",
+      "malware": "Unknown malware",
+      "confidence": 75,
+      "first_seen": "2026-10-01",
+      "related_cve": "CVE-2026-88771",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1943577/"
     }
   ]
 }
