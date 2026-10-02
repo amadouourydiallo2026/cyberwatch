@@ -1,7 +1,77 @@
 {
-  "generated_at": "2026-10-01T12:27:06Z",
+  "generated_at": "2026-10-02T11:53:30Z",
   "week_label": "S40 · 28 septembre – 4 octobre 2026",
   "attacks": [
+    {
+      "title": "Microsoft’s X account hacked in crypto pump-and-dump scheme",
+      "sector": "Non précisé",
+      "date": "02 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "On Thursday, unknown attackers hijacked the official Microsoft account on X, which has over 13 million followers, in what appeared to be a pump-and-dump scheme promoting a crypto token. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme/"
+    },
+    {
+      "title": "Fortinet warns of critical FortiMail flaw exploited in zero-day attacks",
+      "sector": "Non précisé",
+      "date": "01 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Fortinet is warning customers of a critical FortiMail vulnerability, tracked as CVE-2026-104286, that is being actively exploited in zero-day attacks to execute unauthorized code or commands on vulnerable devices. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/"
+    },
+    {
+      "title": "Autonomous AI agents tried to hack US, Canadian government websites",
+      "sector": "Gouvernement",
+      "date": "01 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Autonomous AI agents using aggressive strategies attempted to hack U.S. and Canadian government websites to find school and divorce statistics. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/autonomous-ai-agents-tried-to-hack-us-canadian-government-websites/"
+    },
+    {
+      "title": "Microsoft says threat actors are ahead in the early AI race",
+      "sector": "Non précisé",
+      "date": "01 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Microsoft says cyberattackers are currently benefiting from artificial intelligence faster than defenders, allowing threat actors to speed up vulnerability discovery, malware development, and post-compromise activity whi…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-says-threat-actors-are-ahead-in-the-early-ai-race/"
+    },
+    {
+      "title": "Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers",
+      "sector": "Non précisé",
+      "date": "01 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Police in Spain have arrested a 16-year-old whom investigators suspect of running the KillSec ransomware group. KillSec is accused of stealing data from organizations and threatening to publish it on its leak site unless…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html"
+    },
+    {
+      "title": "WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory",
+      "sector": "Non précisé",
+      "date": "01 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Cybersecurity researchers have shed light on a WordPress compromise in which threat actors deployed multiple persistence mechanisms to ensure that the final payload kept returning without having to infect the site again.…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html"
+    },
+    {
+      "title": "Police dismantle KillSec ransomware gang allegedly led by 16-year-old",
+      "sector": "Non précisé",
+      "date": "01 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "An international law enforcement operation dubbed \"Operation KillSwitch\" seized the KillSec ransomware gang's data leak site and servers, led to three arrests, and identified a 16-year-old as the group's alleged administ…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/police-dismantle-killsec-ransomware-gang-allegedly-led-by-16-year-old/"
+    },
     {
       "title": "CISA Adds Exploited Cisco Catalyst SD-WAN Manager Auth Bypass to KEV",
       "sector": "Gouvernement",
@@ -33,6 +103,16 @@
       "url": "https://www.bleepingcomputer.com/news/security/metamask-discloses-security-incident-affecting-its-infrastructure/"
     },
     {
+      "title": "Bitget Confirms Third-Party Zero-Day Behind $387.5 Million Cryptocurrency Theft",
+      "sector": "Non précisé",
+      "date": "01 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Cryptocurrency exchange Bitget on Wednesday confirmed that attackers who stole $387.5 million last week exploited a zero-day flaw in third-party security products, citing ongoing investigation findings from SlowMist. \"Th…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html"
+    },
+    {
       "title": "MetaMask Security Incident Prompts Exit of Affected Ethereum Validators",
       "sector": "Non précisé",
       "date": "01 Oct 2026",
@@ -41,89 +121,22 @@
       "desc": "MetaMask on Thursday said it's responding to what it described as an \"ongoing security incident\" impacting part of its infrastructure. \"We are actively addressing and remediating the issue internally, in coordination wit…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html"
-    },
-    {
-      "title": "Russian state hackers use new RedFlick technique to push malware",
-      "sector": "Non précisé",
-      "date": "30 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "The Russian state actor Star Blizzard has been using a new malware installation tactic dubbed \"RedFlick\" to deploy its signature CosmicPulse backdoor. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/russian-state-hackers-use-new-redflick-technique-to-push-malware/"
-    },
-    {
-      "title": "DIVD says Zammad zero-days enabled AI-driven network breach",
-      "sector": "Non précisé",
-      "date": "30 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "The Dutch Institute for Vulnerability Disclosure (DIVD) says that the breach of its network was possible by exploiting a chain of two zero-day vulnerabilities in the open-source Zammad ticketing system. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/divd-says-zammad-zero-days-enabled-ai-driven-network-breach/"
-    },
-    {
-      "title": "Cisco warns of new SD-WAN zero-day exploited in attacks",
-      "sector": "Non précisé",
-      "date": "30 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Cisco released security updates to address a critical zero-day in the Catalyst SD-WAN Manager (tracked as CVE-2026-76504) that attackers are actively exploiting to escalate to admin privileges. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-sd-wan-authentication-bypass-zero-day-exploited-in-attacks/"
-    },
-    {
-      "title": "Know Your Enemy: Browser-Based Attack Techniques in 2026",
-      "sector": "Manufacturing",
-      "date": "30 Sep 2026",
-      "actor": "Play",
-      "sev": "high",
-      "desc": "Given that the browser is where business apps are accessed and used, it makes sense that attacks are happening there too. Most breaches today begin in a browser session. Often, they never leave it, with the entire attack…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/know-your-enemy-browser-based-attack.html"
-    },
-    {
-      "title": "Bitget hacked via zero-day in third-party security products",
-      "sector": "Non précisé",
-      "date": "30 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Cryptocurrency exchange Bitget revealed today that attackers who stole $387.5 million last week breached its systems after exploiting a zero-day flaw in third-party security products. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/bitget-hacked-via-zero-day-in-third-party-security-products/"
-    },
-    {
-      "title": "US-Focused CSuite Phishing Steals Microsoft 365 Sessions and Deploys RMM Tools for Remote Access",
-      "sector": "Gouvernement",
-      "date": "30 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "ANY.RUN researchers traced a US-focused CSuite phishing campaign across 351 sandbox analyses, with 51% of submissions coming from the United States. Technology, manufacturing, government, and consulting organizations sho…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/us-focused-csuite-phishing-steals.html"
-    },
-    {
-      "title": "Russia's Star Blizzard Targets 100+ Organizations With Fake Event Invites to Deliver Backdoor",
-      "sector": "Non précisé",
-      "date": "29 Sep 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Russian state hackers known as Star Blizzard have been using fake event invitations to trick people into installing a backdoor on their Windows computers, according to Microsoft. The campaigns, aimed at people and organi…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/russias-star-blizzard-targets-100.html"
-    },
-    {
-      "title": "Dutch Police Arrest 24-Year-Old Amsterdam Man in ShinyHunters Investigation",
-      "sector": "Non précisé",
-      "date": "29 Sep 2026",
-      "actor": "ShinyHunters",
-      "sev": "medium",
-      "desc": "Dutch authorities have confirmed that they arrested a 24-year-old man from Amsterdam in connection with the ShinyHunters group. \"It is true that this month a 24-year-old man from Amsterdam was arrested in an investigatio…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html"
     }
   ],
   "vulns": [
+    {
+      "cve": "CVE-2026-104286",
+      "product": "Fortinet FortiMail",
+      "type": "Fortinet FortiMail Path Traversal Vulnerability",
+      "cvss": 9.8,
+      "published": "2026-10-01",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-10-04",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104286"
+    },
     {
       "cve": "CVE-2026-76504",
       "product": "Cisco Catalyst SD-WAN Manager",
@@ -185,7 +198,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-09-28",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67279"
     },
@@ -198,7 +211,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-09-28",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65660"
     },
@@ -211,7 +224,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-09-28",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87902"
     },
@@ -370,19 +383,6 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76460"
-    },
-    {
-      "cve": "CVE-2026-87886",
-      "product": "Acronis Backup",
-      "type": "Acronis Backup Incorrect Default Permissions Vulnerability",
-      "cvss": 7.8,
-      "published": "2026-09-17",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-09-19",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87886"
     }
   ],
   "actors": [
@@ -450,6 +450,26 @@
     }
   ],
   "iocs": [
+    {
+      "type": "sha256_hash",
+      "value": "1bd314b661396c7086f6367fbbb48025e03ca2de69c073d53a8b0a38aa5fbb7d",
+      "malware": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-10-02",
+      "related_cve": "CVE-2026-88772",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1945184/"
+    },
+    {
+      "type": "sha256_hash",
+      "value": "79c65fa04541032e251fa4796b97800374b63c7982593dd1a2e0db605d429186",
+      "malware": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-10-02",
+      "related_cve": "CVE-2026-88772",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1945185/"
+    },
     {
       "type": "domain",
       "value": "entretiensol.com",
