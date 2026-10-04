@@ -1,7 +1,37 @@
 {
-  "generated_at": "2026-10-03T11:06:39Z",
+  "generated_at": "2026-10-04T11:48:14Z",
   "week_label": "S40 · 28 septembre – 4 octobre 2026",
   "attacks": [
+    {
+      "title": "ShinyHunters hacker reportedly detained in Jordan, aiding FBI",
+      "sector": "Non précisé",
+      "date": "03 Oct 2026",
+      "actor": "ShinyHunters",
+      "sev": "medium",
+      "desc": "A suspected ShinyHunters hacking group member known online as \"Rey\" has reportedly been detained in Jordan and is cooperating with the FBI to help locate other members of the extortion group. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacker-reportedly-detained-in-jordan-aiding-fbi/"
+    },
+    {
+      "title": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware",
+      "sector": "Gouvernement",
+      "date": "03 Oct 2026",
+      "actor": "Warlock",
+      "sev": "critical",
+      "desc": "The suspected China-linked threat actor known as Warlock is still continuing to weaponize Microsoft SharePoint vulnerabilities, likely both old and new, in attacks targeting organizations in Portuguese- and Spanish-speak…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html"
+    },
+    {
+      "title": "Danish university DTU breach exposes data of up to 200,000 people",
+      "sector": "Éducation",
+      "date": "03 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The Technical University of Denmark (DTU) says information belonging to up to 200,000 users may have been exposed after hackers accessed its identity and access management system and downloaded a large amount of data. [.…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people/"
+    },
     {
       "title": "Frontline Education breach exposes school district employee data",
       "sector": "Éducation",
@@ -91,36 +121,6 @@
       "desc": "Microsoft says cyberattackers are currently benefiting from artificial intelligence faster than defenders, allowing threat actors to speed up vulnerability discovery, malware development, and post-compromise activity whi…",
       "src": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/security/microsoft-says-threat-actors-are-ahead-in-the-early-ai-race/"
-    },
-    {
-      "title": "Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers",
-      "sector": "Non précisé",
-      "date": "01 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Police in Spain have arrested a 16-year-old whom investigators suspect of running the KillSec ransomware group. KillSec is accused of stealing data from organizations and threatening to publish it on its leak site unless…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html"
-    },
-    {
-      "title": "WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory",
-      "sector": "Non précisé",
-      "date": "01 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "Cybersecurity researchers have shed light on a WordPress compromise in which threat actors deployed multiple persistence mechanisms to ensure that the final payload kept returning without having to infect the site again.…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html"
-    },
-    {
-      "title": "Police dismantle KillSec ransomware gang allegedly led by 16-year-old",
-      "sector": "Non précisé",
-      "date": "01 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "An international law enforcement operation dubbed \"Operation KillSwitch\" seized the KillSec ransomware gang's data leak site and servers, led to three arrests, and identified a 16-year-old as the group's alleged administ…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/police-dismantle-killsec-ransomware-gang-allegedly-led-by-16-year-old/"
     }
   ],
   "vulns": [
@@ -198,7 +198,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-09-30",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88772"
     },
@@ -211,7 +211,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-09-30",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88771"
     },
@@ -387,13 +387,22 @@
   ],
   "actors": [
     {
+      "name": "ShinyHunters",
+      "type": "RaaS / Extorsion",
+      "desc": "A suspected ShinyHunters hacking group member known online as \"Rey\" has reportedly been detained in Jordan and is cooperating with the FBI to help locate other members of the extortion group. [...]",
+      "victims": "2 mention(s) récente(s) — dernier article : 03 Oct 2026",
+      "region": "Non précisé",
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacker-reportedly-detained-in-jordan-aiding-fbi/",
+      "src": "BleepingComputer"
+    },
+    {
       "name": "Warlock",
       "type": "RaaS / Extorsion",
-      "desc": "The China-linked ransomware group Warlock targeted a water utility, a telecom provider, a regional government body, and a university by exploiting SharePoint vulnerabilities to gain initial access. [...]",
-      "victims": "1 mention(s) récente(s) — dernier article : 02 Oct 2026",
+      "desc": "The suspected China-linked threat actor known as Warlock is still continuing to weaponize Microsoft SharePoint vulnerabilities, likely both old and new, in attacks targeting organizations in Portuguese- and Spanish-speak…",
+      "victims": "2 mention(s) récente(s) — dernier article : 03 Oct 2026",
       "region": "Non précisé",
-      "url": "https://www.bleepingcomputer.com/news/security/warlock-ransomware-breach-sharepoint-in-water-telecom-operator-attacks/",
-      "src": "BleepingComputer"
+      "url": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
+      "src": "The Hacker News"
     },
     {
       "name": "Play",
@@ -402,15 +411,6 @@
       "victims": "1 mention(s) récente(s) — dernier article : 30 Sep 2026",
       "region": "Non précisé",
       "url": "https://thehackernews.com/2026/09/know-your-enemy-browser-based-attack.html",
-      "src": "The Hacker News"
-    },
-    {
-      "name": "ShinyHunters",
-      "type": "RaaS / Extorsion",
-      "desc": "Dutch authorities have confirmed that they arrested a 24-year-old man from Amsterdam in connection with the ShinyHunters group. \"It is true that this month a 24-year-old man from Amsterdam was arrested in an investigatio…",
-      "victims": "1 mention(s) récente(s) — dernier article : 29 Sep 2026",
-      "region": "Non précisé",
-      "url": "https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html",
       "src": "The Hacker News"
     },
     {
@@ -443,19 +443,19 @@
   ],
   "threats": [
     {
+      "title": "Activité soutenue de ShinyHunters",
+      "desc": "A suspected ShinyHunters hacking group member known online as \"Rey\" has reportedly been detained in Jordan and is cooperating with the FBI to help locate other members of the extortion group. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacker-reportedly-detained-in-jordan-aiding-fbi/"
+    },
+    {
       "title": "Activité soutenue de Warlock",
-      "desc": "The China-linked ransomware group Warlock targeted a water utility, a telecom provider, a regional government body, and a university by exploiting SharePoint vulnerabilities to gain initial access. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/warlock-ransomware-breach-sharepoint-in-water-telecom-operator-attacks/"
+      "desc": "The suspected China-linked threat actor known as Warlock is still continuing to weaponize Microsoft SharePoint vulnerabilities, likely both old and new, in attacks targeting organizations in Portuguese- and Spanish-speak…",
+      "url": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html"
     },
     {
       "title": "Activité soutenue de Play",
       "desc": "Given that the browser is where business apps are accessed and used, it makes sense that attacks are happening there too. Most breaches today begin in a browser session. Often, they never leave it, with the entire attack…",
       "url": "https://thehackernews.com/2026/09/know-your-enemy-browser-based-attack.html"
-    },
-    {
-      "title": "Activité soutenue de ShinyHunters",
-      "desc": "Dutch authorities have confirmed that they arrested a 24-year-old man from Amsterdam in connection with the ShinyHunters group. \"It is true that this month a 24-year-old man from Amsterdam was arrested in an investigatio…",
-      "url": "https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html"
     }
   ],
   "iocs": [
