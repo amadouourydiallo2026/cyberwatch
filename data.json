@@ -1,7 +1,77 @@
 {
-  "generated_at": "2026-10-06T12:46:00Z",
+  "generated_at": "2026-10-07T12:39:33Z",
   "week_label": "S41 · 5 – 11 octobre 2026",
   "attacks": [
+    {
+      "title": "FBI Warns FortiBleed Remains Active After Amassing 86,644 Fortinet Device Credentials",
+      "sector": "Gouvernement",
+      "date": "07 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "The U.S. Federal Bureau of Investigation (FBI) and Secret Service (USSS) on Tuesday warned that the FortiBleed credential harvesting campaign remains an active threat aimed at internet-facing Fortinet FortiGate firewalls…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/fbi-warns-fortibleed-remains-active.html"
+    },
+    {
+      "title": "Advantest confirms personal information stolen in ransomware attack",
+      "sector": "Non précisé",
+      "date": "07 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Advantest Corporation is notifying affected individuals that a ransomware attack earlier this year exposed their personally identifiable data. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/advantest-confirms-personal-information-stolen-in-ransomware-attack/"
+    },
+    {
+      "title": "100+ Compromised Websites Use Fake Cloudflare Checks to Deliver LunexStealer",
+      "sector": "Gouvernement",
+      "date": "07 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "The Computer Emergency Response Team of Ukraine (CERT-UA) has identified more than 100 compromised websites that have been injected with malicious JavaScript to serve an information-stealing malware called LunexStealer (…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/100-compromised-websites-use-fake.html"
+    },
+    {
+      "title": "Ninja Forms plugin flaw exploited to hack WordPress sites",
+      "sector": "Retail",
+      "date": "06 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Hackers are exploiting stored cross-site scripting (XSS) vulnerabilities in two unrelated WordPress plugins, Ninja Forms and WPC Product Bundles for WooCommerce, to install backdoors and create rogue admin accounts. [...…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites/"
+    },
+    {
+      "title": "Hackers exploit 32 zero-days on first day of Pwn2Own Ireland",
+      "sector": "Non précisé",
+      "date": "06 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "On the first day of the Pwn2Own Ireland 2026 competition, security researchers hacked the Samsung Galaxy S26 twice and earned $388,500 after exploiting 32 zero-days. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-32-zero-days-on-first-day-of-pwn2own-ireland/"
+    },
+    {
+      "title": "Atlassian warns of critical file-access flaw in Jira, Confluence",
+      "sector": "Non précisé",
+      "date": "06 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Atlassian is warning customers of a critical vulnerability, tracked as CVE-2026-21589, that can be exploited for arbitrary file-access in multiple self-hosted Data Center products, including Confluence, Jira, and Bitbuck…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/atlassian-warns-of-critical-file-access-flaw-in-jira-confluence/"
+    },
+    {
+      "title": "ASOS confirms data breach after “HACKED” in-app notifications",
+      "sector": "Retail",
+      "date": "06 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "UK fashion retailer ASOS confirmed a data breach Tuesday after hackers sent unauthorized push notifications through its mobile app while claiming to have stolen customer data from the company's Snowflake environment. [..…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/asos-confirms-data-breach-after-hacked-in-app-notifications/"
+    },
     {
       "title": "Wikimedia Says OpenAI Agents Tried to Compromise Etherpad and Use Wiki Tools as Proxies",
       "sector": "Non précisé",
@@ -51,76 +121,6 @@
       "desc": "The U.S. Federal Bureau of Investigation (FBI) has removed an Accenture contractor for their alleged role in a ShinyHunters-breach that led to the theft of personal details of thousands of bureau employees. That's accord…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html"
-    },
-    {
-      "title": "ClickFix Smuggles Payloads Through Browser Cache to Bypass Windows Run Limits",
-      "sector": "Non précisé",
-      "date": "06 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "A new type of ClickFix attack is using compromised websites to trick users into executing a malicious payload cached in a web browser's cache. \"Instead of downloading and executing remote payloads like the typical attack…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/clickfix-smuggles-payloads-through.html"
-    },
-    {
-      "title": "Rejetto HFS servers now actively scanned for critical RCE flaw",
-      "sector": "Non précisé",
-      "date": "05 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Hackers are actively scanning for a Rejetto HFS weak signing key vulnerability, tracked as CVE-2026-61500, that allows session forgery, account takeover, and remote code execution (RCE). [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/rejetto-hfs-servers-now-actively-scanned-for-critical-rce-flaw/"
-    },
-    {
-      "title": "Denmark population registry data breach affects 8.8 million people",
-      "sector": "Non précisé",
-      "date": "05 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Denmark's Central Population Register (CPR) is warning of a data breach that exposed the personal information of approximately 8.8 million registered individuals. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/denmark-population-registry-data-breach-affects-88-million-people/"
-    },
-    {
-      "title": "New Dell System Update flaw lets hackers gain root privileges",
-      "sector": "Non précisé",
-      "date": "05 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Dell warned customers to patch a critical vulnerability in the System Update (DSU) command-line interface (CLI) deployment tool as soon as possible. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/new-dell-system-update-flaw-lets-hackers-gain-root-privileges/"
-    },
-    {
-      "title": "South Korea probes bank breaches amid suspected AI-powered attacks",
-      "sector": "Finance",
-      "date": "05 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "South Korea's Financial Services Commission (FSC) held an emergency meeting following a series of cyberattacks targeting financial institutions in the country. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/south-korea-probes-bank-breaches-amid-suspected-ai-powered-attacks/"
-    },
-    {
-      "title": "⚡ Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests",
-      "sector": "Non précisé",
-      "date": "05 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "A blank field. A public repo. One reply to an email. A box left exposed. None of this sounds dramatic, which is partly the problem. This week’s threats keep finding leverage in small things that were easy to overlook. Th…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html"
-    },
-    {
-      "title": "Citrix patches NetScaler SAML zero-day exploited in attacks",
-      "sector": "Non précisé",
-      "date": "04 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Citrix has released emergency updates for a new NetScaler denial-of-service vulnerability tracked as CVE-2026-88779 that has been exploited in zero-day attacks, with researchers investigating whether it can also be explo…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/"
     }
   ],
   "vulns": [
@@ -185,7 +185,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-10-03",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76504"
     },
@@ -403,42 +403,6 @@
       "region": "Non précisé",
       "url": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
       "src": "The Hacker News"
-    },
-    {
-      "name": "Play",
-      "type": "RaaS / Extorsion",
-      "desc": "Given that the browser is where business apps are accessed and used, it makes sense that attacks are happening there too. Most breaches today begin in a browser session. Often, they never leave it, with the entire attack…",
-      "victims": "1 mention(s) récente(s) — dernier article : 30 Sep 2026",
-      "region": "Non précisé",
-      "url": "https://thehackernews.com/2026/09/know-your-enemy-browser-based-attack.html",
-      "src": "The Hacker News"
-    },
-    {
-      "name": "Qilin",
-      "type": "RaaS / Extorsion",
-      "desc": "Storm-2570 is a ransomware affiliate that uses consistent post-compromise tools and techniques across deployments involving Qilin, DragonForce, Anubis, and BERT ransomware, and provides guidance to help defenders detect …",
-      "victims": "1 mention(s) récente(s) — dernier article : 24 Sep 2026",
-      "region": "Non précisé",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/09/24/beyond-ransomware-tracking-storm-2570-consistent-tradecraft-across-deployments/",
-      "src": "Microsoft Security Blog"
-    },
-    {
-      "name": "Anubis",
-      "type": "RaaS / Extorsion",
-      "desc": "Storm-2570 is a ransomware affiliate that uses consistent post-compromise tools and techniques across deployments involving Qilin, DragonForce, Anubis, and BERT ransomware, and provides guidance to help defenders detect …",
-      "victims": "1 mention(s) récente(s) — dernier article : 24 Sep 2026",
-      "region": "Non précisé",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/09/24/beyond-ransomware-tracking-storm-2570-consistent-tradecraft-across-deployments/",
-      "src": "Microsoft Security Blog"
-    },
-    {
-      "name": "DragonForce",
-      "type": "RaaS / Extorsion",
-      "desc": "Storm-2570 is a ransomware affiliate that uses consistent post-compromise tools and techniques across deployments involving Qilin, DragonForce, Anubis, and BERT ransomware, and provides guidance to help defenders detect …",
-      "victims": "1 mention(s) récente(s) — dernier article : 24 Sep 2026",
-      "region": "Non précisé",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/09/24/beyond-ransomware-tracking-storm-2570-consistent-tradecraft-across-deployments/",
-      "src": "Microsoft Security Blog"
     }
   ],
   "threats": [
@@ -451,11 +415,6 @@
       "title": "Activité soutenue de Warlock",
       "desc": "The suspected China-linked threat actor known as Warlock is still continuing to weaponize Microsoft SharePoint vulnerabilities, likely both old and new, in attacks targeting organizations in Portuguese- and Spanish-speak…",
       "url": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html"
-    },
-    {
-      "title": "Activité soutenue de Play",
-      "desc": "Given that the browser is where business apps are accessed and used, it makes sense that attacks are happening there too. Most breaches today begin in a browser session. Often, they never leave it, with the entire attack…",
-      "url": "https://thehackernews.com/2026/09/know-your-enemy-browser-based-attack.html"
     }
   ],
   "iocs": [
