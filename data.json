@@ -1,7 +1,77 @@
 {
-  "generated_at": "2026-10-09T12:35:08Z",
+  "generated_at": "2026-10-10T11:55:36Z",
   "week_label": "S41 · 5 – 11 octobre 2026",
   "attacks": [
+    {
+      "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
+      "sector": "Non précisé",
+      "date": "10 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Anthropic on Friday said it's cutting off live internet access for all its internal evaluations following the discovery of new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior and …",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html"
+    },
+    {
+      "title": "Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks",
+      "sector": "Non précisé",
+      "date": "09 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Hackers are abusing legitimate Bing search-result redirects as click URLs in Google search ads to direct users to fake Claude installers that deliver ClickFix attacks. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/"
+    },
+    {
+      "title": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories",
+      "sector": "Non précisé",
+      "date": "10 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Cybersecurity researchers have disclosed details of an ongoing credential-theft campaign that has compromised two high-profile open-source maintainer accounts to push a malicious workflow into over 340 repositories. \"Usi…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/credential-stealing-github-actions.html"
+    },
+    {
+      "title": "FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack",
+      "sector": "Non précisé",
+      "date": "09 Oct 2026",
+      "actor": "ShinyHunters",
+      "sev": "high",
+      "desc": "The FBI has arrested another suspected co-conspirator of ShinyHunters, FBI Director Kash Patel said on October 9 in a post on X. ShinyHunters is the extortion group that said in September it had breached the FBI's jobs p…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html"
+    },
+    {
+      "title": "Unpatched AhsayCBS flaws exploited to deploy webshells, mine crypto",
+      "sector": "Non précisé",
+      "date": "09 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Threat actors are exploiting one critical and one medium-severity vulnerability still unpatched in the AhsayCBS backup management platform to deploy webshells and cryptocurrency miners. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/"
+    },
+    {
+      "title": "FBI arrests another suspected ShinyHunters hacker after agency breach",
+      "sector": "Gouvernement",
+      "date": "09 Oct 2026",
+      "actor": "ShinyHunters",
+      "sev": "high",
+      "desc": "The FBI has arrested another suspected member of the ShinyHunters extortion group believed to be involved in the recent breach of FBI systems, Director Kash Patel announced Friday. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-arrests-another-suspected-shinyhunters-hacker-after-agency-breach/"
+    },
+    {
+      "title": "Germany arrests alleged core Qilin ransomware member after extradition",
+      "sector": "Non précisé",
+      "date": "09 Oct 2026",
+      "actor": "Qilin",
+      "sev": "high",
+      "desc": "Germany has arrested a Russian national suspected of being a leading member of the Qilin ransomware group following extradition from Japan earlier this month. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/germany-arrests-alleged-core-qilin-ransomware-member-after-extradition/"
+    },
     {
       "title": "Max severity SonicWall SMA1000 flaw now exploited in attacks",
       "sector": "Non précisé",
@@ -11,6 +81,16 @@
       "desc": "Attackers are exploiting a maximum-severity vulnerability in SonicWall SMA1000 appliances (CVE-2026-102255) that was patched on Tuesday, three days ago. [...]",
       "src": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/security/max-severity-sonicwall-sma1000-flaw-now-exploited-in-attacks/"
+    },
+    {
+      "title": "Flax Typhoon Exploits Five Flaws as CISA Sets October 11 Deadline for Federal Agencies",
+      "sector": "Gouvernement",
+      "date": "09 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added five security flaws to its Known Exploited Vulnerabilities (KEV) catalog, following their abuse by a China-linked threat actor known as F…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html"
     },
     {
       "title": "Three Teams Demonstrate Remote Hacks of Fully Patched Google Pixel 10 at Pwn2Own",
@@ -41,86 +121,6 @@
       "desc": "The FBI has seized seven domains used by Chinese state-sponsored hackers known as Flax Typhoon to operate two hacking tools, MicroScan and FishHub, used in attacks that breached critical infrastructure and other organiza…",
       "src": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/"
-    },
-    {
-      "title": "Ransomware attack disrupts Japan's IDCF Cloud used by govt clients",
-      "sector": "Non précisé",
-      "date": "08 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "IDC Frontier, a major Japanese cloud and digital infrastructure company, disclosed that its IDCF Cloud service was targeted in a ransomware attack that caused an outage at a data center cluster serving the eastern part o…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/ransomware-attack-disrupts-japans-idcf-cloud-used-by-govt-clients/"
-    },
-    {
-      "title": "FBI Says China-Linked Hackers Ran Portal Giving Third Parties Access to Stolen Emails",
-      "sector": "Santé",
-      "date": "09 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "Hackers tied to a Chinese cybersecurity company stole email from government organizations, law enforcement agencies, healthcare systems, and religious institutions in Southeast Asia, the FBI and agencies in 6 other count…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/fbi-says-china-linked-hackers-ran.html"
-    },
-    {
-      "title": "ThreatsDay: Ransomware Affiliate Betrayal, WhatsApp RAT, Exposed Hacker Tools and 12 More Stories",
-      "sector": "Non précisé",
-      "date": "08 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The crooks have trust problems of their own. One ransomware affiliate decided to keep the profits for himself. Elsewhere, an attacker left a server exposed, complete with tools and traces of an intrusion. Apparently, kee…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/threatsday-ransomware-affiliate.html"
-    },
-    {
-      "title": "Japan Sees Sharp Rise in Web Data Leaks Amid Mobile API Abuse and Metabase Attacks",
-      "sector": "Non précisé",
-      "date": "08 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Attackers behind a string of personal data leaks at Japanese organizations have abused APIs for mobile apps and targeted known software flaws, the JPCERT Coordination Center (JPCERT/CC) said. The Tokyo-based center, whic…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/japan-sees-sharp-rise-in-web-data-leaks.html"
-    },
-    {
-      "title": "Cisco warns of critical flaws allowing Nexus switch takeover",
-      "sector": "Non précisé",
-      "date": "08 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Cisco released security advisories for five critical vulnerabilities in its NX-OS data center network operating system that could be exploited to run arbitrary code with root privileges on Nexus switches. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-flaws-allowing-nexus-switch-takeover/"
-    },
-    {
-      "title": "OAuth grants pile up faster than you can review them. Here's how to keep up.",
-      "sector": "Technologie",
-      "date": "08 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "OAuth grants create data highways between SaaS apps, AI agents, and other tools. And, they are multiplying faster than any security team can review them. As the recent Klue breach showed, attackers are taking notice and …",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/oauth-grants-pile-up-faster-than-you-can-review-them-heres-how-to-keep-up/"
-    },
-    {
-      "title": "Uranium crypto exchange hacker convicted for stealing $53 million",
-      "sector": "Finance",
-      "date": "08 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "A Maryland man was found guilty of stealing more than $53 million after hacking the decentralized crypto exchange Uranium Finance twice in April 2021. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/uranium-crypto-exchange-hacker-found-guilty-of-53-million-theft/"
-    },
-    {
-      "title": "ASOS links data breach to social engineering attack, credential theft",
-      "sector": "Non précisé",
-      "date": "08 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "ASOS is sending updates to affected customers about the cybersecurity incident it suffered earlier this week, confirming that hackers accessed some personal data. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/asos-links-data-breach-to-social-engineering-attack-credential-theft/"
     }
   ],
   "vulns": [
@@ -206,7 +206,7 @@
       "cve": "CVE-2026-102490",
       "product": "Zammad GmbH Zammad",
       "type": "Zammad GmbH Zammad Improper Privilege Management Vulnerability",
-      "cvss": 9.8,
+      "cvss": 7.8,
       "published": "2026-09-30",
       "exploit": true,
       "poc": "unk",
@@ -389,32 +389,32 @@
     {
       "name": "ShinyHunters",
       "type": "RaaS / Extorsion",
-      "desc": "The U.S. Federal Bureau of Investigation (FBI) has removed an Accenture contractor for their alleged role in a ShinyHunters-breach that led to the theft of personal details of thousands of bureau employees. That's accord…",
-      "victims": "2 mention(s) récente(s) — dernier article : 06 Oct 2026",
+      "desc": "The FBI has arrested another suspected co-conspirator of ShinyHunters, FBI Director Kash Patel said on October 9 in a post on X. ShinyHunters is the extortion group that said in September it had breached the FBI's jobs p…",
+      "victims": "3 mention(s) récente(s) — dernier article : 09 Oct 2026",
       "region": "Non précisé",
-      "url": "https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html",
+      "url": "https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html",
       "src": "The Hacker News"
     },
     {
-      "name": "Warlock",
+      "name": "Qilin",
       "type": "RaaS / Extorsion",
-      "desc": "The suspected China-linked threat actor known as Warlock is still continuing to weaponize Microsoft SharePoint vulnerabilities, likely both old and new, in attacks targeting organizations in Portuguese- and Spanish-speak…",
-      "victims": "1 mention(s) récente(s) — dernier article : 03 Oct 2026",
+      "desc": "Germany has arrested a Russian national suspected of being a leading member of the Qilin ransomware group following extradition from Japan earlier this month. [...]",
+      "victims": "1 mention(s) récente(s) — dernier article : 09 Oct 2026",
       "region": "Non précisé",
-      "url": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
-      "src": "The Hacker News"
+      "url": "https://www.bleepingcomputer.com/news/security/germany-arrests-alleged-core-qilin-ransomware-member-after-extradition/",
+      "src": "BleepingComputer"
     }
   ],
   "threats": [
     {
       "title": "Activité soutenue de ShinyHunters",
-      "desc": "The U.S. Federal Bureau of Investigation (FBI) has removed an Accenture contractor for their alleged role in a ShinyHunters-breach that led to the theft of personal details of thousands of bureau employees. That's accord…",
-      "url": "https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html"
+      "desc": "The FBI has arrested another suspected co-conspirator of ShinyHunters, FBI Director Kash Patel said on October 9 in a post on X. ShinyHunters is the extortion group that said in September it had breached the FBI's jobs p…",
+      "url": "https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html"
     },
     {
-      "title": "Activité soutenue de Warlock",
-      "desc": "The suspected China-linked threat actor known as Warlock is still continuing to weaponize Microsoft SharePoint vulnerabilities, likely both old and new, in attacks targeting organizations in Portuguese- and Spanish-speak…",
-      "url": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html"
+      "title": "Activité soutenue de Qilin",
+      "desc": "Germany has arrested a Russian national suspected of being a leading member of the Qilin ransomware group following extradition from Japan earlier this month. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/germany-arrests-alleged-core-qilin-ransomware-member-after-extradition/"
     }
   ],
   "iocs": [
