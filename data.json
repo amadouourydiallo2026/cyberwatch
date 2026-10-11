@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-10-10T11:55:36Z",
+  "generated_at": "2026-10-11T12:07:03Z",
   "week_label": "S41 · 5 – 11 octobre 2026",
   "attacks": [
+    {
+      "title": "Cyber exec arrested in case allegedly tied to ShinyHunters hackers",
+      "sector": "Non précisé",
+      "date": "10 Oct 2026",
+      "actor": "ShinyHunters",
+      "sev": "medium",
+      "desc": "Canadian cybersecurity executive Edward Dubrovsky has been arrested in Pennsylvania in connection with alleged extortion activity that multiple reports have linked to the FBI's ongoing crackdown on the ShinyHunters hacki…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/"
+    },
+    {
+      "title": "ARTEX AI, Claude agents used in cyberattacks on South Korean banks",
+      "sector": "Finance",
+      "date": "10 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The cyberattacks that shook the South Korean financial sector earlier this month were launched by a Chinese hacker using the ARTEX AI penetration testing suite and Claude agents. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/"
+    },
     {
       "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
       "sector": "Non précisé",
@@ -101,26 +121,6 @@
       "desc": "Three research teams broke into Google's Pixel 10 on October 8 at Pwn2Own Ireland, a hacking contest in Cork whose rules require every target to be fully patched. The contest pays researchers to show working exploits and…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/10/three-teams-demonstrate-remote-hacks-of.html"
-    },
-    {
-      "title": "Hackers get $1,262,000 for 98 zero-days at Pwn2Own Ireland",
-      "sector": "Non précisé",
-      "date": "09 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "The Pwn2Own Ireland 2026 hacking contest has concluded, with hackers collecting $1,262,000 in rewards after exploiting 98 zero-day flaws. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-earn-1262000-for-98-zero-days-at-pwn2own-ireland/"
-    },
-    {
-      "title": "FBI disrupts Chinese hacking tools used to breach critical infrastructure",
-      "sector": "Non précisé",
-      "date": "08 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "The FBI has seized seven domains used by Chinese state-sponsored hackers known as Flax Typhoon to operate two hacking tools, MicroScan and FishHub, used in attacks that breached critical infrastructure and other organiza…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/"
     }
   ],
   "vulns": [
@@ -198,7 +198,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-10-07",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88779"
     },
@@ -389,11 +389,11 @@
     {
       "name": "ShinyHunters",
       "type": "RaaS / Extorsion",
-      "desc": "The FBI has arrested another suspected co-conspirator of ShinyHunters, FBI Director Kash Patel said on October 9 in a post on X. ShinyHunters is the extortion group that said in September it had breached the FBI's jobs p…",
-      "victims": "3 mention(s) récente(s) — dernier article : 09 Oct 2026",
+      "desc": "Canadian cybersecurity executive Edward Dubrovsky has been arrested in Pennsylvania in connection with alleged extortion activity that multiple reports have linked to the FBI's ongoing crackdown on the ShinyHunters hacki…",
+      "victims": "4 mention(s) récente(s) — dernier article : 10 Oct 2026",
       "region": "Non précisé",
-      "url": "https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html",
-      "src": "The Hacker News"
+      "url": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
+      "src": "BleepingComputer"
     },
     {
       "name": "Qilin",
@@ -408,8 +408,8 @@
   "threats": [
     {
       "title": "Activité soutenue de ShinyHunters",
-      "desc": "The FBI has arrested another suspected co-conspirator of ShinyHunters, FBI Director Kash Patel said on October 9 in a post on X. ShinyHunters is the extortion group that said in September it had breached the FBI's jobs p…",
-      "url": "https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html"
+      "desc": "Canadian cybersecurity executive Edward Dubrovsky has been arrested in Pennsylvania in connection with alleged extortion activity that multiple reports have linked to the FBI's ongoing crackdown on the ShinyHunters hacki…",
+      "url": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/"
     },
     {
       "title": "Activité soutenue de Qilin",
