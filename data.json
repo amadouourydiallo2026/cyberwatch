@@ -1,7 +1,37 @@
 {
-  "generated_at": "2026-10-11T12:07:03Z",
-  "week_label": "S41 · 5 – 11 octobre 2026",
+  "generated_at": "2026-10-12T14:25:21Z",
+  "week_label": "S42 · 12 – 18 octobre 2026",
   "attacks": [
+    {
+      "title": "Retail giant Ahold Delhaize takes systems offline after cyberattack",
+      "sector": "Retail",
+      "date": "12 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Retail giant Ahold Delhaize, one of the world's largest food retail chains, confirmed today that it had to take some systems offline in response to a \"cybersecurity incident\" affecting its network. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-takes-systems-offline-after-cyberattack/"
+    },
+    {
+      "title": "Ledger Finds Unauthorized Hardware Implant in CryptoBilis-Sold Wallet Amid Fund Theft Reports",
+      "sector": "Non précisé",
+      "date": "12 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Cryptocurrency hardware maker Ledger has temporarily paused sales of its products via CryptoBilis following reports of stolen funds linked to devices sold by the reseller. On Friday, the company said it was investigating…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html"
+    },
+    {
+      "title": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
+      "sector": "Non précisé",
+      "date": "11 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Daiichi Kosho, a major Japanese entertainment system maker, disclosed that a malware infection at its contractor, Nippon Columbia, exposed more than 8.7 million customer and employee records. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/"
+    },
     {
       "title": "Cyber exec arrested in case allegedly tied to ShinyHunters hackers",
       "sector": "Non précisé",
@@ -28,7 +58,7 @@
       "date": "10 Oct 2026",
       "actor": "Non attribué",
       "sev": "medium",
-      "desc": "Anthropic on Friday said it's cutting off live internet access for all its internal evaluations following the discovery of new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior and …",
+      "desc": "Anthropic on Friday said it's cutting off live internet access for all its internal evaluations until further notice following the discovery of new incidents in which its artificial intelligence (AI) models exhibited mis…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html"
     },
@@ -91,36 +121,6 @@
       "desc": "Germany has arrested a Russian national suspected of being a leading member of the Qilin ransomware group following extradition from Japan earlier this month. [...]",
       "src": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/security/germany-arrests-alleged-core-qilin-ransomware-member-after-extradition/"
-    },
-    {
-      "title": "Max severity SonicWall SMA1000 flaw now exploited in attacks",
-      "sector": "Non précisé",
-      "date": "09 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Attackers are exploiting a maximum-severity vulnerability in SonicWall SMA1000 appliances (CVE-2026-102255) that was patched on Tuesday, three days ago. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/max-severity-sonicwall-sma1000-flaw-now-exploited-in-attacks/"
-    },
-    {
-      "title": "Flax Typhoon Exploits Five Flaws as CISA Sets October 11 Deadline for Federal Agencies",
-      "sector": "Gouvernement",
-      "date": "09 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added five security flaws to its Known Exploited Vulnerabilities (KEV) catalog, following their abuse by a China-linked threat actor known as F…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html"
-    },
-    {
-      "title": "Three Teams Demonstrate Remote Hacks of Fully Patched Google Pixel 10 at Pwn2Own",
-      "sector": "Non précisé",
-      "date": "09 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "Three research teams broke into Google's Pixel 10 on October 8 at Pwn2Own Ireland, a hacking contest in Cork whose rules require every target to be fully patched. The contest pays researchers to show working exploits and…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/three-teams-demonstrate-remote-hacks-of.html"
     }
   ],
   "vulns": [
