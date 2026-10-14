@@ -1,7 +1,87 @@
 {
-  "generated_at": "2026-10-13T13:34:20Z",
+  "generated_at": "2026-10-14T11:11:29Z",
   "week_label": "S42 · 12 – 18 octobre 2026",
   "attacks": [
+    {
+      "title": "Microsoft Patches Record 1,413 Flaws, Including Exploited Windows Shell Bug",
+      "sector": "Non précisé",
+      "date": "14 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Microsoft on Tuesday shattered its own Patch Tuesday record by shipping patches for a whopping 1,413 vulnerabilities, including one that it said has come under active exploitation. These include 1,102 flaws in Windows, 1…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/microsoft-patches-record-1413-flaws.html"
+    },
+    {
+      "title": "Ghostscript flaw lets hackers hijack servers via PDF uploads",
+      "sector": "Non précisé",
+      "date": "13 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "A critical heap buffer overflow vulnerability (CVE-2026-39919) in the Ghostscript interpreter and rendering engine could allow remote code execution through specially crafted PDF files. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/"
+    },
+    {
+      "title": "Microsoft October 2026 Patch Tuesday fixes 1,411 flaws, 3 zero-days",
+      "sector": "Non précisé",
+      "date": "13 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Today is Microsoft's October 2026 Patch Tuesday, with security updates addressing a record-breaking 1,411 flaws, including one actively exploited and two publicly disclosed zero-day vulnerabilities. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/"
+    },
+    {
+      "title": "UK Housing Ombudsman Service investigates 'security incident'",
+      "sector": "Non précisé",
+      "date": "13 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "The U.K. Housing Ombudsman Service is investigating a third-party IT security incident that impacted its case management system on Tuesday. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/uk-housing-ombudsman-service-investigates-security-incident/"
+    },
+    {
+      "title": "Docker Fixes Critical Two-Year-Old Hub Flaw That Let One User Push Images as Another",
+      "sector": "Non précisé",
+      "date": "13 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "A flaw in Docker Hub, the registry where container images are published and downloaded, let one user push, pull, or delete images as another user. Docker fixed the flaw on September 30 and says it found no evidence that …",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html"
+    },
+    {
+      "title": "TFG London cyberattack disrupts systems at Hobbs and Whistles retailers",
+      "sector": "Retail",
+      "date": "13 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "TFG London detected a cybersecurity incident that impacted IT systems used by the Phase Eight, Hobbs, and Whistles premium fashion brands. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/tfg-london-cyberattack-disrupts-systems-at-hobbs-and-whistles-retailers/"
+    },
+    {
+      "title": "Ivanti warns of Connect Secure zero-day exploited in attacks",
+      "sector": "Non précisé",
+      "date": "13 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Ivanti urged customers on Tuesday to immediately patch an actively exploited zero-day vulnerability in the Ivanti Connect Secure (ICS) remote access gateway. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-connect-secure-zero-day-exploited-in-attacks/"
+    },
+    {
+      "title": "Xandr Fined a Record €8.6 Million for Relaying Grindr Data Revealing Sexual Orientation",
+      "sector": "Non précisé",
+      "date": "13 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "The Norwegian Data Protection Authority (DPA) has fined Xandr, an advertising unit owned by Microsoft, €8.6 million ($9.62 million) for illegally relaying ​Grindr users' sensitive data to advertisers. The administrative …",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/xandr-fined-record-86-million-for.html"
+    },
     {
       "title": "[Webinar] How to Stop AI-Driven Privilege Escalation With Runtime Identity Controls",
       "sector": "Non précisé",
@@ -11,36 +91,6 @@
       "desc": "The dangerous part of a stolen identity isn't always the initial login. It's what an attacker can do with that access next. With AI accelerating reconnaissance, exploitation of vulnerabilities, and privilege escalation, …",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/10/webinar-how-to-stop-ai-driven-privilege.html"
-    },
-    {
-      "title": "Anthropic takes risky AI tests offline after models breach govt sites",
-      "sector": "Gouvernement",
-      "date": "12 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Anthropic announced that its internal AI models undergoing \"high-risk and cybersecurity evaluations\" no longer have internet access following incidents involving U.S. government websites at the federal, state, and local …",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/"
-    },
-    {
-      "title": "Ledger confirms spy chip implant behind wallet crypto thefts",
-      "sector": "Non précisé",
-      "date": "12 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "Ledger has confirmed that some of its devices distributed through Southeast Asian reseller CryptoBilis were compromised with a hardware implant that drained users' cryptocurrency wallets. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/"
-    },
-    {
-      "title": "Cyberattack shuts down refrigerators at French supermarkets",
-      "sector": "Non précisé",
-      "date": "12 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Attackers remotely defrosted refrigerators at multiple French supermarket chains overnight in a cyberattack that reportedly targeted Danfoss refrigeration controllers. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/"
     },
     {
       "title": "⚡ Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters Arrest, AI-Fooling Malware and More",
@@ -53,16 +103,6 @@
       "url": "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html"
     },
     {
-      "title": "Retail giant Ahold Delhaize takes systems offline after cyberattack",
-      "sector": "Retail",
-      "date": "12 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Retail giant Ahold Delhaize, one of the world's largest food retail chains, confirmed today that it had to take some systems offline in response to a \"cybersecurity incident\" affecting its network. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-takes-systems-offline-after-cyberattack/"
-    },
-    {
       "title": "Ledger Finds Unauthorized Hardware Implant in CryptoBilis-Sold Wallet Amid Fund Theft Reports",
       "sector": "Non précisé",
       "date": "12 Oct 2026",
@@ -73,36 +113,6 @@
       "url": "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html"
     },
     {
-      "title": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
-      "sector": "Non précisé",
-      "date": "11 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Daiichi Kosho, a major Japanese entertainment system maker, disclosed that a malware infection at its contractor, Nippon Columbia, exposed more than 8.7 million customer and employee records. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/"
-    },
-    {
-      "title": "Cyber exec arrested in case allegedly tied to ShinyHunters hackers",
-      "sector": "Non précisé",
-      "date": "10 Oct 2026",
-      "actor": "ShinyHunters",
-      "sev": "medium",
-      "desc": "Canadian cybersecurity executive Edward Dubrovsky has been arrested in Pennsylvania in connection with alleged extortion activity that multiple reports have linked to the FBI's ongoing crackdown on the ShinyHunters hacki…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/"
-    },
-    {
-      "title": "ARTEX AI, Claude agents used in cyberattacks on South Korean banks",
-      "sector": "Finance",
-      "date": "10 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The cyberattacks that shook the South Korean financial sector earlier this month were launched by a Chinese hacker using the ARTEX AI penetration testing suite and Claude agents. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/"
-    },
-    {
       "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
       "sector": "Non précisé",
       "date": "10 Oct 2026",
@@ -111,19 +121,35 @@
       "desc": "Anthropic on Friday said it's cutting off live internet access for all its internal evaluations until further notice following the discovery of new incidents in which its artificial intelligence (AI) models exhibited mis…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html"
-    },
-    {
-      "title": "Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks",
-      "sector": "Non précisé",
-      "date": "09 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Hackers are abusing legitimate Bing search-result redirects as click URLs in Google search ads to direct users to fake Claude installers that deliver ClickFix attacks. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/"
     }
   ],
   "vulns": [
+    {
+      "cve": "CVE-2026-104935",
+      "product": "Ivanti Connect Secure",
+      "type": "Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability",
+      "cvss": 8.6,
+      "published": "2026-10-13",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-10-16",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104935"
+    },
+    {
+      "cve": "CVE-2026-96951",
+      "product": "Microsoft Windows",
+      "type": "Microsoft Windows Command Injection Vulnerability",
+      "cvss": 8.8,
+      "published": "2026-10-13",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-10-16",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96951"
+    },
     {
       "cve": "CVE-2015-5477",
       "product": "ISC BIND",
@@ -357,32 +383,6 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71362"
-    },
-    {
-      "cve": "CVE-2026-93952",
-      "product": "Arista VeloCloud Orchestrator",
-      "type": "Arista VeloCloud Orchestrator Improper Input Validation Vulnerability",
-      "cvss": 10.0,
-      "published": "2026-09-22",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-09-25",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93952"
-    },
-    {
-      "cve": "CVE-2026-94127",
-      "product": "F5 BIG-IP APM",
-      "type": "F5 BIG-IP APM Heap-based Buffer Overflow Vulnerability",
-      "cvss": 9.8,
-      "published": "2026-09-22",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-09-25",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94127"
     }
   ],
   "actors": [
@@ -390,7 +390,7 @@
       "name": "ShinyHunters",
       "type": "RaaS / Extorsion",
       "desc": "Some meetings last longer than it took attackers to jump on a newly disclosed security flaw this week. Within hours, they were already testing it. That's not much time to read the warning, let alone do something about it…",
-      "victims": "3 mention(s) récente(s) — dernier article : 12 Oct 2026",
+      "victims": "2 mention(s) récente(s) — dernier article : 12 Oct 2026",
       "region": "Non précisé",
       "url": "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html",
       "src": "The Hacker News"
