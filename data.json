@@ -1,7 +1,87 @@
 {
-  "generated_at": "2026-10-15T10:52:25Z",
+  "generated_at": "2026-10-16T10:42:25Z",
   "week_label": "S42 · 12 – 18 octobre 2026",
   "attacks": [
+    {
+      "title": "BAE Systems cyberattack disrupts US federal court operations",
+      "sector": "Finance",
+      "date": "16 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The Administrative Office of the US Courts says a cyberattack on government contractor BAE Systems has taken down the notice system used by federal bankruptcy courts. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/"
+    },
+    {
+      "title": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
+      "sector": "Non précisé",
+      "date": "16 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "The China-nexus cyber espionage group tracked as Armory Castle (previously UNC5221 or Warp Panda) exploited a newly disclosed security flaw in BeyondTrust Remote Support (formerly Bomgar) as a zero-day in late August 202…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html"
+    },
+    {
+      "title": "BeyondTrust patches zero-day exploited in attacks since August",
+      "sector": "Non précisé",
+      "date": "16 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "BeyondTrust warned customers on Thursday to patch a critical flaw in its Remote Support (RS) that has been exploited in zero-day attacks since late August. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/"
+    },
+    {
+      "title": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
+      "sector": "Non précisé",
+      "date": "15 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Threat actors are exploiting a critical command execution flaw, now tracked as CVE-2026-110447, in the Collabora Online - Built-in CODE Server app (richdocumentscode) for Nextcloud. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/"
+    },
+    {
+      "title": "Hackers hijack D-Link, Ubiquiti devices to resell your stolen bandwidth",
+      "sector": "Non précisé",
+      "date": "15 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "A proxyjacking campaign has impacted devices in 34 countries, monetizing victims' internet connections through a commercial residential proxy network. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-d-link-ubiquiti-devices-to-resell-your-stolen-bandwidth/"
+    },
+    {
+      "title": "Help TDS Linked to Hotejka as 20,000+ Cloudflare Pages Domains Host Tech Support Scams",
+      "sector": "Non précisé",
+      "date": "15 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "A long-running Traffic Distribution System (TDS) known as Help TDS to a Russian-language affiliate program called Hotejka, which appears to be a rebrand of a traffic monetization operation dubbed ROI777. Help TDS is asse…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html"
+    },
+    {
+      "title": "Fake AI Attacks Spread Across US Companies: How MSSPs Can Stop Incidents Early",
+      "sector": "Manufacturing",
+      "date": "15 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Attackers are impersonating popular AI products to distribute malware, steal browser sessions, and compromise business accounts. ANY.RUN linked 1,258 public sandbox analyses to fake AI campaigns between April and October…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/fake-ai-attacks-spread-across-us.html"
+    },
+    {
+      "title": "Why AI Confidence Is Not Validation",
+      "sector": "Non précisé",
+      "date": "15 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "AI is already part of digital forensics and incident response work, with or without a policy in place to govern it. The issue is that these tools are growing more confident in their own output faster than practitioners a…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/why-ai-confidence-is-not-validation.html"
+    },
     {
       "title": "GhostAction Compromises About 1,900 GitHub Accounts, Targets Over 30,000 Repositories",
       "sector": "Non précisé",
@@ -41,89 +121,22 @@
       "desc": "Palo Alto Networks has released security updates for a high-severity PAN-OS RCE zero-day, tracked as CVE-2026-0322, that has been exploited in attacks targeting firewalls. [...]",
       "src": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/"
-    },
-    {
-      "title": "Hackers Backdoor Nextcloud Servers Through Critical Flaw in Collabora’s Built-in CODE App",
-      "sector": "Non précisé",
-      "date": "14 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Attackers exploited a flaw in an optional Nextcloud app, Collabora Online - Built-in CODE Server, to plant web shells on Nextcloud servers. Three administrators reported the issue on GitHub, with the first logged attack …",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html"
-    },
-    {
-      "title": "Cisco patches new Secure Email Gateway zero-day exploited in attacks",
-      "sector": "Non précisé",
-      "date": "14 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Cisco has patched another actively exploited zero-day flaw in its Secure Email Gateway (SEG) that lets remote unauthenticated attackers execute commands with root privileges. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day/"
-    },
-    {
-      "title": "The Blind Spots of Agentic Pentesting and How to Close Them",
-      "sector": "Non précisé",
-      "date": "14 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "AI-powered penetration testing can uncover complex attack paths, but safety restrictions and network limitations leave many assets and vulnerabilities untested. Picus Security explains how combining agentic pentesting wi…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/the-blind-spots-of-agentic-pentesting-and-how-to-close-them/"
-    },
-    {
-      "title": "CISA warns admins to immediately fix Ivanti flaw exploited as zero-day",
-      "sector": "Gouvernement",
-      "date": "14 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) urged security teams to immediately patch an Ivanti Connect Secure (ICS) flaw exploited in zero-day attacks since at least October 1st. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-immediately-fix-ivanti-flaw-exploited-as-zero-day/"
-    },
-    {
-      "title": "CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts",
-      "sector": "Gouvernement",
-      "date": "14 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday urged organizations to take steps to immediately update their Ivanti Connect Secure (ICS) appliances and deployments to the latest version follo…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html"
-    },
-    {
-      "title": "Microsoft Patches Record 1,413 Flaws, Including Exploited Windows Shell Bug",
-      "sector": "Non précisé",
-      "date": "14 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Microsoft on Tuesday shattered its own Patch Tuesday record by shipping patches for a whopping 1,413 vulnerabilities, including one that it said has come under active exploitation. These include 1,102 flaws in Windows, 1…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/microsoft-patches-record-1413-flaws.html"
-    },
-    {
-      "title": "Ghostscript flaw lets hackers hijack servers via PDF uploads",
-      "sector": "Non précisé",
-      "date": "13 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "A critical heap buffer overflow vulnerability (CVE-2026-39919) in the Ghostscript interpreter and rendering engine could allow remote code execution through specially crafted PDF files. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/"
-    },
-    {
-      "title": "Docker Fixes Critical Two-Year-Old Hub Flaw That Let One User Push Images as Another",
-      "sector": "Non précisé",
-      "date": "13 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "A flaw in Docker Hub, the registry where container images are published and downloaded, let one user push, pull, or delete images as another user. Docker fixed the flaw on September 30 and says it found no evidence that …",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html"
     }
   ],
   "vulns": [
+    {
+      "cve": "CVE-2026-21589",
+      "product": "Atlassian Multiple Products",
+      "type": "Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerabil",
+      "cvss": 7.5,
+      "published": "2026-10-05",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-10-18",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21589"
+    },
     {
       "cve": "CVE-2026-105134",
       "product": "Ahsay AhsayCBS",
@@ -167,7 +180,7 @@
       "cve": "CVE-2026-0322",
       "product": "Palo Alto Networks PAN-OS",
       "type": "Palo Alto Networks PAN-OS Code Injection Vulnerability",
-      "cvss": null,
+      "cvss": 7.2,
       "published": "2026-10-14",
       "exploit": true,
       "poc": "unk",
@@ -370,29 +383,16 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88771"
-    },
-    {
-      "cve": "CVE-2026-67279",
-      "product": "MikroTik RouterOS",
-      "type": "Mikrotik RouterOS Improper Enforcement of Behavioral Workflow Vulnerability",
-      "cvss": 6.5,
-      "published": "2026-09-05",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-09-28",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67279"
     }
   ],
   "actors": [
     {
-      "name": "ShinyHunters",
+      "name": "Lynx",
       "type": "RaaS / Extorsion",
-      "desc": "Some meetings last longer than it took attackers to jump on a newly disclosed security flaw this week. Within hours, they were already testing it. That's not much time to read the warning, let alone do something about it…",
-      "victims": "2 mention(s) récente(s) — dernier article : 12 Oct 2026",
+      "desc": "The threat actor known as Silent Lynx has been attributed to a fresh set of attacks targeting government organizations across the Commonwealth of Independent States (CIS). The activity, observed from June 2025 through Au…",
+      "victims": "1 mention(s) récente(s) — dernier article : 15 Oct 2026",
       "region": "Non précisé",
-      "url": "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html",
+      "url": "https://thehackernews.com/2026/10/silent-lynx-exploits-winrar-flaw-to.html",
       "src": "The Hacker News"
     },
     {
@@ -403,18 +403,32 @@
       "region": "Non précisé",
       "url": "https://thehackernews.com/2026/10/india-mandates-registered-caller-name.html",
       "src": "The Hacker News"
+    },
+    {
+      "name": "ShinyHunters",
+      "type": "RaaS / Extorsion",
+      "desc": "Some meetings last longer than it took attackers to jump on a newly disclosed security flaw this week. Within hours, they were already testing it. That's not much time to read the warning, let alone do something about it…",
+      "victims": "1 mention(s) récente(s) — dernier article : 12 Oct 2026",
+      "region": "Non précisé",
+      "url": "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html",
+      "src": "The Hacker News"
     }
   ],
   "threats": [
     {
-      "title": "Activité soutenue de ShinyHunters",
-      "desc": "Some meetings last longer than it took attackers to jump on a newly disclosed security flaw this week. Within hours, they were already testing it. That's not much time to read the warning, let alone do something about it…",
-      "url": "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html"
+      "title": "Activité soutenue de Lynx",
+      "desc": "The threat actor known as Silent Lynx has been attributed to a fresh set of attacks targeting government organizations across the Commonwealth of Independent States (CIS). The activity, observed from June 2025 through Au…",
+      "url": "https://thehackernews.com/2026/10/silent-lynx-exploits-winrar-flaw-to.html"
     },
     {
       "title": "Activité soutenue de Play",
       "desc": "The Indian government has directed telecom service providers (TSPs) in the country to mandatorily display callers' registered names along with their numbers for incoming calls starting November 1, 2026, in an effort to h…",
       "url": "https://thehackernews.com/2026/10/india-mandates-registered-caller-name.html"
+    },
+    {
+      "title": "Activité soutenue de ShinyHunters",
+      "desc": "Some meetings last longer than it took attackers to jump on a newly disclosed security flaw this week. Within hours, they were already testing it. That's not much time to read the warning, let alone do something about it…",
+      "url": "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html"
     }
   ],
   "iocs": [
