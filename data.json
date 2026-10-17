@@ -1,7 +1,47 @@
 {
-  "generated_at": "2026-10-16T10:42:25Z",
+  "generated_at": "2026-10-17T10:09:38Z",
   "week_label": "S42 · 12 – 18 octobre 2026",
   "attacks": [
+    {
+      "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
+      "sector": "Non précisé",
+      "date": "17 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyK…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html"
+    },
+    {
+      "title": "Critical BlockStrap flaw lets hackers run code on Magento servers",
+      "sector": "Retail",
+      "date": "16 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Researchers warn that hackers could soon exploit a maximum-severity vulnerability (CVE-2026-103849) affecting Magento and Adobe Commerce, potentially allowing them to execute arbitrary PHP code on store servers. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/"
+    },
+    {
+      "title": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract",
+      "sector": "Non précisé",
+      "date": "16 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "OpenAI has disclosed seven new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior, including one case where its research model, after not having funds on an Ethereum test network, sp…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html"
+    },
+    {
+      "title": "Burger King Japan data breach exposes 11 million customer records",
+      "sector": "Non précisé",
+      "date": "16 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Burger King Japan, the Japanese subsidiary of global fast-food giant Burger King, disclosed a major data breach after attackers accessed a server containing 11.18 million customer records. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/"
+    },
     {
       "title": "BAE Systems cyberattack disrupts US federal court operations",
       "sector": "Finance",
@@ -81,54 +121,40 @@
       "desc": "AI is already part of digital forensics and incident response work, with or without a policy in place to govern it. The issue is that these tools are growing more confident in their own output faster than practitioners a…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/10/why-ai-confidence-is-not-validation.html"
-    },
-    {
-      "title": "GhostAction Compromises About 1,900 GitHub Accounts, Targets Over 30,000 Repositories",
-      "sector": "Non précisé",
-      "date": "15 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "The credential-theft campaign known as GhostAction has ramped up, targeting more than 30,000 repositories across 3,000 users and organizations. The spike, according to GitGuardian, was observed on October 8 and 9, 2026. …",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html"
-    },
-    {
-      "title": "UK Legal Aid Agency: Hackers stole records dating back to 1978",
-      "sector": "Gouvernement",
-      "date": "15 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The Legal Aid Agency (LAA), an executive agency of the UK's Ministry of Justice that manages the country's Public Defender Service, says attackers who breached its IT systems in April 2025 stole records dating back to 19…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-hackers-stole-records-dating-back-to-1978/"
-    },
-    {
-      "title": "AhsayCBS Flaws Exploited to Deploy Web Shells Get New Fixes After Incomplete Patches",
-      "sector": "Non précisé",
-      "date": "15 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Singapore-based Ahsay Backup has released security updates to address two security flaws in AhsayCBS that have been exploited by bad actors to drop web shells and XMRig cryptocurrency miners. The vulnerabilities in quest…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/ahsaycbs-flaws-exploited-to-deploy-web.html"
-    },
-    {
-      "title": "Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks",
-      "sector": "Non précisé",
-      "date": "14 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Palo Alto Networks has released security updates for a high-severity PAN-OS RCE zero-day, tracked as CVE-2026-0322, that has been exploited in attacks targeting firewalls. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/"
     }
   ],
   "vulns": [
     {
+      "cve": "CVE-2026-102764",
+      "product": "BeyondTrust Remote Support",
+      "type": "BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability",
+      "cvss": 9.8,
+      "published": "2026-10-15",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-10-19",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102764"
+    },
+    {
+      "cve": "CVE-2025-61624",
+      "product": "Fortinet Multiple Products",
+      "type": "Fortinet Multiple Products Path Traversal Vulnerability",
+      "cvss": 6.0,
+      "published": "2026-04-14",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-10-19",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61624"
+    },
+    {
       "cve": "CVE-2026-21589",
       "product": "Atlassian Multiple Products",
       "type": "Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerabil",
-      "cvss": 7.5,
+      "cvss": null,
       "published": "2026-10-05",
       "exploit": true,
       "poc": "unk",
@@ -357,32 +383,6 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86950"
-    },
-    {
-      "cve": "CVE-2026-88772",
-      "product": "Citrix NetScaler",
-      "type": "Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer V",
-      "cvss": 8.1,
-      "published": "2026-09-27",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-09-30",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88772"
-    },
-    {
-      "cve": "CVE-2026-88771",
-      "product": "Citrix NetScaler",
-      "type": "Citrix NetScaler Improper Input Validation Vulnerability",
-      "cvss": 9.8,
-      "published": "2026-09-27",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-09-30",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88771"
     }
   ],
   "actors": [
@@ -403,15 +403,6 @@
       "region": "Non précisé",
       "url": "https://thehackernews.com/2026/10/india-mandates-registered-caller-name.html",
       "src": "The Hacker News"
-    },
-    {
-      "name": "ShinyHunters",
-      "type": "RaaS / Extorsion",
-      "desc": "Some meetings last longer than it took attackers to jump on a newly disclosed security flaw this week. Within hours, they were already testing it. That's not much time to read the warning, let alone do something about it…",
-      "victims": "1 mention(s) récente(s) — dernier article : 12 Oct 2026",
-      "region": "Non précisé",
-      "url": "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html",
-      "src": "The Hacker News"
     }
   ],
   "threats": [
@@ -424,11 +415,6 @@
       "title": "Activité soutenue de Play",
       "desc": "The Indian government has directed telecom service providers (TSPs) in the country to mandatorily display callers' registered names along with their numbers for incoming calls starting November 1, 2026, in an effort to h…",
       "url": "https://thehackernews.com/2026/10/india-mandates-registered-caller-name.html"
-    },
-    {
-      "title": "Activité soutenue de ShinyHunters",
-      "desc": "Some meetings last longer than it took attackers to jump on a newly disclosed security flaw this week. Within hours, they were already testing it. That's not much time to read the warning, let alone do something about it…",
-      "url": "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html"
     }
   ],
   "iocs": [
