@@ -1,16 +1,26 @@
 {
-  "generated_at": "2026-10-17T10:09:38Z",
+  "generated_at": "2026-10-18T10:24:04Z",
   "week_label": "S42 · 12 – 18 octobre 2026",
   "attacks": [
     {
-      "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
+      "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
+      "sector": "Non précisé",
+      "date": "18 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained unauthorized access to the application iden…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html"
+    },
+    {
+      "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
       "sector": "Non précisé",
       "date": "17 Oct 2026",
       "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyK…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html"
+      "sev": "high",
+      "desc": "ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application identities and compromised Microsoft 365 tenants. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/"
     },
     {
       "title": "Critical BlockStrap flaw lets hackers run code on Magento servers",
@@ -111,16 +121,6 @@
       "desc": "Attackers are impersonating popular AI products to distribute malware, steal browser sessions, and compromise business accounts. ANY.RUN linked 1,258 public sandbox analyses to fake AI campaigns between April and October…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/10/fake-ai-attacks-spread-across-us.html"
-    },
-    {
-      "title": "Why AI Confidence Is Not Validation",
-      "sector": "Non précisé",
-      "date": "15 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "AI is already part of digital forensics and incident response work, with or without a policy in place to govern it. The issue is that these tools are growing more confident in their own output faster than practitioners a…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/why-ai-confidence-is-not-validation.html"
     }
   ],
   "vulns": [
