@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-10-18T10:24:04Z",
-  "week_label": "S42 · 12 – 18 octobre 2026",
+  "generated_at": "2026-10-19T12:07:08Z",
+  "week_label": "S43 · 19 – 25 octobre 2026",
   "attacks": [
+    {
+      "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
+      "sector": "Non précisé",
+      "date": "19 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said. Console is OpenCode's optional …",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html"
+    },
+    {
+      "title": "Hackers exploit SiteGuard WAF flaw to run commands as admins",
+      "sector": "Non précisé",
+      "date": "18 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Attackers are targeting an OS command injection vulnerability in SiteGuard Server Edition that lets them execute commands as root or SYSTEM on affected servers. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/"
+    },
     {
       "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
       "sector": "Non précisé",
@@ -101,26 +121,6 @@
       "desc": "A proxyjacking campaign has impacted devices in 34 countries, monetizing victims' internet connections through a commercial residential proxy network. [...]",
       "src": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-d-link-ubiquiti-devices-to-resell-your-stolen-bandwidth/"
-    },
-    {
-      "title": "Help TDS Linked to Hotejka as 20,000+ Cloudflare Pages Domains Host Tech Support Scams",
-      "sector": "Non précisé",
-      "date": "15 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "A long-running Traffic Distribution System (TDS) known as Help TDS to a Russian-language affiliate program called Hotejka, which appears to be a rebrand of a traffic monetization operation dubbed ROI777. Help TDS is asse…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html"
-    },
-    {
-      "title": "Fake AI Attacks Spread Across US Companies: How MSSPs Can Stop Incidents Early",
-      "sector": "Manufacturing",
-      "date": "15 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Attackers are impersonating popular AI products to distribute malware, steal browser sessions, and compromise business accounts. ANY.RUN linked 1,258 public sandbox analyses to fake AI campaigns between April and October…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/fake-ai-attacks-spread-across-us.html"
     }
   ],
   "vulns": [
