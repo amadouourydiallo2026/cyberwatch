@@ -1,7 +1,107 @@
 {
-  "generated_at": "2026-10-19T12:07:08Z",
+  "generated_at": "2026-10-20T10:57:01Z",
   "week_label": "S43 · 19 – 25 octobre 2026",
   "attacks": [
+    {
+      "title": "Hackers Hijack Five OVHcloud CLI Releases to Distribute Secret-Stealing Malware",
+      "sector": "Technologie",
+      "date": "20 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "An attacker used a contributor's GitHub account to replace the download archives on five existing releases of OVHcloud's command-line tool on Monday, October 19. The account had been hijacked, and the new files were a bu…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html"
+    },
+    {
+      "title": "ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
+      "sector": "Non précisé",
+      "date": "20 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Siemens has addressed a DLL sideloading vulnerability impacting Siemens Software Center that it said has been exploited in ClickFix attacks. The high-severity vulnerability, tracked as CVE-2026-110936 (CVSS v4 score: 8.4…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html"
+    },
+    {
+      "title": "Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware",
+      "sector": "Non précisé",
+      "date": "20 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Cybersecurity researchers have disclosed details of a ClickFix delivery platform called ROMULUS that's being used to distribute malware such as Legion Loader. According to Forescout Research - Vedere Labs, ROMULUS is aki…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/romulus-clickfix-platform-tricks-users.html"
+    },
+    {
+      "title": "Nikkei discloses third data breach in a month, 1.8M records exposed",
+      "sector": "Non précisé",
+      "date": "19 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Nikkei Inc. disclosed a new data breach, the third in about a month, that exposed 1.83 million personal information records. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/"
+    },
+    {
+      "title": "WordPress SEO plugin Rank Math compromised to backdoor websites",
+      "sector": "Non précisé",
+      "date": "19 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Some downloads of the Rank Math PRO WordPress plugin from the vendor's official website carried malware that planted hidden backdoors in a supply-chain attack last week. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites/"
+    },
+    {
+      "title": "Hackers hijack AOMEI update servers to secretly spread malware",
+      "sector": "Non précisé",
+      "date": "19 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Hackers reportedly compromised AOMEI's servers to distribute malware through a built-in promotional feature in its backup software, briefly tampering with configuration files before restoring them to their original state…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-aomei-update-servers-to-secretly-spread-malware/"
+    },
+    {
+      "title": "Bullhorn takes staffing platform offline to contain cyberattack",
+      "sector": "Technologie",
+      "date": "19 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Staffing software company Bullhorn has disabled access to its platform to contain a cyberattack that caused a system-wide outage. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/bullhorn-takes-staffing-platform-offline-to-contain-cyberattack/"
+    },
+    {
+      "title": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor",
+      "sector": "Non précisé",
+      "date": "19 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Threat actors have begun to exploit a chain of vulnerabilities in Plex Media Server to deploy cryptocurrency miners and reverse proxy software, a day after a proof-of-concept (PoC) went public. According to a researcher …",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html"
+    },
+    {
+      "title": "OpenCode hack exposes API keys amid AI distillation attacks",
+      "sector": "Non précisé",
+      "date": "19 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The open-source AI coding project OpenCode has notified a small number of users that API keys they used with external providers were exposed in a security breach. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/"
+    },
+    {
+      "title": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
+      "sector": "Non précisé",
+      "date": "19 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The threat actor behind the GhostAction supply chain attack has expanded beyond injecting malicious GitHub Actions workflows into compromised projects to phish open-source developers and deliver a stealer malware disguis…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html"
+    },
     {
       "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
       "sector": "Non précisé",
@@ -21,106 +121,6 @@
       "desc": "Attackers are targeting an OS command injection vulnerability in SiteGuard Server Edition that lets them execute commands as root or SYSTEM on affected servers. [...]",
       "src": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/"
-    },
-    {
-      "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
-      "sector": "Non précisé",
-      "date": "18 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained unauthorized access to the application iden…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html"
-    },
-    {
-      "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
-      "sector": "Non précisé",
-      "date": "17 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application identities and compromised Microsoft 365 tenants. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/"
-    },
-    {
-      "title": "Critical BlockStrap flaw lets hackers run code on Magento servers",
-      "sector": "Retail",
-      "date": "16 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Researchers warn that hackers could soon exploit a maximum-severity vulnerability (CVE-2026-103849) affecting Magento and Adobe Commerce, potentially allowing them to execute arbitrary PHP code on store servers. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/"
-    },
-    {
-      "title": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract",
-      "sector": "Non précisé",
-      "date": "16 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "OpenAI has disclosed seven new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior, including one case where its research model, after not having funds on an Ethereum test network, sp…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html"
-    },
-    {
-      "title": "Burger King Japan data breach exposes 11 million customer records",
-      "sector": "Non précisé",
-      "date": "16 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Burger King Japan, the Japanese subsidiary of global fast-food giant Burger King, disclosed a major data breach after attackers accessed a server containing 11.18 million customer records. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/"
-    },
-    {
-      "title": "BAE Systems cyberattack disrupts US federal court operations",
-      "sector": "Finance",
-      "date": "16 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The Administrative Office of the US Courts says a cyberattack on government contractor BAE Systems has taken down the notice system used by federal bankruptcy courts. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/"
-    },
-    {
-      "title": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
-      "sector": "Non précisé",
-      "date": "16 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "The China-nexus cyber espionage group tracked as Armory Castle (previously UNC5221 or Warp Panda) exploited a newly disclosed security flaw in BeyondTrust Remote Support (formerly Bomgar) as a zero-day in late August 202…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html"
-    },
-    {
-      "title": "BeyondTrust patches zero-day exploited in attacks since August",
-      "sector": "Non précisé",
-      "date": "16 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "BeyondTrust warned customers on Thursday to patch a critical flaw in its Remote Support (RS) that has been exploited in zero-day attacks since late August. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/"
-    },
-    {
-      "title": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
-      "sector": "Non précisé",
-      "date": "15 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Threat actors are exploiting a critical command execution flaw, now tracked as CVE-2026-110447, in the Collabora Online - Built-in CODE Server app (richdocumentscode) for Nextcloud. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/"
-    },
-    {
-      "title": "Hackers hijack D-Link, Ubiquiti devices to resell your stolen bandwidth",
-      "sector": "Non précisé",
-      "date": "15 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "A proxyjacking campaign has impacted devices in 34 countries, monetizing victims' internet connections through a commercial residential proxy network. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-d-link-ubiquiti-devices-to-resell-your-stolen-bandwidth/"
     }
   ],
   "vulns": [
@@ -154,7 +154,7 @@
       "cve": "CVE-2026-21589",
       "product": "Atlassian Multiple Products",
       "type": "Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerabil",
-      "cvss": null,
+      "cvss": 7.5,
       "published": "2026-10-05",
       "exploit": true,
       "poc": "unk",
@@ -224,7 +224,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-10-16",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104935"
     },
@@ -237,7 +237,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-10-16",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96951"
     },
