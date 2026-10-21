@@ -1,129 +1,207 @@
 {
-  "generated_at": "2026-10-20T10:57:01Z",
+  "generated_at": "2026-10-21T11:10:31Z",
   "week_label": "S43 · 19 – 25 octobre 2026",
   "attacks": [
     {
-      "title": "Hackers Hijack Five OVHcloud CLI Releases to Distribute Secret-Stealing Malware",
-      "sector": "Technologie",
-      "date": "20 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "An attacker used a contributor's GitHub account to replace the download archives on five existing releases of OVHcloud's command-line tool on Monday, October 19. The account had been hijacked, and the new files were a bu…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html"
-    },
-    {
-      "title": "ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
-      "sector": "Non précisé",
-      "date": "20 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Siemens has addressed a DLL sideloading vulnerability impacting Siemens Software Center that it said has been exploited in ClickFix attacks. The high-severity vulnerability, tracked as CVE-2026-110936 (CVSS v4 score: 8.4…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html"
-    },
-    {
-      "title": "Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware",
-      "sector": "Non précisé",
-      "date": "20 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "Cybersecurity researchers have disclosed details of a ClickFix delivery platform called ROMULUS that's being used to distribute malware such as Legion Loader. According to Forescout Research - Vedere Labs, ROMULUS is aki…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/romulus-clickfix-platform-tricks-users.html"
-    },
-    {
-      "title": "Nikkei discloses third data breach in a month, 1.8M records exposed",
-      "sector": "Non précisé",
-      "date": "19 Oct 2026",
+      "title": "CISA: SafePay ransomware hit over 600 critical infrastructure orgs",
+      "sector": "Gouvernement",
+      "date": "21 Oct 2026",
       "actor": "Non attribué",
       "sev": "critical",
-      "desc": "Nikkei Inc. disclosed a new data breach, the third in about a month, that exposed 1.83 million personal information records. [...]",
+      "desc": "The Cybersecurity and Infrastructure Security Agency (CISA) says the SafePay ransomware gang has breached over 600 critical infrastructure organizations worldwide since 2024. [...]",
       "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/"
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/"
     },
     {
-      "title": "WordPress SEO plugin Rank Math compromised to backdoor websites",
-      "sector": "Non précisé",
-      "date": "19 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Some downloads of the Rank Math PRO WordPress plugin from the vendor's official website carried malware that planted hidden backdoors in a supply-chain attack last week. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites/"
-    },
-    {
-      "title": "Hackers hijack AOMEI update servers to secretly spread malware",
-      "sector": "Non précisé",
-      "date": "19 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Hackers reportedly compromised AOMEI's servers to distribute malware through a built-in promotional feature in its backup software, briefly tampering with configuration files before restoring them to their original state…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-aomei-update-servers-to-secretly-spread-malware/"
-    },
-    {
-      "title": "Bullhorn takes staffing platform offline to contain cyberattack",
-      "sector": "Technologie",
-      "date": "19 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Staffing software company Bullhorn has disabled access to its platform to contain a cyberattack that caused a system-wide outage. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/bullhorn-takes-staffing-platform-offline-to-contain-cyberattack/"
-    },
-    {
-      "title": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor",
-      "sector": "Non précisé",
-      "date": "19 Oct 2026",
+      "title": "State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web",
+      "sector": "Finance",
+      "date": "21 Oct 2026",
       "actor": "Non attribué",
       "sev": "medium",
-      "desc": "Threat actors have begun to exploit a chain of vulnerabilities in Plex Media Server to deploy cryptocurrency miners and reverse proxy software, a day after a proof-of-concept (PoC) went public. According to a researcher …",
+      "desc": "State Bank of India has identified 3,897 customer records containing personal information in a set of about 375,000 records available on the dark web, and it does not yet know where the data came from. The state-owned ba…",
       "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html"
+      "url": "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html"
     },
     {
-      "title": "OpenCode hack exposes API keys amid AI distillation attacks",
-      "sector": "Non précisé",
-      "date": "19 Oct 2026",
+      "title": "CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws",
+      "sector": "Gouvernement",
+      "date": "21 Oct 2026",
       "actor": "Non attribué",
       "sev": "high",
-      "desc": "The open-source AI coding project OpenCode has notified a small number of users that API keys they used with external providers were exposed in a security breach. [...]",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including four vulnerabilities impacting Plex Media Server that…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html"
+    },
+    {
+      "title": "Hackers Hid Vasilek Backdoor in VMware Tools During 2-Year Russian Healthcare Intrusion",
+      "sector": "Santé",
+      "date": "21 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "A Belarus-aligned hacktivist group spent nearly two years within the network of a Russian healthcare organization. According to a report published by Russian cybersecurity firm Solar, the activity has been attributed to …",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/hackers-hid-vasilek-backdoor-in-vmware.html"
+    },
+    {
+      "title": "Stolen UpdraftCentral keys used to backdoor WordPress sites",
+      "sector": "Non précisé",
+      "date": "20 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "A threat actor breached TeamUpdraft's website, a developer of popular WordPress backup and security plugins, potentially compromising UpdraftCentral connection keys that can send commands to connected websites. [...]",
       "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/"
+      "url": "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/"
     },
     {
-      "title": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
+      "title": "Mozilla, Google, Apple block compromised eMudhra CA certificates",
       "sector": "Non précisé",
-      "date": "19 Oct 2026",
+      "date": "20 Oct 2026",
       "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The threat actor behind the GhostAction supply chain attack has expanded beyond injecting malicious GitHub Actions workflows into compromised projects to phish open-source developers and deliver a stealer malware disguis…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html"
-    },
-    {
-      "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
-      "sector": "Non précisé",
-      "date": "19 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said. Console is OpenCode's optional …",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html"
-    },
-    {
-      "title": "Hackers exploit SiteGuard WAF flaw to run commands as admins",
-      "sector": "Non précisé",
-      "date": "18 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Attackers are targeting an OS command injection vulnerability in SiteGuard Server Edition that lets them execute commands as root or SYSTEM on affected servers. [...]",
+      "sev": "medium",
+      "desc": "Certificate authority eMudhra revoked eight compromised intermediate certificates after researchers found their private keys were so weak that anyone could recover them almost instantly and use them to forge trusted cert…",
       "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/"
+      "url": "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/"
+    },
+    {
+      "title": "PHP warns admins of two critical flaws, emergency patches coming tomorrow",
+      "sector": "Non précisé",
+      "date": "20 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "The PHP security team is warning administrators to prepare for emergency security updates tomorrow to address two critical vulnerabilities, as information about the flaws has reportedly leaked ahead of their scheduled di…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/"
+    },
+    {
+      "title": "Zeabur shutting down after second security breach in two months",
+      "sector": "Non précisé",
+      "date": "20 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Development platform Zeabur has disclosed details of a cybersecurity incident in which an attacker used leaked internal credentials stored in plaintext to compromise its infrastructure and steal over 3.2 million environm…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/"
+    },
+    {
+      "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software",
+      "sector": "Non précisé",
+      "date": "20 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "The private keys of eight eMudhra intermediate certificate authority (CA) certificates are compromised, Mozilla and Google's Chrome Root Program confirms on October 20. An intermediate CA signs the certificates that webs…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html"
+    },
+    {
+      "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
+      "sector": "Non précisé",
+      "date": "20 Oct 2026",
+      "actor": "Qilin",
+      "sev": "high",
+      "desc": "Palo Alto Networks has disclosed that it's continuing to observe exploitation of a now-patched security flaw impacting PAN-OS and Prisma Access by ransomware actors. The activity relates to CVE-2026-0257 (CVSS score: 7.8…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html"
+    },
+    {
+      "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
+      "sector": "Non précisé",
+      "date": "20 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "A Chinese-speaking criminal pointed autonomous AI agents at company websites and let them break in with almost no help, and a security researcher watched it happen because the operators left their control panels open on …",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html"
+    },
+    {
+      "title": "Hacker gets 8 years for stealing $3.3 million from taxpayers",
+      "sector": "Manufacturing",
+      "date": "20 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "A Nigerian national was sentenced to eight years in prison for his involvement in a series of spearphishing attacks targeting US tax preparation businesses since 2019. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hacker-gets-8-years-for-stealing-33-million-from-taxpayers/"
     }
   ],
   "vulns": [
+    {
+      "cve": "CVE-2026-106931",
+      "product": "EG Secure Solutions SiteGuard Server Edition",
+      "type": "EG Secure Solutions SiteGuard Server Edition OS Command Injection Vulnerability",
+      "cvss": 7.8,
+      "published": "2026-10-14",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-10-23",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106931"
+    },
+    {
+      "cve": "CVE-2026-96656",
+      "product": "Plex Media Server",
+      "type": "Plex Media Server External Control of File Name or Path Vulnerability",
+      "cvss": 7.2,
+      "published": "2026-09-23",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-10-23",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96656"
+    },
+    {
+      "cve": "CVE-2026-96655",
+      "product": "Plex Media Server",
+      "type": "Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
+      "cvss": 4.3,
+      "published": "2026-09-23",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-11-03",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96655"
+    },
+    {
+      "cve": "CVE-2026-96654",
+      "product": "Plex Media Server",
+      "type": "Plex Media Server Improper Neutralization of Encoded URI Schemes in a Web Page Vulnerabili",
+      "cvss": 6.5,
+      "published": "2026-09-23",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-10-23",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96654"
+    },
+    {
+      "cve": "CVE-2026-96652",
+      "product": "Plex Media Server",
+      "type": "Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
+      "cvss": 4.3,
+      "published": "2026-09-23",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-11-03",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96652"
+    },
+    {
+      "cve": "CVE-2026-110936",
+      "product": "Siemens Software Center",
+      "type": "Siemens Software Center Uncontrolled Search Path Element Vulnerability",
+      "cvss": 6.7,
+      "published": "2026-10-15",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-11-03",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110936"
+    },
     {
       "cve": "CVE-2026-102764",
       "product": "BeyondTrust Remote Support",
@@ -172,7 +250,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-10-17",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105134"
     },
@@ -185,7 +263,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-10-17",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76519"
     },
@@ -198,7 +276,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-10-17",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105133"
     },
@@ -211,7 +289,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-10-17",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0322"
     },
@@ -305,87 +383,54 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-3306"
-    },
-    {
-      "cve": "CVE-2026-88779",
-      "product": "Citrix NetScaler",
-      "type": "Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer V",
-      "cvss": 7.5,
-      "published": "2026-10-04",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-10-07",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88779"
-    },
-    {
-      "cve": "CVE-2026-102490",
-      "product": "Zammad GmbH Zammad",
-      "type": "Zammad GmbH Zammad Improper Privilege Management Vulnerability",
-      "cvss": 7.8,
-      "published": "2026-09-30",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-10-05",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102490"
-    },
-    {
-      "cve": "CVE-2026-102489",
-      "product": "Zammad GmbH Zammad",
-      "type": "Zammad GmbH Zammad Session Fixation Vulnerability",
-      "cvss": 9.8,
-      "published": "2026-09-30",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-10-05",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102489"
-    },
-    {
-      "cve": "CVE-2026-104286",
-      "product": "Fortinet FortiMail",
-      "type": "Fortinet FortiMail Path Traversal Vulnerability",
-      "cvss": 9.8,
-      "published": "2026-10-01",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-10-04",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104286"
-    },
-    {
-      "cve": "CVE-2026-76504",
-      "product": "Cisco Catalyst SD-WAN Manager",
-      "type": "Cisco Catalyst SD-WAN Manager Hex Encoding Vulnerability",
-      "cvss": 9.8,
-      "published": "2026-09-30",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-10-03",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76504"
-    },
-    {
-      "cve": "CVE-2026-86950",
-      "product": "Apple Multiple Products",
-      "type": "Apple Multiple Products Out-of-Bounds Write Vulnerability",
-      "cvss": 8.8,
-      "published": "2026-09-28",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-10-13",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86950"
     }
   ],
   "actors": [
+    {
+      "name": "SafePay",
+      "type": "RaaS / Extorsion",
+      "desc": "The Cybersecurity and Infrastructure Security Agency (CISA) says the SafePay ransomware gang has breached over 600 critical infrastructure organizations worldwide since 2024. [...]",
+      "victims": "1 mention(s) récente(s) — dernier article : 21 Oct 2026",
+      "region": "Non précisé",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/",
+      "src": "BleepingComputer"
+    },
+    {
+      "name": "Qilin",
+      "type": "RaaS / Extorsion",
+      "desc": "Palo Alto Networks has disclosed that it's continuing to observe exploitation of a now-patched security flaw impacting PAN-OS and Prisma Access by ransomware actors. The activity relates to CVE-2026-0257 (CVSS score: 7.8…",
+      "victims": "1 mention(s) récente(s) — dernier article : 20 Oct 2026",
+      "region": "Non précisé",
+      "url": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
+      "src": "The Hacker News"
+    },
+    {
+      "name": "INC Ransom",
+      "type": "RaaS / Extorsion",
+      "desc": "Palo Alto Networks has disclosed that it's continuing to observe exploitation of a now-patched security flaw impacting PAN-OS and Prisma Access by ransomware actors. The activity relates to CVE-2026-0257 (CVSS score: 7.8…",
+      "victims": "1 mention(s) récente(s) — dernier article : 20 Oct 2026",
+      "region": "Non précisé",
+      "url": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
+      "src": "The Hacker News"
+    },
+    {
+      "name": "APT28",
+      "type": "APT / Espionnage",
+      "desc": "The Russia-linked state-sponsored threat actor tracked as APT28 (aka BlueDelta, Fancy Bear, and Forest Blizzard) has been attributed to attacks targeting two member states of the North Atlantic Treaty Organization (NATO)…",
+      "victims": "1 mention(s) récente(s) — dernier article : 20 Oct 2026",
+      "region": "Non précisé",
+      "url": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html",
+      "src": "The Hacker News"
+    },
+    {
+      "name": "Fancy Bear",
+      "type": "APT / Espionnage",
+      "desc": "The Russia-linked state-sponsored threat actor tracked as APT28 (aka BlueDelta, Fancy Bear, and Forest Blizzard) has been attributed to attacks targeting two member states of the North Atlantic Treaty Organization (NATO)…",
+      "victims": "1 mention(s) récente(s) — dernier article : 20 Oct 2026",
+      "region": "Non précisé",
+      "url": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html",
+      "src": "The Hacker News"
+    },
     {
       "name": "Lynx",
       "type": "RaaS / Extorsion",
@@ -394,149 +439,125 @@
       "region": "Non précisé",
       "url": "https://thehackernews.com/2026/10/silent-lynx-exploits-winrar-flaw-to.html",
       "src": "The Hacker News"
-    },
-    {
-      "name": "Play",
-      "type": "RaaS / Extorsion",
-      "desc": "The Indian government has directed telecom service providers (TSPs) in the country to mandatorily display callers' registered names along with their numbers for incoming calls starting November 1, 2026, in an effort to h…",
-      "victims": "1 mention(s) récente(s) — dernier article : 15 Oct 2026",
-      "region": "Non précisé",
-      "url": "https://thehackernews.com/2026/10/india-mandates-registered-caller-name.html",
-      "src": "The Hacker News"
     }
   ],
   "threats": [
     {
-      "title": "Activité soutenue de Lynx",
-      "desc": "The threat actor known as Silent Lynx has been attributed to a fresh set of attacks targeting government organizations across the Commonwealth of Independent States (CIS). The activity, observed from June 2025 through Au…",
-      "url": "https://thehackernews.com/2026/10/silent-lynx-exploits-winrar-flaw-to.html"
+      "title": "Activité soutenue de SafePay",
+      "desc": "The Cybersecurity and Infrastructure Security Agency (CISA) says the SafePay ransomware gang has breached over 600 critical infrastructure organizations worldwide since 2024. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/"
     },
     {
-      "title": "Activité soutenue de Play",
-      "desc": "The Indian government has directed telecom service providers (TSPs) in the country to mandatorily display callers' registered names along with their numbers for incoming calls starting November 1, 2026, in an effort to h…",
-      "url": "https://thehackernews.com/2026/10/india-mandates-registered-caller-name.html"
+      "title": "Activité soutenue de Qilin",
+      "desc": "Palo Alto Networks has disclosed that it's continuing to observe exploitation of a now-patched security flaw impacting PAN-OS and Prisma Access by ransomware actors. The activity relates to CVE-2026-0257 (CVSS score: 7.8…",
+      "url": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html"
+    },
+    {
+      "title": "Activité soutenue de INC Ransom",
+      "desc": "Palo Alto Networks has disclosed that it's continuing to observe exploitation of a now-patched security flaw impacting PAN-OS and Prisma Access by ransomware actors. The activity relates to CVE-2026-0257 (CVSS score: 7.8…",
+      "url": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html"
     }
   ],
   "iocs": [
     {
-      "type": "sha256_hash",
-      "value": "1bd314b661396c7086f6367fbbb48025e03ca2de69c073d53a8b0a38aa5fbb7d",
+      "type": "domain",
+      "value": "www.autoccb.tech",
       "malware": "Unknown malware",
       "confidence": 100,
-      "first_seen": "2026-10-02",
-      "related_cve": "CVE-2026-88772",
+      "first_seen": "2026-10-20",
+      "related_cve": "CVE-2026-96656",
       "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1945184/"
-    },
-    {
-      "type": "sha256_hash",
-      "value": "79c65fa04541032e251fa4796b97800374b63c7982593dd1a2e0db605d429186",
-      "malware": "Unknown malware",
-      "confidence": 100,
-      "first_seen": "2026-10-02",
-      "related_cve": "CVE-2026-88772",
-      "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1945185/"
+      "source_url": "https://threatfox.abuse.ch/ioc/1975447/"
     },
     {
       "type": "domain",
-      "value": "entretiensol.com",
+      "value": "autoccb.tech",
       "malware": "Unknown malware",
       "confidence": 100,
-      "first_seen": "2026-10-01",
-      "related_cve": "CVE-2026-88771",
+      "first_seen": "2026-10-20",
+      "related_cve": "CVE-2026-96656",
       "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1943576/"
+      "source_url": "https://threatfox.abuse.ch/ioc/1975448/"
     },
     {
-      "type": "sha256_hash",
-      "value": "73b74309f4728d169cc9edfb2767c5aadd75d39b62de93c935a86c777d2646bc",
+      "type": "url",
+      "value": "https://www.autoccb.tech/api/v1/poll",
       "malware": "Unknown malware",
       "confidence": 100,
-      "first_seen": "2026-10-01",
-      "related_cve": "CVE-2026-88771",
+      "first_seen": "2026-10-20",
+      "related_cve": "CVE-2026-96656",
       "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1943572/"
+      "source_url": "https://threatfox.abuse.ch/ioc/1975454/"
     },
     {
-      "type": "sha256_hash",
-      "value": "57f9f30c50240fd48d761de7961a430cdebf2c084a36bc76d376a1ce8e6dfa9d",
+      "type": "url",
+      "value": "https://www.autoccb.tech/api/v1/result",
       "malware": "Unknown malware",
       "confidence": 100,
-      "first_seen": "2026-10-01",
-      "related_cve": "CVE-2026-88771",
+      "first_seen": "2026-10-20",
+      "related_cve": "CVE-2026-96656",
       "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1943571/"
+      "source_url": "https://threatfox.abuse.ch/ioc/1975455/"
     },
     {
       "type": "sha256_hash",
-      "value": "6f5a2a452a7901323abd21879c6cecccb47c06aeeaccb1b467212f3b11e4b1e7",
+      "value": "cababb6448ee3f2a274f516dc6b0fdc9f47d084a84d7bd164546c9c4b1755d44",
       "malware": "Unknown malware",
-      "confidence": 75,
-      "first_seen": "2026-10-01",
-      "related_cve": "CVE-2026-88771",
+      "confidence": 100,
+      "first_seen": "2026-10-20",
+      "related_cve": "CVE-2026-96656",
       "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1943772/"
-    },
-    {
-      "type": "sha256_hash",
-      "value": "ed082f744f035035900f67edf438f2f7d0528ac501234f63d476d65273cdb9a1",
-      "malware": "Unknown malware",
-      "confidence": 75,
-      "first_seen": "2026-10-01",
-      "related_cve": "CVE-2026-88771",
-      "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1943773/"
-    },
-    {
-      "type": "sha256_hash",
-      "value": "5ea5ea61e9062822bee3f66ef5ff47c217178d9e31936ad6daf10c5dfae44d12",
-      "malware": "Unknown malware",
-      "confidence": 75,
-      "first_seen": "2026-10-01",
-      "related_cve": "CVE-2026-88771",
-      "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1943774/"
-    },
-    {
-      "type": "sha256_hash",
-      "value": "ae22ef2517b5c0fb47f78745b9cb5260acee0e751b89bcd354640ff8bc8d29ec",
-      "malware": "Unknown malware",
-      "confidence": 75,
-      "first_seen": "2026-10-01",
-      "related_cve": "CVE-2026-88771",
-      "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1943776/"
-    },
-    {
-      "type": "sha256_hash",
-      "value": "7add390ceee4a1373211b3e340451b34f08965fc4d805f94c9b8cebdc0775774",
-      "malware": "Unknown malware",
-      "confidence": 75,
-      "first_seen": "2026-10-01",
-      "related_cve": "CVE-2026-88771",
-      "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1943775/"
+      "source_url": "https://threatfox.abuse.ch/ioc/1975459/"
     },
     {
       "type": "ip:port",
-      "value": "89.44.80.7:58963",
+      "value": "202.78.167.55:8765",
       "malware": "Unknown malware",
-      "confidence": 75,
-      "first_seen": "2026-10-01",
-      "related_cve": "CVE-2026-88771",
+      "confidence": 100,
+      "first_seen": "2026-10-20",
+      "related_cve": "CVE-2026-96656",
       "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1943578/"
+      "source_url": "https://threatfox.abuse.ch/ioc/1975458/"
     },
     {
-      "type": "ip:port",
-      "value": "45.141.21.130:443",
+      "type": "sha256_hash",
+      "value": "f083b3647e50fb548c2b97887e51927bc62b429aaa7c4828e316bd5ef6503453",
       "malware": "Unknown malware",
-      "confidence": 75,
-      "first_seen": "2026-10-01",
-      "related_cve": "CVE-2026-88771",
+      "confidence": 100,
+      "first_seen": "2026-10-20",
+      "related_cve": "CVE-2026-96656",
       "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1943577/"
+      "source_url": "https://threatfox.abuse.ch/ioc/1975460/"
+    },
+    {
+      "type": "sha256_hash",
+      "value": "6915f57c96c880803863d30eefaa5e3fe3923e11c948cb6747c68478d2e6cf40",
+      "malware": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-10-20",
+      "related_cve": "CVE-2026-96656",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1975462/"
+    },
+    {
+      "type": "sha256_hash",
+      "value": "50e93e8d8c26bd95d0ba91ba9b7c5c15532050866f52c3aef04f9773b7418767",
+      "malware": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-10-20",
+      "related_cve": "CVE-2026-96656",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1975461/"
+    },
+    {
+      "type": "sha256_hash",
+      "value": "f599491cce46b1d94c762eff392458ae015e7163620b07ad7ceaa16708b1bf4f",
+      "malware": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-10-20",
+      "related_cve": "CVE-2026-96656",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1975463/"
     }
   ]
 }
