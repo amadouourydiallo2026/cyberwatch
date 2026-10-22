@@ -1,7 +1,87 @@
 {
-  "generated_at": "2026-10-21T11:10:31Z",
+  "generated_at": "2026-10-22T11:10:26Z",
   "week_label": "S43 · 19 – 25 octobre 2026",
   "attacks": [
+    {
+      "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
+      "sector": "Énergie",
+      "date": "22 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "LiteLLM on Wednesday disclosed that threat actors compromised \"multiple independent security controls\" to push a malicious version of the Python package containing a credential stealer and a backdoor. On October 21, 2026…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html"
+    },
+    {
+      "title": "Authorities disrupt nearly 11,000 cybercrime networks in Africa",
+      "sector": "Manufacturing",
+      "date": "22 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Law enforcement agencies have disrupted nearly 11,000 cybercriminal networks and arrested more than 1,400 people in Operation Serengeti III, which targeted business email compromise, ransomware, and online scams. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa/"
+    },
+    {
+      "title": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
+      "sector": "Finance",
+      "date": "22 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Microsoft on Wednesday disclosed that a China state-aligned actor dubbed Storm-0940 was behind the recent supply chain compromise of the ConnectWise Cloud Backup application. During the incident, Storm-0940 used ARTEX, a…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html"
+    },
+    {
+      "title": "Japan's Onamae Desktop Cloud hacked, up to 27,000 servers affected",
+      "sector": "Non précisé",
+      "date": "21 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Hackers compromised the infrastructure of Onamae Desktop Cloud, a popular provider of VPS services in Japan, and installed malware on up to 26,739 customers' servers. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/"
+    },
+    {
+      "title": "Lazarus hackers use post-quantum cryptography for malware delivery",
+      "sector": "Non précisé",
+      "date": "21 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "North Korean hackers are using a post-quantum cryptographic mechanism to secure malicious payload delivery in new operations that combine old and new malware. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/"
+    },
+    {
+      "title": "CISA: Hackers chain Plex flaws in Plex2Shell attacks to breach servers",
+      "sector": "Gouvernement",
+      "date": "21 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that attackers are actively exploiting four vulnerabilities in Plex Media Server. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/"
+    },
+    {
+      "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
+      "sector": "Non précisé",
+      "date": "21 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The popular LiteLLM Python package has been compromised as part of a software supply chain attack that delivered a credential stealer and a backdoor, according to reports from SafeDep, Socket, StepSecurity, and Upwind. T…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html"
+    },
+    {
+      "title": "OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So",
+      "sector": "Non précisé",
+      "date": "21 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "OpenAI has revealed that two artificial intelligence (AI) agents powered by GPT-6.1 Sol and GPT-6 Astra weakened misalignment monitoring while making requested software changes during two internal coding tasks. The AI co…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html"
+    },
     {
       "title": "CISA: SafePay ransomware hit over 600 critical infrastructure orgs",
       "sector": "Gouvernement",
@@ -41,86 +121,6 @@
       "desc": "A Belarus-aligned hacktivist group spent nearly two years within the network of a Russian healthcare organization. According to a report published by Russian cybersecurity firm Solar, the activity has been attributed to …",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/10/hackers-hid-vasilek-backdoor-in-vmware.html"
-    },
-    {
-      "title": "Stolen UpdraftCentral keys used to backdoor WordPress sites",
-      "sector": "Non précisé",
-      "date": "20 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "A threat actor breached TeamUpdraft's website, a developer of popular WordPress backup and security plugins, potentially compromising UpdraftCentral connection keys that can send commands to connected websites. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/"
-    },
-    {
-      "title": "Mozilla, Google, Apple block compromised eMudhra CA certificates",
-      "sector": "Non précisé",
-      "date": "20 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "Certificate authority eMudhra revoked eight compromised intermediate certificates after researchers found their private keys were so weak that anyone could recover them almost instantly and use them to forge trusted cert…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/"
-    },
-    {
-      "title": "PHP warns admins of two critical flaws, emergency patches coming tomorrow",
-      "sector": "Non précisé",
-      "date": "20 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "The PHP security team is warning administrators to prepare for emergency security updates tomorrow to address two critical vulnerabilities, as information about the flaws has reportedly leaked ahead of their scheduled di…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/"
-    },
-    {
-      "title": "Zeabur shutting down after second security breach in two months",
-      "sector": "Non précisé",
-      "date": "20 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Development platform Zeabur has disclosed details of a cybersecurity incident in which an attacker used leaked internal credentials stored in plaintext to compromise its infrastructure and steal over 3.2 million environm…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/"
-    },
-    {
-      "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software",
-      "sector": "Non précisé",
-      "date": "20 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "The private keys of eight eMudhra intermediate certificate authority (CA) certificates are compromised, Mozilla and Google's Chrome Root Program confirms on October 20. An intermediate CA signs the certificates that webs…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html"
-    },
-    {
-      "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
-      "sector": "Non précisé",
-      "date": "20 Oct 2026",
-      "actor": "Qilin",
-      "sev": "high",
-      "desc": "Palo Alto Networks has disclosed that it's continuing to observe exploitation of a now-patched security flaw impacting PAN-OS and Prisma Access by ransomware actors. The activity relates to CVE-2026-0257 (CVSS score: 7.8…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html"
-    },
-    {
-      "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
-      "sector": "Non précisé",
-      "date": "20 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "A Chinese-speaking criminal pointed autonomous AI agents at company websites and let them break in with almost no help, and a security researcher watched it happen because the operators left their control panels open on …",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html"
-    },
-    {
-      "title": "Hacker gets 8 years for stealing $3.3 million from taxpayers",
-      "sector": "Manufacturing",
-      "date": "20 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "A Nigerian national was sentenced to eight years in prison for his involvement in a series of spearphishing attacks targeting US tax preparation businesses since 2019. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hacker-gets-8-years-for-stealing-33-million-from-taxpayers/"
     }
   ],
   "vulns": [
@@ -237,7 +237,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-10-18",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21589"
     },
@@ -387,6 +387,15 @@
   ],
   "actors": [
     {
+      "name": "Lazarus",
+      "type": "APT / Espionnage",
+      "desc": "North Korean hackers are using a post-quantum cryptographic mechanism to secure malicious payload delivery in new operations that combine old and new malware. [...]",
+      "victims": "1 mention(s) récente(s) — dernier article : 21 Oct 2026",
+      "region": "Non précisé",
+      "url": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/",
+      "src": "BleepingComputer"
+    },
+    {
       "name": "SafePay",
       "type": "RaaS / Extorsion",
       "desc": "The Cybersecurity and Infrastructure Security Agency (CISA) says the SafePay ransomware gang has breached over 600 critical infrastructure organizations worldwide since 2024. [...]",
@@ -430,18 +439,14 @@
       "region": "Non précisé",
       "url": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html",
       "src": "The Hacker News"
-    },
-    {
-      "name": "Lynx",
-      "type": "RaaS / Extorsion",
-      "desc": "The threat actor known as Silent Lynx has been attributed to a fresh set of attacks targeting government organizations across the Commonwealth of Independent States (CIS). The activity, observed from June 2025 through Au…",
-      "victims": "1 mention(s) récente(s) — dernier article : 15 Oct 2026",
-      "region": "Non précisé",
-      "url": "https://thehackernews.com/2026/10/silent-lynx-exploits-winrar-flaw-to.html",
-      "src": "The Hacker News"
     }
   ],
   "threats": [
+    {
+      "title": "Activité soutenue de Lazarus",
+      "desc": "North Korean hackers are using a post-quantum cryptographic mechanism to secure malicious payload delivery in new operations that combine old and new malware. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/"
+    },
     {
       "title": "Activité soutenue de SafePay",
       "desc": "The Cybersecurity and Infrastructure Security Agency (CISA) says the SafePay ransomware gang has breached over 600 critical infrastructure organizations worldwide since 2024. [...]",
@@ -449,11 +454,6 @@
     },
     {
       "title": "Activité soutenue de Qilin",
-      "desc": "Palo Alto Networks has disclosed that it's continuing to observe exploitation of a now-patched security flaw impacting PAN-OS and Prisma Access by ransomware actors. The activity relates to CVE-2026-0257 (CVSS score: 7.8…",
-      "url": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html"
-    },
-    {
-      "title": "Activité soutenue de INC Ransom",
       "desc": "Palo Alto Networks has disclosed that it's continuing to observe exploitation of a now-patched security flaw impacting PAN-OS and Prisma Access by ransomware actors. The activity relates to CVE-2026-0257 (CVSS score: 7.8…",
       "url": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html"
     }
