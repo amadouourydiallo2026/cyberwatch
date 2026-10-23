@@ -1,7 +1,57 @@
 {
-  "generated_at": "2026-10-22T11:10:26Z",
+  "generated_at": "2026-10-23T11:01:41Z",
   "week_label": "S43 · 19 – 25 octobre 2026",
   "attacks": [
+    {
+      "title": "Railway warns devs to rotate secrets after potential breach",
+      "sector": "Transport",
+      "date": "22 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Cloud platform Railway published an urgent warning to users after detecting suspicious activity on its systems that store customer environment variables earlier this week. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/"
+    },
+    {
+      "title": "Capcom confirms data breach affecting 11.7 million accounts",
+      "sector": "Non précisé",
+      "date": "22 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Japanese gaming giant Capcom has confirmed that hackers breached its membership service, CAPCOM ID, exposing more than 11.7 million customer email addresses and associated information. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/"
+    },
+    {
+      "title": "LiteLLM release pipeline hacked to distribute info-stealer malware",
+      "sector": "Énergie",
+      "date": "22 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Hackers compromised the LiteLLM project's PyPI package and published malicious Docker images with a payload that steals credentials, secrets, and environment variables. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/"
+    },
+    {
+      "title": "ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More",
+      "sector": "Non précisé",
+      "date": "22 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "This week has already been rough for cybersecurity. Critical PHP and GitLab RCE flaws, serious Linux security bugs, compromised eMudhra certificates, a Node.js RCE flaw, a hacked LiteLLM release, and hundreds of hijacked…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html"
+    },
+    {
+      "title": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
+      "sector": "Non précisé",
+      "date": "22 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Arista Networks released security updates to patch an actively exploited zero-day vulnerability affecting VeloCloud Orchestrator (VCO) On-Prem deployments. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/"
+    },
     {
       "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
       "sector": "Énergie",
@@ -71,56 +121,6 @@
       "desc": "The popular LiteLLM Python package has been compromised as part of a software supply chain attack that delivered a credential stealer and a backdoor, according to reports from SafeDep, Socket, StepSecurity, and Upwind. T…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html"
-    },
-    {
-      "title": "OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So",
-      "sector": "Non précisé",
-      "date": "21 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "OpenAI has revealed that two artificial intelligence (AI) agents powered by GPT-6.1 Sol and GPT-6 Astra weakened misalignment monitoring while making requested software changes during two internal coding tasks. The AI co…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html"
-    },
-    {
-      "title": "CISA: SafePay ransomware hit over 600 critical infrastructure orgs",
-      "sector": "Gouvernement",
-      "date": "21 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "The Cybersecurity and Infrastructure Security Agency (CISA) says the SafePay ransomware gang has breached over 600 critical infrastructure organizations worldwide since 2024. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/"
-    },
-    {
-      "title": "State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web",
-      "sector": "Finance",
-      "date": "21 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "State Bank of India has identified 3,897 customer records containing personal information in a set of about 375,000 records available on the dark web, and it does not yet know where the data came from. The state-owned ba…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html"
-    },
-    {
-      "title": "CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws",
-      "sector": "Gouvernement",
-      "date": "21 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including four vulnerabilities impacting Plex Media Server that…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html"
-    },
-    {
-      "title": "Hackers Hid Vasilek Backdoor in VMware Tools During 2-Year Russian Healthcare Intrusion",
-      "sector": "Santé",
-      "date": "21 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "A Belarus-aligned hacktivist group spent nearly two years within the network of a Russian healthcare organization. According to a report published by Russian cybersecurity firm Solar, the activity has been attributed to …",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/hackers-hid-vasilek-backdoor-in-vmware.html"
     }
   ],
   "vulns": [
@@ -211,7 +211,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-10-19",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102764"
     },
@@ -224,7 +224,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-10-19",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61624"
     },
@@ -396,15 +396,6 @@
       "src": "BleepingComputer"
     },
     {
-      "name": "SafePay",
-      "type": "RaaS / Extorsion",
-      "desc": "The Cybersecurity and Infrastructure Security Agency (CISA) says the SafePay ransomware gang has breached over 600 critical infrastructure organizations worldwide since 2024. [...]",
-      "victims": "1 mention(s) récente(s) — dernier article : 21 Oct 2026",
-      "region": "Non précisé",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/",
-      "src": "BleepingComputer"
-    },
-    {
       "name": "Qilin",
       "type": "RaaS / Extorsion",
       "desc": "Palo Alto Networks has disclosed that it's continuing to observe exploitation of a now-patched security flaw impacting PAN-OS and Prisma Access by ransomware actors. The activity relates to CVE-2026-0257 (CVSS score: 7.8…",
@@ -448,12 +439,12 @@
       "url": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/"
     },
     {
-      "title": "Activité soutenue de SafePay",
-      "desc": "The Cybersecurity and Infrastructure Security Agency (CISA) says the SafePay ransomware gang has breached over 600 critical infrastructure organizations worldwide since 2024. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/"
+      "title": "Activité soutenue de Qilin",
+      "desc": "Palo Alto Networks has disclosed that it's continuing to observe exploitation of a now-patched security flaw impacting PAN-OS and Prisma Access by ransomware actors. The activity relates to CVE-2026-0257 (CVSS score: 7.8…",
+      "url": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html"
     },
     {
-      "title": "Activité soutenue de Qilin",
+      "title": "Activité soutenue de INC Ransom",
       "desc": "Palo Alto Networks has disclosed that it's continuing to observe exploitation of a now-patched security flaw impacting PAN-OS and Prisma Access by ransomware actors. The activity relates to CVE-2026-0257 (CVSS score: 7.8…",
       "url": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html"
     }
