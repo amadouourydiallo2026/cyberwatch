@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-10-24T10:17:58Z",
+  "generated_at": "2026-10-25T10:43:19Z",
   "week_label": "S43 · 19 – 25 octobre 2026",
   "attacks": [
+    {
+      "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
+      "sector": "Non précisé",
+      "date": "24 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "A new UEFI bootkit named BlackX, deployed in an espionage campaign in early 2026, exploited the old Baton Drop vulnerability to bypass Secure Boot and load a malicious driver designed to interfere with security solutions…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/"
+    },
+    {
+      "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
+      "sector": "Énergie",
+      "date": "24 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python pac…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html"
+    },
     {
       "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
       "sector": "Gouvernement",
@@ -101,26 +121,6 @@
       "desc": "This week has already been rough for cybersecurity. Critical PHP and GitLab RCE flaws, serious Linux security bugs, compromised eMudhra certificates, a Node.js RCE flaw, a hacked LiteLLM release, and hundreds of hijacked…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html"
-    },
-    {
-      "title": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
-      "sector": "Non précisé",
-      "date": "22 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Arista Networks released security updates to patch an actively exploited zero-day vulnerability affecting VeloCloud Orchestrator (VCO) On-Prem deployments. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/"
-    },
-    {
-      "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
-      "sector": "Énergie",
-      "date": "22 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "LiteLLM on Wednesday disclosed that threat actors compromised \"multiple independent security controls\" to push a malicious version of the Python package containing a credential stealer and a backdoor. On October 21, 2026…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html"
     }
   ],
   "vulns": [
@@ -443,6 +443,106 @@
   "iocs": [
     {
       "type": "url",
+      "value": "http://94.154.43.7:8952/item.xml",
+      "malware": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-10-25",
+      "related_cve": "CVE-2026-96652",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1984349/"
+    },
+    {
+      "type": "url",
+      "value": "http://94.154.43.7:8952/24f46c5316be/item.xml",
+      "malware": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-10-25",
+      "related_cve": "CVE-2026-96652",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1984350/"
+    },
+    {
+      "type": "url",
+      "value": "http://94.154.43.7:8952/477617d055ce/item.xml",
+      "malware": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-10-25",
+      "related_cve": "CVE-2026-96652",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1984351/"
+    },
+    {
+      "type": "url",
+      "value": "http://94.154.43.7:8952/a7443820956a/item.xml",
+      "malware": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-10-25",
+      "related_cve": "CVE-2026-96652",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1984352/"
+    },
+    {
+      "type": "url",
+      "value": "http://94.154.43.7:8952/e2d4354829dd/item.xml",
+      "malware": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-10-25",
+      "related_cve": "CVE-2026-96652",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1984353/"
+    },
+    {
+      "type": "url",
+      "value": "http://85.11.167.7:12103/item.xml",
+      "malware": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-10-25",
+      "related_cve": "CVE-2026-96652",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1984354/"
+    },
+    {
+      "type": "url",
+      "value": "http://85.11.167.7:12898/item.xml",
+      "malware": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-10-25",
+      "related_cve": "CVE-2026-96652",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1984355/"
+    },
+    {
+      "type": "url",
+      "value": "http://85.11.167.7:13013/item.xml",
+      "malware": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-10-25",
+      "related_cve": "CVE-2026-96652",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1984356/"
+    },
+    {
+      "type": "url",
+      "value": "http://91-92-40-202.sslip.io:44519/item.xml",
+      "malware": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-10-25",
+      "related_cve": "CVE-2026-96652",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1984357/"
+    },
+    {
+      "type": "url",
+      "value": "http://64.89.163.22:39977/item_835.xml",
+      "malware": "Unknown malware",
+      "confidence": 100,
+      "first_seen": "2026-10-25",
+      "related_cve": "CVE-2026-96652",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1984358/"
+    },
+    {
+      "type": "url",
       "value": "http://212.83.185.19/footerd.png",
       "malware": "XMRIG",
       "confidence": 100,
@@ -540,106 +640,6 @@
       "related_cve": "CVE-2026-96656",
       "source": "ThreatFox",
       "source_url": "https://threatfox.abuse.ch/ioc/1975455/"
-    },
-    {
-      "type": "sha256_hash",
-      "value": "cababb6448ee3f2a274f516dc6b0fdc9f47d084a84d7bd164546c9c4b1755d44",
-      "malware": "Unknown malware",
-      "confidence": 100,
-      "first_seen": "2026-10-20",
-      "related_cve": "CVE-2026-96656",
-      "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1975459/"
-    },
-    {
-      "type": "ip:port",
-      "value": "202.78.167.55:8765",
-      "malware": "Unknown malware",
-      "confidence": 100,
-      "first_seen": "2026-10-20",
-      "related_cve": "CVE-2026-96656",
-      "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1975458/"
-    },
-    {
-      "type": "sha256_hash",
-      "value": "f083b3647e50fb548c2b97887e51927bc62b429aaa7c4828e316bd5ef6503453",
-      "malware": "Unknown malware",
-      "confidence": 100,
-      "first_seen": "2026-10-20",
-      "related_cve": "CVE-2026-96656",
-      "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1975460/"
-    },
-    {
-      "type": "sha256_hash",
-      "value": "6915f57c96c880803863d30eefaa5e3fe3923e11c948cb6747c68478d2e6cf40",
-      "malware": "Unknown malware",
-      "confidence": 100,
-      "first_seen": "2026-10-20",
-      "related_cve": "CVE-2026-96656",
-      "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1975462/"
-    },
-    {
-      "type": "sha256_hash",
-      "value": "50e93e8d8c26bd95d0ba91ba9b7c5c15532050866f52c3aef04f9773b7418767",
-      "malware": "Unknown malware",
-      "confidence": 100,
-      "first_seen": "2026-10-20",
-      "related_cve": "CVE-2026-96656",
-      "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1975461/"
-    },
-    {
-      "type": "sha256_hash",
-      "value": "f599491cce46b1d94c762eff392458ae015e7163620b07ad7ceaa16708b1bf4f",
-      "malware": "Unknown malware",
-      "confidence": 100,
-      "first_seen": "2026-10-20",
-      "related_cve": "CVE-2026-96656",
-      "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1975463/"
-    },
-    {
-      "type": "ip:port",
-      "value": "103.194.186.118:19999",
-      "malware": "XMRIG",
-      "confidence": 95,
-      "first_seen": "2026-10-23",
-      "related_cve": "CVE-2026-110447",
-      "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1982213/"
-    },
-    {
-      "type": "ip:port",
-      "value": "212.83.185.19:80",
-      "malware": "XMRIG",
-      "confidence": 95,
-      "first_seen": "2026-10-23",
-      "related_cve": "CVE-2026-110447",
-      "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1982217/"
-    },
-    {
-      "type": "ip:port",
-      "value": "212.83.185.19:443",
-      "malware": "XMRIG",
-      "confidence": 95,
-      "first_seen": "2026-10-23",
-      "related_cve": "CVE-2026-110447",
-      "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1982218/"
-    },
-    {
-      "type": "url",
-      "value": "http://cqzbr8a4.requestrepo.com",
-      "malware": "XMRIG",
-      "confidence": 90,
-      "first_seen": "2026-10-23",
-      "related_cve": "CVE-2026-110447",
-      "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1982219/"
     }
   ]
 }
