@@ -1,129 +1,155 @@
 {
-  "generated_at": "2026-10-26T12:16:16Z",
+  "generated_at": "2026-10-27T11:37:19Z",
   "week_label": "S44 · 26 octobre – 1 novembre 2026",
   "attacks": [
     {
-      "title": "Kali Linux 2026.3 released with 6 new tools, desktop updates",
+      "title": "Apple backports CoreGraphics zero-day patches to older iPhones",
       "sector": "Non précisé",
-      "date": "26 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "Kali Linux has released version 2026.3, its third release this year, featuring six new hacking tools, desktop environment improvements, refreshed build scripts, and more. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/"
-    },
-    {
-      "title": "PHP2Shell security flaws now sucessfully exploited in the wild",
-      "sector": "Non précisé",
-      "date": "26 Oct 2026",
+      "date": "27 Oct 2026",
       "actor": "Non attribué",
       "sev": "critical",
-      "desc": "Two critical RCE vulnerabilities (CVE-2026-109618 and CVE-2026-109619), collectively tracked as PHP2Shell, have been successfully exploited in the wild. [...]",
+      "desc": "​Apple has backported security patches released last month to older iPhones and iPads, addressing a zero-day bug exploited in \"extremely sophisticated\" targeted attacks on iOS devices. [...]",
       "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/"
+      "url": "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/"
     },
     {
-      "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
-      "sector": "Non précisé",
-      "date": "26 Oct 2026",
-      "actor": "Play",
-      "sev": "high",
-      "desc": "Cybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle (AitM) relay to capture sign-in sessions and then replay the stolen tokens to break into emai…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html"
-    },
-    {
-      "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
-      "sector": "Non précisé",
-      "date": "25 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week. The attack requires two things: Tailsc…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html"
-    },
-    {
-      "title": "PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity",
-      "sector": "Gouvernement",
-      "date": "25 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "In an update, Palo Alto Networks Unit 42 said it's retracting its earlier assessment that the post-compromise activity targeting the European government agency involved the exploitation of the PHP2Shell flaws. \"What rese…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html"
-    },
-    {
-      "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
-      "sector": "Non précisé",
-      "date": "24 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "A new UEFI bootkit named BlackX, deployed in an espionage campaign in early 2026, exploited the old Baton Drop vulnerability to bypass Secure Boot and load a malicious driver designed to interfere with security solutions…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/"
-    },
-    {
-      "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
+      "title": "Energy giant ENGIE discloses data breach affecting customers",
       "sector": "Énergie",
-      "date": "24 Oct 2026",
+      "date": "27 Oct 2026",
       "actor": "Non attribué",
       "sev": "high",
-      "desc": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python pac…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html"
+      "desc": "French energy giant ENGIE, one of the world's largest power and natural gas providers, confirmed that attackers stole customer data after breaching a marketing platform used by business partners. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/"
     },
     {
-      "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
+      "title": "CISA confirms PHP2Shell vulnerabilities now exploited in attacks",
       "sector": "Gouvernement",
-      "date": "24 Oct 2026",
+      "date": "27 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added the PHP2Shell vulnerabilities to its catalog of actively exploited security flaws and ordered federal agencies to patch their systems by Thursday…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/"
+    },
+    {
+      "title": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses",
+      "sector": "Non précisé",
+      "date": "27 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The Computer Emergency Response Team of Ukraine (CERT-UA) has issued an alert warning of unauthorized remote access to video surveillance systems manufactured by Dahua. \"Cases of compromising IP cameras and DVRs with acc…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html"
+    },
+    {
+      "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
+      "sector": "Gouvernement",
+      "date": "27 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell flaws by adding them to its Known Exploited Vulnerabilities (KEV) catalog. The PH…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html"
+    },
+    {
+      "title": "University of Copenhagen data breach exposes data of 525,000 people",
+      "sector": "Éducation",
+      "date": "26 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The University of Copenhagen in Denmark confirmed that hackers accessed one of its test environments containing personal data belonging to 525,000 people. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/"
+    },
+    {
+      "title": "Former pentester used ARTEX AI to steal 8.2 million data records",
+      "sector": "Non précisé",
+      "date": "26 Oct 2026",
       "actor": "Non attribué",
       "sev": "critical",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator (VCO) to its Known Exploited Vulnerab…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html"
+      "desc": "South Korean police identified seven suspects linked to a cybercrime operation that breached more than 90 organizations in the country, with ARTEX AI pentesting framework used in most of the attacks. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/"
     },
     {
-      "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
+      "title": "DreamHost forces password resets in ongoing \"incident\"",
       "sector": "Non précisé",
-      "date": "24 Oct 2026",
+      "date": "26 Oct 2026",
       "actor": "Non attribué",
       "sev": "medium",
-      "desc": "Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX. The activity, which singled out diplomatic entities in Tajikistan, Uz…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html"
-    },
-    {
-      "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
-      "sector": "Non précisé",
-      "date": "23 Oct 2026",
-      "actor": "The Gentlemen",
-      "sev": "high",
-      "desc": "Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups. Central to the operation is an \"Autonomous Red Team K…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html"
-    },
-    {
-      "title": "Quest Diagnostics confirms data breach exposed patient records",
-      "sector": "Santé",
-      "date": "23 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "American clinical laboratory company Quest Diagnostics disclosed that patient records have been exposed after a threat actor gained unauthorized access to its Quanum LSM system. [...]",
+      "desc": "DreamHost has forced password resets for email and FTP/SFTP users following an incident that disrupted connections to the File Manager interface. [...]",
       "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/"
+      "url": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/"
     },
     {
-      "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
+      "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
+      "sector": "Retail",
+      "date": "26 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "An unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2025. According to Dutch e-commerce security company Sansec, the activity is desi…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html"
+    },
+    {
+      "title": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
       "sector": "Non précisé",
-      "date": "23 Oct 2026",
+      "date": "26 Oct 2026",
       "actor": "Non attribué",
       "sev": "high",
-      "desc": "Cybersecurity researchers have disclosed details of a large-scale campaign that has targeted exposed network edge devices such as Fortinet FortiGate and Palo Alto Networks GlobalProtect firewalls. \"Artifacts from this in…",
+      "desc": "Cybersecurity researchers are calling attention to what they say is a \"recurring social engineering pattern\" across hundreds of cases in which threat actors use Microsoft Teams' external chat creation feature to conduct …",
       "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html"
+      "url": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html"
+    },
+    {
+      "title": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
+      "sector": "Non précisé",
+      "date": "26 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "This2Shell, That2Shell, Everything2Shell. That's pretty much how the last week went. Critical bugs that let attackers run code remotely are showing up everywhere. Hackers are scanning for targets, some flaws are already …",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html"
+    },
+    {
+      "title": "When an AI Agent Is the Incident, the Identity Record Is the Evidence",
+      "sector": "Non précisé",
+      "date": "26 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "A new NIST, CISA, and NSA guide treats runaway agents as incidents to be rehearsed. The hard part of the response is answering whose authority the agent used, and that answer has to exist before the incident does. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/"
     }
   ],
   "vulns": [
+    {
+      "cve": "CVE-2026-109618",
+      "product": "PHP Group PHP",
+      "type": "PHP Memory Corruption Vulnerability",
+      "cvss": 9.8,
+      "published": "2026-10-21",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-10-29",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109618"
+    },
+    {
+      "cve": "CVE-2026-109619",
+      "product": "PHP Group PHP",
+      "type": "PHP Stale Internal Request-State Vulnerability",
+      "cvss": 8.1,
+      "published": "2026-10-21",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-10-29",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109619"
+    },
     {
       "cve": "CVE-2026-114625",
       "product": "Arista VeloCloud Orchestrator",
@@ -141,7 +167,7 @@
       "cve": "CVE-2026-110447",
       "product": "Collabora Collabora Online – Built-in CODE Server",
       "type": "Collabora Online – Built-in CODE Server OS Command Injection Vulnerability",
-      "cvss": null,
+      "cvss": 9.8,
       "published": "2026-10-14",
       "exploit": true,
       "poc": "unk",
@@ -159,7 +185,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-10-23",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106931"
     },
@@ -172,7 +198,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-10-23",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96656"
     },
@@ -185,7 +211,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-11-03",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96655"
     },
@@ -198,7 +224,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-10-23",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96654"
     },
@@ -211,7 +237,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-11-03",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96652"
     },
@@ -224,7 +250,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-11-03",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110936"
     },
@@ -357,32 +383,6 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-5477"
-    },
-    {
-      "cve": "CVE-2016-3081",
-      "product": "Apache Struts",
-      "type": "Apache Struts Command Injection Vulnerability",
-      "cvss": 8.1,
-      "published": "2016-04-26",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-10-11",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-3081"
-    },
-    {
-      "cve": "CVE-2023-22894",
-      "product": "Strapi Strapi",
-      "type": "Strapi Cleartext Storage of Sensitive Information Vulnerability",
-      "cvss": 4.9,
-      "published": "2023-04-19",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-10-11",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-22894"
     }
   ],
   "actors": [
@@ -534,103 +534,103 @@
     },
     {
       "type": "url",
-      "value": "http://212.83.185.19/footerd.png",
-      "malware": "XMRIG",
+      "value": "https://217.60.102.5/sh",
+      "malware": "RedTail",
       "confidence": 100,
       "first_seen": "2026-10-23",
-      "related_cve": "CVE-2026-110447",
+      "related_cve": "CVE-2026-109618",
       "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1982215/"
+      "source_url": "https://threatfox.abuse.ch/ioc/1982165/"
     },
     {
       "type": "url",
-      "value": "http://212.83.185.19/bottom-xe.png",
-      "malware": "XMRIG",
+      "value": "https://217.60.103.56/sh",
+      "malware": "RedTail",
       "confidence": 100,
       "first_seen": "2026-10-23",
-      "related_cve": "CVE-2026-110447",
+      "related_cve": "CVE-2026-109618",
       "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1982216/"
+      "source_url": "https://threatfox.abuse.ch/ioc/1982166/"
     },
     {
-      "type": "sha256_hash",
-      "value": "9aade612521dab5600f59b0660e19fb8392a42570408673e824f3bbd2532c85b",
-      "malware": "XMRIG",
+      "type": "ip:port",
+      "value": "217.60.102.5:443",
+      "malware": "RedTail",
       "confidence": 100,
       "first_seen": "2026-10-23",
-      "related_cve": "CVE-2026-110447",
+      "related_cve": "CVE-2026-109618",
       "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1982220/"
-    },
-    {
-      "type": "sha256_hash",
-      "value": "19cd1fe4e501fbdf6e52a7249a7bd375ea3039feed596f56691fb7f353acc23f",
-      "malware": "XMRIG",
-      "confidence": 100,
-      "first_seen": "2026-10-23",
-      "related_cve": "CVE-2026-110447",
-      "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1982221/"
-    },
-    {
-      "type": "sha256_hash",
-      "value": "e15d2363b9e4552250f230c62188cb299ff2570c9ba9589fbc3e190df84768ba",
-      "malware": "XMRIG",
-      "confidence": 100,
-      "first_seen": "2026-10-23",
-      "related_cve": "CVE-2026-110447",
-      "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1982222/"
-    },
-    {
-      "type": "sha256_hash",
-      "value": "c5bd9b66d5535c2dffa253cb6dd665d20208db58793fd176d4773093546f50df",
-      "malware": "XMRIG",
-      "confidence": 100,
-      "first_seen": "2026-10-23",
-      "related_cve": "CVE-2026-110447",
-      "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1982223/"
+      "source_url": "https://threatfox.abuse.ch/ioc/1982167/"
     },
     {
       "type": "domain",
-      "value": "www.autoccb.tech",
-      "malware": "Unknown malware",
+      "value": "p.2137gang.st",
+      "malware": "RedTail",
       "confidence": 100,
-      "first_seen": "2026-10-20",
-      "related_cve": "CVE-2026-96656",
+      "first_seen": "2026-10-23",
+      "related_cve": "CVE-2026-109618",
       "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1975447/"
+      "source_url": "https://threatfox.abuse.ch/ioc/1982168/"
     },
     {
       "type": "domain",
-      "value": "autoccb.tech",
-      "malware": "Unknown malware",
+      "value": "p.2137gang.pl",
+      "malware": "RedTail",
       "confidence": 100,
-      "first_seen": "2026-10-20",
-      "related_cve": "CVE-2026-96656",
+      "first_seen": "2026-10-23",
+      "related_cve": "CVE-2026-109618",
       "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1975448/"
+      "source_url": "https://threatfox.abuse.ch/ioc/1982169/"
     },
     {
-      "type": "url",
-      "value": "https://www.autoccb.tech/api/v1/poll",
-      "malware": "Unknown malware",
+      "type": "domain",
+      "value": "p.2137gang.store",
+      "malware": "RedTail",
       "confidence": 100,
-      "first_seen": "2026-10-20",
-      "related_cve": "CVE-2026-96656",
+      "first_seen": "2026-10-23",
+      "related_cve": "CVE-2026-109618",
       "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1975454/"
+      "source_url": "https://threatfox.abuse.ch/ioc/1982172/"
     },
     {
-      "type": "url",
-      "value": "https://www.autoccb.tech/api/v1/result",
-      "malware": "Unknown malware",
+      "type": "domain",
+      "value": "p.2137gang.net",
+      "malware": "RedTail",
       "confidence": 100,
-      "first_seen": "2026-10-20",
-      "related_cve": "CVE-2026-96656",
+      "first_seen": "2026-10-23",
+      "related_cve": "CVE-2026-109618",
       "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1975455/"
+      "source_url": "https://threatfox.abuse.ch/ioc/1982170/"
+    },
+    {
+      "type": "domain",
+      "value": "p.2137gang.shop",
+      "malware": "RedTail",
+      "confidence": 100,
+      "first_seen": "2026-10-23",
+      "related_cve": "CVE-2026-109618",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1982171/"
+    },
+    {
+      "type": "domain",
+      "value": "proxies.identities.network",
+      "malware": "RedTail",
+      "confidence": 100,
+      "first_seen": "2026-10-23",
+      "related_cve": "CVE-2026-109618",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1982173/"
+    },
+    {
+      "type": "domain",
+      "value": "proxy.identities.network",
+      "malware": "RedTail",
+      "confidence": 100,
+      "first_seen": "2026-10-23",
+      "related_cve": "CVE-2026-109618",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1982174/"
     }
   ]
 }
