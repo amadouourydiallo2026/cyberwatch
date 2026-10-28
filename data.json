@@ -1,129 +1,155 @@
 {
-  "generated_at": "2026-10-27T11:37:19Z",
+  "generated_at": "2026-10-28T12:07:34Z",
   "week_label": "S44 · 26 octobre – 1 novembre 2026",
   "attacks": [
     {
-      "title": "Apple backports CoreGraphics zero-day patches to older iPhones",
+      "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
       "sector": "Non précisé",
-      "date": "27 Oct 2026",
+      "date": "28 Oct 2026",
       "actor": "Non attribué",
       "sev": "critical",
-      "desc": "​Apple has backported security patches released last month to older iPhones and iPads, addressing a zero-day bug exploited in \"extremely sophisticated\" targeted attacks on iOS devices. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/"
-    },
-    {
-      "title": "Energy giant ENGIE discloses data breach affecting customers",
-      "sector": "Énergie",
-      "date": "27 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "French energy giant ENGIE, one of the world's largest power and natural gas providers, confirmed that attackers stole customer data after breaching a marketing platform used by business partners. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/"
-    },
-    {
-      "title": "CISA confirms PHP2Shell vulnerabilities now exploited in attacks",
-      "sector": "Gouvernement",
-      "date": "27 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added the PHP2Shell vulnerabilities to its catalog of actively exploited security flaws and ordered federal agencies to patch their systems by Thursday…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/"
-    },
-    {
-      "title": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses",
-      "sector": "Non précisé",
-      "date": "27 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The Computer Emergency Response Team of Ukraine (CERT-UA) has issued an alert warning of unauthorized remote access to video surveillance systems manufactured by Dahua. \"Cases of compromising IP cameras and DVRs with acc…",
+      "desc": "Adobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in arbitrary code execution, security feature bypass, and privilege escalation. The…",
       "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html"
+      "url": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html"
     },
     {
-      "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
+      "title": "CISA warns of hackers now exploiting critical Node2Shell flaw",
       "sector": "Gouvernement",
-      "date": "27 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell flaws by adding them to its Known Exploited Vulnerabilities (KEV) catalog. The PH…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html"
-    },
-    {
-      "title": "University of Copenhagen data breach exposes data of 525,000 people",
-      "sector": "Éducation",
-      "date": "26 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The University of Copenhagen in Denmark confirmed that hackers accessed one of its test environments containing personal data belonging to 525,000 people. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/"
-    },
-    {
-      "title": "Former pentester used ARTEX AI to steal 8.2 million data records",
-      "sector": "Non précisé",
-      "date": "26 Oct 2026",
+      "date": "28 Oct 2026",
       "actor": "Non attribué",
       "sev": "critical",
-      "desc": "South Korean police identified seven suspects linked to a cybercrime operation that breached more than 90 organizations in the country, with ARTEX AI pentesting framework used in most of the attacks. [...]",
+      "desc": "On Tuesday, the US Cybersecurity and Infrastructure Security Agency (CISA) confirmed that hackers have begun exploiting a critical Brotli vulnerability known as Node2Shell, Broccoli2Shell, and HTTP2Shell. [...]",
       "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/"
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/"
     },
     {
-      "title": "DreamHost forces password resets in ongoing \"incident\"",
-      "sector": "Non précisé",
-      "date": "26 Oct 2026",
+      "title": "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed",
+      "sector": "Manufacturing",
+      "date": "28 Oct 2026",
       "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "DreamHost has forced password resets for email and FTP/SFTP users following an incident that disrupted connections to the File Manager interface. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/"
+      "sev": "high",
+      "desc": "Modern phishing campaigns can compromise American businesses without relying on traditional credential theft. Attackers can abuse legitimate cloud services, authentication mechanisms, and trusted business workflows to ga…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/american-organizations-under-attack.html"
     },
     {
-      "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
+      "title": "Nefilim and Hive ransomware affiliate gets 70 months in prison",
+      "sector": "Santé",
+      "date": "28 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "A Ukrainian national was sentenced to 70 months in prison for his role in ransomware attacks targeting hospitals, government entities, and high-revenue businesses worldwide between 2018 and 2021. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/"
+    },
+    {
+      "title": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach",
+      "sector": "Non précisé",
+      "date": "28 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Japan's GMO Internet Group is offering up to $1 million in total for tips that help catch the attackers who breached its Onamae.com Desktop Cloud service, after refusing to pay an extortion demand. The reward program ope…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html"
+    },
+    {
+      "title": "Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers",
+      "sector": "Non précisé",
+      "date": "28 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Tailscale has released version 1.104.4 to fix flaws in its built-in SSH server that could let an attacker reach services and files on other servers that only the root user should be able to touch. The flaws are in how Ta…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html"
+    },
+    {
+      "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
+      "sector": "Non précisé",
+      "date": "28 Oct 2026",
+      "actor": "ShinyHunters",
+      "sev": "critical",
+      "desc": "The critical Oracle PeopleSoft bug that ShinyHunters has exploited since May is not one flaw but three chained together, the researchers who reported it said this week. Oracle patched all three under a single identifier,…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html"
+    },
+    {
+      "title": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
+      "sector": "Gouvernement",
+      "date": "28 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added two vulnerabilities impacting Adobe Commerce and Magento, and Google's Brotli decoder library to its Known Exploited Vulnerabilities (KEV)…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html"
+    },
+    {
+      "title": "Japan's GMO urges customers to shut down PCs amid ransomware threat",
+      "sector": "Non précisé",
+      "date": "27 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The GMO Group has urged customers to disconnect their systems from the internet and shut down computers after a threat actor who breached the company's Onamae Desktop Cloud threatened to launch a ransomware attack today.…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/"
+    },
+    {
+      "title": "UNM Health ransomware attack disrupts patient care, surgeries",
+      "sector": "Santé",
+      "date": "27 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The University of New Mexico Health Sciences Center disclosed a cyberattack that caused system outages and disrupted patient care and academic activities. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/"
+    },
+    {
+      "title": "Hackers hijack Convertr analytics script to steal payment card data",
       "sector": "Retail",
-      "date": "26 Oct 2026",
+      "date": "27 Oct 2026",
       "actor": "Non attribué",
       "sev": "medium",
-      "desc": "An unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2025. According to Dutch e-commerce security company Sansec, the activity is desi…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html"
+      "desc": "A credit card skimming group reportedly compromised a shared analytics script used by e-commerce platform Convertr to steal shoppers' payment data during checkout. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/"
     },
     {
-      "title": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
+      "title": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
       "sector": "Non précisé",
-      "date": "26 Oct 2026",
+      "date": "27 Oct 2026",
       "actor": "Non attribué",
       "sev": "high",
-      "desc": "Cybersecurity researchers are calling attention to what they say is a \"recurring social engineering pattern\" across hundreds of cases in which threat actors use Microsoft Teams' external chat creation feature to conduct …",
+      "desc": "Cybersecurity researchers have disclosed details of three cyber attacks targeting organizations in Japan in which artificial intelligence (AI) was a key element, either in the driving seat or to assist a human operator. …",
       "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html"
-    },
-    {
-      "title": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
-      "sector": "Non précisé",
-      "date": "26 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "This2Shell, That2Shell, Everything2Shell. That's pretty much how the last week went. Critical bugs that let attackers run code remotely are showing up everywhere. Hackers are scanning for targets, some flaws are already …",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html"
-    },
-    {
-      "title": "When an AI Agent Is the Incident, the Identity Record Is the Evidence",
-      "sector": "Non précisé",
-      "date": "26 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "A new NIST, CISA, and NSA guide treats runaway agents as incidents to be rehearsed. The hard part of the response is answering whose authority the agent used, and that answer has to exist before the incident does. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/"
+      "url": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html"
     }
   ],
   "vulns": [
+    {
+      "cve": "CVE-2026-48356",
+      "product": "Adobe Commerce and Magento",
+      "type": "Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability",
+      "cvss": 9.3,
+      "published": "2026-07-14",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-11-10",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48356"
+    },
+    {
+      "cve": "CVE-2026-111497",
+      "product": "Google Brotli",
+      "type": "Google Brotli Unchecked Return Value Vulnerability",
+      "cvss": null,
+      "published": "2026-10-22",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-11-10",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111497"
+    },
     {
       "cve": "CVE-2026-109618",
       "product": "PHP Group PHP",
@@ -357,35 +383,27 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104935"
-    },
-    {
-      "cve": "CVE-2026-96951",
-      "product": "Microsoft Windows",
-      "type": "Microsoft Windows Command Injection Vulnerability",
-      "cvss": 8.8,
-      "published": "2026-10-13",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-10-16",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96951"
-    },
-    {
-      "cve": "CVE-2015-5477",
-      "product": "ISC BIND",
-      "type": " ISC BIND Data Processing Errors Vulnerability",
-      "cvss": 7.5,
-      "published": "2015-07-29",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-10-11",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-5477"
     }
   ],
   "actors": [
+    {
+      "name": "ShinyHunters",
+      "type": "RaaS / Extorsion",
+      "desc": "The critical Oracle PeopleSoft bug that ShinyHunters has exploited since May is not one flaw but three chained together, the researchers who reported it said this week. Oracle patched all three under a single identifier,…",
+      "victims": "1 mention(s) récente(s) — dernier article : 28 Oct 2026",
+      "region": "Non précisé",
+      "url": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
+      "src": "The Hacker News"
+    },
+    {
+      "name": "Lazarus",
+      "type": "APT / Espionnage",
+      "desc": "The North Korea-linked Lazarus Group has been attributed to a cyber espionage campaign dubbed Operation FlashHole targeting at least three organizations in South Korea spanning the construction, software, and wire-commun…",
+      "victims": "1 mention(s) récente(s) — dernier article : 27 Oct 2026",
+      "region": "Non précisé",
+      "url": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
+      "src": "The Hacker News"
+    },
     {
       "name": "Play",
       "type": "RaaS / Extorsion",
@@ -416,19 +434,19 @@
   ],
   "threats": [
     {
+      "title": "Activité soutenue de ShinyHunters",
+      "desc": "The critical Oracle PeopleSoft bug that ShinyHunters has exploited since May is not one flaw but three chained together, the researchers who reported it said this week. Oracle patched all three under a single identifier,…",
+      "url": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html"
+    },
+    {
+      "title": "Activité soutenue de Lazarus",
+      "desc": "The North Korea-linked Lazarus Group has been attributed to a cyber espionage campaign dubbed Operation FlashHole targeting at least three organizations in South Korea spanning the construction, software, and wire-commun…",
+      "url": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html"
+    },
+    {
       "title": "Activité soutenue de Play",
       "desc": "Cybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle (AitM) relay to capture sign-in sessions and then replay the stolen tokens to break into emai…",
       "url": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html"
-    },
-    {
-      "title": "Activité soutenue de The Gentlemen",
-      "desc": "Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups. Central to the operation is an \"Autonomous Red Team K…",
-      "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html"
-    },
-    {
-      "title": "Activité soutenue de Sandworm",
-      "desc": "The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year. According to ESET, the attack involved UA…",
-      "url": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html"
     }
   ],
   "iocs": [
