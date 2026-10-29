@@ -1,7 +1,117 @@
 {
-  "generated_at": "2026-10-28T12:07:34Z",
+  "generated_at": "2026-10-29T12:18:10Z",
   "week_label": "S44 · 26 octobre – 1 novembre 2026",
   "attacks": [
+    {
+      "title": "New Cisco firewall zero-day exploited to crash SSL VPN devices",
+      "sector": "Non précisé",
+      "date": "29 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Cisco released security updates to patch a denial-of-service zero-day in Adaptive Security Appliance (ASA) and Threat Defense (FTD) software that attackers are exploiting to remotely crash vulnerable firewall devices. [.…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/"
+    },
+    {
+      "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
+      "sector": "Non précisé",
+      "date": "29 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software that it said has been exploited in the w…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html"
+    },
+    {
+      "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
+      "sector": "Non précisé",
+      "date": "29 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Hackers exploited a critical Cisco Catalyst SD-WAN flaw, fixed in February, to plant custom malware inside the systems that control an organization's SD-WAN network. The malware, called KeyDrift, is designed to copy the …",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html"
+    },
+    {
+      "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
+      "sector": "Gouvernement",
+      "date": "29 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStrike revealed that it h…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html"
+    },
+    {
+      "title": "Sony ISP subsidiary data breach exposes 2.5 million customer records",
+      "sector": "Télécoms",
+      "date": "28 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Sony Network Communications has confirmed a data breach that compromised approximately 2.5 million records containing current and former customers' personal information. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records/"
+    },
+    {
+      "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
+      "sector": "Gouvernement",
+      "date": "28 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Cybersecurity researchers have disclosed details of what appears to be an artificial intelligence (AI)-assisted attack orchestrated by a suspected China-nexus threat actor that has leveraged the PHP2Shell vulnerabilities…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html"
+    },
+    {
+      "title": "Volt Typhoon hides zero-day attacks using 'Silent Train' framework",
+      "sector": "Non précisé",
+      "date": "28 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Chinese state-sponsored hacking group Volt Typhoon has been using a framework that relies on rotating chains of connected devices compromised on demand, including for zero-day attacks targeting high-value systems. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/"
+    },
+    {
+      "title": "InfraTrust report warns of exploited flaws in critical network infrastructure",
+      "sector": "Non précisé",
+      "date": "28 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Attackers are actively exploiting vulnerabilities across critical network infrastructure, and PHP flaws known as \"PHP2Shell\" put the web management interfaces of firewalls, VPNs, application delivery controllers, and oth…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/"
+    },
+    {
+      "title": "Even after PHP2Shell, blast radius matters more than a CVSS score",
+      "sector": "Non précisé",
+      "date": "28 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "PHP2Shell shows how quickly attackers can exploit critical vulnerabilities, often before organizations have time to patch. Token Security explains why limiting the access of service accounts, API keys, and AI agents is j…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/"
+    },
+    {
+      "title": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
+      "sector": "Manufacturing",
+      "date": "28 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Threat actors are beginning to probe for a newly patched critical vulnerability in Oracle E-Business Suite (EBS), according to threat intelligence firm Defused Cyber. The vulnerability in question is CVE-2026-101767 (CVS…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html"
+    },
+    {
+      "title": "Hackers now scanning systems for recently-patched Oracle flaw",
+      "sector": "Manufacturing",
+      "date": "28 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Attackers have begun probing the Internet for systems unpatched against a recently disclosed critical Oracle E-Business Suite (EBS) vulnerability. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw/"
+    },
     {
       "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
       "sector": "Non précisé",
@@ -11,119 +121,35 @@
       "desc": "Adobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in arbitrary code execution, security feature bypass, and privilege escalation. The…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html"
-    },
-    {
-      "title": "CISA warns of hackers now exploiting critical Node2Shell flaw",
-      "sector": "Gouvernement",
-      "date": "28 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "On Tuesday, the US Cybersecurity and Infrastructure Security Agency (CISA) confirmed that hackers have begun exploiting a critical Brotli vulnerability known as Node2Shell, Broccoli2Shell, and HTTP2Shell. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/"
-    },
-    {
-      "title": "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed",
-      "sector": "Manufacturing",
-      "date": "28 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Modern phishing campaigns can compromise American businesses without relying on traditional credential theft. Attackers can abuse legitimate cloud services, authentication mechanisms, and trusted business workflows to ga…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/american-organizations-under-attack.html"
-    },
-    {
-      "title": "Nefilim and Hive ransomware affiliate gets 70 months in prison",
-      "sector": "Santé",
-      "date": "28 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "A Ukrainian national was sentenced to 70 months in prison for his role in ransomware attacks targeting hospitals, government entities, and high-revenue businesses worldwide between 2018 and 2021. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/"
-    },
-    {
-      "title": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach",
-      "sector": "Non précisé",
-      "date": "28 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Japan's GMO Internet Group is offering up to $1 million in total for tips that help catch the attackers who breached its Onamae.com Desktop Cloud service, after refusing to pay an extortion demand. The reward program ope…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html"
-    },
-    {
-      "title": "Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers",
-      "sector": "Non précisé",
-      "date": "28 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Tailscale has released version 1.104.4 to fix flaws in its built-in SSH server that could let an attacker reach services and files on other servers that only the root user should be able to touch. The flaws are in how Ta…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html"
-    },
-    {
-      "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
-      "sector": "Non précisé",
-      "date": "28 Oct 2026",
-      "actor": "ShinyHunters",
-      "sev": "critical",
-      "desc": "The critical Oracle PeopleSoft bug that ShinyHunters has exploited since May is not one flaw but three chained together, the researchers who reported it said this week. Oracle patched all three under a single identifier,…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html"
-    },
-    {
-      "title": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
-      "sector": "Gouvernement",
-      "date": "28 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added two vulnerabilities impacting Adobe Commerce and Magento, and Google's Brotli decoder library to its Known Exploited Vulnerabilities (KEV)…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html"
-    },
-    {
-      "title": "Japan's GMO urges customers to shut down PCs amid ransomware threat",
-      "sector": "Non précisé",
-      "date": "27 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The GMO Group has urged customers to disconnect their systems from the internet and shut down computers after a threat actor who breached the company's Onamae Desktop Cloud threatened to launch a ransomware attack today.…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/"
-    },
-    {
-      "title": "UNM Health ransomware attack disrupts patient care, surgeries",
-      "sector": "Santé",
-      "date": "27 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The University of New Mexico Health Sciences Center disclosed a cyberattack that caused system outages and disrupted patient care and academic activities. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/"
-    },
-    {
-      "title": "Hackers hijack Convertr analytics script to steal payment card data",
-      "sector": "Retail",
-      "date": "27 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "A credit card skimming group reportedly compromised a shared analytics script used by e-commerce platform Convertr to steal shoppers' payment data during checkout. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/"
-    },
-    {
-      "title": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
-      "sector": "Non précisé",
-      "date": "27 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Cybersecurity researchers have disclosed details of three cyber attacks targeting organizations in Japan in which artificial intelligence (AI) was a key element, either in the driving seat or to assist a human operator. …",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html"
     }
   ],
   "vulns": [
+    {
+      "cve": "CVE-2026-41709",
+      "product": "Broadcom VMware ESX",
+      "type": "Broadcom VMWare ESX Insufficient Logging Vulnerability",
+      "cvss": 2.7,
+      "published": "2026-07-30",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-11-11",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41709"
+    },
+    {
+      "cve": "CVE-2026-46300",
+      "product": "Linux Kernel",
+      "type": "Linux Kernel Missing Initialization of a Variable Vulnerability",
+      "cvss": 7.8,
+      "published": "2026-05-23",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-10-31",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46300"
+    },
     {
       "cve": "CVE-2026-48356",
       "product": "Adobe Commerce and Magento",
@@ -141,7 +167,7 @@
       "cve": "CVE-2026-111497",
       "product": "Google Brotli",
       "type": "Google Brotli Unchecked Return Value Vulnerability",
-      "cvss": null,
+      "cvss": 9.8,
       "published": "2026-10-22",
       "exploit": true,
       "poc": "unk",
@@ -357,35 +383,18 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105133"
-    },
-    {
-      "cve": "CVE-2026-0322",
-      "product": "Palo Alto Networks PAN-OS",
-      "type": "Palo Alto Networks PAN-OS Code Injection Vulnerability",
-      "cvss": 7.2,
-      "published": "2026-10-14",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-10-17",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0322"
-    },
-    {
-      "cve": "CVE-2026-104935",
-      "product": "Ivanti Connect Secure",
-      "type": "Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability",
-      "cvss": 8.6,
-      "published": "2026-10-13",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-10-16",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104935"
     }
   ],
   "actors": [
+    {
+      "name": "Volt Typhoon",
+      "type": "APT / Espionnage",
+      "desc": "Chinese state-sponsored hacking group Volt Typhoon has been using a framework that relies on rotating chains of connected devices compromised on demand, including for zero-day attacks targeting high-value systems. [...]",
+      "victims": "1 mention(s) récente(s) — dernier article : 28 Oct 2026",
+      "region": "Non précisé",
+      "url": "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/",
+      "src": "BleepingComputer"
+    },
     {
       "name": "ShinyHunters",
       "type": "RaaS / Extorsion",
@@ -412,27 +421,14 @@
       "region": "Non précisé",
       "url": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
       "src": "The Hacker News"
-    },
-    {
-      "name": "The Gentlemen",
-      "type": "RaaS / Extorsion",
-      "desc": "Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups. Central to the operation is an \"Autonomous Red Team K…",
-      "victims": "1 mention(s) récente(s) — dernier article : 23 Oct 2026",
-      "region": "Non précisé",
-      "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
-      "src": "The Hacker News"
-    },
-    {
-      "name": "Sandworm",
-      "type": "APT / Espionnage",
-      "desc": "The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year. According to ESET, the attack involved UA…",
-      "victims": "1 mention(s) récente(s) — dernier article : 23 Oct 2026",
-      "region": "Non précisé",
-      "url": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
-      "src": "The Hacker News"
     }
   ],
   "threats": [
+    {
+      "title": "Activité soutenue de Volt Typhoon",
+      "desc": "Chinese state-sponsored hacking group Volt Typhoon has been using a framework that relies on rotating chains of connected devices compromised on demand, including for zero-day attacks targeting high-value systems. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/"
+    },
     {
       "title": "Activité soutenue de ShinyHunters",
       "desc": "The critical Oracle PeopleSoft bug that ShinyHunters has exploited since May is not one flaw but three chained together, the researchers who reported it said this week. Oracle patched all three under a single identifier,…",
@@ -442,11 +438,6 @@
       "title": "Activité soutenue de Lazarus",
       "desc": "The North Korea-linked Lazarus Group has been attributed to a cyber espionage campaign dubbed Operation FlashHole targeting at least three organizations in South Korea spanning the construction, software, and wire-commun…",
       "url": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html"
-    },
-    {
-      "title": "Activité soutenue de Play",
-      "desc": "Cybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle (AitM) relay to capture sign-in sessions and then replay the stolen tokens to break into emai…",
-      "url": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html"
     }
   ],
   "iocs": [
