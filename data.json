@@ -1,16 +1,96 @@
 {
-  "generated_at": "2026-10-29T12:18:10Z",
+  "generated_at": "2026-10-30T12:08:41Z",
   "week_label": "S44 · 26 octobre – 1 novembre 2026",
   "attacks": [
     {
-      "title": "New Cisco firewall zero-day exploited to crash SSL VPN devices",
+      "title": "Drupal warns of critical Commerce Core flaw exploited in attacks",
+      "sector": "Retail",
+      "date": "30 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Drupal warned admins to patch a critical access bypass vulnerability in the Commerce Core module that attackers are exploiting in the wild. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/"
+    },
+    {
+      "title": "Binance links $6.3 billion crypto theft to compromised DevOps laptop",
+      "sector": "Non précisé",
+      "date": "30 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Binance, the world's largest crypto exchange, has linked the theft of about $6.3 billion in cryptocurrency to a DevOps engineer's compromised laptop. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/"
+    },
+    {
+      "title": "Official Claude Code VS Code Extension Compromised to Install Persistent SSH Backdoor",
+      "sector": "Non précisé",
+      "date": "30 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Cybersecurity researchers have disclosed that the official Anthropic Claude Code extension was compromised on the Open VSX registry to install a persistent SSH backdoor on infected hosts. The issue has since been traced …",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html"
+    },
+    {
+      "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
+      "sector": "Gouvernement",
+      "date": "30 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Cisco and GitLab software to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitati…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html"
+    },
+    {
+      "title": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
+      "sector": "Non précisé",
+      "date": "30 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Cryptocurrency giant Binance said on Thursday that a \"security incident\" on its platform has impacted about $6.3 billion worth of assets. The world's biggest cryptocurrency exchange said nearly $3 billion of those assets…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html"
+    },
+    {
+      "title": "Japan Airlines suffers third-party data breach exposing passenger info",
+      "sector": "Transport",
+      "date": "29 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Japan Airlines (JAL) has announced that a data breach at Amadeus's Passenger Service System exposed the data of about 92,000 customers. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/"
+    },
+    {
+      "title": "Polymarket halts trading after crypto-draining script breach, $2.5M traced",
       "sector": "Non précisé",
       "date": "29 Oct 2026",
       "actor": "Non attribué",
       "sev": "critical",
-      "desc": "Cisco released security updates to patch a denial-of-service zero-day in Adaptive Security Appliance (ASA) and Threat Defense (FTD) software that attackers are exploiting to remotely crash vulnerable firewall devices. [.…",
+      "desc": "Prediction market platform Polymarket temporarily suspended trading on Thursday after hackers compromised a third-party service to distribute cryptocurrency-draining JavaScript, with approximately $2.5 million in assets …",
       "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/"
+      "url": "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/"
+    },
+    {
+      "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
+      "sector": "Finance",
+      "date": "30 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Some attacks take real skill. Others just need someone to leave a door open. This week has both. Exposed passwords, old bugs still getting exploited, and trusted software doing things it shouldn't. There's a strange mix …",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html"
+    },
+    {
+      "title": "Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware",
+      "sector": "Non précisé",
+      "date": "29 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "A newly identified advanced persistent threat (APT) group tracked as UAT-11473 was observed exploiting CVE-2026-20127, an authentication-bypass flaw in Cisco Catalyst SD-WAN Controllers, to deploy a custom malware framew…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/"
     },
     {
       "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
@@ -41,89 +121,35 @@
       "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStrike revealed that it h…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html"
-    },
-    {
-      "title": "Sony ISP subsidiary data breach exposes 2.5 million customer records",
-      "sector": "Télécoms",
-      "date": "28 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Sony Network Communications has confirmed a data breach that compromised approximately 2.5 million records containing current and former customers' personal information. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records/"
-    },
-    {
-      "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
-      "sector": "Gouvernement",
-      "date": "28 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Cybersecurity researchers have disclosed details of what appears to be an artificial intelligence (AI)-assisted attack orchestrated by a suspected China-nexus threat actor that has leveraged the PHP2Shell vulnerabilities…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html"
-    },
-    {
-      "title": "Volt Typhoon hides zero-day attacks using 'Silent Train' framework",
-      "sector": "Non précisé",
-      "date": "28 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Chinese state-sponsored hacking group Volt Typhoon has been using a framework that relies on rotating chains of connected devices compromised on demand, including for zero-day attacks targeting high-value systems. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/"
-    },
-    {
-      "title": "InfraTrust report warns of exploited flaws in critical network infrastructure",
-      "sector": "Non précisé",
-      "date": "28 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Attackers are actively exploiting vulnerabilities across critical network infrastructure, and PHP flaws known as \"PHP2Shell\" put the web management interfaces of firewalls, VPNs, application delivery controllers, and oth…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/"
-    },
-    {
-      "title": "Even after PHP2Shell, blast radius matters more than a CVSS score",
-      "sector": "Non précisé",
-      "date": "28 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "PHP2Shell shows how quickly attackers can exploit critical vulnerabilities, often before organizations have time to patch. Token Security explains why limiting the access of service accounts, API keys, and AI agents is j…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/"
-    },
-    {
-      "title": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
-      "sector": "Manufacturing",
-      "date": "28 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Threat actors are beginning to probe for a newly patched critical vulnerability in Oracle E-Business Suite (EBS), according to threat intelligence firm Defused Cyber. The vulnerability in question is CVE-2026-101767 (CVS…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html"
-    },
-    {
-      "title": "Hackers now scanning systems for recently-patched Oracle flaw",
-      "sector": "Manufacturing",
-      "date": "28 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Attackers have begun probing the Internet for systems unpatched against a recently disclosed critical Oracle E-Business Suite (EBS) vulnerability. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw/"
-    },
-    {
-      "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
-      "sector": "Non précisé",
-      "date": "28 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Adobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in arbitrary code execution, security feature bypass, and privilege escalation. The…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html"
     }
   ],
   "vulns": [
+    {
+      "cve": "CVE-2026-97229",
+      "product": "GitLab Community Edition and Enterprise Edition",
+      "type": "GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerabili",
+      "cvss": 10.0,
+      "published": "2026-10-13",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-11-01",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97229"
+    },
+    {
+      "cve": "CVE-2026-76418",
+      "product": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software",
+      "type": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software Unchecked Return Value to",
+      "cvss": 8.6,
+      "published": "2026-10-28",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-11-01",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76418"
+    },
     {
       "cve": "CVE-2026-41709",
       "product": "Broadcom VMware ESX",
@@ -211,7 +237,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-10-26",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114625"
     },
@@ -224,7 +250,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-10-26",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110447"
     },
@@ -357,43 +383,17 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105134"
-    },
-    {
-      "cve": "CVE-2026-76519",
-      "product": "Cisco Secure Email Gateway",
-      "type": "Cisco Secure Email Gateway Relative Path Traversal Vulnerability",
-      "cvss": 9.8,
-      "published": "2026-10-14",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-10-17",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76519"
-    },
-    {
-      "cve": "CVE-2026-105133",
-      "product": "Ahsay AhsayCBS",
-      "type": "Ahsay AhsayCBS Improper Authentication Vulnerability",
-      "cvss": 7.3,
-      "published": "2026-10-04",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-10-17",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105133"
     }
   ],
   "actors": [
     {
       "name": "Volt Typhoon",
       "type": "APT / Espionnage",
-      "desc": "Chinese state-sponsored hacking group Volt Typhoon has been using a framework that relies on rotating chains of connected devices compromised on demand, including for zero-day attacks targeting high-value systems. [...]",
+      "desc": "The China-nexus cyber espionage group known as Volt Typhoon has been attributed to a now-disrupted covert access network dubbed Silent Train that has been put to use for zero-day exploitation and strategic access. \"First…",
       "victims": "1 mention(s) récente(s) — dernier article : 28 Oct 2026",
       "region": "Non précisé",
-      "url": "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/",
-      "src": "BleepingComputer"
+      "url": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
+      "src": "The Hacker News"
     },
     {
       "name": "ShinyHunters",
@@ -412,22 +412,13 @@
       "region": "Non précisé",
       "url": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
       "src": "The Hacker News"
-    },
-    {
-      "name": "Play",
-      "type": "RaaS / Extorsion",
-      "desc": "Cybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle (AitM) relay to capture sign-in sessions and then replay the stolen tokens to break into emai…",
-      "victims": "1 mention(s) récente(s) — dernier article : 26 Oct 2026",
-      "region": "Non précisé",
-      "url": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
-      "src": "The Hacker News"
     }
   ],
   "threats": [
     {
       "title": "Activité soutenue de Volt Typhoon",
-      "desc": "Chinese state-sponsored hacking group Volt Typhoon has been using a framework that relies on rotating chains of connected devices compromised on demand, including for zero-day attacks targeting high-value systems. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/"
+      "desc": "The China-nexus cyber espionage group known as Volt Typhoon has been attributed to a now-disrupted covert access network dubbed Silent Train that has been put to use for zero-day exploitation and strategic access. \"First…",
+      "url": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html"
     },
     {
       "title": "Activité soutenue de ShinyHunters",
