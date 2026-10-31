@@ -1,7 +1,67 @@
 {
-  "generated_at": "2026-10-30T12:08:41Z",
+  "generated_at": "2026-10-31T11:42:15Z",
   "week_label": "S44 · 26 octobre – 1 novembre 2026",
   "attacks": [
+    {
+      "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
+      "sector": "Gouvernement",
+      "date": "31 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities (KEV) catalog, following active exploitatio…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html"
+    },
+    {
+      "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
+      "sector": "Non précisé",
+      "date": "30 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simultaneously. The activit…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html"
+    },
+    {
+      "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
+      "sector": "Non précisé",
+      "date": "30 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "TeamViewer has fixed a flaw that lets the machine being controlled in a remote session attack the computer that connected to control it. In a TeamViewer session, the computer that connects and takes control is the viewer…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html"
+    },
+    {
+      "title": "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone",
+      "sector": "Non précisé",
+      "date": "30 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Flaws in SS7 and Diameter signaling protocols can allow attackers to track phone locations, intercept calls and SMS verification codes, and impersonate subscribers without compromising their devices. Cape explains how th…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/"
+    },
+    {
+      "title": "CISA says max severity GitLab flaw now exploited in the wild",
+      "sector": "Gouvernement",
+      "date": "30 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Attackers have started exploiting a maximum-severity GitLab vulnerability patched earlier this month, according to the US Cybersecurity and Infrastructure Security Agency (CISA). [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/"
+    },
+    {
+      "title": "Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison",
+      "sector": "Gouvernement",
+      "date": "30 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Ahmad Umar Agha, a Syrian Electronic Army hacker known online as \"Th3Pr0,\" has been sentenced by a U.S. federal court to 42 months in prison for his role in a hacking conspiracy that targeted Western news outlets. The co…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html"
+    },
     {
       "title": "Drupal warns of critical Commerce Core flaw exploited in attacks",
       "sector": "Retail",
@@ -21,16 +81,6 @@
       "desc": "Binance, the world's largest crypto exchange, has linked the theft of about $6.3 billion in cryptocurrency to a DevOps engineer's compromised laptop. [...]",
       "src": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/"
-    },
-    {
-      "title": "Official Claude Code VS Code Extension Compromised to Install Persistent SSH Backdoor",
-      "sector": "Non précisé",
-      "date": "30 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "Cybersecurity researchers have disclosed that the official Anthropic Claude Code extension was compromised on the Open VSX registry to install a persistent SSH backdoor on infected hosts. The issue has since been traced …",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html"
     },
     {
       "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
@@ -71,59 +121,35 @@
       "desc": "Prediction market platform Polymarket temporarily suspended trading on Thursday after hackers compromised a third-party service to distribute cryptocurrency-draining JavaScript, with approximately $2.5 million in assets …",
       "src": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/"
-    },
-    {
-      "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
-      "sector": "Finance",
-      "date": "30 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Some attacks take real skill. Others just need someone to leave a door open. This week has both. Exposed passwords, old bugs still getting exploited, and trusted software doing things it shouldn't. There's a strange mix …",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html"
-    },
-    {
-      "title": "Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware",
-      "sector": "Non précisé",
-      "date": "29 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "A newly identified advanced persistent threat (APT) group tracked as UAT-11473 was observed exploiting CVE-2026-20127, an authentication-bypass flaw in Cisco Catalyst SD-WAN Controllers, to deploy a custom malware framew…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/"
-    },
-    {
-      "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
-      "sector": "Non précisé",
-      "date": "29 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software that it said has been exploited in the w…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html"
-    },
-    {
-      "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
-      "sector": "Non précisé",
-      "date": "29 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Hackers exploited a critical Cisco Catalyst SD-WAN flaw, fixed in February, to plant custom malware inside the systems that control an organization's SD-WAN network. The malware, called KeyDrift, is designed to copy the …",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html"
-    },
-    {
-      "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
-      "sector": "Gouvernement",
-      "date": "29 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStrike revealed that it h…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html"
     }
   ],
   "vulns": [
+    {
+      "cve": "CVE-2026-118527",
+      "product": "Ivanti Connect Secure",
+      "type": "Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability",
+      "cvss": null,
+      "published": null,
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-11-13",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118527"
+    },
+    {
+      "cve": "CVE-2026-111357",
+      "product": "Ivanti Connect Secure",
+      "type": "Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability",
+      "cvss": 7.0,
+      "published": "2026-10-15",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-11-02",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111357"
+    },
     {
       "cve": "CVE-2026-97229",
       "product": "GitLab Community Edition and Enterprise Edition",
@@ -357,32 +383,6 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61624"
-    },
-    {
-      "cve": "CVE-2026-21589",
-      "product": "Atlassian Multiple Products",
-      "type": "Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerabil",
-      "cvss": 7.5,
-      "published": "2026-10-05",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-10-18",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21589"
-    },
-    {
-      "cve": "CVE-2026-105134",
-      "product": "Ahsay AhsayCBS",
-      "type": "Ahsay AhsayCBS Command Injection Vulnerability",
-      "cvss": 10.0,
-      "published": "2026-10-04",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-10-17",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105134"
     }
   ],
   "actors": [
