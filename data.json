@@ -1,7 +1,67 @@
 {
-  "generated_at": "2026-10-31T11:42:15Z",
+  "generated_at": "2026-11-01T12:41:24Z",
   "week_label": "S44 · 26 octobre – 1 novembre 2026",
   "attacks": [
+    {
+      "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
+      "sector": "Non précisé",
+      "date": "01 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Malicious code on the website of prediction market Polymarket sold some signed-in traders' positions and moved their funds to the hackers on October 29. The code had replaced a page-speed script that the site loaded from…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html"
+    },
+    {
+      "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
+      "sector": "Gouvernement",
+      "date": "01 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pressur…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html"
+    },
+    {
+      "title": "Northflank security breach leads to abuse of customers' AI API keys",
+      "sector": "Non précisé",
+      "date": "31 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/"
+    },
+    {
+      "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
+      "sector": "Non précisé",
+      "date": "31 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "AI-generated vulnerability reports are overwhelming some bug bounty programs, making it harder for aspiring security researchers to know where to start. TryHackMe explains how beginners can build practical cybersecurity …",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/"
+    },
+    {
+      "title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
+      "sector": "Non précisé",
+      "date": "31 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Blockchain analytics firm Chainalysis disclosed a data breach after attackers used \"offensive agentic techniques\" to access internal systems and tools, exposing customer names, email addresses, user IDs, and organization…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/"
+    },
+    {
+      "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
+      "sector": "Non précisé",
+      "date": "31 Oct 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data. However, the company noted that the breach did not result …",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html"
+    },
     {
       "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
       "sector": "Gouvernement",
@@ -61,66 +121,6 @@
       "desc": "Ahmad Umar Agha, a Syrian Electronic Army hacker known online as \"Th3Pr0,\" has been sentenced by a U.S. federal court to 42 months in prison for his role in a hacking conspiracy that targeted Western news outlets. The co…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html"
-    },
-    {
-      "title": "Drupal warns of critical Commerce Core flaw exploited in attacks",
-      "sector": "Retail",
-      "date": "30 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Drupal warned admins to patch a critical access bypass vulnerability in the Commerce Core module that attackers are exploiting in the wild. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/"
-    },
-    {
-      "title": "Binance links $6.3 billion crypto theft to compromised DevOps laptop",
-      "sector": "Non précisé",
-      "date": "30 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "Binance, the world's largest crypto exchange, has linked the theft of about $6.3 billion in cryptocurrency to a DevOps engineer's compromised laptop. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/"
-    },
-    {
-      "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
-      "sector": "Gouvernement",
-      "date": "30 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Cisco and GitLab software to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitati…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html"
-    },
-    {
-      "title": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
-      "sector": "Non précisé",
-      "date": "30 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Cryptocurrency giant Binance said on Thursday that a \"security incident\" on its platform has impacted about $6.3 billion worth of assets. The world's biggest cryptocurrency exchange said nearly $3 billion of those assets…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html"
-    },
-    {
-      "title": "Japan Airlines suffers third-party data breach exposing passenger info",
-      "sector": "Transport",
-      "date": "29 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Japan Airlines (JAL) has announced that a data breach at Amadeus's Passenger Service System exposed the data of about 92,000 customers. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/"
-    },
-    {
-      "title": "Polymarket halts trading after crypto-draining script breach, $2.5M traced",
-      "sector": "Non précisé",
-      "date": "29 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Prediction market platform Polymarket temporarily suspended trading on Thursday after hackers compromised a third-party service to distribute cryptocurrency-draining JavaScript, with approximately $2.5 million in assets …",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/"
     }
   ],
   "vulns": [
@@ -403,15 +403,6 @@
       "region": "Non précisé",
       "url": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
       "src": "The Hacker News"
-    },
-    {
-      "name": "Lazarus",
-      "type": "APT / Espionnage",
-      "desc": "The North Korea-linked Lazarus Group has been attributed to a cyber espionage campaign dubbed Operation FlashHole targeting at least three organizations in South Korea spanning the construction, software, and wire-commun…",
-      "victims": "1 mention(s) récente(s) — dernier article : 27 Oct 2026",
-      "region": "Non précisé",
-      "url": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
-      "src": "The Hacker News"
     }
   ],
   "threats": [
@@ -424,11 +415,6 @@
       "title": "Activité soutenue de ShinyHunters",
       "desc": "The critical Oracle PeopleSoft bug that ShinyHunters has exploited since May is not one flaw but three chained together, the researchers who reported it said this week. Oracle patched all three under a single identifier,…",
       "url": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html"
-    },
-    {
-      "title": "Activité soutenue de Lazarus",
-      "desc": "The North Korea-linked Lazarus Group has been attributed to a cyber espionage campaign dubbed Operation FlashHole targeting at least three organizations in South Korea spanning the construction, software, and wire-commun…",
-      "url": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html"
     }
   ],
   "iocs": [
