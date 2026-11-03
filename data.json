@@ -1,126 +1,126 @@
 {
-  "generated_at": "2026-11-02T14:45:53Z",
+  "generated_at": "2026-11-03T13:38:39Z",
   "week_label": "S45 · 2 – 8 novembre 2026",
   "attacks": [
     {
-      "title": "Hackers disrupt refrigeration systems at European supermarkets",
+      "title": "The 4 Elements of Exposure Prioritization and How to Operationalize Them",
+      "sector": "Non précisé",
+      "date": "03 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Your team is remediating more vulnerabilities than ever, yet your breach risk has barely changed. You’re spending too much time and effort on exposures attackers may never exploit, while higher-risk exposures sit, waitin…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/the-4-elements-of-exposure.html"
+    },
+    {
+      "title": "Russia-Aligned Gorbag Hackers Exploit WinRAR Flaw to Deploy Data-Stealing Malware",
+      "sector": "Non précisé",
+      "date": "03 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "A Russia-aligned threat actor known as Gorbag has been observed using simple information stealer malware in attacks targeting Ukrainian organizations. \"Active since at least February 2025, the group has focused exclusive…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html"
+    },
+    {
+      "title": "Harvard University data breach exposed info of 851,000 accounts",
+      "sector": "Éducation",
+      "date": "03 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Hackers who breached Harvard University's Alumni Affairs and Development systems in November 2025 stole data linked to more than 850,000 unique email addresses, according to breach notification service Have I Been Pwned.…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/harvard-university-data-breach-exposed-info-of-851-000-accounts/"
+    },
+    {
+      "title": "Hackers Exploit BTCPay Server Flaw to Steal Bitcoin and Litecoin From Hot Wallets",
+      "sector": "Non précisé",
+      "date": "03 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "BTCPay Server, a self-hosted, open-source cryptocurrency payment processor, has urged users to install the latest version of its software in response to reports of Bitcoin and Litecoin being stolen from hot wallets on in…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html"
+    },
+    {
+      "title": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
+      "sector": "Non précisé",
+      "date": "03 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Synology is urging customers to update the DiskStation Manager (DSM) software powering its Network Attached Storage (NAS) devices following ransomware attacks. The Taiwanese vendor said it observed threat actors exploiti…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html"
+    },
+    {
+      "title": "New Wave of Refrigeration Cyberattacks Hits Supermarkets Across Europe, Forcing Stores to Pull Food",
+      "sector": "Non précisé",
+      "date": "03 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Attackers remotely changed the settings on refrigeration controls at supermarkets in Belgium, Sweden, Estonia and other European countries overnight into Monday, November 2, warming fridges and freezers. No chain reporte…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html"
+    },
+    {
+      "title": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
+      "sector": "Non précisé",
+      "date": "03 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "A maximum-severity security flaw impacting Siemens SIMATIC IoT2050 Advanced devices has come under active exploitation, VulnCheck has revealed. The vulnerability, tracked as CVE-2026-58115 (CVSS score: 10.0), is a case o…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html"
+    },
+    {
+      "title": "Chinese hackers use ARTEX AI in automated attacks against 200 orgs",
       "sector": "Non précisé",
       "date": "02 Nov 2026",
       "actor": "Non attribué",
       "sev": "high",
-      "desc": "A cyberattack on refrigeration systems has disrupted stores run by multiple supermarket chains across several European countries after hackers remotely changed temperature settings on freezers and cooling systems. [...]",
+      "desc": "Chinese hackers used ARTEX, an open-source, multi-agent AI penetration-testing framework, in attacks against more than 200 organizations across 14 countries. [...]",
       "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-disrupt-refrigeration-systems-at-european-supermarkets/"
+      "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/"
     },
     {
-      "title": "Over 1,000 GitLab servers vulnerable to ongoing RCE attacks",
-      "sector": "Non précisé",
-      "date": "02 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Over 1,000 Internet-exposed GitLab servers are still unpatched against a maximum-severity flaw actively exploited in remote code execution attacks. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks/"
-    },
-    {
-      "title": "Synology warns of C3RB3R ransomware attacks targeting NAS devices",
-      "sector": "Non précisé",
-      "date": "02 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Taiwanese network-attached storage (NAS) appliance maker Synology warned customers to update their devices immediately due to a surge in C3RB3r ransomware attacks. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/synology-warns-customers-of-ongoing-c3rb3r-ransomware-attacks/"
-    },
-    {
-      "title": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
+      "title": "Fintech platform Sageworks taken offline after suspected cyberattack",
       "sector": "Finance",
       "date": "02 Nov 2026",
       "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "Cybersecurity researchers have discovered a new Windows infostealer malware called VOLTA-AUTODOXER (aka VOLTA) that makes use of a large language model (LLM) to rank a victim's stolen data by their monetization value. Li…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html"
-    },
-    {
-      "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers",
-      "sector": "Non précisé",
-      "date": "01 Nov 2026",
-      "actor": "Non attribué",
       "sev": "high",
-      "desc": "The FBI has confirmed that North Korean state-sponsored hackers known as TraderTraitor were behind the $6.3 billion crypto-theft attack on Binance, making it the largest cryptocurrency heist on record. [...]",
+      "desc": "Financial technology company Abrigo has restored its Sageworks risk management application, except for borrower-facing capabilities, following an outage triggered by \"irregular activity\" in its environment. [...]",
       "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/"
+      "url": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/"
     },
     {
-      "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
+      "title": "⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More",
       "sector": "Non précisé",
-      "date": "01 Nov 2026",
+      "date": "02 Nov 2026",
       "actor": "Non attribué",
       "sev": "critical",
-      "desc": "Hackers attempted to exploit a critical GitLab vulnerability in Alpine Linux's development infrastructure on October 20-21, prompting the open-source project to rebuild its GitLab server and reset all passwords over conc…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/"
-    },
-    {
-      "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
-      "sector": "Non précisé",
-      "date": "01 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Malicious code on the website of prediction market Polymarket sold some signed-in traders' positions and moved their funds to the hackers on October 29. The code had replaced a page-speed script that the site loaded from…",
+      "desc": "Some attacks this week didn't need much of a trick. A fake support call, a trusted extension, a shared link, or a device with no password. Small things that people barely think about. Yet each was enough to cause serious…",
       "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html"
+      "url": "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html"
     },
     {
-      "title": "Northflank security breach leads to abuse of customers' AI API keys",
+      "title": "BTCPay Server warns of hot wallet crypto thefts on outdated instances",
       "sector": "Non précisé",
-      "date": "31 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/"
-    },
-    {
-      "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
-      "sector": "Non précisé",
-      "date": "31 Oct 2026",
+      "date": "02 Nov 2026",
       "actor": "Non attribué",
       "sev": "medium",
-      "desc": "AI-generated vulnerability reports are overwhelming some bug bounty programs, making it harder for aspiring security researchers to know where to start. TryHackMe explains how beginners can build practical cybersecurity …",
+      "desc": "The maintainer of BTCPay Server, an open-source cryptocurrency payment processor, has urged users to install the latest version as hackers have been draining \"hot wallets\" on instances running older versions. [...]",
       "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/"
+      "url": "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/"
     },
     {
-      "title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
-      "sector": "Non précisé",
-      "date": "31 Oct 2026",
+      "title": "Your Mobile Carrier Stores Your Call Logs for Years",
+      "sector": "Télécoms",
+      "date": "02 Nov 2026",
       "actor": "Non attribué",
       "sev": "high",
-      "desc": "Blockchain analytics firm Chainalysis disclosed a data breach after attackers used \"offensive agentic techniques\" to access internal systems and tools, exposing customer names, email addresses, user IDs, and organization…",
+      "desc": "Mobile carriers can retain years of call and text metadata, exposing sensitive details about customers' relationships, locations, and daily routines if breached. Cape examines the privacy risks of long-term telecom data …",
       "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/"
-    },
-    {
-      "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
-      "sector": "Non précisé",
-      "date": "31 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data. However, the company noted that the breach did not result …",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html"
-    },
-    {
-      "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
-      "sector": "Gouvernement",
-      "date": "31 Oct 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities (KEV) catalog, following active exploitatio…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html"
+      "url": "https://www.bleepingcomputer.com/news/security/your-mobile-carrier-stores-your-call-logs-for-years/"
     }
   ],
   "vulns": [
@@ -211,7 +211,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-11-10",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48356"
     },
@@ -224,7 +224,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-11-10",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111497"
     },
