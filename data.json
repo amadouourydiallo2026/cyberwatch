@@ -1,135 +1,148 @@
 {
-  "generated_at": "2026-11-03T13:38:39Z",
+  "generated_at": "2026-11-04T13:47:34Z",
   "week_label": "S45 · 2 – 8 novembre 2026",
   "attacks": [
     {
-      "title": "The 4 Elements of Exposure Prioritization and How to Operationalize Them",
+      "title": "US charges two Canadians accused of hacking US universities",
+      "sector": "Gouvernement",
+      "date": "04 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "A federal grand jury indicted two Canadians suspected of hacking multiple US universities and using the compromised systems to mine for cryptocurrency. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/us-charges-two-canadians-accused-of-hacking-us-universities/"
+    },
+    {
+      "title": "CISA flags WordPress RCE flaw as actively exploited in attacks",
+      "sector": "Gouvernement",
+      "date": "04 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers have started exploiting a recently patched high-severity WordPress vulnerability in the wild. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/"
+    },
+    {
+      "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
+      "sector": "Non précisé",
+      "date": "04 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "A China-aligned threat actor known as SlippyNunchucks has been attributed to a Domain Name System (DNS) hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method as part of a surv…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html"
+    },
+    {
+      "title": "Hackers use n-day exploits in zero-click attacks on iOS, Android devices",
+      "sector": "Non précisé",
+      "date": "04 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "A large-scale watering hole attack associated with Russian hackers has been targeting iOS and Android users visiting compromised sites or fake ones impersonating legitimate portals. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/"
+    },
+    {
+      "title": "Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure",
+      "sector": "Gouvernement",
+      "date": "04 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Russian authorities have arrested three suspected members of a threat group known as VasyGrek and dismantled its criminal infrastructure. Also known as Fluffy Wolf, the threat actor has a history of targeting Russian and…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html"
+    },
+    {
+      "title": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
+      "sector": "Gouvernement",
+      "date": "04 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a security flaw in WordPress Core to the Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The high-severity…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html"
+    },
+    {
+      "title": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",
       "sector": "Non précisé",
       "date": "03 Nov 2026",
       "actor": "Non attribué",
       "sev": "high",
-      "desc": "Your team is remediating more vulnerabilities than ever, yet your breach risk has barely changed. You’re spending too much time and effort on exposures attackers may never exploit, while higher-risk exposures sit, waitin…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/the-4-elements-of-exposure.html"
+      "desc": "Attackers have compromised the update infrastructure for the cPGuard web security suite to distribute a backdoor and a data-stealing script. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/"
     },
     {
-      "title": "Russia-Aligned Gorbag Hackers Exploit WinRAR Flaw to Deploy Data-Stealing Malware",
+      "title": "WorkOS says attacker used ARTEX AI to breach internal sales app",
+      "sector": "Manufacturing",
+      "date": "03 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Developer platform WorkOS suffered a data breach after a threat actor accessed business contact records and summaries of customer communications. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/"
+    },
+    {
+      "title": "Binance says fake job interview led to $6.3 billion crypto heist",
+      "sector": "Non précisé",
+      "date": "03 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Cryptocurrency exchange Binance says North Korean hackers used a fake job interview to trick an employee into installing malware that ultimately let them compromise the company's wallet infrastructure and steal about $6.…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/"
+    },
+    {
+      "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
       "sector": "Non précisé",
       "date": "03 Nov 2026",
       "actor": "Non attribué",
       "sev": "high",
-      "desc": "A Russia-aligned threat actor known as Gorbag has been observed using simple information stealer malware in attacks targeting Ukrainian organizations. \"Active since at least February 2025, the group has focused exclusive…",
+      "desc": "Blockchain infrastructure provider Chainstack on Tuesday disclosed that it was targeted in a cyber attack that allowed an unauthorized party to gain access to some parts of its infrastructure. The incident is assessed to…",
       "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html"
+      "url": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html"
     },
     {
-      "title": "Harvard University data breach exposed info of 851,000 accounts",
+      "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
+      "sector": "Non précisé",
+      "date": "03 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Binance on Tuesday said the record-setting theft of $6.43 billion in assets from the world's largest cryptocurrency exchange was the culmination of a \"sophisticated, multi-stage campaign\" that involved the use of a tampe…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html"
+    },
+    {
+      "title": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
       "sector": "Éducation",
       "date": "03 Nov 2026",
       "actor": "Non attribué",
       "sev": "high",
-      "desc": "Hackers who breached Harvard University's Alumni Affairs and Development systems in November 2025 stole data linked to more than 850,000 unique email addresses, according to breach notification service Have I Been Pwned.…",
+      "desc": "A 3AM ransomware affiliate targeted a school estate in the UK and successfully encrypted around 37 of nearly 50 machines reached from an unmanaged host. [...]",
       "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/harvard-university-data-breach-exposed-info-of-851-000-accounts/"
-    },
-    {
-      "title": "Hackers Exploit BTCPay Server Flaw to Steal Bitcoin and Litecoin From Hot Wallets",
-      "sector": "Non précisé",
-      "date": "03 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "BTCPay Server, a self-hosted, open-source cryptocurrency payment processor, has urged users to install the latest version of its software in response to reports of Bitcoin and Litecoin being stolen from hot wallets on in…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html"
-    },
-    {
-      "title": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
-      "sector": "Non précisé",
-      "date": "03 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Synology is urging customers to update the DiskStation Manager (DSM) software powering its Network Attached Storage (NAS) devices following ransomware attacks. The Taiwanese vendor said it observed threat actors exploiti…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html"
-    },
-    {
-      "title": "New Wave of Refrigeration Cyberattacks Hits Supermarkets Across Europe, Forcing Stores to Pull Food",
-      "sector": "Non précisé",
-      "date": "03 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Attackers remotely changed the settings on refrigeration controls at supermarkets in Belgium, Sweden, Estonia and other European countries overnight into Monday, November 2, warming fridges and freezers. No chain reporte…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html"
-    },
-    {
-      "title": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
-      "sector": "Non précisé",
-      "date": "03 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "A maximum-severity security flaw impacting Siemens SIMATIC IoT2050 Advanced devices has come under active exploitation, VulnCheck has revealed. The vulnerability, tracked as CVE-2026-58115 (CVSS score: 10.0), is a case o…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html"
-    },
-    {
-      "title": "Chinese hackers use ARTEX AI in automated attacks against 200 orgs",
-      "sector": "Non précisé",
-      "date": "02 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Chinese hackers used ARTEX, an open-source, multi-agent AI penetration-testing framework, in attacks against more than 200 organizations across 14 countries. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/"
-    },
-    {
-      "title": "Fintech platform Sageworks taken offline after suspected cyberattack",
-      "sector": "Finance",
-      "date": "02 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Financial technology company Abrigo has restored its Sageworks risk management application, except for borrower-facing capabilities, following an outage triggered by \"irregular activity\" in its environment. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/"
-    },
-    {
-      "title": "⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More",
-      "sector": "Non précisé",
-      "date": "02 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Some attacks this week didn't need much of a trick. A fake support call, a trusted extension, a shared link, or a device with no password. Small things that people barely think about. Yet each was enough to cause serious…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html"
-    },
-    {
-      "title": "BTCPay Server warns of hot wallet crypto thefts on outdated instances",
-      "sector": "Non précisé",
-      "date": "02 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "The maintainer of BTCPay Server, an open-source cryptocurrency payment processor, has urged users to install the latest version as hackers have been draining \"hot wallets\" on instances running older versions. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/"
-    },
-    {
-      "title": "Your Mobile Carrier Stores Your Call Logs for Years",
-      "sector": "Télécoms",
-      "date": "02 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Mobile carriers can retain years of call and text metadata, exposing sensitive details about customers' relationships, locations, and daily routines if breached. Cape examines the privacy risks of long-term telecom data …",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/your-mobile-carrier-stores-your-call-logs-for-years/"
+      "url": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/"
     }
   ],
   "vulns": [
     {
+      "cve": "CVE-2026-119977",
+      "product": "WordPress WordPress Core",
+      "type": "WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability",
+      "cvss": 8.1,
+      "published": "2026-10-31",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-11-06",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119977"
+    },
+    {
       "cve": "CVE-2026-118527",
       "product": "Ivanti Connect Secure",
       "type": "Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability",
-      "cvss": null,
-      "published": null,
+      "cvss": 4.3,
+      "published": "2026-11-03",
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-11-13",
@@ -185,7 +198,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-11-11",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41709"
     },
@@ -198,7 +211,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-10-31",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46300"
     },
@@ -370,19 +383,6 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102764"
-    },
-    {
-      "cve": "CVE-2025-61624",
-      "product": "Fortinet Multiple Products",
-      "type": "Fortinet Multiple Products Path Traversal Vulnerability",
-      "cvss": 6.0,
-      "published": "2026-04-14",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-10-19",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61624"
     }
   ],
   "actors": [
