@@ -1,7 +1,97 @@
 {
-  "generated_at": "2026-11-04T13:47:34Z",
+  "generated_at": "2026-11-05T13:59:59Z",
   "week_label": "S45 · 2 – 8 novembre 2026",
   "attacks": [
+    {
+      "title": "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026",
+      "sector": "Finance",
+      "date": "05 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "October 2026 brought another wave of cyber threats targeting US businesses, with attackers exploiting trusted platforms, legitimate authentication processes, and everyday business workflows. For enterprises, these campai…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html"
+    },
+    {
+      "title": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
+      "sector": "Non précisé",
+      "date": "05 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Zyxel GS1900 network switches that received the vendor's earlier fix for an actively exploited flaw are still open to the exploit attackers used, researchers at Binarly found. The exploit lets anyone who can reach a swit…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html"
+    },
+    {
+      "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
+      "sector": "Gouvernement",
+      "date": "05 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a medium-severity security flaw impacting multiple Apple operating systems to its Known Exploited Vulnerabilities (KEV) catalog, followi…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html"
+    },
+    {
+      "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
+      "sector": "Non précisé",
+      "date": "04 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal configuration files and credentials. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/"
+    },
+    {
+      "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
+      "sector": "Non précisé",
+      "date": "04 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "DreamHost is warning of a data breach after attackers gained access to its File Manager platform for two months and stole customers' FTP/SFTP usernames and passwords. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/"
+    },
+    {
+      "title": "Cyberattack disrupts blood storage refrigeration systems in France",
+      "sector": "Non précisé",
+      "date": "04 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "France's national blood service has confirmed that a cyberattack targeting a refrigeration equipment provider raised temperature and defrost settings at three of its facilities, threatening stored blood products. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/"
+    },
+    {
+      "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
+      "sector": "Non précisé",
+      "date": "04 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The developers of Goddess of Victory: NIKKE have confirmed that hackers tampered with the game's PC launcher scripts in a supply-chain attack, distributing malware capable of stealing credentials and cryptocurrency walle…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/"
+    },
+    {
+      "title": "mSecure password manager hack prompts password reset warnings",
+      "sector": "Non précisé",
+      "date": "04 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "mSeven Software is warning current and former mSecure password manager customers to change passwords, reset two-factor authentication, and remove passkeys following a cyberattack that reportedly exposed an encrypted cust…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/"
+    },
+    {
+      "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
+      "sector": "Non précisé",
+      "date": "04 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The Russia-linked threat actor known as APT29 is presumed to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving …",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html"
+    },
     {
       "title": "US charges two Canadians accused of hacking US universities",
       "sector": "Gouvernement",
@@ -31,99 +121,22 @@
       "desc": "A China-aligned threat actor known as SlippyNunchucks has been attributed to a Domain Name System (DNS) hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method as part of a surv…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html"
-    },
-    {
-      "title": "Hackers use n-day exploits in zero-click attacks on iOS, Android devices",
-      "sector": "Non précisé",
-      "date": "04 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "A large-scale watering hole attack associated with Russian hackers has been targeting iOS and Android users visiting compromised sites or fake ones impersonating legitimate portals. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/"
-    },
-    {
-      "title": "Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure",
-      "sector": "Gouvernement",
-      "date": "04 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "Russian authorities have arrested three suspected members of a threat group known as VasyGrek and dismantled its criminal infrastructure. Also known as Fluffy Wolf, the threat actor has a history of targeting Russian and…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html"
-    },
-    {
-      "title": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
-      "sector": "Gouvernement",
-      "date": "04 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a security flaw in WordPress Core to the Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The high-severity…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html"
-    },
-    {
-      "title": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",
-      "sector": "Non précisé",
-      "date": "03 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Attackers have compromised the update infrastructure for the cPGuard web security suite to distribute a backdoor and a data-stealing script. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/"
-    },
-    {
-      "title": "WorkOS says attacker used ARTEX AI to breach internal sales app",
-      "sector": "Manufacturing",
-      "date": "03 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Developer platform WorkOS suffered a data breach after a threat actor accessed business contact records and summaries of customer communications. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/"
-    },
-    {
-      "title": "Binance says fake job interview led to $6.3 billion crypto heist",
-      "sector": "Non précisé",
-      "date": "03 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "Cryptocurrency exchange Binance says North Korean hackers used a fake job interview to trick an employee into installing malware that ultimately let them compromise the company's wallet infrastructure and steal about $6.…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/"
-    },
-    {
-      "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
-      "sector": "Non précisé",
-      "date": "03 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Blockchain infrastructure provider Chainstack on Tuesday disclosed that it was targeted in a cyber attack that allowed an unauthorized party to gain access to some parts of its infrastructure. The incident is assessed to…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html"
-    },
-    {
-      "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
-      "sector": "Non précisé",
-      "date": "03 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Binance on Tuesday said the record-setting theft of $6.43 billion in assets from the world's largest cryptocurrency exchange was the culmination of a \"sophisticated, multi-stage campaign\" that involved the use of a tampe…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html"
-    },
-    {
-      "title": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
-      "sector": "Éducation",
-      "date": "03 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "A 3AM ransomware affiliate targeted a school estate in the UK and successfully encrypted around 37 of nearly 50 machines reached from an unmanaged host. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/"
     }
   ],
   "vulns": [
+    {
+      "cve": "CVE-2024-27834",
+      "product": "Apple Multiple Products",
+      "type": "Apple Multiple Products Improper Authentication Vulnerability",
+      "cvss": 5.5,
+      "published": "2024-05-14",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-11-18",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-27834"
+    },
     {
       "cve": "CVE-2026-119977",
       "product": "WordPress WordPress Core",
@@ -172,7 +185,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-11-01",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97229"
     },
@@ -185,7 +198,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-11-01",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76418"
     },
@@ -370,37 +383,24 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110936"
-    },
-    {
-      "cve": "CVE-2026-102764",
-      "product": "BeyondTrust Remote Support",
-      "type": "BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability",
-      "cvss": 9.8,
-      "published": "2026-10-15",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-10-19",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102764"
     }
   ],
   "actors": [
     {
-      "name": "Volt Typhoon",
+      "name": "APT29",
       "type": "APT / Espionnage",
-      "desc": "The China-nexus cyber espionage group known as Volt Typhoon has been attributed to a now-disrupted covert access network dubbed Silent Train that has been put to use for zero-day exploitation and strategic access. \"First…",
-      "victims": "1 mention(s) récente(s) — dernier article : 28 Oct 2026",
+      "desc": "The Russia-linked threat actor known as APT29 is presumed to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving …",
+      "victims": "1 mention(s) récente(s) — dernier article : 04 Nov 2026",
       "region": "Non précisé",
-      "url": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
+      "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
       "src": "The Hacker News"
     }
   ],
   "threats": [
     {
-      "title": "Activité soutenue de Volt Typhoon",
-      "desc": "The China-nexus cyber espionage group known as Volt Typhoon has been attributed to a now-disrupted covert access network dubbed Silent Train that has been put to use for zero-day exploitation and strategic access. \"First…",
-      "url": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html"
+      "title": "Activité soutenue de APT29",
+      "desc": "The Russia-linked threat actor known as APT29 is presumed to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving …",
+      "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html"
     }
   ],
   "iocs": [
