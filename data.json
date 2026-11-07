@@ -1,7 +1,67 @@
 {
-  "generated_at": "2026-11-06T13:45:19Z",
+  "generated_at": "2026-11-07T12:28:03Z",
   "week_label": "S45 · 2 – 8 novembre 2026",
   "attacks": [
+    {
+      "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
+      "sector": "Non précisé",
+      "date": "06 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "SonicWall has released security updates to fix seven vulnerabilities in SonicOS firewalls, including an SSL-VPN authentication bypass flaw exploited in attacks. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/"
+    },
+    {
+      "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
+      "sector": "Non précisé",
+      "date": "06 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "WorkOS says an AI-powered hacking agent that breached its internal sales application and accessed customer information was operated by a security researcher who claims the tool escaped its testing environment and uninten…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/"
+    },
+    {
+      "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
+      "sector": "Non précisé",
+      "date": "06 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "QNAP urges users to update Plex Media Server to the latest version available in the QNAP App Center, as hackers are exploiting the Plex2Shell vulnerability chain. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/"
+    },
+    {
+      "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
+      "sector": "Non précisé",
+      "date": "06 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Some WordPress sites can still be attacked while they install the fix for an actively exploited flaw, according to Umut Bayram, the Picus Security researcher who found it. The update that installs the fix still unpacks i…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html"
+    },
+    {
+      "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
+      "sector": "Non précisé",
+      "date": "06 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Threat actors are attempting to exploit a recently disclosed security flaw impacting OpenSSH that can enable sign-ins to accounts that have no password set, according to Previdian. The vulnerability, tracked as CVE-2026-…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html"
+    },
+    {
+      "title": "Chainalysis says breach exposed credentials for all customers",
+      "sector": "Non précisé",
+      "date": "06 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Blockchain intelligence firm Chainalysis says a recent attack on its systems and internal tools has exposed credentials and live tokens for all customers. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/"
+    },
     {
       "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
       "sector": "Non précisé",
@@ -61,69 +121,22 @@
       "desc": "The FBI and CISA warn that hackers are actively targeting industrial refrigeration and cold-chain monitoring systems worldwide, potentially causing food spoilage, equipment damage, and fire hazards. [...]",
       "src": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/"
-    },
-    {
-      "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
-      "sector": "Non précisé",
-      "date": "05 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Hackers are using fake OpenAI, SpaceX, and Anthropic event invitations to lure employees into phishing attacks, using two different phishing-as-a-service platforms to steal Microsoft and Google account credentials and au…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/"
-    },
-    {
-      "title": "OpenAI’s GPT-6 Astra silently obstructed safety research tasks",
-      "sector": "Non précisé",
-      "date": "05 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "OpenAI has disclosed another AI alignment incident where GPT-6 Astra was found to sometimes quietly withhold help on safety research. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/"
-    },
-    {
-      "title": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction",
-      "sector": "Non précisé",
-      "date": "05 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Cybersecurity researchers have disclosed details of a now-patched vulnerability that could be exploited to bypass Lockdown Mode protections in OpenAI ChatGPT. Lockdown Mode was introduced by the artificial intelligence (…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html"
-    },
-    {
-      "title": "Hackers backdoor Linux servers using trojanized CWP web server",
-      "sector": "Non précisé",
-      "date": "05 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "A new Linux malware called CWPdoor is being distributed through a trojanized version of cwpsrv, the web server behind the Control Web Panel (CWP) management interface. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/"
-    },
-    {
-      "title": "DigiCert data breach exposes customer information, identity documents",
-      "sector": "Manufacturing",
-      "date": "05 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "DigiCert warns it suffered a data breach after a server migration mistakenly exposed an internal business system to the internet, allowing unauthorized access to customer information and identity documents. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/"
-    },
-    {
-      "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
-      "sector": "Non précisé",
-      "date": "05 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "How much damage can someone do without breaking much? Quite a lot, it seems. A stolen login can open doors across several systems. A trusted setting can be used to lock people out. Even a simple file copy can reach place…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html"
     }
   ],
   "vulns": [
+    {
+      "cve": "CVE-2026-19868",
+      "product": "SonicWall SonicOS SSLVPN",
+      "type": "SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability",
+      "cvss": 7.5,
+      "published": "2026-11-06",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-11-20",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19868"
+    },
     {
       "cve": "CVE-2024-27834",
       "product": "Apple Multiple Products",
@@ -370,19 +383,6 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96652"
-    },
-    {
-      "cve": "CVE-2026-110936",
-      "product": "Siemens Software Center",
-      "type": "Siemens Software Center Uncontrolled Search Path Element Vulnerability",
-      "cvss": 6.7,
-      "published": "2026-10-15",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-11-03",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110936"
     }
   ],
   "actors": [
