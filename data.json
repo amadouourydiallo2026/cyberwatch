@@ -1,7 +1,17 @@
 {
-  "generated_at": "2026-11-07T12:28:03Z",
+  "generated_at": "2026-11-08T12:45:59Z",
   "week_label": "S45 · 2 – 8 novembre 2026",
   "attacks": [
+    {
+      "title": "Hackers pull off $133 million French bank heist via service provider",
+      "sector": "Finance",
+      "date": "07 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "French cooperative bank Crédit Mutuel Arkéa was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcing it to respond by suspending certain systems.v [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/"
+    },
     {
       "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
       "sector": "Non précisé",
@@ -111,16 +121,6 @@
       "desc": "A backdoor has been found hiding in the web server that runs Control Web Panel (CWP), a free panel for managing Linux hosting servers, researchers at QiAnXin's XLab said this week. The backdoored web server executes comm…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html"
-    },
-    {
-      "title": "FBI, CISA warn of cyberattacks targeting refrigeration systems",
-      "sector": "Manufacturing",
-      "date": "05 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The FBI and CISA warn that hackers are actively targeting industrial refrigeration and cold-chain monitoring systems worldwide, potentially causing food spoilage, equipment damage, and fire hazards. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/"
     }
   ],
   "vulns": [
