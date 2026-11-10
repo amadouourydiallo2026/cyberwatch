@@ -1,129 +1,181 @@
 {
-  "generated_at": "2026-11-09T15:09:55Z",
+  "generated_at": "2026-11-10T14:20:20Z",
   "week_label": "S46 · 9 – 15 novembre 2026",
   "attacks": [
     {
-      "title": "FBI agent stole $2.5 million in crypto from hackers under investigation",
+      "title": "Hackers now exploit critical Barracuda ESG flaws to gain root access",
       "sector": "Non précisé",
-      "date": "09 Nov 2026",
+      "date": "10 Nov 2026",
       "actor": "Non attribué",
       "sev": "critical",
-      "desc": "A former FBI agent has pleaded guilty to stealing nearly $2.5 million from the wallets of fraud victims and nation-state hackers under investigation. [...]",
+      "desc": "Cybersecurity company Barracuda Networks warned that attackers have begun exploiting two recently patched Email Security Gateway (ESG) vulnerabilities that let them run commands with root privileges. [...]",
       "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/fbi-agent-stole-25-million-in-crypto-from-hackers-fraud-victims/"
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access/"
     },
     {
-      "title": "⚡ Weekly Recap: SSHole Exploited, APT Root RCE, Robot Takeovers, 15K Hacked Sites, and More",
-      "sector": "Non précisé",
-      "date": "09 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "A system doesn't always need a complicated bug to let someone in. Sometimes, a blank password is enough. That's one of the bigger stories this week. And it gets worse when the tools meant to keep systems updated or runni…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html"
-    },
-    {
-      "title": "Default 'admin:admin' Server Password Helps Researchers Hack Two Automakers, Unlock and Start Cars",
-      "sector": "Non précisé",
-      "date": "09 Nov 2026",
+      "title": "Turla hackers use new Cereal malware to spy on govt Exchange servers",
+      "sector": "Gouvernement",
+      "date": "10 Nov 2026",
       "actor": "Non attribué",
       "sev": "medium",
-      "desc": "The login systems behind two car brands' mobile apps could be taken over completely, two security researchers found, allowing them to access any customer's account and, for an owner with a connected car, unlock the doors…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/default-adminadmin-server-password.html"
+      "desc": "The Russian state-backed threat group Turla has been using a new malicious toolset called 'Cereal' to intercept emails on Microsoft Exchange servers at government organizations. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/turla-hackers-use-new-ceral-malware-to-spy-on-govt-exchange-servers/"
     },
     {
-      "title": "Web3Auth Flaw Exploited to Steal Keplr Crypto, Provider Empties Other Wallets for Safety",
-      "sector": "Non précisé",
-      "date": "09 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Some people who set up a Keplr crypto wallet with their Google or Apple account have had money stolen by an attacker. Keplr uses a company called Web3Auth to run that Google and Apple sign-in. The attacker used a securit…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/web3auth-flaw-exploited-to-steal-keplr.html"
-    },
-    {
-      "title": "Taiwan-Based Hacker Used BOSSAI AI Agents to Steal Taipei Emergency Dispatch Records",
-      "sector": "Santé",
-      "date": "09 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "A single attacker using AI agents pulled emergency dispatch records covering seven Taipei districts, researchers at Acronis's Threat Research Unit said last week. The agents also found a Taipei fire department platform e…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/taiwan-based-hacker-used-bossai-ai.html"
-    },
-    {
-      "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
+      "title": "France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites",
       "sector": "Gouvernement",
+      "date": "10 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "An October cyberattack on refrigeration controllers at about 700 French retail sites was carried out by a cyber unit of Iran's Islamic Revolutionary Guard Corps (IRGC), the French government said yesterday. The attackers…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html"
+    },
+    {
+      "title": "Google patches eighth Chrome zero-day exploited in attacks this year",
+      "sector": "Non précisé",
+      "date": "10 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the year. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/"
+    },
+    {
+      "title": "Anthropic's Claude Fable 5.2 Beats GPT-6 Cyber in Multi-Stage Cyberattack Benchmark",
+      "sector": "Non précisé",
+      "date": "10 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Anthropic on Monday released Claude Fable 5.2 and Claude Mythos 5.2 models, which it said exhibit improvements in coding, reasoning, and vision. During pre-release training, the large language models (LLMs) helped its en…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/anthropics-claude-fable-52-beats-gpt-6.html"
+    },
+    {
+      "title": "Fireworks AI discloses new breach after cloud provider hack",
+      "sector": "Technologie",
+      "date": "10 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "AI infrastructure startup Fireworks has disclosed a new security breach in which attackers accessed its development machines after breaching a third-party cloud provider. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/fireworks-ai-discloses-new-breach-after-cloud-provider-hack/"
+    },
+    {
+      "title": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
+      "sector": "Gouvernement",
+      "date": "10 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added four security flaws impacting GPUStack, SignalWire FreeSwitch, OpenBSD OpenSSH, and IBM Aspera Faspex to its Known Exploited Vulnerabilitie…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html"
+    },
+    {
+      "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
+      "sector": "Éducation",
       "date": "09 Nov 2026",
       "actor": "Non attribué",
       "sev": "high",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity vulnerability impacting SonicWall SonicOS to its Known Exploited Vulnerabilities (KEV) catalog, following reports that it said ma…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html"
+      "desc": "Vanderbilt University warns it is responding to a cyberattack claimed by the BYOD ransomware gang, which claims to have encrypted the university's databases and stolen sensitive student, employee, and research data. [...…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/"
     },
     {
-      "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
+      "title": "SEGA newsletter data breach exposes 2.2 million email addresses",
       "sector": "Non précisé",
-      "date": "08 Nov 2026",
+      "date": "09 Nov 2026",
       "actor": "Non attribué",
       "sev": "critical",
-      "desc": "Japanese manufacturer Iris Ohyama, the operator of the Iris Plaza shopping platform, disclosed that personal information belonging to about 7.7 million people may have been exposed after unauthorized access to a third-pa…",
+      "desc": "Japanese gaming giant SEGA has disclosed that a data breach at its third-party newsletter provider, ARARA, exposed the email addresses of 2.2 million newsletter subscribers. [...]",
       "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/"
+      "url": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/"
     },
     {
-      "title": "Hackers pull off $133 million French bank heist via service provider",
-      "sector": "Finance",
-      "date": "07 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "French cooperative bank Crédit Mutuel Arkéa was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcing it to respond by suspending certain systems.v [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/"
-    },
-    {
-      "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
-      "sector": "Non précisé",
-      "date": "06 Nov 2026",
+      "title": "York University breach exposed personal information dating to 2007",
+      "sector": "Éducation",
+      "date": "09 Nov 2026",
       "actor": "Non attribué",
       "sev": "high",
-      "desc": "SonicWall has released security updates to fix seven vulnerabilities in SonicOS firewalls, including an SSL-VPN authentication bypass flaw exploited in attacks. [...]",
+      "desc": "York University has announced it suffered a cybersecurity incident in which a threat actor stole personal information people submitted through online forms. [...]",
       "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/"
+      "url": "https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007/"
     },
     {
-      "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
-      "sector": "Non précisé",
-      "date": "06 Nov 2026",
+      "title": "France blames Iranian hackers for supermarket attacks that sparked fires",
+      "sector": "Retail",
+      "date": "09 Nov 2026",
       "actor": "Non attribué",
       "sev": "high",
-      "desc": "WorkOS says an AI-powered hacking agent that breached its internal sales application and accessed customer information was operated by a security researcher who claims the tool escaped its testing environment and uninten…",
+      "desc": "France has linked October cyberattacks that disrupted refrigeration systems at more than 700 supermarkets and other retail locations to Iranian state-backed hackers, saying the attacks caused food losses and sparked at l…",
       "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/"
+      "url": "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/"
     },
     {
-      "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
+      "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
       "sector": "Non précisé",
-      "date": "06 Nov 2026",
+      "date": "09 Nov 2026",
       "actor": "Non attribué",
       "sev": "high",
-      "desc": "QNAP urges users to update Plex Media Server to the latest version available in the QNAP App Center, as hackers are exploiting the Plex2Shell vulnerability chain. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/"
-    },
-    {
-      "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
-      "sector": "Non précisé",
-      "date": "06 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Some WordPress sites can still be attacked while they install the fix for an actively exploited flaw, according to Umut Bayram, the Picus Security researcher who found it. The update that installs the fix still unpacks i…",
+      "desc": "An attacker broke into AWS accounts belonging to multiple Qubole customers between October 14 and October 26 and stole stored secrets and data, cloud security company Wiz said today. The attacker used credentials for an …",
       "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html"
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html"
     }
   ],
   "vulns": [
+    {
+      "cve": "CVE-2026-102895",
+      "product": "GPUStack GPUStack",
+      "type": "GPUStack Improper Authentication Vulnerability",
+      "cvss": 9.8,
+      "published": "2026-11-04",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-11-12",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102895"
+    },
+    {
+      "cve": "CVE-2026-123158",
+      "product": "OpenBSD OpenSSH",
+      "type": "OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
+      "cvss": 8.1,
+      "published": "2026-11-05",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-11-12",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123158"
+    },
+    {
+      "cve": "CVE-2026-116779",
+      "product": "SignalWire FreeSwitch",
+      "type": "SignalWire FreeSwitch Code Injection Vulnerability",
+      "cvss": 9.8,
+      "published": "2026-11-05",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-11-12",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116779"
+    },
+    {
+      "cve": "CVE-2026-123218",
+      "product": "IBM Aspera Faspex",
+      "type": "IBM Aspera Faspex Incorrect Authorization Vulnerability",
+      "cvss": 9.8,
+      "published": "2026-11-07",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-11-12",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123218"
+    },
     {
       "cve": "CVE-2026-19868",
       "product": "SonicWall SonicOS SSLVPN",
@@ -159,7 +211,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-11-06",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119977"
     },
@@ -331,61 +383,18 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106931"
-    },
-    {
-      "cve": "CVE-2026-96656",
-      "product": "Plex Media Server",
-      "type": "Plex Media Server External Control of File Name or Path Vulnerability",
-      "cvss": 7.2,
-      "published": "2026-09-23",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-10-23",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96656"
-    },
-    {
-      "cve": "CVE-2026-96655",
-      "product": "Plex Media Server",
-      "type": "Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
-      "cvss": 4.3,
-      "published": "2026-09-23",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-11-03",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96655"
-    },
-    {
-      "cve": "CVE-2026-96654",
-      "product": "Plex Media Server",
-      "type": "Plex Media Server Improper Neutralization of Encoded URI Schemes in a Web Page Vulnerabili",
-      "cvss": 6.5,
-      "published": "2026-09-23",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-10-23",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96654"
-    },
-    {
-      "cve": "CVE-2026-96652",
-      "product": "Plex Media Server",
-      "type": "Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
-      "cvss": 4.3,
-      "published": "2026-09-23",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-11-03",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96652"
     }
   ],
   "actors": [
+    {
+      "name": "ShinyHunters",
+      "type": "RaaS / Extorsion",
+      "desc": "Binance, the world's largest crypto exchange, has denied claims of a new security breach made by a threat actor using the 'ShinyHunters' handle on a newly emerged underground cybercrime forum. [...]",
+      "victims": "1 mention(s) récente(s) — dernier article : 09 Nov 2026",
+      "region": "Non précisé",
+      "url": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/",
+      "src": "BleepingComputer"
+    },
     {
       "name": "APT29",
       "type": "APT / Espionnage",
@@ -398,112 +407,17 @@
   ],
   "threats": [
     {
+      "title": "Activité soutenue de ShinyHunters",
+      "desc": "Binance, the world's largest crypto exchange, has denied claims of a new security breach made by a threat actor using the 'ShinyHunters' handle on a newly emerged underground cybercrime forum. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/"
+    },
+    {
       "title": "Activité soutenue de APT29",
       "desc": "The Russia-linked threat actor known as APT29 is presumed to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving …",
       "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html"
     }
   ],
   "iocs": [
-    {
-      "type": "url",
-      "value": "http://94.154.43.7:8952/item.xml",
-      "malware": "Unknown malware",
-      "confidence": 100,
-      "first_seen": "2026-10-25",
-      "related_cve": "CVE-2026-96652",
-      "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1984349/"
-    },
-    {
-      "type": "url",
-      "value": "http://94.154.43.7:8952/24f46c5316be/item.xml",
-      "malware": "Unknown malware",
-      "confidence": 100,
-      "first_seen": "2026-10-25",
-      "related_cve": "CVE-2026-96652",
-      "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1984350/"
-    },
-    {
-      "type": "url",
-      "value": "http://94.154.43.7:8952/477617d055ce/item.xml",
-      "malware": "Unknown malware",
-      "confidence": 100,
-      "first_seen": "2026-10-25",
-      "related_cve": "CVE-2026-96652",
-      "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1984351/"
-    },
-    {
-      "type": "url",
-      "value": "http://94.154.43.7:8952/a7443820956a/item.xml",
-      "malware": "Unknown malware",
-      "confidence": 100,
-      "first_seen": "2026-10-25",
-      "related_cve": "CVE-2026-96652",
-      "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1984352/"
-    },
-    {
-      "type": "url",
-      "value": "http://94.154.43.7:8952/e2d4354829dd/item.xml",
-      "malware": "Unknown malware",
-      "confidence": 100,
-      "first_seen": "2026-10-25",
-      "related_cve": "CVE-2026-96652",
-      "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1984353/"
-    },
-    {
-      "type": "url",
-      "value": "http://85.11.167.7:12103/item.xml",
-      "malware": "Unknown malware",
-      "confidence": 100,
-      "first_seen": "2026-10-25",
-      "related_cve": "CVE-2026-96652",
-      "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1984354/"
-    },
-    {
-      "type": "url",
-      "value": "http://85.11.167.7:12898/item.xml",
-      "malware": "Unknown malware",
-      "confidence": 100,
-      "first_seen": "2026-10-25",
-      "related_cve": "CVE-2026-96652",
-      "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1984355/"
-    },
-    {
-      "type": "url",
-      "value": "http://85.11.167.7:13013/item.xml",
-      "malware": "Unknown malware",
-      "confidence": 100,
-      "first_seen": "2026-10-25",
-      "related_cve": "CVE-2026-96652",
-      "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1984356/"
-    },
-    {
-      "type": "url",
-      "value": "http://91-92-40-202.sslip.io:44519/item.xml",
-      "malware": "Unknown malware",
-      "confidence": 100,
-      "first_seen": "2026-10-25",
-      "related_cve": "CVE-2026-96652",
-      "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1984357/"
-    },
-    {
-      "type": "url",
-      "value": "http://64.89.163.22:39977/item_835.xml",
-      "malware": "Unknown malware",
-      "confidence": 100,
-      "first_seen": "2026-10-25",
-      "related_cve": "CVE-2026-96652",
-      "source": "ThreatFox",
-      "source_url": "https://threatfox.abuse.ch/ioc/1984358/"
-    },
     {
       "type": "url",
       "value": "https://217.60.102.5/sh",
@@ -603,6 +517,106 @@
       "related_cve": "CVE-2026-109618",
       "source": "ThreatFox",
       "source_url": "https://threatfox.abuse.ch/ioc/1982174/"
+    },
+    {
+      "type": "url",
+      "value": "http://212.83.185.19/footerd.png",
+      "malware": "XMRIG",
+      "confidence": 100,
+      "first_seen": "2026-10-23",
+      "related_cve": "CVE-2026-110447",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1982215/"
+    },
+    {
+      "type": "url",
+      "value": "http://212.83.185.19/bottom-xe.png",
+      "malware": "XMRIG",
+      "confidence": 100,
+      "first_seen": "2026-10-23",
+      "related_cve": "CVE-2026-110447",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1982216/"
+    },
+    {
+      "type": "sha256_hash",
+      "value": "9aade612521dab5600f59b0660e19fb8392a42570408673e824f3bbd2532c85b",
+      "malware": "XMRIG",
+      "confidence": 100,
+      "first_seen": "2026-10-23",
+      "related_cve": "CVE-2026-110447",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1982220/"
+    },
+    {
+      "type": "sha256_hash",
+      "value": "19cd1fe4e501fbdf6e52a7249a7bd375ea3039feed596f56691fb7f353acc23f",
+      "malware": "XMRIG",
+      "confidence": 100,
+      "first_seen": "2026-10-23",
+      "related_cve": "CVE-2026-110447",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1982221/"
+    },
+    {
+      "type": "sha256_hash",
+      "value": "e15d2363b9e4552250f230c62188cb299ff2570c9ba9589fbc3e190df84768ba",
+      "malware": "XMRIG",
+      "confidence": 100,
+      "first_seen": "2026-10-23",
+      "related_cve": "CVE-2026-110447",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1982222/"
+    },
+    {
+      "type": "sha256_hash",
+      "value": "c5bd9b66d5535c2dffa253cb6dd665d20208db58793fd176d4773093546f50df",
+      "malware": "XMRIG",
+      "confidence": 100,
+      "first_seen": "2026-10-23",
+      "related_cve": "CVE-2026-110447",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1982223/"
+    },
+    {
+      "type": "ip:port",
+      "value": "103.194.186.118:19999",
+      "malware": "XMRIG",
+      "confidence": 95,
+      "first_seen": "2026-10-23",
+      "related_cve": "CVE-2026-110447",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1982213/"
+    },
+    {
+      "type": "ip:port",
+      "value": "212.83.185.19:80",
+      "malware": "XMRIG",
+      "confidence": 95,
+      "first_seen": "2026-10-23",
+      "related_cve": "CVE-2026-110447",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1982217/"
+    },
+    {
+      "type": "ip:port",
+      "value": "212.83.185.19:443",
+      "malware": "XMRIG",
+      "confidence": 95,
+      "first_seen": "2026-10-23",
+      "related_cve": "CVE-2026-110447",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1982218/"
+    },
+    {
+      "type": "url",
+      "value": "http://cqzbr8a4.requestrepo.com",
+      "malware": "XMRIG",
+      "confidence": 90,
+      "first_seen": "2026-10-23",
+      "related_cve": "CVE-2026-110447",
+      "source": "ThreatFox",
+      "source_url": "https://threatfox.abuse.ch/ioc/1982219/"
     }
   ]
 }
