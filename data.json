@@ -1,129 +1,207 @@
 {
-  "generated_at": "2026-11-10T14:20:20Z",
+  "generated_at": "2026-11-11T13:33:58Z",
   "week_label": "S46 · 9 – 15 novembre 2026",
   "attacks": [
     {
-      "title": "Hackers now exploit critical Barracuda ESG flaws to gain root access",
+      "title": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise",
       "sector": "Non précisé",
-      "date": "10 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Cybersecurity company Barracuda Networks warned that attackers have begun exploiting two recently patched Email Security Gateway (ESG) vulnerabilities that let them run commands with root privileges. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access/"
-    },
-    {
-      "title": "Turla hackers use new Cereal malware to spy on govt Exchange servers",
-      "sector": "Gouvernement",
-      "date": "10 Nov 2026",
+      "date": "11 Nov 2026",
       "actor": "Non attribué",
       "sev": "medium",
-      "desc": "The Russian state-backed threat group Turla has been using a new malicious toolset called 'Cereal' to intercept emails on Microsoft Exchange servers at government organizations. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/turla-hackers-use-new-ceral-malware-to-spy-on-govt-exchange-servers/"
+      "desc": "The in-house Python script behind eMudhra's October key compromise has now cost the company 8 more of its intermediate certificate authorities (CAs), even though it did not weaken their keys. Each intermediate CA has its…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html"
     },
     {
-      "title": "France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites",
+      "title": "CISA flags Cisco BroadWorks flaw as actively exploited in attacks",
       "sector": "Gouvernement",
-      "date": "10 Nov 2026",
+      "date": "11 Nov 2026",
       "actor": "Non attribué",
       "sev": "high",
-      "desc": "An October cyberattack on refrigeration controllers at about 700 French retail sites was carried out by a cyber unit of Iran's Islamic Revolutionary Guard Corps (IRGC), the French government said yesterday. The attackers…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html"
-    },
-    {
-      "title": "Google patches eighth Chrome zero-day exploited in attacks this year",
-      "sector": "Non précisé",
-      "date": "10 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the year. [...]",
+      "desc": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned on Tuesday that hackers are now exploiting a high-severity Cisco BroadWorks vulnerability in attacks. [...]",
       "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/"
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/"
     },
     {
-      "title": "Anthropic's Claude Fable 5.2 Beats GPT-6 Cyber in Multi-Stage Cyberattack Benchmark",
+      "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
       "sector": "Non précisé",
-      "date": "10 Nov 2026",
+      "date": "11 Nov 2026",
       "actor": "Non attribué",
       "sev": "high",
-      "desc": "Anthropic on Monday released Claude Fable 5.2 and Claude Mythos 5.2 models, which it said exhibit improvements in coding, reasoning, and vision. During pre-release training, the large language models (LLMs) helped its en…",
+      "desc": "Microsoft on Tuesday released patches for a total of 1,259 vulnerabilities spanning its software portfolio, the second consecutive month where the patch volume has exceeded 1,000 flaws. These cover 726 flaws in Windows, …",
       "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/anthropics-claude-fable-52-beats-gpt-6.html"
+      "url": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html"
     },
     {
-      "title": "Fireworks AI discloses new breach after cloud provider hack",
-      "sector": "Technologie",
-      "date": "10 Nov 2026",
+      "title": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
+      "sector": "Transport",
+      "date": "11 Nov 2026",
       "actor": "Non attribué",
       "sev": "high",
-      "desc": "AI infrastructure startup Fireworks has disclosed a new security breach in which attackers accessed its development machines after breaching a third-party cloud provider. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/fireworks-ai-discloses-new-breach-after-cloud-provider-hack/"
+      "desc": "AI provider keys that customers stored on Railway were stolen in an October breach and used to commit an estimated $740,000 in unauthorized spending, the platform-as-a-service provider said yesterday. It has promised to …",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html"
     },
     {
-      "title": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
+      "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
       "sector": "Gouvernement",
+      "date": "11 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV) cat…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html"
+    },
+    {
+      "title": "Railway breach leads to $740,000 in fraudulent AI charges",
+      "sector": "Transport",
       "date": "10 Nov 2026",
       "actor": "Non attribué",
       "sev": "high",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added four security flaws impacting GPUStack, SignalWire FreeSwitch, OpenBSD OpenSSH, and IBM Aspera Faspex to its Known Exploited Vulnerabilitie…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html"
-    },
-    {
-      "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
-      "sector": "Éducation",
-      "date": "09 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Vanderbilt University warns it is responding to a cyberattack claimed by the BYOD ransomware gang, which claims to have encrypted the university's databases and stolen sensitive student, employee, and research data. [...…",
+      "desc": "Cloud hosting provider Railway says hackers exploited vulnerabilities in its infrastructure to steal customer authentication secrets and generate approximately $740,000 in fraudulent AI usage, potentially exposing creden…",
       "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/"
+      "url": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/"
     },
     {
-      "title": "SEGA newsletter data breach exposes 2.2 million email addresses",
-      "sector": "Non précisé",
-      "date": "09 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Japanese gaming giant SEGA has disclosed that a data breach at its third-party newsletter provider, ARARA, exposed the email addresses of 2.2 million newsletter subscribers. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/"
-    },
-    {
-      "title": "York University breach exposed personal information dating to 2007",
-      "sector": "Éducation",
-      "date": "09 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "York University has announced it suffered a cybersecurity incident in which a threat actor stole personal information people submitted through online forms. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007/"
-    },
-    {
-      "title": "France blames Iranian hackers for supermarket attacks that sparked fires",
+      "title": "Japanese furniture giant Nitori says hackers stole 37.6M customer records",
       "sector": "Retail",
-      "date": "09 Nov 2026",
+      "date": "10 Nov 2026",
       "actor": "Non attribué",
-      "sev": "high",
-      "desc": "France has linked October cyberattacks that disrupted refrigeration systems at more than 700 supermarkets and other retail locations to Iranian state-backed hackers, saying the attacks caused food losses and sparked at l…",
+      "sev": "critical",
+      "desc": "Nitori, a major Japanese furniture and home accessories retailer, discovered that an attacker accessed a system on its network and may have stolen 37.62 million customer records. [...]",
       "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/"
+      "url": "https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/"
     },
     {
-      "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
+      "title": "Hackers exploit trusted AWS access to breach multiple cloud environments",
       "sector": "Non précisé",
-      "date": "09 Nov 2026",
+      "date": "10 Nov 2026",
       "actor": "Non attribué",
       "sev": "high",
-      "desc": "An attacker broke into AWS accounts belonging to multiple Qubole customers between October 14 and October 26 and stole stored secrets and data, cloud security company Wiz said today. The attacker used credentials for an …",
+      "desc": "A threat actor used compromised identity and access management (IAM) credentials for a Qubole big data platform's AWS account to access and exfiltrate data from multiple customers' AWS environments. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/"
+    },
+    {
+      "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
+      "sector": "Non précisé",
+      "date": "11 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "An attacker exploited a remote code execution flaw in SGLang, an open-source inference engine, and ran code on one of NEAR AI's inference servers last Sunday. The attacker could also have seen requests being processed on…",
       "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html"
+      "url": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html"
+    },
+    {
+      "title": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day",
+      "sector": "Non précisé",
+      "date": "10 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Today is Microsoft's November 2026 Patch Tuesday, with security updates addressing a record-breaking 1,235 flaws, including one actively exploited Microsoft Outlook zero-day vulnerability. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/"
+    },
+    {
+      "title": "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers",
+      "sector": "Non précisé",
+      "date": "10 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "A critical authentication bypass vulnerability in Xen Orchestra is being actively exploited in attacks that could grant administrator privileges and allow takeover of XCP-ng virtualization hosts. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/"
+    },
+    {
+      "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
+      "sector": "Non précisé",
+      "date": "10 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Cybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant. The activity, observed by Huntress in early October 2026, involv…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html"
     }
   ],
   "vulns": [
+    {
+      "cve": "CVE-2026-124194",
+      "product": "Microsoft Office",
+      "type": "Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerabil",
+      "cvss": 6.5,
+      "published": "2026-11-10",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-11-24",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124194"
+    },
+    {
+      "cve": "CVE-2026-111793",
+      "product": "Openwave Messaging Limited Webtop Media Transcoder",
+      "type": "Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Sph",
+      "cvss": 4.3,
+      "published": "2026-10-16",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-11-24",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111793"
+    },
+    {
+      "cve": "CVE-2026-20320",
+      "product": "Cisco BroadWorks",
+      "type": "Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability",
+      "cvss": 7.5,
+      "published": "2026-08-19",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-11-24",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20320"
+    },
+    {
+      "cve": "CVE-2026-111560",
+      "product": "Barracuda Networks Multiple Products",
+      "type": "Barracuda Networks Multiple Products OS Command Injection Vulnerability",
+      "cvss": null,
+      "published": "2026-11-02",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-11-13",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111560"
+    },
+    {
+      "cve": "CVE-2026-116606",
+      "product": "Barracuda Networks Barracuda Email Security Gateway (ESG)",
+      "type": "Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate P",
+      "cvss": null,
+      "published": "2026-11-02",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-11-13",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116606"
+    },
+    {
+      "cve": "CVE-2026-125350",
+      "product": "Google Chromium",
+      "type": "Google Chromium Use-After-Free Vulnerability",
+      "cvss": 8.8,
+      "published": "2026-11-10",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-11-24",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125350"
+    },
     {
       "cve": "CVE-2026-102895",
       "product": "GPUStack GPUStack",
@@ -198,7 +276,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-11-18",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-27834"
     },
@@ -305,84 +383,6 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48356"
-    },
-    {
-      "cve": "CVE-2026-111497",
-      "product": "Google Brotli",
-      "type": "Google Brotli Unchecked Return Value Vulnerability",
-      "cvss": 9.8,
-      "published": "2026-10-22",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-11-10",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111497"
-    },
-    {
-      "cve": "CVE-2026-109618",
-      "product": "PHP Group PHP",
-      "type": "PHP Memory Corruption Vulnerability",
-      "cvss": 9.8,
-      "published": "2026-10-21",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-10-29",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109618"
-    },
-    {
-      "cve": "CVE-2026-109619",
-      "product": "PHP Group PHP",
-      "type": "PHP Stale Internal Request-State Vulnerability",
-      "cvss": 8.1,
-      "published": "2026-10-21",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-10-29",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109619"
-    },
-    {
-      "cve": "CVE-2026-114625",
-      "product": "Arista VeloCloud Orchestrator",
-      "type": "Arista VeloCloud Orchestrator SQL Injection Vulnerability",
-      "cvss": 9.9,
-      "published": "2026-10-22",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-10-26",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114625"
-    },
-    {
-      "cve": "CVE-2026-110447",
-      "product": "Collabora Collabora Online – Built-in CODE Server",
-      "type": "Collabora Online – Built-in CODE Server OS Command Injection Vulnerability",
-      "cvss": 9.8,
-      "published": "2026-10-14",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-10-26",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110447"
-    },
-    {
-      "cve": "CVE-2026-106931",
-      "product": "EG Secure Solutions SiteGuard Server Edition",
-      "type": "EG Secure Solutions SiteGuard Server Edition OS Command Injection Vulnerability",
-      "cvss": 7.8,
-      "published": "2026-10-14",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-10-23",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106931"
     }
   ],
   "actors": [
