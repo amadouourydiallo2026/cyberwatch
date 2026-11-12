@@ -1,126 +1,126 @@
 {
-  "generated_at": "2026-11-11T13:33:58Z",
+  "generated_at": "2026-11-12T14:37:46Z",
   "week_label": "S46 · 9 – 15 novembre 2026",
   "attacks": [
     {
-      "title": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise",
+      "title": "Apify rotates API tokens, prompts 2FA resets after breach",
+      "sector": "Non précisé",
+      "date": "12 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Apify has rotated critical internal secrets and revoked some third-party OAuth connections after detecting unauthorized access to its internal systems. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/"
+    },
+    {
+      "title": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
+      "sector": "Non précisé",
+      "date": "12 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "PTC has released patches for a new critical vulnerability impacting Windchill and FlexPLM software that, if successfully exploited, could result in remote code execution. The security flaw, tracked as CVE-2026-126325, ca…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html"
+    },
+    {
+      "title": "Hackers plant GSocket on Linux servers for persistent access",
+      "sector": "Non précisé",
+      "date": "12 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Multiple threat actors are abusing GSocket, a legitimate open-source remote access tool, to maintain access to Linux servers even after patching the vulnerabilities exploited to gain initial access. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/"
+    },
+    {
+      "title": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
+      "sector": "Non précisé",
+      "date": "12 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "ConnectWise has taken the precautionary step of disabling five third-party extensions in partner environments following reports of unauthorized access. In an advisory posted on its site, the company said there is no evid…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html"
+    },
+    {
+      "title": "Baker Tilly notifies clients of data breach at third-party provider",
+      "sector": "Non précisé",
+      "date": "11 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The Baker Tilly Advisory Group is notifying clients that a data breach has compromised certain personal information about them and their dependents. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/"
+    },
+    {
+      "title": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations",
+      "sector": "Non précisé",
+      "date": "11 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "ConnectWise is investigating an active malware campaign targeting managed service providers (MSPs) that uses compromised ScreenConnect environments to deploy rogue remote-access clients to customer devices. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/"
+    },
+    {
+      "title": "eMudhra revokes 8 more CA certificates after private key mishap",
       "sector": "Non précisé",
       "date": "11 Nov 2026",
       "actor": "Non attribué",
       "sev": "medium",
-      "desc": "The in-house Python script behind eMudhra's October key compromise has now cost the company 8 more of its intermediate certificate authorities (CAs), even though it did not weaken their keys. Each intermediate CA has its…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html"
-    },
-    {
-      "title": "CISA flags Cisco BroadWorks flaw as actively exploited in attacks",
-      "sector": "Gouvernement",
-      "date": "11 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned on Tuesday that hackers are now exploiting a high-severity Cisco BroadWorks vulnerability in attacks. [...]",
+      "desc": "Certificate authority eMudhra has revoked eight additional intermediate CA certificates after an investigation into its recent certificate security incident found improper handling of private keys during the certificate-…",
       "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/"
+      "url": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/"
     },
     {
-      "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
+      "title": "Notion says Fireworks breach exposed customer AI chat transcripts",
       "sector": "Non précisé",
       "date": "11 Nov 2026",
       "actor": "Non attribué",
       "sev": "high",
-      "desc": "Microsoft on Tuesday released patches for a total of 1,259 vulnerabilities spanning its software portfolio, the second consecutive month where the patch volume has exceeded 1,000 flaws. These cover 726 flaws in Windows, …",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html"
-    },
-    {
-      "title": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
-      "sector": "Transport",
-      "date": "11 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "AI provider keys that customers stored on Railway were stolen in an October breach and used to commit an estimated $740,000 in unauthorized spending, the platform-as-a-service provider said yesterday. It has promised to …",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html"
-    },
-    {
-      "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
-      "sector": "Gouvernement",
-      "date": "11 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV) cat…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html"
-    },
-    {
-      "title": "Railway breach leads to $740,000 in fraudulent AI charges",
-      "sector": "Transport",
-      "date": "10 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Cloud hosting provider Railway says hackers exploited vulnerabilities in its infrastructure to steal customer authentication secrets and generate approximately $740,000 in fraudulent AI usage, potentially exposing creden…",
+      "desc": "Notion, the digital workspace platform, disclosed that a security breach at its AI infrastructure provider, Fireworks AI, exposed Notion AI chat transcripts in a small number of workspaces. [...]",
       "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/"
+      "url": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/"
     },
     {
-      "title": "Japanese furniture giant Nitori says hackers stole 37.6M customer records",
-      "sector": "Retail",
-      "date": "10 Nov 2026",
+      "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
+      "sector": "Non précisé",
+      "date": "11 Nov 2026",
       "actor": "Non attribué",
       "sev": "critical",
-      "desc": "Nitori, a major Japanese furniture and home accessories retailer, discovered that an attacker accessed a system on its network and may have stolen 37.62 million customer records. [...]",
+      "desc": "Maersk announced that a threat actor gained unauthorized access to a local legacy system inherited through an earlier acquisition and extracted data from it. [...]",
       "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/"
+      "url": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/"
     },
     {
-      "title": "Hackers exploit trusted AWS access to breach multiple cloud environments",
-      "sector": "Non précisé",
-      "date": "10 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "A threat actor used compromised identity and access management (IAM) credentials for a Qubole big data platform's AWS account to access and exfiltrate data from multiple customers' AWS environments. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/"
-    },
-    {
-      "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
+      "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
       "sector": "Non précisé",
       "date": "11 Nov 2026",
       "actor": "Non attribué",
       "sev": "high",
-      "desc": "An attacker exploited a remote code execution flaw in SGLang, an open-source inference engine, and ran code on one of NEAR AI's inference servers last Sunday. The attacker could also have seen requests being processed on…",
+      "desc": "Cybersecurity researchers have disclosed details of a campaign in which an emerging agentic penetration testing platform called AntiFox has been used to steal Amazon Web Services (AWS) credentials and pivot laterally int…",
       "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html"
+      "url": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html"
     },
     {
-      "title": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day",
+      "title": "Hackers use AntiFox AI agents in AWS credential-theft attacks",
       "sector": "Non précisé",
-      "date": "10 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Today is Microsoft's November 2026 Patch Tuesday, with security updates addressing a record-breaking 1,235 flaws, including one actively exploited Microsoft Outlook zero-day vulnerability. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/"
-    },
-    {
-      "title": "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers",
-      "sector": "Non précisé",
-      "date": "10 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "A critical authentication bypass vulnerability in Xen Orchestra is being actively exploited in attacks that could grant administrator privileges and allow takeover of XCP-ng virtualization hosts. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/"
-    },
-    {
-      "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
-      "sector": "Non précisé",
-      "date": "10 Nov 2026",
+      "date": "11 Nov 2026",
       "actor": "Non attribué",
       "sev": "high",
-      "desc": "Cybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant. The activity, observed by Huntress in early October 2026, involv…",
+      "desc": "Attackers are using Alibaba Cloud to host self-managed instances of AntiFox, an open-source agentic penetration testing platform, to target web services and AWS environments. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/"
+    },
+    {
+      "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
+      "sector": "Non précisé",
+      "date": "11 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Threat actors have been observed targeting Qlik Sense servers to unsuccessfully deliver PowerShell reverse shell commands against multiple environments in October 2026. Cynet's CyOps and Research teams said they identifi…",
       "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html"
+      "url": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html"
     }
   ],
   "vulns": [
@@ -167,7 +167,7 @@
       "cve": "CVE-2026-111560",
       "product": "Barracuda Networks Multiple Products",
       "type": "Barracuda Networks Multiple Products OS Command Injection Vulnerability",
-      "cvss": null,
+      "cvss": 7.2,
       "published": "2026-11-02",
       "exploit": true,
       "poc": "unk",
@@ -180,7 +180,7 @@
       "cve": "CVE-2026-116606",
       "product": "Barracuda Networks Barracuda Email Security Gateway (ESG)",
       "type": "Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate P",
-      "cvss": null,
+      "cvss": 9.8,
       "published": "2026-11-02",
       "exploit": true,
       "poc": "unk",
