@@ -1,7 +1,117 @@
 {
-  "generated_at": "2026-11-12T14:37:46Z",
+  "generated_at": "2026-11-13T13:57:06Z",
   "week_label": "S46 · 9 – 15 novembre 2026",
   "attacks": [
+    {
+      "title": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
+      "sector": "Télécoms",
+      "date": "13 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "A newly identified spying group used hacked equipment inside Asian mobile operators to intercept the calls and texts of selected people, mostly in Taiwan. Enea, a telecom and cybersecurity software company based in Stock…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html"
+    },
+    {
+      "title": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
+      "sector": "Gouvernement",
+      "date": "13 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "An international police operation took down servers behind Gootloader, CastleRAT and StealC this week. Criminals used the three malware tools to gain access to computers, steal passwords, and launch ransomware attacks. P…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html"
+    },
+    {
+      "title": "Check Point warns of zero-day flaw exploited for root access",
+      "sector": "Non précisé",
+      "date": "13 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Check Point Software has released emergency hotfixes to address a high-severity flaw that hackers have been exploiting to gain root privileges and establish persistence on vulnerable devices since late October. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/"
+    },
+    {
+      "title": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
+      "sector": "Non précisé",
+      "date": "13 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "An unknown threat actor has been observed targeting unpatched Check Point Security Gateways to obtain initial access via the PHP2Shell vulnerabilities and then a previously unreported local privilege escalation flaw in G…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html"
+    },
+    {
+      "title": "Hackers Exploit N-central Flaws to Infect 21 Servers, Including 19 Running Hotfix 2",
+      "sector": "Non précisé",
+      "date": "13 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "N-able on Thursday said it's taking additional precautions in the wake of public disclosure of a new set of flaws tracked as 4EverAble2Shell and Agent2Shell. \"We are restricting certain N-central features and integration…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html"
+    },
+    {
+      "title": "New worm-like 'SCKit' malware targets MSPs in ScreenConnect attacks",
+      "sector": "Non précisé",
+      "date": "12 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "A new worm-like malware toolkit named SCKit was deployed in the recent ScreenConnect attacks targeting managed service providers (MSPs), designed to spread from infected customer devices to MSP technicians' computers and…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/"
+    },
+    {
+      "title": "Hackers compromise 4,800 GitHub accounts to steal cloud credentials",
+      "sector": "Non précisé",
+      "date": "12 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "A new campaign dubbed 'wfx-loot' has unfolded on GitHub where threat actors used 4,837 compromised accounts to probe 61,764 repositories, open pull requests, and push secrets-stealing malware. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/"
+    },
+    {
+      "title": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
+      "sector": "Non précisé",
+      "date": "12 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Hackers are actively exploiting a newly disclosed N-able N-central zero-day vulnerability dubbed \"4EverAble2Shell\" to compromise servers and deploy cryptocurrency miners, with researchers reporting at least 21 affected s…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/"
+    },
+    {
+      "title": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
+      "sector": "Non précisé",
+      "date": "12 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "A critical vulnerability in the HTTP/2 module of Apache HTTP Server could be exploited by an unauthenticated attacker to obtain remote code execution (RCE). [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/"
+    },
+    {
+      "title": "New Windows SignDrop zero-day gives hackers SYSTEM privileges",
+      "sector": "Non précisé",
+      "date": "12 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Security researcher Abdelhamid Naceri (also known as Nightmare Eclipse) has released a new Windows zero-day exploit that can let attackers gain SYSTEM privileges. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/"
+    },
+    {
+      "title": "Your Endpoint Management Platform Could Be Your Biggest Security Risk",
+      "sector": "Non précisé",
+      "date": "12 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Endpoint management platforms can become powerful attack tools when compromised, allowing hackers to deploy malware, execute commands, and disrupt thousands of devices. Action1 explains how customer-controlled cryptograp…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/your-endpoint-management-platform-could-be-your-biggest-security-risk/"
+    },
     {
       "title": "Apify rotates API tokens, prompts 2FA resets after breach",
       "sector": "Non précisé",
@@ -11,116 +121,6 @@
       "desc": "Apify has rotated critical internal secrets and revoked some third-party OAuth connections after detecting unauthorized access to its internal systems. [...]",
       "src": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/"
-    },
-    {
-      "title": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
-      "sector": "Non précisé",
-      "date": "12 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "PTC has released patches for a new critical vulnerability impacting Windchill and FlexPLM software that, if successfully exploited, could result in remote code execution. The security flaw, tracked as CVE-2026-126325, ca…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html"
-    },
-    {
-      "title": "Hackers plant GSocket on Linux servers for persistent access",
-      "sector": "Non précisé",
-      "date": "12 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Multiple threat actors are abusing GSocket, a legitimate open-source remote access tool, to maintain access to Linux servers even after patching the vulnerabilities exploited to gain initial access. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/"
-    },
-    {
-      "title": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
-      "sector": "Non précisé",
-      "date": "12 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "ConnectWise has taken the precautionary step of disabling five third-party extensions in partner environments following reports of unauthorized access. In an advisory posted on its site, the company said there is no evid…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html"
-    },
-    {
-      "title": "Baker Tilly notifies clients of data breach at third-party provider",
-      "sector": "Non précisé",
-      "date": "11 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The Baker Tilly Advisory Group is notifying clients that a data breach has compromised certain personal information about them and their dependents. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/"
-    },
-    {
-      "title": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations",
-      "sector": "Non précisé",
-      "date": "11 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "ConnectWise is investigating an active malware campaign targeting managed service providers (MSPs) that uses compromised ScreenConnect environments to deploy rogue remote-access clients to customer devices. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/"
-    },
-    {
-      "title": "eMudhra revokes 8 more CA certificates after private key mishap",
-      "sector": "Non précisé",
-      "date": "11 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "Certificate authority eMudhra has revoked eight additional intermediate CA certificates after an investigation into its recent certificate security incident found improper handling of private keys during the certificate-…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/"
-    },
-    {
-      "title": "Notion says Fireworks breach exposed customer AI chat transcripts",
-      "sector": "Non précisé",
-      "date": "11 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Notion, the digital workspace platform, disclosed that a security breach at its AI infrastructure provider, Fireworks AI, exposed Notion AI chat transcripts in a small number of workspaces. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/"
-    },
-    {
-      "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
-      "sector": "Non précisé",
-      "date": "11 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Maersk announced that a threat actor gained unauthorized access to a local legacy system inherited through an earlier acquisition and extracted data from it. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/"
-    },
-    {
-      "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
-      "sector": "Non précisé",
-      "date": "11 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Cybersecurity researchers have disclosed details of a campaign in which an emerging agentic penetration testing platform called AntiFox has been used to steal Amazon Web Services (AWS) credentials and pivot laterally int…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html"
-    },
-    {
-      "title": "Hackers use AntiFox AI agents in AWS credential-theft attacks",
-      "sector": "Non précisé",
-      "date": "11 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Attackers are using Alibaba Cloud to host self-managed instances of AntiFox, an open-source agentic penetration testing platform, to target web services and AWS environments. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/"
-    },
-    {
-      "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
-      "sector": "Non précisé",
-      "date": "11 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "Threat actors have been observed targeting Qlik Sense servers to unsuccessfully deliver PowerShell reverse shell commands against multiple environments in October 2026. Cynet's CyOps and Research teams said they identifi…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html"
     }
   ],
   "vulns": [
@@ -206,8 +206,8 @@
       "cve": "CVE-2026-102895",
       "product": "GPUStack GPUStack",
       "type": "GPUStack Improper Authentication Vulnerability",
-      "cvss": 9.8,
-      "published": "2026-11-04",
+      "cvss": null,
+      "published": null,
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-11-12",
@@ -263,7 +263,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-11-20",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19868"
     },
