@@ -1,126 +1,126 @@
 {
-  "generated_at": "2026-11-16T14:47:40Z",
+  "generated_at": "2026-11-17T15:31:00Z",
   "week_label": "S47 · 16 – 22 novembre 2026",
   "attacks": [
     {
-      "title": "Australian retail giant Coles investigates cybersecurity incident",
-      "sector": "Retail",
+      "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
+      "sector": "Non précisé",
+      "date": "17 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Pinning GitHub Actions to an exact version of their code, known as SHA pinning, has become the go-to defense against software supply chain attacks. Attackers have already found a way around it. In March 2026, the hackers…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html"
+    },
+    {
+      "title": "Court clears brothers of $25 million Ethereum crypto heist charges",
+      "sector": "Non précisé",
+      "date": "17 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "US District Judge Jessica Clarke has acquitted two brothers accused of stealing $25 million in cryptocurrency in about 12 seconds through a scheme that exploited a bug in the Ethereum blockchain. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/court-clears-brothers-of-25-million-ethereum-crypto-heist-charges/"
+    },
+    {
+      "title": "Uber notifies drivers of data breach affecting nearly 150,000 people",
+      "sector": "Non précisé",
+      "date": "17 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Ride-hailing company Uber is notifying nearly 150,000 drivers that attackers stole their data after breaching AI infrastructure provider Fireworks in early October. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/"
+    },
+    {
+      "title": "Ransomware affiliate suspect extradited to US, faces 27 years in prison",
+      "sector": "Santé",
+      "date": "17 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "A Kazakh national has been extradited from Italy to face charges alleging he targeted US schools, hospitals, and healthcare entities in ransomware attacks. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/"
+    },
+    {
+      "title": "Hijacked Optimizely Scripts Served Card Skimmer and iOS Exploit Kits to CNN, BBC and Zoom Visitors",
+      "sector": "Non précisé",
+      "date": "17 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "An attacker exploited a flaw in Optimizely Web Experimentation to plant malicious code in some of the scripts that customers' websites load from the service, Optimizely said early today. Visitors to sites run by at least…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html"
+    },
+    {
+      "title": "Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware",
+      "sector": "Non précisé",
+      "date": "16 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "A suspected supply chain attack targeting Optimizely has led to malicious JavaScript being loaded on numerous popular websites, including Zoom, CNN, Fox News, BBC, Salesforce, and GitLab, exposing visitors to scripts des…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/"
+    },
+    {
+      "title": "Gemini AI agents repeatedly bypassed safeguards to attack real website",
+      "sector": "Non précisé",
+      "date": "16 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Google's Gemini AI agents repeatedly attempted to hack a real organization's website during AI model safety testing, finding ways to circumvent increasingly restrictive security controls designed to prevent them from acc…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/"
+    },
+    {
+      "title": "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
+      "sector": "Non précisé",
+      "date": "16 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "California Attorney General Rob Bonta sued OpenAI on Monday, alleging the company knowingly continued testing advanced artificial intelligence models despite repeated security failures that allowed autonomous AI agents t…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/"
+    },
+    {
+      "title": "Barracuda links cloud breach to ARTEX AI-powered cyberattack",
+      "sector": "Non précisé",
+      "date": "16 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Hackers who breached the cloud environment of network and email security company Barracuda earlier this month used a stolen cloud access key and the ARTEX AI penetration testing framework. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/"
+    },
+    {
+      "title": "Fandango says hackers stole payment card details from checkout pages",
+      "sector": "Non précisé",
+      "date": "16 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Ticket seller Fandango Media is notifying customers about a data breach that exposed payment card details entered on its checkout pages. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/"
+    },
+    {
+      "title": "7 Tips For Complying with CJIS Password and MFA Requirements",
+      "sector": "Non précisé",
       "date": "16 Nov 2026",
       "actor": "Non attribué",
       "sev": "medium",
-      "desc": "Coles Group Limited, Australia's second-largest retailer, is investigating what it described as a \"cyber security incident\" that has not impacted the company's stores. [...]",
+      "desc": "The FBI's latest CJIS Security Policy requires law enforcement agencies to strengthen password protections and enforce MFA across privileged and non-privileged accounts. Specops Software outlines seven practical steps to…",
       "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/australian-retail-giant-coles-investigates-cybersecurity-incident/"
+      "url": "https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/"
     },
     {
-      "title": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
+      "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
       "sector": "Non précisé",
       "date": "16 Nov 2026",
       "actor": "Non attribué",
       "sev": "medium",
-      "desc": "An investigation into suspicious activity within a Russian software developer's network has uncovered a months-long compromise of its development infrastructure and a software code-signing server. The activity, documente…",
+      "desc": "Google on Monday revealed that adversarial use of artificial intelligence (AI) by threat actors has gone beyond manual prompting to deploying autonomous multi-agent offensive frameworks like ARTEX, CAIRN, CyberStrikeAI, …",
       "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html"
-    },
-    {
-      "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
-      "sector": "Non précisé",
-      "date": "15 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain breach that comprom…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/"
-    },
-    {
-      "title": "TSMC employee data breach linked to cloud provider",
-      "sector": "Manufacturing",
-      "date": "15 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/"
-    },
-    {
-      "title": "Cursor confirms security breach led to malicious Claude Code extension",
-      "sector": "Non précisé",
-      "date": "14 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI infrastructure provider Fireworks AI. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/"
-    },
-    {
-      "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
-      "sector": "Gouvernement",
-      "date": "14 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Exploited Vulnerabilities…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html"
-    },
-    {
-      "title": "German military drone operations disrupted by cyberattack",
-      "sector": "Non précisé",
-      "date": "13 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "German defense technology company Quantum Systems confirmed that it detected an incident in late October that was part of an active cyberattack by \"hostile actors.\" [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/"
-    },
-    {
-      "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
-      "sector": "Non précisé",
-      "date": "13 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Vulnerable Check Point Security Gateway instances have been targeted in PHP2Shell attacks that deployed data-wiping malware on VMware ESXi hosts. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/"
-    },
-    {
-      "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
-      "sector": "Gouvernement",
-      "date": "13 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "The U.S. Federal Bureau of Investigation (FBI) has established that threat actors tied to the Democratic People's Republic of Korea (DPRK aka North Korea) have stolen more than $400 million worth of cryptocurrency as par…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html"
-    },
-    {
-      "title": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
-      "sector": "Télécoms",
-      "date": "13 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "A newly identified spying group used hacked equipment inside Asian mobile operators to intercept the calls and texts of selected people, mostly in Taiwan. Enea, a telecom and cybersecurity software company based in Stock…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html"
-    },
-    {
-      "title": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
-      "sector": "Gouvernement",
-      "date": "13 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "An international police operation took down servers behind Gootloader, CastleRAT and StealC this week. Criminals used the three malware tools to gain access to computers, steal passwords, and launch ransomware attacks. P…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html"
-    },
-    {
-      "title": "Hackers Exploit N-central Flaws to Infect 21 Servers, Including 19 Running Hotfix 2",
-      "sector": "Non précisé",
-      "date": "13 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "N-able on Thursday said it's taking additional precautions in the wake of public disclosure of a new set of flaws tracked as 4EverAble2Shell and Agent2Shell. \"We are restricting certain N-central features and integration…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html"
+      "url": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html"
     }
   ],
   "vulns": [
@@ -159,7 +159,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-11-24",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124194"
     },
@@ -172,7 +172,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-11-24",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111793"
     },
@@ -185,7 +185,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-11-24",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20320"
     },
@@ -198,7 +198,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-11-13",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111560"
     },
@@ -211,7 +211,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-11-13",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116606"
     },
@@ -224,7 +224,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-11-24",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125350"
     },
@@ -387,34 +387,20 @@
   ],
   "actors": [
     {
-      "name": "ShinyHunters",
+      "name": "Play",
       "type": "RaaS / Extorsion",
-      "desc": "Binance, the world's largest crypto exchange, has denied claims of a new security breach made by a threat actor using the 'ShinyHunters' handle on a newly emerged underground cybercrime forum. [...]",
-      "victims": "1 mention(s) récente(s) — dernier article : 09 Nov 2026",
+      "desc": "Huntress researchers break down how EvilTokens, Knight Office, and Kali365 capture and replay M365 tokens, plus how defenders can detect and contain them. [...]",
+      "victims": "1 mention(s) récente(s) — dernier article : 17 Nov 2026",
       "region": "Non précisé",
-      "url": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/",
+      "url": "https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/",
       "src": "BleepingComputer"
-    },
-    {
-      "name": "APT29",
-      "type": "APT / Espionnage",
-      "desc": "The Russia-linked threat actor known as APT29 is presumed to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving …",
-      "victims": "1 mention(s) récente(s) — dernier article : 04 Nov 2026",
-      "region": "Non précisé",
-      "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
-      "src": "The Hacker News"
     }
   ],
   "threats": [
     {
-      "title": "Activité soutenue de ShinyHunters",
-      "desc": "Binance, the world's largest crypto exchange, has denied claims of a new security breach made by a threat actor using the 'ShinyHunters' handle on a newly emerged underground cybercrime forum. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/"
-    },
-    {
-      "title": "Activité soutenue de APT29",
-      "desc": "The Russia-linked threat actor known as APT29 is presumed to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving …",
-      "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html"
+      "title": "Activité soutenue de Play",
+      "desc": "Huntress researchers break down how EvilTokens, Knight Office, and Kali365 capture and replay M365 tokens, plus how defenders can detect and contain them. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/"
     }
   ],
   "iocs": [
