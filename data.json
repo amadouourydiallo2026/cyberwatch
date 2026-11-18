@@ -1,7 +1,107 @@
 {
-  "generated_at": "2026-11-17T15:31:00Z",
+  "generated_at": "2026-11-18T15:07:49Z",
   "week_label": "S47 · 16 – 22 novembre 2026",
   "attacks": [
+    {
+      "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
+      "sector": "Gouvernement",
+      "date": "18 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The suspected Chinese advanced persistent threat (APT) group behind the sophisticated EggStreme malware has rebuilt its toolkit as it continues to target government organizations in the Philippines. \"When attackers are e…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html"
+    },
+    {
+      "title": "AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor",
+      "sector": "Non précisé",
+      "date": "18 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "TL;DR Attackers move first. On average, exploitation now starts before a patch exists (Mandiant M-Trends 2026). In 1H 2026, 23% of vulnerabilities VulnCheck added to its exploited list were hit on or before disclosure da…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html"
+    },
+    {
+      "title": "Apache warns of Roller RCE vulnerability exploited in attacks",
+      "sector": "Non précisé",
+      "date": "18 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Apache has released security updates to address a critical Roller flaw that threat actors are exploiting to gain code execution on vulnerable servers. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/"
+    },
+    {
+      "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
+      "sector": "Gouvernement",
+      "date": "18 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an enterprise infrastructure-as-code (IaC) and configuration management platform, to i…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html"
+    },
+    {
+      "title": "British Scattered Spider hacker sentenced to 6 years in prison",
+      "sector": "Non précisé",
+      "date": "18 Nov 2026",
+      "actor": "Scattered Spider",
+      "sev": "critical",
+      "desc": "A leader of the Scattered Spider cybercrime collective has been sentenced to six years in prison in the United States for stealing millions in cryptocurrency and conspiring to hack a dozen companies. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/"
+    },
+    {
+      "title": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
+      "sector": "Non précisé",
+      "date": "18 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Threat actors have compromised Microsoft's agent-framework package to push a credential stealer, according to reports from Aikido, Chainguard, Endor Labs, OX Security, SafeDep, Socket, StepSecurity, and Google-owned Wiz.…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html"
+    },
+    {
+      "title": "Russian COLD RELIC Hackers Use Stolen Google Workspace Data to Breach Second U.S. Organization",
+      "sector": "Non précisé",
+      "date": "18 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The Russia-linked cyber espionage group known as Cold Relic (formerly COLDRIVER and UNC4057) has been observed weaponizing a single cloud compromise into a launchpad for a series of linked intrusions resulting in third-p…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html"
+    },
+    {
+      "title": "Cloud keys leaked in Docker Hub images are stolen within seconds",
+      "sector": "Non précisé",
+      "date": "17 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Credentials and access secrets exposed in public Docker Hub images are being extracted and exploited by attackers within as little as eight seconds of publication. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/"
+    },
+    {
+      "title": "Japan takes Fugaku supercomputer offlline after cyberattack",
+      "sector": "Non précisé",
+      "date": "17 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The Fugaku supercomputer operated by Japan's RIKEN Center for Computational Science has been taken offline following a security breach. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/"
+    },
+    {
+      "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
+      "sector": "Non précisé",
+      "date": "17 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Oracle is preparing to release security patches for 11 vulnerabilities in Java SE on Tuesday, November 17, 2026, all of which may be exploited remotely without authentication, as separate reports warn of a potentially cr…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html"
+    },
     {
       "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
       "sector": "Non précisé",
@@ -21,109 +121,22 @@
       "desc": "US District Judge Jessica Clarke has acquitted two brothers accused of stealing $25 million in cryptocurrency in about 12 seconds through a scheme that exploited a bug in the Ethereum blockchain. [...]",
       "src": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/security/court-clears-brothers-of-25-million-ethereum-crypto-heist-charges/"
-    },
-    {
-      "title": "Uber notifies drivers of data breach affecting nearly 150,000 people",
-      "sector": "Non précisé",
-      "date": "17 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Ride-hailing company Uber is notifying nearly 150,000 drivers that attackers stole their data after breaching AI infrastructure provider Fireworks in early October. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/"
-    },
-    {
-      "title": "Ransomware affiliate suspect extradited to US, faces 27 years in prison",
-      "sector": "Santé",
-      "date": "17 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "A Kazakh national has been extradited from Italy to face charges alleging he targeted US schools, hospitals, and healthcare entities in ransomware attacks. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/"
-    },
-    {
-      "title": "Hijacked Optimizely Scripts Served Card Skimmer and iOS Exploit Kits to CNN, BBC and Zoom Visitors",
-      "sector": "Non précisé",
-      "date": "17 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "An attacker exploited a flaw in Optimizely Web Experimentation to plant malicious code in some of the scripts that customers' websites load from the service, Optimizely said early today. Visitors to sites run by at least…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html"
-    },
-    {
-      "title": "Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware",
-      "sector": "Non précisé",
-      "date": "16 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "A suspected supply chain attack targeting Optimizely has led to malicious JavaScript being loaded on numerous popular websites, including Zoom, CNN, Fox News, BBC, Salesforce, and GitLab, exposing visitors to scripts des…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/"
-    },
-    {
-      "title": "Gemini AI agents repeatedly bypassed safeguards to attack real website",
-      "sector": "Non précisé",
-      "date": "16 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Google's Gemini AI agents repeatedly attempted to hack a real organization's website during AI model safety testing, finding ways to circumvent increasingly restrictive security controls designed to prevent them from acc…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/"
-    },
-    {
-      "title": "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
-      "sector": "Non précisé",
-      "date": "16 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "California Attorney General Rob Bonta sued OpenAI on Monday, alleging the company knowingly continued testing advanced artificial intelligence models despite repeated security failures that allowed autonomous AI agents t…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/"
-    },
-    {
-      "title": "Barracuda links cloud breach to ARTEX AI-powered cyberattack",
-      "sector": "Non précisé",
-      "date": "16 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Hackers who breached the cloud environment of network and email security company Barracuda earlier this month used a stolen cloud access key and the ARTEX AI penetration testing framework. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/"
-    },
-    {
-      "title": "Fandango says hackers stole payment card details from checkout pages",
-      "sector": "Non précisé",
-      "date": "16 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Ticket seller Fandango Media is notifying customers about a data breach that exposed payment card details entered on its checkout pages. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/"
-    },
-    {
-      "title": "7 Tips For Complying with CJIS Password and MFA Requirements",
-      "sector": "Non précisé",
-      "date": "16 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "The FBI's latest CJIS Security Policy requires law enforcement agencies to strengthen password protections and enforce MFA across privileged and non-privileged accounts. Specops Software outlines seven practical steps to…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/"
-    },
-    {
-      "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
-      "sector": "Non précisé",
-      "date": "16 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "Google on Monday revealed that adversarial use of artificial intelligence (AI) by threat actors has gone beyond manual prompting to deploying autonomous multi-agent offensive frameworks like ARTEX, CAIRN, CyberStrikeAI, …",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html"
     }
   ],
   "vulns": [
+    {
+      "cve": "CVE-2026-115731",
+      "product": "Perforce Puppet Enterprise",
+      "type": "Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability",
+      "cvss": 9.9,
+      "published": "2026-11-03",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-12-01",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115731"
+    },
     {
       "cve": "CVE-2026-114713",
       "product": "UnrealIRCd UnrealIRCd",
@@ -154,8 +167,8 @@
       "cve": "CVE-2026-124194",
       "product": "Microsoft Office",
       "type": "Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerabil",
-      "cvss": 6.5,
-      "published": "2026-11-10",
+      "cvss": null,
+      "published": null,
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-11-24",
@@ -370,22 +383,18 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76418"
-    },
-    {
-      "cve": "CVE-2026-41709",
-      "product": "Broadcom VMware ESX",
-      "type": "Broadcom VMWare ESX Insufficient Logging Vulnerability",
-      "cvss": 2.7,
-      "published": "2026-07-30",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-11-11",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41709"
     }
   ],
   "actors": [
+    {
+      "name": "Scattered Spider",
+      "type": "RaaS / Extorsion",
+      "desc": "A leader of the Scattered Spider cybercrime collective has been sentenced to six years in prison in the United States for stealing millions in cryptocurrency and conspiring to hack a dozen companies. [...]",
+      "victims": "1 mention(s) récente(s) — dernier article : 18 Nov 2026",
+      "region": "Non précisé",
+      "url": "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/",
+      "src": "BleepingComputer"
+    },
     {
       "name": "Play",
       "type": "RaaS / Extorsion",
@@ -397,6 +406,11 @@
     }
   ],
   "threats": [
+    {
+      "title": "Activité soutenue de Scattered Spider",
+      "desc": "A leader of the Scattered Spider cybercrime collective has been sentenced to six years in prison in the United States for stealing millions in cryptocurrency and conspiring to hack a dozen companies. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/"
+    },
     {
       "title": "Activité soutenue de Play",
       "desc": "Huntress researchers break down how EvilTokens, Knight Office, and Kali365 capture and replay M365 tokens, plus how defenders can detect and contain them. [...]",
