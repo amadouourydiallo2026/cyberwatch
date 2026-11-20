@@ -1,7 +1,77 @@
 {
-  "generated_at": "2026-11-19T15:17:44Z",
+  "generated_at": "2026-11-20T14:54:13Z",
   "week_label": "S47 · 16 – 22 novembre 2026",
   "attacks": [
+    {
+      "title": "N-able says recent security breach led to major service outage",
+      "sector": "Non précisé",
+      "date": "20 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "N-able says attackers who breached one of its servers have caused a major outage affecting Mail Assure and SpamExperts Hosted Cloud services worldwide. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/"
+    },
+    {
+      "title": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
+      "sector": "Non précisé",
+      "date": "20 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Threat actors have been observed exploiting a recently disclosed critical security flaw in Cisco Expressway to breach a Russian organization shortly after the public release of a proof-of-concept (PoC) exploit. The activ…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html"
+    },
+    {
+      "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+      "sector": "Non précisé",
+      "date": "20 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026. The…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html"
+    },
+    {
+      "title": "VMware patches vCenter zero-day exploited in attacks since September",
+      "sector": "Non précisé",
+      "date": "19 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Broadcom has released security updates to fix a critical VMware vCenter Server authentication bypass vulnerability that Chinese-linked hackers have exploited in zero-day attacks since September 2026. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/"
+    },
+    {
+      "title": "Hackers steal data of 1.6 million SBC Medical Group customers",
+      "sector": "Santé",
+      "date": "19 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "SBC Medical Group has warned in a filing with the U.S. Securities and Exchange Commission (SEC) that two cybersecurity incidents exposed sensitive customer and employee information, including personal data belonging to 1…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/"
+    },
+    {
+      "title": "Transport for London breach exposes 265,000 Oyster card users' data",
+      "sector": "Transport",
+      "date": "19 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Transport for London (TfL) has announced that around 265,000 Oyster photocard customers may have had their account details exposed in a data breach. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/"
+    },
+    {
+      "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
+      "sector": "Non précisé",
+      "date": "19 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "PHP's default file-based session storage can be made to return objects an attacker chose, by cutting off a session write at the right moment. When combined with a second weakness, such as a suitable gadget chain in the a…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html"
+    },
     {
       "title": "Five warning signs of ransomware breach before encryption or data theft",
       "sector": "Non précisé",
@@ -11,16 +81,6 @@
       "desc": "Ransomware attacks often involve credential theft, lateral movement, and attempts to disable security controls long before encryption begins. Acronis examines five warning signs that can help defenders detect intrusions …",
       "src": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/"
-    },
-    {
-      "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
-      "sector": "Non précisé",
-      "date": "19 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560. The list of vulner…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html"
     },
     {
       "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
@@ -53,36 +113,6 @@
       "url": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html"
     },
     {
-      "title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
-      "sector": "Non précisé",
-      "date": "18 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Ukrainian authorities, working with the FBI, have arrested four suspected members of an international ransomware organization linked to more than $40.5 million in ransom payments from at least 28 companies worldwide. [..…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/"
-    },
-    {
-      "title": "Data breach impacts 40 Irish credit unions in reported IT provider hack",
-      "sector": "Non précisé",
-      "date": "18 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "A reported cyberattack on Wellington IT has exposed sensitive information belonging to members of 50 credit unions, the majority of which are located in Ireland. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/"
-    },
-    {
-      "title": "Microsoft’s Agent Framework PyPI package compromised to steal credentials",
-      "sector": "Non précisé",
-      "date": "18 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "Hackers compromised Microsoft's official Agent Framework Python package on PyPI, publishing two malicious versions designed to steal cloud credentials and other sensitive information from developers' systems. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/"
-    },
-    {
       "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
       "sector": "Gouvernement",
       "date": "18 Nov 2026",
@@ -91,36 +121,6 @@
       "desc": "The suspected Chinese advanced persistent threat (APT) group behind the sophisticated EggStreme malware has rebuilt its toolkit as it continues to target government organizations in the Philippines. \"When attackers are e…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html"
-    },
-    {
-      "title": "AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor",
-      "sector": "Non précisé",
-      "date": "18 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "TL;DR Attackers move first. On average, exploitation now starts before a patch exists (Mandiant M-Trends 2026). In 1H 2026, 23% of vulnerabilities VulnCheck added to its exploited list were hit on or before disclosure da…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html"
-    },
-    {
-      "title": "Apache warns of Roller RCE vulnerability exploited in attacks",
-      "sector": "Non précisé",
-      "date": "18 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Apache has released security updates to address a critical Roller flaw that threat actors are exploiting to gain code execution on vulnerable servers. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/"
-    },
-    {
-      "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
-      "sector": "Gouvernement",
-      "date": "18 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an enterprise infrastructure-as-code (IaC) and configuration management platform, to i…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html"
     }
   ],
   "vulns": [
@@ -198,7 +198,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-11-16",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114713"
     },
@@ -211,7 +211,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-11-16",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123039"
     },
@@ -394,15 +394,6 @@
       "region": "Non précisé",
       "url": "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/",
       "src": "BleepingComputer"
-    },
-    {
-      "name": "Scattered Spider",
-      "type": "RaaS / Extorsion",
-      "desc": "A leader of the Scattered Spider cybercrime collective has been sentenced to six years in prison in the United States for stealing millions in cryptocurrency and conspiring to hack a dozen companies. [...]",
-      "victims": "1 mention(s) récente(s) — dernier article : 18 Nov 2026",
-      "region": "Non précisé",
-      "url": "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/",
-      "src": "BleepingComputer"
     }
   ],
   "threats": [
@@ -410,11 +401,6 @@
       "title": "Activité soutenue de The Gentlemen",
       "desc": "NVIDIA is investigating claims of a security breach after the Gentlemen ransomware group has added the company to its dark web data leak site. [...]",
       "url": "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/"
-    },
-    {
-      "title": "Activité soutenue de Scattered Spider",
-      "desc": "A leader of the Scattered Spider cybercrime collective has been sentenced to six years in prison in the United States for stealing millions in cryptocurrency and conspiring to hack a dozen companies. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/"
     }
   ],
   "iocs": [
