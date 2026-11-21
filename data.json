@@ -1,7 +1,77 @@
 {
-  "generated_at": "2026-11-20T14:54:13Z",
+  "generated_at": "2026-11-21T14:13:36Z",
   "week_label": "S47 · 16 – 22 novembre 2026",
   "attacks": [
+    {
+      "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+      "sector": "Santé",
+      "date": "21 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence sa…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html"
+    },
+    {
+      "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+      "sector": "Gouvernement",
+      "date": "21 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KE…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html"
+    },
+    {
+      "title": "Bell Canada says 'agentic' hacker stole enterprise customer data",
+      "sector": "Télécoms",
+      "date": "20 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Bell Canada has confirmed that an \"agentic\" threat actor breached its systems on November 17, 2026, and stole enterprise customer data, including information from a system used to order and provision telecommunications c…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/"
+    },
+    {
+      "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
+      "sector": "Manufacturing",
+      "date": "20 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as CVE-2026-23871 …",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html"
+    },
+    {
+      "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server",
+      "sector": "Santé",
+      "date": "20 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging application. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/"
+    },
+    {
+      "title": "Vendor data breach exposes Chase, Visa, Mastercard customer info",
+      "sector": "Non précisé",
+      "date": "20 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "J.P. Morgan Chase warned it suffered a data breach after a cyberattack at a third-party service provider exposed customers' personal information and marketing data. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/"
+    },
+    {
+      "title": "Still tracking company passwords in spreadsheets? You’re flying blind.",
+      "sector": "Non précisé",
+      "date": "20 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "Tracking company passwords in spreadsheets can leave IT administrators unaware of weak, reused, or compromised credentials stored and shared outside approved systems. NordPass explains how centralized password management…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/"
+    },
     {
       "title": "N-able says recent security breach led to major service outage",
       "sector": "Non précisé",
@@ -51,79 +121,61 @@
       "desc": "SBC Medical Group has warned in a filing with the U.S. Securities and Exchange Commission (SEC) that two cybersecurity incidents exposed sensitive customer and employee information, including personal data belonging to 1…",
       "src": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/"
-    },
-    {
-      "title": "Transport for London breach exposes 265,000 Oyster card users' data",
-      "sector": "Transport",
-      "date": "19 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Transport for London (TfL) has announced that around 265,000 Oyster photocard customers may have had their account details exposed in a data breach. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/"
-    },
-    {
-      "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
-      "sector": "Non précisé",
-      "date": "19 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "PHP's default file-based session storage can be made to return objects an attacker chose, by cutting off a session write at the right moment. When combined with a second weakness, such as a suitable gadget chain in the a…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html"
-    },
-    {
-      "title": "Five warning signs of ransomware breach before encryption or data theft",
-      "sector": "Non précisé",
-      "date": "19 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Ransomware attacks often involve credential theft, lateral movement, and attempts to disable security controls long before encryption begins. Acronis examines five warning signs that can help defenders detect intrusions …",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/"
-    },
-    {
-      "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
-      "sector": "Non précisé",
-      "date": "19 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "N-able on Wednesday disclosed that unknown threat actors gained unauthorized access to one of the servers in the Mail Assure and Spam Experts Hosted Cloud, causing it to disable management interfaces and APIs. \"We have t…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html"
-    },
-    {
-      "title": "NVIDIA investigating Gentlemen ransomware breach claims",
-      "sector": "Non précisé",
-      "date": "19 Nov 2026",
-      "actor": "The Gentlemen",
-      "sev": "high",
-      "desc": "NVIDIA is investigating claims of a security breach after the Gentlemen ransomware group has added the company to its dark web data leak site. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/"
-    },
-    {
-      "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
-      "sector": "Gouvernement",
-      "date": "19 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added four vulnerabilities impacting Synology DiskStation Manager (DSM), BerriAI LiteLLM, Apache Axis, and Vanderbilt University Research Elec…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html"
-    },
-    {
-      "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
-      "sector": "Gouvernement",
-      "date": "18 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The suspected Chinese advanced persistent threat (APT) group behind the sophisticated EggStreme malware has rebuilt its toolkit as it continues to target government organizations in the Philippines. \"When attackers are e…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html"
     }
   ],
   "vulns": [
+    {
+      "cve": "CVE-2026-129448",
+      "product": "Apache Roller",
+      "type": "Apache Roller Deserialization of Untrusted Data Vulnerability",
+      "cvss": 9.8,
+      "published": "2026-11-17",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-11-23",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129448"
+    },
+    {
+      "cve": "CVE-2026-123890",
+      "product": "Broadcom VMware vCenter",
+      "type": "VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "cvss": 9.8,
+      "published": "2026-11-19",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-11-23",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890"
+    },
+    {
+      "cve": "CVE-2025-42884",
+      "product": "SAP NetWeaver",
+      "type": "SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerabilit",
+      "cvss": 6.5,
+      "published": "2025-11-11",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-11-23",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-42884"
+    },
+    {
+      "cve": "CVE-2026-76466",
+      "product": "Cisco Expressway Series",
+      "type": "Cisco Expressway Series Use of Hard-coded Credentials Vulnerability",
+      "cvss": 9.8,
+      "published": "2026-10-21",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-11-23",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76466"
+    },
     {
       "cve": "CVE-2024-10441",
       "product": "Synology DiskStation Manager (DSM)",
@@ -331,58 +383,6 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116779"
-    },
-    {
-      "cve": "CVE-2026-123218",
-      "product": "IBM Aspera Faspex",
-      "type": "IBM Aspera Faspex Incorrect Authorization Vulnerability",
-      "cvss": 9.8,
-      "published": "2026-11-07",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-11-12",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123218"
-    },
-    {
-      "cve": "CVE-2026-19868",
-      "product": "SonicWall SonicOS SSLVPN",
-      "type": "SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability",
-      "cvss": 7.5,
-      "published": "2026-11-06",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-11-20",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19868"
-    },
-    {
-      "cve": "CVE-2024-27834",
-      "product": "Apple Multiple Products",
-      "type": "Apple Multiple Products Improper Authentication Vulnerability",
-      "cvss": 5.5,
-      "published": "2024-05-14",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-11-18",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-27834"
-    },
-    {
-      "cve": "CVE-2026-119977",
-      "product": "WordPress WordPress Core",
-      "type": "WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability",
-      "cvss": 8.1,
-      "published": "2026-10-31",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-11-06",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119977"
     }
   ],
   "actors": [
