@@ -1,7 +1,37 @@
 {
-  "generated_at": "2026-11-21T14:13:36Z",
+  "generated_at": "2026-11-22T14:03:06Z",
   "week_label": "S47 · 16 – 22 novembre 2026",
   "attacks": [
+    {
+      "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
+      "sector": "Non précisé",
+      "date": "21 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/"
+    },
+    {
+      "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
+      "sector": "Santé",
+      "date": "21 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant conf…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/"
+    },
+    {
+      "title": "FBI reportedly hacked again, this time targeting nationwide police database",
+      "sector": "Gouvernement",
+      "date": "21 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local, state, and federal…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/"
+    },
     {
       "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
       "sector": "Santé",
@@ -91,36 +121,6 @@
       "desc": "Threat actors have been observed exploiting a recently disclosed critical security flaw in Cisco Expressway to breach a Russian organization shortly after the public release of a proof-of-concept (PoC) exploit. The activ…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html"
-    },
-    {
-      "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
-      "sector": "Non précisé",
-      "date": "20 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026. The…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html"
-    },
-    {
-      "title": "VMware patches vCenter zero-day exploited in attacks since September",
-      "sector": "Non précisé",
-      "date": "19 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Broadcom has released security updates to fix a critical VMware vCenter Server authentication bypass vulnerability that Chinese-linked hackers have exploited in zero-day attacks since September 2026. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/"
-    },
-    {
-      "title": "Hackers steal data of 1.6 million SBC Medical Group customers",
-      "sector": "Santé",
-      "date": "19 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "SBC Medical Group has warned in a filing with the U.S. Securities and Exchange Commission (SEC) that two cybersecurity incidents exposed sensitive customer and employee information, including personal data belonging to 1…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/"
     }
   ],
   "vulns": [
