@@ -1,7 +1,87 @@
 {
-  "generated_at": "2026-11-22T14:03:06Z",
-  "week_label": "S47 · 16 – 22 novembre 2026",
+  "generated_at": "2026-11-23T17:23:10Z",
+  "week_label": "S48 · 23 – 29 novembre 2026",
   "attacks": [
+    {
+      "title": "GlobeTopper loses $2.5 million after hackers steal $70k in gift cards",
+      "sector": "Non précisé",
+      "date": "23 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "A cyberattack disrupted operations at B2B top-up solutions provider GlobeTopper, causing an estimated $2.5 million in lost revenue, while the attacker redeemed digital gift cards worth $70,000. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/"
+    },
+    {
+      "title": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
+      "sector": "Non précisé",
+      "date": "23 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "A stolen key. A trusted message. A routine update. None of these looks like the start of a major security problem. That's partly why they work. Attackers don't always need to break down a door. Sometimes they just use on…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html"
+    },
+    {
+      "title": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
+      "sector": "Non précisé",
+      "date": "23 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Threat actors are exploiting a now-patched security flaw in ConnectWise ScreenConnect to target managed service provider (MSP) servers. The activity revolves around CVE-2026-84869 (CVSS score: 9.9), a critical ScreenConn…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html"
+    },
+    {
+      "title": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
+      "sector": "Non précisé",
+      "date": "23 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "N-able yesterday disclosed a critical flaw it found while investigating the breach of its Mail Assure and SpamExperts Hosted Cloud, an email filtering service it runs for managed service providers. The bug, tracked as CV…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html"
+    },
+    {
+      "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+      "sector": "Non précisé",
+      "date": "23 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Cybersecurity researchers have urged users to discontinue using a legacy ASP.NET anti-CSRF library named Idunno.AntiCsrf (\"Idunno.AntiCsrf.dll\") following the discovery of a critical vulnerability that has been exploited…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html"
+    },
+    {
+      "title": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
+      "sector": "Gouvernement",
+      "date": "23 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers are now exploiting a recently patched critical Cisco Expressway vulnerability in the wild. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/"
+    },
+    {
+      "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
+      "sector": "Non précisé",
+      "date": "22 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers' routers and KVM devices, with some affected users reporting backdoors and rever…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/"
+    },
+    {
+      "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
+      "sector": "Retail",
+      "date": "22 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/"
+    },
     {
       "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
       "sector": "Non précisé",
@@ -41,86 +121,6 @@
       "desc": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence sa…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html"
-    },
-    {
-      "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
-      "sector": "Gouvernement",
-      "date": "21 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KE…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html"
-    },
-    {
-      "title": "Bell Canada says 'agentic' hacker stole enterprise customer data",
-      "sector": "Télécoms",
-      "date": "20 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Bell Canada has confirmed that an \"agentic\" threat actor breached its systems on November 17, 2026, and stole enterprise customer data, including information from a system used to order and provision telecommunications c…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/"
-    },
-    {
-      "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
-      "sector": "Manufacturing",
-      "date": "20 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as CVE-2026-23871 …",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html"
-    },
-    {
-      "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server",
-      "sector": "Santé",
-      "date": "20 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging application. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/"
-    },
-    {
-      "title": "Vendor data breach exposes Chase, Visa, Mastercard customer info",
-      "sector": "Non précisé",
-      "date": "20 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "J.P. Morgan Chase warned it suffered a data breach after a cyberattack at a third-party service provider exposed customers' personal information and marketing data. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/"
-    },
-    {
-      "title": "Still tracking company passwords in spreadsheets? You’re flying blind.",
-      "sector": "Non précisé",
-      "date": "20 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "Tracking company passwords in spreadsheets can leave IT administrators unaware of weak, reused, or compromised credentials stored and shared outside approved systems. NordPass explains how centralized password management…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/"
-    },
-    {
-      "title": "N-able says recent security breach led to major service outage",
-      "sector": "Non précisé",
-      "date": "20 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "N-able says attackers who breached one of its servers have caused a major outage affecting Mail Assure and SpamExperts Hosted Cloud services worldwide. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/"
-    },
-    {
-      "title": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
-      "sector": "Non précisé",
-      "date": "20 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Threat actors have been observed exploiting a recently disclosed critical security flaw in Cisco Expressway to breach a Russian organization shortly after the public release of a proof-of-concept (PoC) exploit. The activ…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html"
     }
   ],
   "vulns": [
@@ -186,7 +186,7 @@
       "poc": "unk",
       "deadline": "2026-11-21",
       "past": false,
-      "note": null,
+      "note": "Utilisée dans des campagnes ransomware",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-10441"
     },
     {
@@ -397,6 +397,11 @@
     }
   ],
   "threats": [
+    {
+      "title": "CVE-2024-10441 — Synology DiskStation Manager (DSM)",
+      "desc": "Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability — Utilisée dans des campagnes ransomware.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-10441"
+    },
     {
       "title": "Activité soutenue de The Gentlemen",
       "desc": "NVIDIA is investigating claims of a security breach after the Gentlemen ransomware group has added the company to its dark web data leak site. [...]",
