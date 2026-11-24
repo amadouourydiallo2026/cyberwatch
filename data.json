@@ -1,129 +1,155 @@
 {
-  "generated_at": "2026-11-23T17:23:10Z",
+  "generated_at": "2026-11-24T16:59:10Z",
   "week_label": "S48 · 23 – 29 novembre 2026",
   "attacks": [
     {
-      "title": "GlobeTopper loses $2.5 million after hackers steal $70k in gift cards",
+      "title": "ShinyHunters claims to return after FBI arrests, uses old PGP keys as proof",
       "sector": "Non précisé",
-      "date": "23 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "A cyberattack disrupted operations at B2B top-up solutions provider GlobeTopper, causing an estimated $2.5 million in lost revenue, while the attacker redeemed digital gift cards worth $70,000. [...]",
+      "date": "24 Nov 2026",
+      "actor": "ShinyHunters",
+      "sev": "medium",
+      "desc": "The ShinyHunters extortion gang claims to have returned in posts on a new data leak site after a series of arrests over the past two months targeting alleged members. [...]",
       "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/"
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/"
     },
     {
-      "title": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
+      "title": "European Commission confirms data theft in EU Academy breach",
       "sector": "Non précisé",
-      "date": "23 Nov 2026",
+      "date": "24 Nov 2026",
       "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "A stolen key. A trusted message. A routine update. None of these looks like the start of a major security problem. That's partly why they work. Attackers don't always need to break down a door. Sometimes they just use on…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html"
+      "sev": "high",
+      "desc": "The European Commission, the European Union's main executive body, has confirmed that attackers breached its EU Academy online learning hub and stole the personal data of an undisclosed number of users. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/"
     },
     {
-      "title": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
+      "title": "Hackers compromise Check Point Servers in 22 organizations",
       "sector": "Non précisé",
-      "date": "23 Nov 2026",
+      "date": "24 Nov 2026",
       "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Threat actors are exploiting a now-patched security flaw in ConnectWise ScreenConnect to target managed service provider (MSP) servers. The activity revolves around CVE-2026-84869 (CVSS score: 9.9), a critical ScreenConn…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html"
+      "sev": "high",
+      "desc": "Threat actors have exploited multiple vulnerabilities to compromise two dozen Check Point Security management servers in an ongoing campaign targeting 22 organizations. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/"
     },
     {
-      "title": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
+      "title": "McDonald's Japan data breach exposes customer location information",
       "sector": "Non précisé",
-      "date": "23 Nov 2026",
+      "date": "24 Nov 2026",
       "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "N-able yesterday disclosed a critical flaw it found while investigating the breach of its Mail Assure and SpamExperts Hosted Cloud, an email filtering service it runs for managed service providers. The bug, tracked as CV…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html"
+      "sev": "high",
+      "desc": "McDonald's Japan, the fast-food giant's Japanese subsidiary, has disclosed a data breach after attackers accessed a database containing sensitive information for users of the company's official smartphone app. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/mcdonalds-japan-data-breach-exposes-customer-location-information/"
     },
     {
-      "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+      "title": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site",
       "sector": "Non précisé",
-      "date": "23 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Cybersecurity researchers have urged users to discontinue using a legacy ASP.NET anti-CSRF library named Idunno.AntiCsrf (\"Idunno.AntiCsrf.dll\") following the discovery of a critical vulnerability that has been exploited…",
+      "date": "24 Nov 2026",
+      "actor": "ShinyHunters",
+      "sev": "high",
+      "desc": "A threat cluster previously assessed to be affiliated with the ShinyHunters extortion crew may have rebranded and continued operations under a new name called INCEPTION, according to Okta's Threat Intelligence team. The …",
       "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html"
+      "url": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html"
     },
     {
-      "title": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
+      "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
+      "sector": "Non précisé",
+      "date": "24 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Pinning GitHub Actions to an exact version of their code, known as SHA pinning, has become the go-to defense against software supply chain attacks. Attackers have already found a way around it. In March 2026, the hackers…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html"
+    },
+    {
+      "title": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
       "sector": "Gouvernement",
+      "date": "24 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added two flaws impacting N-able MailAssure and MONAI Label to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active explo…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html"
+    },
+    {
+      "title": "South Korea’s power giant KEPCO confirms data breach impacting 1.5 million",
+      "sector": "Non précisé",
       "date": "23 Nov 2026",
       "actor": "Non attribué",
       "sev": "critical",
-      "desc": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers are now exploiting a recently patched critical Cisco Expressway vulnerability in the wild. [...]",
+      "desc": "A threat actor breached the internal network of Korea Electric Power Corporation (KEPCO) and accessed two systems containing customer, employee, and contractor data. [...]",
       "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/"
+      "url": "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/"
     },
     {
-      "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
+      "title": "OpenRouter drops AI providers over leaked prompts and secrets",
       "sector": "Non précisé",
-      "date": "22 Nov 2026",
+      "date": "23 Nov 2026",
       "actor": "Non attribué",
-      "sev": "high",
-      "desc": "GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers' routers and KVM devices, with some affected users reporting backdoors and rever…",
+      "sev": "medium",
+      "desc": "OpenRouter removed three AI providers from its platform after discovering that they had violated their stated data-handling policies and exposed sensitive data. [...]",
       "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/"
+      "url": "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/"
     },
     {
-      "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
-      "sector": "Retail",
-      "date": "22 Nov 2026",
+      "title": "Microsoft Azure flaw exploited to steal customers' API credentials",
+      "sector": "Énergie",
+      "date": "23 Nov 2026",
       "actor": "Non attribué",
       "sev": "high",
-      "desc": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]",
+      "desc": "Microsoft is warning customers that a security vulnerability in Azure API Management (APIM) Classic tiers was exploited to steal stored API credentials, with Norwegian authorities linking the flaw to cyberattacks against…",
       "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/"
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/"
     },
     {
-      "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
+      "title": "Spanish LaLiga confirms hackers stole soccer fans’ personal data",
       "sector": "Non précisé",
-      "date": "21 Nov 2026",
+      "date": "23 Nov 2026",
       "actor": "Non attribué",
       "sev": "high",
-      "desc": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]",
+      "desc": "LaLiga, Spain's top men's football league, disclosed a data breach that exposed personal information belonging to users of its services and those of some affiliated clubs. [...]",
       "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/"
+      "url": "https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/"
     },
     {
-      "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
-      "sector": "Santé",
-      "date": "21 Nov 2026",
+      "title": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
+      "sector": "Non précisé",
+      "date": "23 Nov 2026",
       "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant conf…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/"
-    },
-    {
-      "title": "FBI reportedly hacked again, this time targeting nationwide police database",
-      "sector": "Gouvernement",
-      "date": "21 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local, state, and federal…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/"
-    },
-    {
-      "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
-      "sector": "Santé",
-      "date": "21 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence sa…",
+      "sev": "medium",
+      "desc": "The China-aligned threat actor known as Webworm is suspected to be using a custom version of the open-source SoftEther VPN Bridge tool in an attempt to remove recognizable detection fingerprints, while disguising it as n…",
       "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html"
+      "url": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html"
     }
   ],
   "vulns": [
+    {
+      "cve": "CVE-2026-133968",
+      "product": "Project MONAI MONAI Label",
+      "type": "Project MONAI MONAI Label Path Traversal Vulnerability",
+      "cvss": 9.8,
+      "published": "2026-11-20",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-11-26",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133968"
+    },
+    {
+      "cve": "CVE-2026-134624",
+      "product": "N-able MailAssure",
+      "type": "N-able MailAssure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability",
+      "cvss": 8.7,
+      "published": "2026-11-22",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-11-26",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134624"
+    },
     {
       "cve": "CVE-2026-129448",
       "product": "Apache Roller",
@@ -237,7 +263,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-12-01",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115731"
     },
@@ -357,42 +383,16 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102895"
-    },
-    {
-      "cve": "CVE-2026-123158",
-      "product": "OpenBSD OpenSSH",
-      "type": "OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
-      "cvss": 8.1,
-      "published": "2026-11-05",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-11-12",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123158"
-    },
-    {
-      "cve": "CVE-2026-116779",
-      "product": "SignalWire FreeSwitch",
-      "type": "SignalWire FreeSwitch Code Injection Vulnerability",
-      "cvss": 9.8,
-      "published": "2026-11-05",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-11-12",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116779"
     }
   ],
   "actors": [
     {
-      "name": "The Gentlemen",
+      "name": "ShinyHunters",
       "type": "RaaS / Extorsion",
-      "desc": "NVIDIA is investigating claims of a security breach after the Gentlemen ransomware group has added the company to its dark web data leak site. [...]",
-      "victims": "1 mention(s) récente(s) — dernier article : 19 Nov 2026",
+      "desc": "The ShinyHunters extortion gang claims to have returned in posts on a new data leak site after a series of arrests over the past two months targeting alleged members. [...]",
+      "victims": "2 mention(s) récente(s) — dernier article : 24 Nov 2026",
       "region": "Non précisé",
-      "url": "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/",
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/",
       "src": "BleepingComputer"
     }
   ],
@@ -403,9 +403,9 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-10441"
     },
     {
-      "title": "Activité soutenue de The Gentlemen",
-      "desc": "NVIDIA is investigating claims of a security breach after the Gentlemen ransomware group has added the company to its dark web data leak site. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/"
+      "title": "Activité soutenue de ShinyHunters",
+      "desc": "The ShinyHunters extortion gang claims to have returned in posts on a new data leak site after a series of arrests over the past two months targeting alleged members. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/"
     }
   ],
   "iocs": [
