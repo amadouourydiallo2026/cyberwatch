@@ -1,129 +1,181 @@
 {
-  "generated_at": "2026-11-24T16:59:10Z",
+  "generated_at": "2026-11-25T16:48:05Z",
   "week_label": "S48 · 23 – 29 novembre 2026",
   "attacks": [
     {
-      "title": "ShinyHunters claims to return after FBI arrests, uses old PGP keys as proof",
+      "title": "InfraTrust warns of exploited supply chain flaws in network appliances",
       "sector": "Non précisé",
-      "date": "24 Nov 2026",
-      "actor": "ShinyHunters",
+      "date": "25 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Eclypsium's November InfraTrust report warns that most infrastructure security advisories addressing exploited vulnerabilities over the past month involve flaws in third-party software bundled into products rather than c…",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/"
+    },
+    {
+      "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
+      "sector": "Non précisé",
+      "date": "25 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr. The vulnerabilities in question are CVE-2026-120705 and CVE-2026-129243, details of which are below - CVE-2026-…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html"
+    },
+    {
+      "title": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
+      "sector": "Finance",
+      "date": "25 Nov 2026",
+      "actor": "Non attribué",
       "sev": "medium",
-      "desc": "The ShinyHunters extortion gang claims to have returned in posts on a new data leak site after a series of arrests over the past two months targeting alleged members. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/"
-    },
-    {
-      "title": "European Commission confirms data theft in EU Academy breach",
-      "sector": "Non précisé",
-      "date": "24 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The European Commission, the European Union's main executive body, has confirmed that attackers breached its EU Academy online learning hub and stole the personal data of an undisclosed number of users. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/"
-    },
-    {
-      "title": "Hackers compromise Check Point Servers in 22 organizations",
-      "sector": "Non précisé",
-      "date": "24 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Threat actors have exploited multiple vulnerabilities to compromise two dozen Check Point Security management servers in an ongoing campaign targeting 22 organizations. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/"
-    },
-    {
-      "title": "McDonald's Japan data breach exposes customer location information",
-      "sector": "Non précisé",
-      "date": "24 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "McDonald's Japan, the fast-food giant's Japanese subsidiary, has disclosed a data breach after attackers accessed a database containing sensitive information for users of the company's official smartphone app. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/mcdonalds-japan-data-breach-exposes-customer-location-information/"
-    },
-    {
-      "title": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site",
-      "sector": "Non précisé",
-      "date": "24 Nov 2026",
-      "actor": "ShinyHunters",
-      "sev": "high",
-      "desc": "A threat cluster previously assessed to be affiliated with the ShinyHunters extortion crew may have rebranded and continued operations under a new name called INCEPTION, according to Okta's Threat Intelligence team. The …",
+      "desc": "The U.S. Treasury Department's Financial Crimes Enforcement Network (FinCEN) has been hit by a cybersecurity incident that resulted in \"unauthorized access to a limited subset of its systems,\" the bureau said on Tuesday.…",
       "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html"
+      "url": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html"
     },
     {
-      "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
+      "title": "Credential Remediation Is Slow When You Don’t Know What Will Break",
       "sector": "Non précisé",
-      "date": "24 Nov 2026",
+      "date": "25 Nov 2026",
       "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Pinning GitHub Actions to an exact version of their code, known as SHA pinning, has become the go-to defense against software supply chain attacks. Attackers have already found a way around it. In March 2026, the hackers…",
+      "sev": "critical",
+      "desc": "TL;DR More than 64% still valid after four years: GitGuardian’s State of Secrets Sprawl 2026 found that most valid secrets discovered in 2022 still worked in January 2026, because teams stall on what a revoke will break.…",
       "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html"
+      "url": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html"
     },
     {
-      "title": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
+      "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
       "sector": "Gouvernement",
+      "date": "25 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by No…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html"
+    },
+    {
+      "title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
+      "sector": "Non précisé",
+      "date": "25 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "The Drupal security team has confirmed that a critical vulnerability that lets attackers hijack unpatched sites has been actively exploited since at least Thursday. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/"
+    },
+    {
+      "title": "Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Servers",
+      "sector": "Non précisé",
+      "date": "25 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "An attacker ran operating system commands on Monday on six production servers of Hex.pm, the package registry that Elixir and Erlang developers fetch their dependencies from. The flaw used in the attack had been in the r…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html"
+    },
+    {
+      "title": "Hackers reportedly breached CIA intelligence analysis system",
+      "sector": "Gouvernement",
+      "date": "25 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Unknown attackers have reportedly breached an open-source intelligence analysis system at the US Central Intelligence Agency (CIA) [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/"
+    },
+    {
+      "title": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
+      "sector": "Santé",
+      "date": "25 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Palo Alto Networks Unit 42 has disclosed that it's tracking and has responded to \"numerous waves of vishing attacks\" orchestrated by Com-affiliated threat actors since August 2026 that have led to data theft and extortio…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html"
+    },
+    {
+      "title": "WordPress Blocks Six Backdoored WP Connect Plugins Before Malicious Releases Go Live",
+      "sector": "Non précisé",
+      "date": "25 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "WordPress has removed six WordPress plugins developed by WP Connect after they were backdoored on November 22, 2026, to enable arbitrary code execution on sites that have them installed, following a suspected compromise …",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html"
+    },
+    {
+      "title": "Rackspace shuts down Spot cloud platform after security breach",
+      "sector": "Non précisé",
       "date": "24 Nov 2026",
       "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added two flaws impacting N-able MailAssure and MONAI Label to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active explo…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html"
-    },
-    {
-      "title": "South Korea’s power giant KEPCO confirms data breach impacting 1.5 million",
-      "sector": "Non précisé",
-      "date": "23 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "A threat actor breached the internal network of Korea Electric Power Corporation (KEPCO) and accessed two systems containing customer, employee, and contractor data. [...]",
+      "sev": "high",
+      "desc": "Rackspace is shutting down its Rackspace Spot cloud platform after a security breach allowed hackers to access customer Kubernetes clusters and secrets, giving customers until December 8 to migrate their services and dow…",
       "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/"
+      "url": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/"
     },
     {
-      "title": "OpenRouter drops AI providers over leaked prompts and secrets",
+      "title": "Turnitin discloses cyberattack affecting customer-facing systems",
       "sector": "Non précisé",
-      "date": "23 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "OpenRouter removed three AI providers from its platform after discovering that they had violated their stated data-handling policies and exposed sensitive data. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/"
-    },
-    {
-      "title": "Microsoft Azure flaw exploited to steal customers' API credentials",
-      "sector": "Énergie",
-      "date": "23 Nov 2026",
+      "date": "24 Nov 2026",
       "actor": "Non attribué",
       "sev": "high",
-      "desc": "Microsoft is warning customers that a security vulnerability in Azure API Management (APIM) Classic tiers was exploited to steal stored API credentials, with Norwegian authorities linking the flaw to cyberattacks against…",
+      "desc": "Turnitin disclosed via a statement from its CEO, Chris Caren, that it recently detected unauthorized activity involving certain customer-facing systems. [...]",
       "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/"
-    },
-    {
-      "title": "Spanish LaLiga confirms hackers stole soccer fans’ personal data",
-      "sector": "Non précisé",
-      "date": "23 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "LaLiga, Spain's top men's football league, disclosed a data breach that exposed personal information belonging to users of its services and those of some affiliated clubs. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/"
-    },
-    {
-      "title": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
-      "sector": "Non précisé",
-      "date": "23 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "The China-aligned threat actor known as Webworm is suspected to be using a custom version of the open-source SoftEther VPN Bridge tool in an attempt to remove recognizable detection fingerprints, while disguising it as n…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html"
+      "url": "https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/"
     }
   ],
   "vulns": [
+    {
+      "cve": "CVE-2026-103406",
+      "product": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router",
+      "type": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router ",
+      "cvss": 9.8,
+      "published": "2026-10-28",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-11-28",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103406"
+    },
+    {
+      "cve": "CVE-2026-132224",
+      "product": "Optimizely Web Experimentation",
+      "type": "Optimizely Web Experimentation External Control of Critical State Data Vulnerability",
+      "cvss": 8.7,
+      "published": "2026-11-18",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-11-27",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132224"
+    },
+    {
+      "cve": "CVE-2026-131914",
+      "product": "Idunno AntiCsrf",
+      "type": "Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability",
+      "cvss": 9.8,
+      "published": "2026-11-19",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-11-27",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131914"
+    },
+    {
+      "cve": "CVE-2026-132165",
+      "product": "Drupal Core",
+      "type": "Drupal Core Remote Code Execution Vulnerability",
+      "cvss": null,
+      "published": null,
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-11-27",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132165"
+    },
     {
       "cve": "CVE-2026-133968",
       "product": "Project MONAI MONAI Label",
@@ -211,7 +263,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-11-21",
-      "past": false,
+      "past": true,
       "note": "Utilisée dans des campagnes ransomware",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-10441"
     },
@@ -224,7 +276,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-12-02",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40217"
     },
@@ -237,7 +289,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-11-21",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90817"
     },
@@ -250,7 +302,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-11-21",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90436"
     },
@@ -331,58 +383,6 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20320"
-    },
-    {
-      "cve": "CVE-2026-111560",
-      "product": "Barracuda Networks Multiple Products",
-      "type": "Barracuda Networks Multiple Products OS Command Injection Vulnerability",
-      "cvss": 7.2,
-      "published": "2026-11-02",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-11-13",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111560"
-    },
-    {
-      "cve": "CVE-2026-116606",
-      "product": "Barracuda Networks Barracuda Email Security Gateway (ESG)",
-      "type": "Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate P",
-      "cvss": 9.8,
-      "published": "2026-11-02",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-11-13",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116606"
-    },
-    {
-      "cve": "CVE-2026-125350",
-      "product": "Google Chromium",
-      "type": "Google Chromium Use-After-Free Vulnerability",
-      "cvss": 8.8,
-      "published": "2026-11-10",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-11-24",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125350"
-    },
-    {
-      "cve": "CVE-2026-102895",
-      "product": "GPUStack GPUStack",
-      "type": "GPUStack Improper Authentication Vulnerability",
-      "cvss": 9.8,
-      "published": "2026-11-04",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-11-12",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102895"
     }
   ],
   "actors": [
