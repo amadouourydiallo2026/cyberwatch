@@ -1,7 +1,57 @@
 {
-  "generated_at": "2026-11-25T16:48:05Z",
+  "generated_at": "2026-11-26T16:23:44Z",
   "week_label": "S48 · 23 – 29 novembre 2026",
   "attacks": [
+    {
+      "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+      "sector": "Non précisé",
+      "date": "26 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case …",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html"
+    },
+    {
+      "title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+      "sector": "Gouvernement",
+      "date": "26 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added 10 security flaws to its Known Exploited Vulnerabilities (KEV) catalog, including five vulnerabilities impacting Mitel MiCollab that wer…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html"
+    },
+    {
+      "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
+      "sector": "Non précisé",
+      "date": "25 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Threat actors are chaining exploits for the PHP2Shell and Fragnesia vulnerabilities to target Palo Alto Networks devices with management interfaces exposed to the internet. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/"
+    },
+    {
+      "title": "1Password customer data stolen after employee GitHub account breach",
+      "sector": "Non précisé",
+      "date": "25 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "1Password has disclosed a data breach after a an employee's corporate GitHub account was hacked and used to deploy malicious code to the company's backend services to steal customer data. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/"
+    },
+    {
+      "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
+      "sector": "Non précisé",
+      "date": "25 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Swiss and Italian cybersecurity agencies are warning about automated cyberattacks powered by AI agents targeting organizations in the critical infrastructure sector. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/"
+    },
     {
       "title": "InfraTrust warns of exploited supply chain flaws in network appliances",
       "sector": "Non précisé",
@@ -71,56 +121,6 @@
       "desc": "An attacker ran operating system commands on Monday on six production servers of Hex.pm, the package registry that Elixir and Erlang developers fetch their dependencies from. The flaw used in the attack had been in the r…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html"
-    },
-    {
-      "title": "Hackers reportedly breached CIA intelligence analysis system",
-      "sector": "Gouvernement",
-      "date": "25 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Unknown attackers have reportedly breached an open-source intelligence analysis system at the US Central Intelligence Agency (CIA) [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/"
-    },
-    {
-      "title": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
-      "sector": "Santé",
-      "date": "25 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Palo Alto Networks Unit 42 has disclosed that it's tracking and has responded to \"numerous waves of vishing attacks\" orchestrated by Com-affiliated threat actors since August 2026 that have led to data theft and extortio…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html"
-    },
-    {
-      "title": "WordPress Blocks Six Backdoored WP Connect Plugins Before Malicious Releases Go Live",
-      "sector": "Non précisé",
-      "date": "25 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "WordPress has removed six WordPress plugins developed by WP Connect after they were backdoored on November 22, 2026, to enable arbitrary code execution on sites that have them installed, following a suspected compromise …",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html"
-    },
-    {
-      "title": "Rackspace shuts down Spot cloud platform after security breach",
-      "sector": "Non précisé",
-      "date": "24 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Rackspace is shutting down its Rackspace Spot cloud platform after a security breach allowed hackers to access customer Kubernetes clusters and secrets, giving customers until December 8 to migrate their services and dow…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/"
-    },
-    {
-      "title": "Turnitin discloses cyberattack affecting customer-facing systems",
-      "sector": "Non précisé",
-      "date": "24 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Turnitin disclosed via a statement from its CEO, Chris Caren, that it recently detected unauthorized activity involving certain customer-facing systems. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/"
     }
   ],
   "vulns": [
@@ -136,6 +136,123 @@
       "past": false,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103406"
+    },
+    {
+      "cve": "CVE-2026-133469",
+      "product": "Vates Xen Orchestra",
+      "type": "Vates Xen Orchestra Improper Validation of Specified Type of Input Vulnerability",
+      "cvss": 9.8,
+      "published": "2026-11-23",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-11-28",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133469"
+    },
+    {
+      "cve": "CVE-2025-41450",
+      "product": "Danfoss AK-SM 800A Series",
+      "type": "Danfoss AK-SM 800A Series Improper Authentication Vulnerability",
+      "cvss": 8.2,
+      "published": "2025-05-08",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-12-09",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-41450"
+    },
+    {
+      "cve": "CVE-2023-25914",
+      "product": "Danfoss AK-SM 800A Series",
+      "type": "Danfoss AK-SM 800A Series Path Traversal Vulnerability",
+      "cvss": 8.8,
+      "published": "2023-08-21",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-11-28",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25914"
+    },
+    {
+      "cve": "CVE-2023-25915",
+      "product": "Danfoss AK-SM 800A Series",
+      "type": "Danfoss AK-SM 800A Series Improper Input Validation Vulnerability",
+      "cvss": 9.9,
+      "published": "2023-08-21",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-11-28",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25915"
+    },
+    {
+      "cve": "CVE-2026-133324",
+      "product": "Mitel MiCollab",
+      "type": "Mitel MiCollab Not Failing Securely Vulnerability",
+      "cvss": 5.3,
+      "published": "2026-11-19",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-11-28",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133324"
+    },
+    {
+      "cve": "CVE-2026-133275",
+      "product": "Mitel MiCollab",
+      "type": "Mitel MiCollab Unrestricted Upload of File with Dangerous Type Vulnerability",
+      "cvss": 5.3,
+      "published": "2026-11-19",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-11-28",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133275"
+    },
+    {
+      "cve": "CVE-2026-133311",
+      "product": "Mitel MiCollab",
+      "type": "Mitel MiCollab Weak Authentication Vulnerability",
+      "cvss": 5.9,
+      "published": "2026-11-19",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-12-09",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133311"
+    },
+    {
+      "cve": "CVE-2026-133303",
+      "product": "Mitel MiCollab",
+      "type": "Mitel MiCollab XML Injection Vulnerability",
+      "cvss": 9.0,
+      "published": "2026-11-19",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-11-28",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133303"
+    },
+    {
+      "cve": "CVE-2026-133323",
+      "product": "Mitel MiCollab",
+      "type": "Mitel MiCollab OS Command Injection Vulnerability",
+      "cvss": 10.0,
+      "published": "2026-11-19",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-11-28",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133323"
     },
     {
       "cve": "CVE-2026-132224",
@@ -168,7 +285,7 @@
       "product": "Drupal Core",
       "type": "Drupal Core Remote Code Execution Vulnerability",
       "cvss": null,
-      "published": null,
+      "published": "2026-11-26",
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-11-27",
@@ -266,134 +383,26 @@
       "past": true,
       "note": "Utilisée dans des campagnes ransomware",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-10441"
-    },
-    {
-      "cve": "CVE-2026-40217",
-      "product": "BerriAI LiteLLM",
-      "type": "BerriAI LiteLLM Unprotected Alternate Channel Vulnerability",
-      "cvss": 8.8,
-      "published": "2026-04-10",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-12-02",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40217"
-    },
-    {
-      "cve": "CVE-2026-90817",
-      "product": "Vanderbilt University Research Electronic Data Capture (REDCap)",
-      "type": "Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerabili",
-      "cvss": 9.8,
-      "published": "2026-09-20",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-11-21",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90817"
-    },
-    {
-      "cve": "CVE-2026-90436",
-      "product": "Apache Axis",
-      "type": "Apache Axis Unsafe Reflection Vulnerability",
-      "cvss": 9.8,
-      "published": "2026-11-06",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-11-21",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90436"
-    },
-    {
-      "cve": "CVE-2026-115731",
-      "product": "Perforce Puppet Enterprise",
-      "type": "Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability",
-      "cvss": 9.9,
-      "published": "2026-11-03",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-12-01",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115731"
-    },
-    {
-      "cve": "CVE-2026-114713",
-      "product": "UnrealIRCd UnrealIRCd",
-      "type": "UnrealIRCd Improper Neutralization of Delimiters Vulnerability",
-      "cvss": 8.6,
-      "published": "2026-11-08",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-11-16",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114713"
-    },
-    {
-      "cve": "CVE-2026-123039",
-      "product": "Check Point Multiple Products",
-      "type": "Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulner",
-      "cvss": 7.8,
-      "published": "2026-11-12",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-11-16",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123039"
-    },
-    {
-      "cve": "CVE-2026-124194",
-      "product": "Microsoft Office",
-      "type": "Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerabil",
-      "cvss": 6.5,
-      "published": "2026-11-10",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-11-24",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124194"
-    },
-    {
-      "cve": "CVE-2026-111793",
-      "product": "Openwave Messaging Limited Webtop Media Transcoder",
-      "type": "Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Sph",
-      "cvss": 4.3,
-      "published": "2026-10-16",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-11-24",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111793"
-    },
-    {
-      "cve": "CVE-2026-20320",
-      "product": "Cisco BroadWorks",
-      "type": "Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability",
-      "cvss": 7.5,
-      "published": "2026-08-19",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-11-24",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20320"
     }
   ],
   "actors": [
     {
       "name": "ShinyHunters",
       "type": "RaaS / Extorsion",
-      "desc": "The ShinyHunters extortion gang claims to have returned in posts on a new data leak site after a series of arrests over the past two months targeting alleged members. [...]",
-      "victims": "2 mention(s) récente(s) — dernier article : 24 Nov 2026",
+      "desc": "A threat cluster previously assessed to be affiliated with the ShinyHunters extortion crew may have rebranded and continued operations under a new name called INCEPTION, according to Okta's Threat Intelligence team. The …",
+      "victims": "1 mention(s) récente(s) — dernier article : 24 Nov 2026",
       "region": "Non précisé",
-      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/",
-      "src": "BleepingComputer"
+      "url": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
+      "src": "The Hacker News"
+    },
+    {
+      "name": "Salt Typhoon",
+      "type": "APT / Espionnage",
+      "desc": "The AI-powered penetration testing framework ARTEX has been abused by threat actors like Storm-0940, Storm-3358, Onyx Sleet, Pearl Sleet, Crystal Typhoon, and Salt Typhoon to accelerate their existing workflows related t…",
+      "victims": "1 mention(s) récente(s) — dernier article : 25 Nov 2026",
+      "region": "Non précisé",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/",
+      "src": "Microsoft Security Blog"
     }
   ],
   "threats": [
@@ -404,8 +413,13 @@
     },
     {
       "title": "Activité soutenue de ShinyHunters",
-      "desc": "The ShinyHunters extortion gang claims to have returned in posts on a new data leak site after a series of arrests over the past two months targeting alleged members. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/"
+      "desc": "A threat cluster previously assessed to be affiliated with the ShinyHunters extortion crew may have rebranded and continued operations under a new name called INCEPTION, according to Okta's Threat Intelligence team. The …",
+      "url": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html"
+    },
+    {
+      "title": "Activité soutenue de Salt Typhoon",
+      "desc": "The AI-powered penetration testing framework ARTEX has been abused by threat actors like Storm-0940, Storm-3358, Onyx Sleet, Pearl Sleet, Crystal Typhoon, and Salt Typhoon to accelerate their existing workflows related t…",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/"
     }
   ],
   "iocs": [
