@@ -1,7 +1,77 @@
 {
-  "generated_at": "2026-11-26T16:23:44Z",
+  "generated_at": "2026-11-27T16:08:22Z",
   "week_label": "S48 · 23 – 29 novembre 2026",
   "attacks": [
+    {
+      "title": "US Air Force cloud platform reportedly hacked in latest federal breach",
+      "sector": "Gouvernement",
+      "date": "27 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Hackers have reportedly breached the US Air Force's Cloud One computing platform, adding to a recent wave of cyberattacks affecting US government agencies, including the FBI, CIA, and Treasury Department. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/"
+    },
+    {
+      "title": "Drupal warns of new site takeover flaw exploited in attacks",
+      "sector": "Non précisé",
+      "date": "27 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "The Drupal security team says attackers are exploiting a second critical vulnerability that lets them breach and hijack unpatched websites. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/"
+    },
+    {
+      "title": "SAP confirms security incident after suspicious GitHub activity",
+      "sector": "Non précisé",
+      "date": "27 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "SAP has confirmed to BleepingComputer that it took urgent action to protect its customers after detecting suspicious activity in its IT environment. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/"
+    },
+    {
+      "title": "Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware",
+      "sector": "Non précisé",
+      "date": "27 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Cybersecurity researchers have disclosed details of a software supply chain attack that has tampered with Q-Dir and DesktopOK installation files distributed via the official SoftwareOK website. \"Evidence indicates that m…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html"
+    },
+    {
+      "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+      "sector": "Gouvernement",
+      "date": "27 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said yesterday. Three of the a…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html"
+    },
+    {
+      "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+      "sector": "Non précisé",
+      "date": "27 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "critical",
+      "desc": "Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution. The proof-of-concept (PoC) exploit, which has yet to be …",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html"
+    },
+    {
+      "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+      "sector": "Non précisé",
+      "date": "26 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "medium",
+      "desc": "The threat actors behind the PolinRider campaign have compromised over 7,600 GitHub repositories, in some cases planting a Python loader capable of delivering next-stage payloads, as evidence emerges that the activity ma…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html"
+    },
     {
       "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
       "sector": "Non précisé",
@@ -43,26 +113,6 @@
       "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/"
     },
     {
-      "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
-      "sector": "Non précisé",
-      "date": "25 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "Swiss and Italian cybersecurity agencies are warning about automated cyberattacks powered by AI agents targeting organizations in the critical infrastructure sector. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/"
-    },
-    {
-      "title": "InfraTrust warns of exploited supply chain flaws in network appliances",
-      "sector": "Non précisé",
-      "date": "25 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Eclypsium's November InfraTrust report warns that most infrastructure security advisories addressing exploited vulnerabilities over the past month involve flaws in third-party software bundled into products rather than c…",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/"
-    },
-    {
       "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
       "sector": "Non précisé",
       "date": "25 Nov 2026",
@@ -71,56 +121,6 @@
       "desc": "Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr. The vulnerabilities in question are CVE-2026-120705 and CVE-2026-129243, details of which are below - CVE-2026-…",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html"
-    },
-    {
-      "title": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
-      "sector": "Finance",
-      "date": "25 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "medium",
-      "desc": "The U.S. Treasury Department's Financial Crimes Enforcement Network (FinCEN) has been hit by a cybersecurity incident that resulted in \"unauthorized access to a limited subset of its systems,\" the bureau said on Tuesday.…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html"
-    },
-    {
-      "title": "Credential Remediation Is Slow When You Don’t Know What Will Break",
-      "sector": "Non précisé",
-      "date": "25 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "TL;DR More than 64% still valid after four years: GitGuardian’s State of Secrets Sprawl 2026 found that most valid secrets discovered in 2022 still worked in January 2026, because teams stall on what a revoke will break.…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html"
-    },
-    {
-      "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
-      "sector": "Gouvernement",
-      "date": "25 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by No…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html"
-    },
-    {
-      "title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
-      "sector": "Non précisé",
-      "date": "25 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "critical",
-      "desc": "The Drupal security team has confirmed that a critical vulnerability that lets attackers hijack unpatched sites has been actively exploited since at least Thursday. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/"
-    },
-    {
-      "title": "Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Servers",
-      "sector": "Non précisé",
-      "date": "25 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "An attacker ran operating system commands on Monday on six production servers of Hex.pm, the package registry that Elixir and Erlang developers fetch their dependencies from. The flaw used in the attack had been in the r…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html"
     }
   ],
   "vulns": [
@@ -284,7 +284,7 @@
       "cve": "CVE-2026-132165",
       "product": "Drupal Core",
       "type": "Drupal Core Remote Code Execution Vulnerability",
-      "cvss": null,
+      "cvss": 9.8,
       "published": "2026-11-26",
       "exploit": true,
       "poc": "unk",
@@ -328,7 +328,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-11-23",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129448"
     },
@@ -341,7 +341,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-11-23",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890"
     },
@@ -354,7 +354,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-11-23",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-42884"
     },
@@ -367,7 +367,7 @@
       "exploit": true,
       "poc": "unk",
       "deadline": "2026-11-23",
-      "past": false,
+      "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76466"
     },
