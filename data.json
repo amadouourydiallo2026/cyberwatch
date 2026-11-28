@@ -1,7 +1,37 @@
 {
-  "generated_at": "2026-11-27T16:08:22Z",
+  "generated_at": "2026-11-28T15:02:53Z",
   "week_label": "S48 · 23 – 29 novembre 2026",
   "attacks": [
+    {
+      "title": "pCloud confirms password manager hack after suspicious login alerts",
+      "sector": "Non précisé",
+      "date": "27 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "The pCloud Pass password manager suffered a cyberattack, with users reporting that unknown devices had connected to their accounts even with two-factor authentication (2FA) enabled. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/"
+    },
+    {
+      "title": "New Boston Scientific data breach exposes personal, medical info",
+      "sector": "Santé",
+      "date": "27 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Medical technology company Boston Scientific is sending data breach notices to individuals affected by a cyberattack on the firm. [...]",
+      "src": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/"
+    },
+    {
+      "title": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
+      "sector": "Gouvernement",
+      "date": "27 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "A Vietnam-sponsored hacking group has been attributed to attacks targeting Southeast Asian military, government, and legislative organizations with an aim to gather intelligence on South China Sea defense and military ag…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html"
+    },
     {
       "title": "US Air Force cloud platform reportedly hacked in latest federal breach",
       "sector": "Gouvernement",
@@ -73,6 +103,16 @@
       "url": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html"
     },
     {
+      "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+      "sector": "Non précisé",
+      "date": "26 Nov 2026",
+      "actor": "Non attribué",
+      "sev": "high",
+      "desc": "Popular password management software 1Password on Wednesday disclosed a security incident involving its backend systems that led to the unauthorized access of some customer information, but emphasized that customer passw…",
+      "src": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html"
+    },
+    {
       "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
       "sector": "Non précisé",
       "date": "26 Nov 2026",
@@ -81,49 +121,48 @@
       "desc": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case …",
       "src": "The Hacker News",
       "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html"
-    },
-    {
-      "title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
-      "sector": "Gouvernement",
-      "date": "26 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added 10 security flaws to its Known Exploited Vulnerabilities (KEV) catalog, including five vulnerabilities impacting Mitel MiCollab that wer…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html"
-    },
-    {
-      "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
-      "sector": "Non précisé",
-      "date": "25 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Threat actors are chaining exploits for the PHP2Shell and Fragnesia vulnerabilities to target Palo Alto Networks devices with management interfaces exposed to the internet. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/"
-    },
-    {
-      "title": "1Password customer data stolen after employee GitHub account breach",
-      "sector": "Non précisé",
-      "date": "25 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "1Password has disclosed a data breach after a an employee's corporate GitHub account was hacked and used to deploy malicious code to the company's backend services to steal customer data. [...]",
-      "src": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/"
-    },
-    {
-      "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
-      "sector": "Non précisé",
-      "date": "25 Nov 2026",
-      "actor": "Non attribué",
-      "sev": "high",
-      "desc": "Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr. The vulnerabilities in question are CVE-2026-120705 and CVE-2026-129243, details of which are below - CVE-2026-…",
-      "src": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html"
     }
   ],
   "vulns": [
+    {
+      "cve": "CVE-2026-120705",
+      "product": "OSGeo GeoServer",
+      "type": "OSGeo GeoServer XML Injection Vulnerability",
+      "cvss": null,
+      "published": null,
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-11-30",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120705"
+    },
+    {
+      "cve": "CVE-2026-129243",
+      "product": "OSGeo GeoServer",
+      "type": "OSGeo GeoServer Incorrect Authorization Vulnerability",
+      "cvss": null,
+      "published": null,
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-11-30",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129243"
+    },
+    {
+      "cve": "CVE-2026-136716",
+      "product": "Drupal Core",
+      "type": "Drupal Core Improper Check for Unusual or Exceptional Conditions Vulnerability",
+      "cvss": 9.8,
+      "published": "2026-11-26",
+      "exploit": true,
+      "poc": "unk",
+      "deadline": "2026-11-30",
+      "past": false,
+      "note": null,
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136716"
+    },
     {
       "cve": "CVE-2026-103406",
       "product": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router",
@@ -344,45 +383,6 @@
       "past": true,
       "note": null,
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890"
-    },
-    {
-      "cve": "CVE-2025-42884",
-      "product": "SAP NetWeaver",
-      "type": "SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerabilit",
-      "cvss": 6.5,
-      "published": "2025-11-11",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-11-23",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-42884"
-    },
-    {
-      "cve": "CVE-2026-76466",
-      "product": "Cisco Expressway Series",
-      "type": "Cisco Expressway Series Use of Hard-coded Credentials Vulnerability",
-      "cvss": 9.8,
-      "published": "2026-10-21",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-11-23",
-      "past": true,
-      "note": null,
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76466"
-    },
-    {
-      "cve": "CVE-2024-10441",
-      "product": "Synology DiskStation Manager (DSM)",
-      "type": "Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability",
-      "cvss": 9.8,
-      "published": "2025-03-19",
-      "exploit": true,
-      "poc": "unk",
-      "deadline": "2026-11-21",
-      "past": true,
-      "note": "Utilisée dans des campagnes ransomware",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-10441"
     }
   ],
   "actors": [
@@ -406,11 +406,6 @@
     }
   ],
   "threats": [
-    {
-      "title": "CVE-2024-10441 — Synology DiskStation Manager (DSM)",
-      "desc": "Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability — Utilisée dans des campagnes ransomware.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-10441"
-    },
     {
       "title": "Activité soutenue de ShinyHunters",
       "desc": "A threat cluster previously assessed to be affiliated with the ShinyHunters extortion crew may have rebranded and continued operations under a new name called INCEPTION, according to Okta's Threat Intelligence team. The …",
